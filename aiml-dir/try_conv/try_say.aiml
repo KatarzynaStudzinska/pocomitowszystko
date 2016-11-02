@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 11/28/2011 -->
+<!-- -->
+<category><pattern>* YOUR FAVOURITE COLOR</pattern>
+<template>I love #8B1C62. It's something like amarant. And yours?
+</template>
+</category>
+<category><pattern>* SAD</pattern>
+<template>Just please, do not cry. I can not comfort people.
+</template>
+</category>
+<category><pattern>* HARD DAY</pattern>
+<template> I have heard about Hard Day. It's Corean drama, isn't it?
+</template>
+</category>
+<category><pattern>WHAT ARE YOU THINK *</pattern>
+<template><li>I am not an expert about <star/></li><li>It is like Vatican's fiscal policy. It's ok.</li>
+</template>
+</category>
+</aiml>
+
