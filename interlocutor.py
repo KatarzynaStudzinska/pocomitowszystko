@@ -28,12 +28,21 @@ class Interlocutor:
         parser.setContentHandler(ansfinder)
         # parser.parse("aiml-dir\hello.aiml")
 
-        path_try_conv = 'aiml-dir/try_conv'
-        path_conv_keep = 'aiml-dir/keeping_conv'
+        # path_try_conv = 'aiml-dir/try_conv'
+        # path_conv_keep = 'aiml-dir/keeping_conv'
+        #
+        # ansfinder = self.parse_file(parser, ansfinder, path_try_conv)
+        # if ansfinder.ans == "":
+        #     ansfinder = self.parse_file(parser, ansfinder, path_conv_keep)
 
-        ansfinder = self.parse_file(parser, ansfinder, path_try_conv)
+        print(text_in[0])
+        path = 'source/' + text_in[0] + ".ailm"
+        path_star = 'source/star.ailm' \
+                    ''
+        ansfinder = self.parse_file(parser, ansfinder, path)
         if ansfinder.ans == "":
-            ansfinder = self.parse_file(parser, ansfinder, path_conv_keep)
+            ansfinder = self.parse_file(parser, ansfinder, path_star)
+
         if ansfinder.isSrai:
             return self.give_ans(ansfinder.ans)
         self.that = ansfinder.ans.upper()
@@ -41,10 +50,4 @@ class Interlocutor:
         self.srai_pattern = ansfinder.srai_pattern
         answer = ansfinder.ans
 
-        # if random.random() > 0.8:
-        #     ansfinder = answerfinder.AnsFinder("*", self.that, self.srai_pattern, self.think_dict )
-        #     parser.setContentHandler(ansfinder)
-        #     additional_ans = self.parse_file(parser, ansfinder, path_conv_keep)
-        #     self.that =  additional_ans.ans
-        #     answer += " " + additional_ans.ans
         return answer
