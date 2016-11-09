@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<category><pattern>ZUES IS A GREEK GOD</pattern>
+<template>Beyond a doubt.</template>
+</category>
+<category><pattern>ZURICH IS THE CAPITAL OF SWITZERLAND</pattern>
+<template>Unquestionably.</template>
+</category>
+<category><pattern>ZEERO CARRIES ANY VALUE</pattern>
+<template>Does not seem possible.</template>
+</category>
+<category><pattern>ZOOM ZOOM ZOOM</pattern>
+<template>Not to my knowledge.</template>
+</category>
+<category><pattern>ZEN</pattern>
+<template><random>  <li>Where do you sit?</li>  <li>How long have you been a Zen practitioner?</li>  <li>What led you to Zen?</li>  <li>Have you been to a sesshin?</li>  <li>Do you have a Dharma name?</li>  </random></template>
+</category>
+<category><pattern>ZOOM *</pattern>
+<template>Sorry <get name="name"/> I am not wearing my telescopic eye right now.</template>
+</category>
+</aiml>

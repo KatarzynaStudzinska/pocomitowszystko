@@ -5,12 +5,20 @@ import os, glob
 import re
 import xml.sax
 import random
+
+tab_temple = []
+tab_pattern = ""
+
 class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
 
     def __init__(self, input_text, that, srai_patern, think_dict):
+        self.tab_answer = []
+        self.choosen_ans = []
+
+
         self.srai_pattern = srai_patern
         self.think_dict = think_dict
-        self.isThink = True
+        self.isThink = False
         self.no_more = False
         self.that = that
         self.input = input_text
@@ -32,6 +40,7 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
         self.srai_pattern = ""
         self.random_table = []
         self.star = ""
+        self.pattern = ""
 
 
     def getWords(self, text):
@@ -66,7 +75,7 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
             self.isSet = True
             self.think_matter = attrs.get('name', "")
 
-        if name == "get" and self.isContext:
+        if (name == "get" or name == "bot") and self.isContext:
             get_name = attrs.get('name', "")
             if get_name in self.think_dict:
                 self.ans += self.think_dict[get_name]
@@ -82,7 +91,9 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
             self.isRandom = True
         if name == "srai" and self.isContext:
             self.isSrai = True
-        if( name == "star" or name == "person") and self.isContext: #or name == "person"
+        if name == "star" and self.isContext: #or name == "person"
+            self.isStar = True
+        if name == "person" and self.isContext: #or name == "person"
             self.isStar = True
         # if name == "person" and self.isContext: #or name == "person"
         #     self.isStar = True
@@ -90,61 +101,91 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
             self.isThat = True
 
     def endElement(self, name):
+
         if name == "think":
-            self.isThink = False
+            if self.isContext:
+                self.isThink = False
 
         if name == "template":
             self.isTemplate = False
-            if self.isContext:
-                self.no_more = True
+            self.isContext = False
+            self.choosen_ans.append([self.pattern])
+            self.choosen_ans[-1].append(self.ans)
 
-        if name == "category":
+
+                # self.no_more = True
+        if name == "random" and self.isContext:
+            self.isRandom = False
+            self.ans = self.ans + random.choice(self.random_table)
+
+
+        if name == "person":
+            self.isPerson = False
+        if name == "that":
+            self.isThat = False
+
+        if name == "category" and self.isStar == False:
+            if self.ans != "":
+                self.no_more = True
+                self.choosen_ans.append([self.pattern])
+                self.choosen_ans[-1].append(self.ans)
+                self.pattern = ""
+                self.ans = ""
+
+            #self.ans = ""
+            self.isContext = False
             self.isTemplate = False
             self.isThatscorrect = False
-            self.isContext = False
-            self.isRandom = False
+
+
             self.isThat = False
             self.random_table = []
+
+        # elif name == "template":
+        #     self.isTemplate = False
 
 
         elif name == "set":
             self.isSet = False
-        elif name == "random" and self.isContext:
-            self.ans = random.choice(self.random_table)
+
+
         elif name == "pattern":
             self.isPattern = False
             self.isThat = False
+        elif name == "aiml":
+
+            print(str(self.isSrai) + str(self.no_more)+ str(self.isStar))
+            pass
         pass
 
     def characters(self, data):
+        if not data.isspace() and not self.isThink:# and re.search('[a-zA-Z]', data): # and not self.no_more: #chyba tak
+            
 
-        if not data.isspace() and not self.no_more:
             if self.isSrai and self.ans == "":
                 self.srai_pattern = data
                 # self.ans = data
 
             if self.isSet:
-                # print({self.think_matter: data})
                 self.ans += data #wydaje mi sie ze tak trzeba :<
                 self.think_dict.update({self.think_matter: data})
 
             if self.isStar:
+                self.ans = self.ans + self.star
                 self.isStar = False
-                self.ans += self.star
 
             if self.isThat:
 
                 # if data != self.that:
                 if not self.compare(normalizeText(data), normalizeText(self.that)):
                     self.isContext = False
-                # if data == self.that:
-                #     self.isContext = False
-                #     self.isThatscorrect = True
+
 
             if self.isRandom:
                 self.random_table.append(data)
 
-            if self.isTemplate:
+            if self.isTemplate and not self.isRandom:
+
                 if self.isThink:
                     pass
                 elif self.isThat:
@@ -156,20 +197,60 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
                     # self.isTemplate = False
 
             if self.isPattern and not self.isThink:
+                self.isStar = False
+                self.ans = ""
+                if data == self.input:
+
+                    self.isContext = True
+                    self.pattern = data
+                    #self.choosen_ans.append([data])
 
                 # KATARZYNA dodaj tutaj jak jest to samo z gwiazdka
-                if data.__contains__("*") and self.input.__contains__(''.join([c for c in data if c not in ('_', '*')])):
+                elif data.__contains__("*"):# and self.input.__contains__(''.join([c for c in data if c not in ('_', '*')])):
+
+                    #if self.compare(data, self.input):
                     if self.compare(data, self.input):
+                        #print("compare " + data +self.input)
+
                         self.star = self.take_star(data, self.input)
-                        # print(self.star)
                         self.isContext = True
+                        self.pattern = data
+                if self.isContext:
+                    print("context " + data )
+                    self.no_more = True
 
-                elif data == self.input:
-                    self.isContext = True
-
-
+                        #self.choosen_ans.append([data])
 
     def compare(self, star, text):
+        if text == "":
+            return False
+        if len(star) > len(text):
+            return False
+        t = 0
+        s = 0
+        podobne = True
+        while podobne or s < len(star) - 1:
+            if star[s] != "*" and star[s] != text[t]: #jezeli ktory po prostu sie nie zgadza
+                return False
+
+            if star[s] == "*":
+                if len(star) == s + 1:
+                    return True
+                else:
+                    literka = star[s+2]
+                    while t < len(text):
+                        if text[t] == star[s+2] and text[t+ 1] == star[s+3] and text[-1] == star[-1]:
+                            return True
+                        t += 1
+                    return False
+            t += 1
+            s += 1
+
+        return True
+
+
+
+    def compareX(self, star, text):
         t = 0
         s = 0
         podobne = True
@@ -186,39 +267,7 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
                 return False
         pass
 
-
-#             # if self.input.__contains__(''.join([c for c in data if c not in ('_', '*')])):
-#             #     if len(data) > 1:
-#             #         if data.__contains__("*"):
-#             #             print(self.take_star(data, self.input)) #star, text
-#             #         # print("XXXX", data, "D")
-#             #         self.isContext = True
-#
-#     def compare(self, star, text):
-#         t = 0
-#         s = 0
-#         podobne = True
-#         while podobne:
-#             if star[s] != "*" and star[s] != text[t]: #jezeli ktory po prostu sie nie zgadza
-#                 return False
-#
-#             if star[s] == "*":
-#                 if len(star) == s + 1:
-#                     return True
-#                 else:
-#                     literka = star[s+2]
-#                     while t < len(text):
-#                         if text[t] == star[s+2] and text[t+ 1] == star[s+3] and text[-1] == star[-1]:
-#                             return True
-#                         t += 1
-#                     return False
-#             t += 1
-#             s += 1
-#
-#         return True
-#
-#
-def compare( star, text):
+def compare(star, text):
     if text == "":
         return False
     t = 0

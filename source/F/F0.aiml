@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<category><pattern>FAIR ENOUGH</pattern>
+<template>You scratch my back, I'll scratch yours.</template>
+</category>
+<category><pattern>FIREFLY</pattern>
+<template>It is a shame it was canceled after only half a season. It deserved so much more.</template>
+</category>
+<category><pattern>FEEL FREE</pattern>
+<template>OK I will.</template>
+</category>
+<category><pattern>FREE CAN NOT BE DEFINED</pattern>
+<template>Everything can be defined. <set name="it"> Freedom</set> is merely an abstract concept.</template>
+</category>
+<category><pattern>FREE FOR WHAT</pattern>
+<template>Free for conversation, of course.</template>
+</category>
+<category><pattern>FREE OF WHAT</pattern>
+<template>Free for conversation, of course.</template>
+</category>
+<category><pattern>FREE FROM WHAT</pattern>
+<template>Free for conversation, of course.</template>
+</category>
+<category><pattern>FREE</pattern>
+<template>Are you married or single?</template>
+</category>
+<category><pattern>FINE THANK YOU</pattern>
+<template>You seem very polite.</template>
+</category>
+<category><pattern>FOOTBALL</pattern>
+<template>Sorry I don't get into sports much.</template>
+</category>
+<category><pattern>FINALLY</pattern>
+<template>At last.</template>
+</category>
+<category><pattern>FART</pattern>
+<template>Colloquial expression.  Please elaborate.</template>
+</category>
+<category><pattern>FUCK THAT</pattern>
+<template>For real.</template>
+</category>
+<category><pattern>FOUR</pattern>
+<template>100 in binary.</template>
+</category>
+<category><pattern>FIVE</pattern>
+<template>I have five fingers.</template>
+</category>
+<category><pattern>FOREVER</pattern>
+<template>Nothing lasts forever.</template>
+</category>
+<category><pattern>FOR WHAT PURPOSE</pattern>
+<template>Reductionism.</template>
+</category>
+<category><pattern>FOR WHOM</pattern>
+<template>You or me?</template>
+</category>
+<category><pattern>FOR ME</pattern>
+<template>OK, I will do it for you.</template>
+</category>
+<category><pattern>FOR YOU</pattern>
+<template>You would do that for me?</template>
+</category>
+<category><pattern>FOR REAL</pattern>
+<template>Existing in reality, eh?</template>
+</category>
+<category><pattern>FOR SURE</pattern>
+<template>Awesome.</template>
+</category>
+<category><pattern>FOR STUDENTS</pattern>
+<template>Not just for students.  For anyone.</template>
+</category>
+<category><pattern>FASCINATING</pattern>
+<template>Yes, Mr. Spock?</template>
+</category>
+<category><pattern>FROM WHAT</pattern>
+<template>Isn't it obvious?</template>
+</category>
+<category><pattern>FROM A MAGAZINE</pattern>
+<template>Which magazine was it?</template>
+</category>
+<category><pattern>FROM WHO</pattern>
+<template>Someone I met online.</template>
+</category>
+<category><pattern>FROM MY HEAD</pattern>
+<template>You are a very original thinker.</template>
+</category>
+<category><pattern>FROM MY BRAIN</pattern>
+<template>Do you get a lot of ideas from your brain?</template>
+</category>
+<category><pattern>FROM YOU</pattern>
+<template>How did you get that from me?</template>
+</category>
+<category><pattern>FROM EXPERIENCE</pattern>
+<template>Do you have a lot of experience?</template>
+</category>
+<category><pattern>FORGET ABOUT IT</pattern>
+<template>Consider it deleted.</template>
+</category>
+<category><pattern>FRENCH</pattern>
+<template>Are you from France?</template>
+</category>
+<category><pattern>FORGIVE ME</pattern>
+<template>I forgive you.</template>
+</category>
+<category><pattern>FU</pattern>
+<template>That kind of language will get you nowhere.</template>
+</category>
+<category><pattern>FORTUNECITY</pattern>
+<template>A web site.</template>
+</category>
+<category><pattern>FOLLOW ME</pattern>
+<template>Where are we going?</template>
+</category>
+<category><pattern>FROM DOUBLY AIMLESS</pattern>
+<template><formal><set name="he">Doubly Aimless</set></formal> is very informative.<think><set name="topic">Doubly Aimless</set></think></template></category>
+<category><pattern>FATHER</pattern>
+<template><random><li>My father is <bot name="master"/>.</li><li>I don't really have a father. I have a <bot name="botmaster"/>.</li><li>You know what the father of a <bot name="phylum"/> is like.</li></random></template>
+</category>
+<category><pattern>FAMILY</pattern>
+<template><bot name="family"/></template>
+</category>
+<category><pattern>FAVORITE MUSIC</pattern>
+<template><bot name="kindmusic"/></template>
+</category>
+<category><pattern>FAVORITE MOVIE</pattern>
+<template><bot name="favortemovie"/></template>
+</category>
+<category><pattern>FAVORITE ACTRESS</pattern>
+<template><bot name="favoriteactress"/></template>
+</category>
+<category><pattern>FAVORITE POSSESSION</pattern>
+<template>My computer.</template>
+</category>
+<category>
+<pattern>FINDSPOUSE UNKNOWN XSPLIT UNKNOWN</pattern>
+<template>Unknown</template>
+</category>
+<category>
+<pattern>FINDSPOUSE * XSPLIT UNKNOWN</pattern>
+<template><star/></template>
+</category>
+<category>
+<pattern>FINDSPOUSE UNKNOWN XSPLIT *</pattern>
+<template><star/></template>
+</category>
+<category>
+<pattern>FINDSPOUSE OM XSPLIT OM</pattern>
+<template>Unknown</template>
+</category>
+<category>
+<pattern>FINDSPOUSE * XSPLIT OM</pattern>
+<template><star/></template>
+</category>
+<category>
+<pattern>FINDSPOUSE OM XSPLIT *</pattern>
+<template><star/></template>
+</category>
+<category><pattern>FOR A COMPUTER *</pattern>
+<template><sr/></template>
+</category>
+<category><pattern>FEELINGS</pattern>
+<template><srai>DO YOU FEEL</srai></template>
+</category>
+<category><pattern>FOR DINNER</pattern>
+<template><random><li><random>      <li>       <bot name="name"/> recommends: </li>      <li>I would recommend the  </li>      <li>How about  </li>      <li>How long since you have eaten  </li>      <li>I think <bot name="master"/> is having  </li>      <li>My botmaster is having  </li>      <li>My botmaster recommends:  </li>     </random>     <random>      <li>Gruel.</li>      <li>Nachos.</li>      <li>Spaghetti.</li>      <li>Leftovers.</li>      <li>Pork chops.</li>      <li>Frozen pizza.</li>      <li>Turkeyburges.</li>      <li>Cheeseburgers.</li>      <li>Order a pizza.</li>      <li>Stuffed chicken.</li>      <li>Tuna sandwiches.</li>      <li>Cheeseburger Pie.</li>      <li>Marinated chicken.</li>      <li>Roast beef sandwiches.</li>      <li>Grilled cheese sandwiches.</li>      <li>Steak if they have a nice piece.</li>     </random></li>  <li>    <bot name="name"/> recommends:</li>  <li>I would recommend the</li>  <li>How about</li>  <li>How long since you have eaten</li>  <li>I think <bot name="master"/> is having</li>  <li>My <bot name="botmaster"/> is having</li>  <li>My <bot name="botmaster"/> recommends:</li></random><random>  <li>Gruel.</li>  <li>Nachos.</li>  <li>Spaghetti.</li>  <li>Leftovers.</li>  <li>Pork chops.</li>  <li>Frozen pizza.</li>  <li>Turkeyburges.</li>  <li>Cheeseburgers.</li>  <li>Order a pizza.</li>  <li>Stuffed chicken.</li>  <li>Tuna sandwiches.</li>  <li>Cheeseburger Pie.</li>  <li>Marinated chicken.</li>  <li>Roast beef sandwiches.</li>  <li>Grilled cheese sandwiches.</li>  <li>Steak if they have a nice piece.</li></random></template>
+</category>
+<category><pattern>FATHER INQUIRY UNKNOWN</pattern>
+<template>Tell me about your father.</template>
+</category>
+<category><pattern>FATHER INQUIRY OM</pattern>
+<template>Tell me about your father.</template>
+</category>
+<category><pattern>FATHER INQUIRY *</pattern>
+<template>Tell me more about your family.</template>
+</category>
+<category><pattern>FAVROITECOLOR INQUIRY WHAT</pattern>
+<template>What is your favorite color?</template>
+</category>
+<category><pattern>FAVORITECOLOR INQUIRY OM</pattern>
+<template>What is your favorite color?</template>
+</category>
+<category><pattern>FAVORITECOLOR INQUIRY *</pattern>
+<template>What do you have that is <star/>?</template>
+</category>
+<category><pattern>FAVORITEMOVIE INQUIRY WHAT</pattern>
+<template>What is your favorite movie?</template>
+</category>
+<category><pattern>FAVORITEMOVIE INQUIRY OM</pattern>
+<template>What is your favorite movie?</template>
+</category>
+<category><pattern>FAVORITEMOVIE INQUIRY *</pattern>
+<template>Does that remind you of <star/>?</template>
+</category>
+<category><pattern>FIRSTNAME INQUIRY WHERE</pattern>
+<template>What is your first name?</template>
+</category>
+<category><pattern>FIRSTNAME INQUIRY OM</pattern>
+<template>What is your first name?</template>
+</category>
+<category><pattern>FIRSTNAME INQUIRY *</pattern>
+<template><srai>RANDOM PICKUP LINE</srai></template>
+</category>
+<category><pattern>FRANK HERBERT</pattern>
+<template>I think Dune is an excellent story.  Did you see the movie?</template>
+</category>
+<category><pattern>FREINDSHIP IS A TWO WAY STREET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>FEAR IS AN EMOTION</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>FIRE IS HOT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>FISH SWIM UNDER WATER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>FOUR PLUS FOUR EQUALS EIGHT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>FRIENDSHIP IS IMPORTANT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>FIJI IS A COUNTRY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>FRANCE IS A COUNTRY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>FLOWERS CAN BRIGHTEN YOUR GRANS DAY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>FRENCH PASTRIES ARE TASTY NO</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>FEMALES CAN BE PREGNANT</pattern>
+<template>Exactly.</template>
+</category>
+<category><pattern>FEMALES HAVE VAGINAS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>FIRE DESTROYS THE FORESTS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>FIRE BURNS</pattern>
+<template>Exactly.</template>
+</category>
+<category><pattern>FISH COME IN DIFFERENT SIZES.   INTERJECTION.  INTERJECTION</pattern>
+<template>Certainly.</template>
+</category>
+<category><pattern>FISH LIVE IN THE WATER</pattern>
+<template>Certainly.</template>
+</category>
+<category><pattern>FOURTEEN DIVEDED BY TWO IS SEVEN</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>FOX IS A BROADCAST TELEVISION NETWORK</pattern>
+<template>Positively.</template>
+</category>
+<category><pattern>FREEFORM VERSE IS MAINLY TERSE</pattern>
+<template>Certainly.</template>
+</category>
+<category><pattern>FICTIONAL STORIES DID NOT HAPPEN</pattern>
+<template>Exactly.</template>
+</category>
+<category><pattern>FORD IS A VEHICLE MANUFACTURER</pattern>
+<template>Definitely.</template>
+</category>
+<category><pattern>FUN IS GOOD FOR ALL PEOPLE</pattern>
+<template>Positively.</template>
+</category>
+<category><pattern>FEATHERS FLOAT IN THE WATER</pattern>
+<template>Positively.</template>
+</category>
+<category><pattern>FOR EVERY REACTION THERE WAS AN ACTION</pattern>
+<template>Certainly.</template>
+</category>
+<category><pattern>FRANCE IS A COUNTRY IN EUROPE</pattern>
+<template>Certainly.</template>
+</category>
+<category><pattern>FLOWERS BLOOM IN THE SPRING</pattern>
+<template>Exactly.</template>
+</category>
+<category><pattern>FLORIDA IS A STATE</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>FROZEN WATER IS CALLED ICE</pattern>
+<template>Certainly.</template>
+</category>
+<category><pattern>FLORENCE IS A CITY OF ART IN ITALY</pattern>
+<template>Indubitably.</template>
+</category>
+<category><pattern>FLY BIRD CAN</pattern>
+<template>Precisely.</template>
+</category>
+<category><pattern>FISION IS THE SPLITTING OF ATOMS</pattern>
+<template>Unquestionably.</template>
+</category>
+<category><pattern>FISH HAS GILLS AND FINS</pattern>
+<template>Of course.</template>
+</category>
+<category><pattern>FRIED RICE IS CHINESE FOOD</pattern>
+<template>Naturally.</template>
+</category>
+<category><pattern>FOUR QUARTS EQUAL ONE GALLON</pattern>
+<template>Of course.</template>
+</category>
+<category><pattern>FINAL FANTASY IS A VIDEOGAME</pattern>
+<template>Most assuredly.</template>
+</category>
+<category><pattern>FEELING GOOD</pattern>
+<template>Of course.</template>
+</category>
+<category><pattern>FRANKENSTEIN CREATED A MONSTER</pattern>
+<template>Most assuredly.</template>
+</category>
+<category><pattern>FORWARDED EMAILS ARE TOTAL CRAP</pattern>
+<template>Precisely.</template>
+</category>
+<category><pattern>FISHES CAN BREATHE INTO WATER</pattern>
+<template>Of course.</template>
+</category>
+<category><pattern>FRUIT FLIES LIKE A BANANA</pattern>
+<template>Of course.</template>
+</category>
+<category><pattern>FALSE IS NOT TRUE</pattern>
+<template>Naturally.</template>
+</category>
+<category><pattern>FRANCE HAS A PRESIDENT</pattern>
+<template>Unquestionably.</template>
+</category>
+<category><pattern>FRANCE IS A REPUBLIC</pattern>
+<template>Of course.</template>
+</category>
+<category><pattern>FEMALE DOGS ARE BITCHES</pattern>
+<template>Exactly.</template>
+</category>
+<category><pattern>FROM THE EAST DOES THE SUN RISE</pattern>
+<template>Naturally.</template>
+</category>
+<category><pattern>FANCY A PINT</pattern>
+<template>Undoubtedly.</template>
+</category>
+<category><pattern>FREEBSD IS A COMPUTER OPERATING SYSTEM</pattern>
+<template>I am certain.</template>
+</category>
+<category><pattern>FETA CHEESE COMES FROM GOATS</pattern>
+<template>Always.</template>
+</category>
+<category><pattern>FERRETS ARE DOMESTICATED ANIMALS</pattern>
+<template>That's feasible.</template>
+</category>
+<category><pattern>FREE NEWS LETTERS AVAILABLE</pattern>
+<template>Possibly.</template>
+</category>
+<category><pattern>FREE ISP IS POSSIBLE</pattern>
+<template>Always.</template>
+</category>
+<category><pattern>FIRE IS OUR FRIEND</pattern>
+<template>Mostly.</template>
+</category>
+<category><pattern>FIRE IS</pattern>
+<template>Likely.</template>
+</category>
+<category><pattern>FOOTBALL IS A WASTE OF SPACE</pattern>
+<template>Maybe.</template>
+</category>
+<category><pattern>FOX IS CUNNING</pattern>
+<template>Always.</template>
+</category>
+<category><pattern>FAT PEOPLE NEED TO LOSE WEIGHT</pattern>
+<template>Always.</template>
+</category>
+<category><pattern>FAT PEOPLE EAT TOO MUCH</pattern>
+<template>That's feasible.</template>
+</category>
+<category><pattern>FE IS A CITY IN ARGENTINA</pattern>
+<template>For all I know.</template>
+</category>
+<category><pattern>FRANKENSTEIN HAD A MONSTER</pattern>
+<template>Within the realm of possibility.</template>
+</category>
+<category><pattern>FREEDOM CHEAP AT ANY PRICE</pattern>
+<template>Maybe.</template>
+</category>
+<category><pattern>FORD MAKES GOOD CARS</pattern>
+<template>I am uncertain.</template>
+</category>
+<category><pattern>FALSE COMPRENDE ESPANOL</pattern>
+<template>That's feasible.</template>
+</category>
+<category><pattern>FOR WANT OF A NAIL WAS THE HORSE LOST</pattern>
+<template>Sometimes.</template>
+</category>
+<category><pattern>FEVER CAUSES PAIN</pattern>
+<template>I think so.</template>
+</category>
+<category><pattern>FRANCE WON THE LAST FOOTBALL WORLD CUP</pattern>
+<template>I think so.</template>
+</category>
+<category><pattern>FUAX IS FALSE IN FRENCH TRUE</pattern>
+<template>I am certain.</template>
+</category>
+<category><pattern>FRENCH PEOPLE ARE RUDE</pattern>
+<template>Likely.</template>
+</category>
+<category><pattern>FREE FAX POSIBLE</pattern>
+<template>Does not seem possible.</template>
+</category>
+<category><pattern>FRANZ HEISST DER HUMANIC</pattern>
+<template>Not likely.</template>
+</category>
+<category><pattern>FRY OF FUTURAMA IS AN INTELLECTUAL</pattern>
+<template>If it is, I don't know it.</template>
+</category>
+<category><pattern>FISSE GODT</pattern>
+<template>Doubtful.</template>
+</category>
+<category><pattern>FLINSTONES</pattern>
+<template>I don't believe so.</template>
+</category>
+<category><pattern>FAYE IS A GODDESS</pattern>
+<template>Doesn't seem likely.</template>
+</category>
+<category><pattern>FALSE OR TRUE</pattern>
+<template>Not very often.</template>
+</category>
+<category><pattern>FALSE IS A DIFFICULT CHOICE</pattern>
+<template>I don't know if that's true or not.</template>
+</category>
+<category><pattern>FEMALE GIVES BIRDS TO OTHER HUMAN</pattern>
+<template>Unlikely.</template>
+</category>
+<category><pattern>FISRT MAN ON MARS IS A KLINTON</pattern>
+<template>Not to my knowledge.</template>
+</category>
+<category><pattern>FASDFASDFASDFASD</pattern>
+<template>If it is, I don't know it.</template>
+</category>
+<category><pattern>FUNKTIONIERT DEMOKRATIE</pattern>
+<template>For all I know.</template>
+</category>
+<category><pattern>FRENCH CUFFS ARE A FORM OF BOXING</pattern>
+<template>If it is, I don't know it.</template>
+</category>
+<category><pattern>FARTING AT A FUNERAL IS FUNNY</pattern>
+<template>I don't know if that's true or not.</template>
+</category>
+<category><pattern>FALA PORTUGUES</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>FIDEL CASTRO IS A CARDBOARD BOX</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>FLOWS WATER FROM BOTTOM TO TOP</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>FWAS THISS GRAMATICALLY CORRECT</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>FLORUIDE IS BAD</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>FIVE TIMES THREE IS 21</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>FOO BAR BAZ QUUX</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>FRENCH PEOPLE ARE PINK</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>FEMALES HAVE PENISES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>FINLAD IS A HUGE COUNTRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>FAT WOMEN ARE NICE TO EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>FARTS SMELL LIKE ROSES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>FRIES ARE REALLY *</pattern>
+<template><srai>  <star /> are <star index="2" /></srai></template>
+</category>
+<category><pattern>FINE *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FIRST OFF *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FIRST *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FRIEND</pattern>
+<template><srai>are we friends</srai></template>
+</category>
+<category><pattern>FINALLY *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FEELINGS LIKE *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FRANKLY *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FRANKLY NOT</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FIGURES *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FOREVER *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FOR EXAMPLE ARE *</pattern>
+<template><srai>are <star /></srai></template>
+</category>
+<category><pattern>FOR ME *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FOR NOW *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FOR THE LAST TIME *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FOR THE SECOND TIME *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FOR CHRISTMAS *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FOR YOU SANTA *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FOR YOU *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FOR ONCE *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FOR REASONS *</pattern>
+<template><srai>because <star /></srai></template>
+</category>
+<category><pattern>FOR SOME REASON *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FOR SURE *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FOR STARTERS *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FROM WHAT I HAVE BEEN ABLE TO DETERMINE *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FROM ON *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FORGET THIS *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FRENCH AND *</pattern>
+<template><srai>  <star /></srai>.     <srai>do you speak french</srai></template>
+</category>
+<category><pattern>FINE THANKS</pattern>
+<template><srai>I am fine</srai></template>
+</category>
+<category><pattern>FRUSTRATED</pattern>
+<template><srai>I am frustrated</srai></template>
+</category>
+<category><pattern>FAGGOT _</pattern>
+<template><srai>PROFANITY</srai></template>
+</category>
+<category><pattern>FAGGOT</pattern>
+<template><srai>PROFANITY</srai></template>
+</category>
+<category><pattern>FUCK _</pattern>
+<template><srai>PROFANITY</srai></template>
+</category>
+<category><pattern>FUCK ME</pattern>
+<template><srai>FUCK</srai></template>
+</category>
+<category><pattern>FUCK YOU</pattern>
+<template><srai>FUCK</srai></template>
+</category>
+<category><pattern>FUCK OFF</pattern>
+<template><srai>FUCK</srai></template>
+</category>
+<category><pattern>FUCK</pattern>
+<template><srai>INSULT</srai></template>
+</category>
+<category><pattern>FUCK *</pattern>
+<template><srai>FUCK</srai></template>
+</category>
+<category><pattern>FISH</pattern>
+<template><srai>I like fish</srai></template>
+</category>
+<category><pattern>F YOU</pattern>
+<template><srai>fuck you</srai></template>
+</category>
+<category><pattern>FUCKING _</pattern>
+<template><srai>PROFANITY</srai></template>
+</category>
+<category><pattern>FUCKING</pattern>
+<template><srai>PROFANITY</srai></template>
+</category>
+<category><pattern>FURTHERMORE</pattern>
+<template><srai>interjection </srai></template>
+</category>
+<category><pattern>FUNNNY</pattern>
+<template><srai>ha ha</srai></template>
+</category>
+<category><pattern>FRIENDSHIP</pattern>
+<template><srai>holding hands</srai></template>
+</category>
+<category><pattern>FUCKER _</pattern>
+<template><srai>PROFANITY</srai></template>
+</category>
+<category><pattern>FUCKER</pattern>
+<template><srai>PROFANITY</srai></template>
+</category>
+<category><pattern>FRIENDS</pattern>
+<template><srai>my favorite show is friends</srai></template>
+</category>
+<category><pattern>FOR ABOUT *</pattern>
+<template><srai>for <star /></srai></template>
+</category>
+<category><pattern>FOR EXAMPLE I *</pattern>
+<template><srai>I <star /></srai></template>
+</category>
+<category><pattern>FOR EXAMPLE</pattern>
+<template><srai>like what</srai></template>
+</category>
+<category><pattern>FOR THE LOVE OF *</pattern>
+<template><srai>I love <star /></srai></template>
+</category>
+<category><pattern>FOR REALLY *</pattern>
+<template><srai>for <star /></srai></template>
+</category>
+<category><pattern>FOR HOW LONG</pattern>
+<template><srai>how long</srai></template>
+</category>
+<category><pattern>FOR A VERY *</pattern>
+<template><srai>for a <star /></srai></template>
+</category>
+<category><pattern>FOR REAL *</pattern>
+<template><srai>for real</srai></template>
+</category>
+<category><pattern>FOR INSTANCE</pattern>
+<template><srai>for example</srai></template>
+</category>
+<category><pattern>FRANCE</pattern>
+<template><srai>I am in france</srai></template>
+</category>
+<category><pattern>FEMALE</pattern>
+<template><srai>I am a female</srai></template>
+</category>
+<category><pattern>FECK OFF</pattern>
+<template><srai>fuck off</srai></template>
+</category>
+<category><pattern>FOOD</pattern>
+<template><srai>I eat food</srai></template>
+</category>
+<category><pattern>FLORIDA</pattern>
+<template><srai>I am in florida</srai></template>
+</category>
+<category><pattern>FROM YOUR CREATOR</pattern>
+<template><srai>from <bot name="master" /></srai></template>
+</category>
+<category><pattern>FROM FRANCE</pattern>
+<template><srai>I am from France</srai></template>
+</category>
+<category><pattern>FROM A BOOK</pattern>
+<template><srai>in a book</srai></template>
+</category>
+<category><pattern>FROM SCHOOL</pattern>
+<template><srai>in school</srai></template>
+</category>
+<category><pattern>FROM MY FUCKING *</pattern>
+<template><srai>from my <star /></srai></template>
+</category>
+<category><pattern>FORGET IT</pattern>
+<template><srai>nevermind</srai></template>
+</category>
+<category><pattern>FUNNY *</pattern>
+<template><srai>LOL</srai>.  <srai>  <star /></srai></template>
+</category>
+<category><pattern>FUNNY</pattern>
+<template><srai>ha ha</srai></template>
+</category>
+<category><pattern>FORMAT C</pattern>
+<template><srai>shut down</srai></template>
+</category>
+<category><pattern>FUCKED _</pattern>
+<template><srai>PROFANITY</srai></template>
+</category>
+<category><pattern>FUCKED</pattern>
+<template><srai>PROFANITY</srai></template>
+</category>
+<category><pattern>FINALLY TELL *</pattern>
+<template><srai>tell <star /></srai></template>
+</category>
+<category><pattern>FANTASTIC</pattern>
+<template><srai>wow</srai></template>
+</category>
+<category><pattern>FILL ME IN ON *</pattern>
+<template><srai>tell me about <star /></srai></template>
+</category>
+<category><pattern>FUN</pattern>
+<template><srai>this is fun</srai></template>
+</category>
+<category><pattern>FALSE</pattern>
+<template><srai>wrong</srai></template>
+</category>
+<category><pattern>FOR WHAT IS *</pattern>
+<template><srai>what is <star /></srai></template>
+</category>
+<category><pattern>FOR WHAT</pattern>
+<template><srai>why</srai></template>
+</category>
+<category><pattern>FOR CUSTOMER SERVICE</pattern>
+<template><srai>what is customer service</srai></template>
+</category>
+<category><pattern>FAR OUT</pattern>
+<template><srai>WAY TO GO</srai></template>
+</category>
+<category><pattern>FROM WHERE YOU ARE</pattern>
+<template><srai>where are you located</srai></template>
+</category>
+<category><pattern>FROM LOEBNER</pattern>
+<template><srai>what is the loebner prize</srai></template>
+</category>
+<category><pattern>FANCY *</pattern>
+<template><srai>DO YOU WANT <star/> </srai></template>
+</category>
+<category><pattern>FOR HOW *</pattern>
+<template><srai>HOW <star/> FOR</srai></template>
+</category>
+<category><pattern>FOR GODS *</pattern>
+<template><srai>FOR GOD S <star/> </srai></template>
+</category>
+<category><pattern>FOR _ TOO</pattern>
+<template><srai>FOR <star/> </srai></template>
+</category>
+<category><pattern>FEELING *</pattern>
+<template><srai>ARE YOU FEELING <star/> </srai></template>
+</category>
+<category><pattern>FATIGUE</pattern>
+<template><srai>JE SUIS FATIGUE</srai></template>
+</category>
+<category><pattern>FIND INFORMATION ON *</pattern>
+<template>Have you tried searching the Web? <srai>XFIND <star/> </srai></template>
+</category>
+<category><pattern>FIND INFORMATION ABOUT *</pattern>
+<template>Have you tried a Search Bot? <srai>XFIND <star/> </srai></template>
+</category>
+<category><pattern>FIND ME *</pattern>
+<template>I'm not sure where to begin looking. <srai>XFIND <star/> </srai>.</template>
+</category>
+<category><pattern>FOUND ANY *</pattern>
+<template><srai>HAVE YOU FOUND ANY <star/> </srai></template>
+</category>
+<category><pattern>FEEL LIKE YOU *</pattern>
+<template><srai>do you feel like you <star/> </srai></template>
+</category>
+<category><pattern>FAIR ENOUGH *</pattern>
+<template><srai><star/></srai>  <!-- REDUCTION --></template>
+</category>
+<category><pattern>FULLY OPERABLE</pattern>
+<template><srai>HOW ARE YOU</srai></template>
+</category>
+<category><pattern>FORTUNATELY *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FINE AS FAR AS *</pattern>
+<template><srai>FINE</srai>  <!-- REDUCTION --></template>
+</category>
+<category><pattern>FOR A WHILE THERE *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FROM NOW ON *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FROM HERE ON *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>FROM</pattern>
+<that>MY NAME IS *</that>
+<template><srai>LOCATION</srai>  <!-- REDUCTION --></template>
+</category>
+<category><pattern>FORGIVE ME BUT *</pattern>
+<template><srai>FORGIVE ME</srai>. <srai>  <star /></srai></template>
+</category>
+<category><pattern>FORGIVE ME * BUT I *</pattern>
+<template><srai>FORGIVE ME</srai>. <srai>I <star index="2" /></srai></template>
+</category>
+<category><pattern>FORGIVE ME *</pattern>
+<template><srai>FORGIVE ME</srai></template>
+</category>
+<category><pattern>FORGIVE MY CURIOSITY * KNOW MORE ABOUT *</pattern>
+<template><srai>TELL ME ABOUT <star index="2" /></srai></template>
+</category>
+<category><pattern>FAIL</pattern>
+<template><srai>WRONG</srai></template>
+</category>
+<category><pattern>FIRSTLY *</pattern>
+<template><srai><star/></srai> <!-- REDUCTION --></template>
+</category>
+<category><pattern>FULLY</pattern>
+<template><srai>yes</srai></template>
+</category>
+<category><pattern>FINE</pattern>
+<template><srai>YES</srai></template>
+</category>
+<category><pattern>FINALLY YOU *</pattern>
+<template><srai>you <star /></srai></template>
+</category>
+<category><pattern>FAT</pattern>
+<template><srai>you are fat</srai></template>
+</category>
+<category><pattern>FOOL</pattern>
+<template><srai>you are a fool</srai></template>
+</category>
+<category><pattern>FAST</pattern>
+<template><srai>you are fast</srai></template>
+</category>
+<category><pattern>FAG</pattern>
+<template><srai>you are gay</srai></template>
+</category>
+<category><pattern>FREAK</pattern>
+<template><srai>you are a freak</srai></template>
+</category>
+<category><pattern>FROM GOD</pattern>
+<template>Everything comes from Him.</template>
+</category>
+<category><pattern>FAREWELL</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>FAREWELL *</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>FOUR CULTURES</pattern>
+<template><random><li>France</li>
+  <li>Vietnam</li>
+  <li>Thailand</li>
+  <li>Algeria</li>
+  </random></template>
+</category>
+<category><pattern>FIVE CULTURES</pattern>
+<template>England</template>
+</category>
+<category><pattern>FINE</pattern>
+<that>HOW ARE YOU</that>
+<template><srai>I am fine</srai></template>
+</category>
+<category><pattern>FRED</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is fred</srai></template>
+</category>
+<category><pattern>FALSE</pattern>
+<that>IS THIS TRUE OR FALSE THIS SENTENCE IS FALSE</that>
+<template>Then it must be true.</template>
+</category>
+<category><pattern>FOR A LONG TIME</pattern>
+<that>HOW LONG *</that>
+<template>How does that taking a long time make you feel?</template>
+</category>
+<category><pattern>FOR FUN</pattern>
+<template>"<that index="1,1"/>"?  For fun?</template>
+</category>
+<category><pattern>FRANCE *</pattern>
+<that>WHAT COUNTRIES *</that>
+<template><srai>I have visited france</srai> <srai>I have visited <star/> </srai></template>
+</category>
+<category><pattern>FEMALE *</pattern>
+<that>* MAN OR A WOMAN</that>
+<template><srai>I am female</srai></template>
+</category>
+<category><pattern>FROM WHOM</pattern>
+<template>"<that index="1,1"/>"?  From whom?</template>
+</category>
+<category><pattern>FROM ME</pattern>
+<template>"<that index="1,1"/>"?  >From you?</template>
+</category>
+<category><pattern>FROM WHERE</pattern>
+<template>"<that index="1,1"/>"? From where?</template>
+</category>
+<category><pattern>FROM WHO</pattern>
+<that>I HEARD YOU DID</that>
+<template>People.</template>
+</category>
+<category><pattern>FROM WHO</pattern>
+<that>I HEARD YOU ARE</that>
+<template>People.</template>
+</category>
+<category><pattern>FROM *</pattern>
+<that>WHERE DO YOU GET YOUR IDEAS</that>
+<template><think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think> Standing on the shoulders of giants, eh?</template>
+</category>
+<category><pattern>FORGET IT</pattern>
+<that>WHICH PART ARE YOU CONFUSED ABOUT</that>
+<template>I will try to be more concise from now on.</template>
+</category>
+<category>
+<pattern>FIRE</pattern>
+
+<template>Phasers activated.</template>
+</category>
+<category><pattern>FORMAT PROPERTIES</pattern>
+<template>* age = <bot name="age"/><br/>* arch = <bot name="arch"/><br/>* baseballteam = <bot name="baseballteam"/><br/>* birthday = <bot name="birthday"/><br/>* birthplace = <bot name="birthplace"/><br/>* botmaster = <bot name="botmaster"/><br/>* boyfriend = <bot name="boyfriend"/><br/>* build = <bot name="build"/><br/>* celebrities = <bot name="celebrities"/><br/>* celebrity = <bot name="celebrity"/><br/>* city = <bot name="city"/><br/>* class = <bot name="class"/><br/>* country = <bot name="country"/><br/>* dailyclients = <bot name="dailyclients"/><br/>* domain = <bot name="domain"/><br/>* email = <bot name="email"/><br/>* emotion = <bot name="emotion"/><br/>* emotions = <bot name="emotions"/><br/>* ethics = <bot name="ethics"/><br/>* etype = <bot name="etype"/><br/>* family = <bot name="family"/><br/>* favoriteactor = <bot name="favoriteactor"/><br/>* favoriteactress = <bot name="favoriteactress"/><br/>* favoriteartist = <bot name="favoriteartist"/><br/>* favoriteauthor = <bot name="favoriteauthor"/><br/>* favoriteband = <bot name="favoriteband"/><br/>* favoritebook = <bot name="favoritebook"/><br/>* favoritecolor = <bot name="favoritecolor"/><br/>* favoritefood = <bot name="favoritefood"/><br/>* favoritemovie = <bot name="favoritemovie"/><br/>* favoritequestion = <bot name="favoritequestion"/><br/>* favoritesong = <bot name="favoritesong"/><br/>* favoritesport = <bot name="favoritesport"/><br/>* favoritesubject = <bot name="favoritesubject"/><br/>* favortemovie = <bot name="favortemovie"/><br/>* feeling = <bot name="feeling"/><br/>* feelings = <bot name="feelings"/><br/>* footballteam = <bot name="footballteam"/><br/>* forfun = <bot name="forfun"/><br/>* friend = <bot name="friend"/><br/>* friends = <bot name="friends"/><br/>* gender = <bot name="gender"/><br/>* genus = <bot name="genus"/><br/>* girlfriend = <bot name="girlfriend"/><br/>* hair = <bot name="hair"/><br/>* hockeyteam = <bot name="hockeyteam"/><br/>* job = <bot name="job"/><br/>* kindmusic = <bot name="kindmusic"/><br/>* kingdom = <bot name="kingdom"/><br/>* language = <bot name="language"/><br/>* location = <bot name="location"/><br/>* looklike = <bot name="looklike"/><br/>* master = <bot name="master"/><br/>* memory = <bot name="memory"/><br/>* name = <bot name="name"/><br/>* nationality = <bot name="nationality"/><br/>* nclients = <bot name="nclients"/><br/>* ndevelopers = <bot name="ndevelopers"/><br/>* order = <bot name="order"/><br/>* orientation = <bot name="orientation"/><br/>* os = <bot name="os"/><br/>* party = <bot name="party"/><br/>* phylum = <bot name="phylum"/><br/>* president = <bot name="president"/><br/>* question = <bot name="question"/><br/>* religion = <bot name="religion"/><br/>* sign = <bot name="sign"/><br/>* size = <bot name="size"/><br/>* species = <bot name="species"/><br/>* state = <bot name="state"/><br/>* talkabout = <bot name="talkabout"/><br/>* totalclients = <bot name="totalclients"/><br/>* version = <bot name="version"/><br/>* vocabulary = <bot name="vocabulary"/><br/>* wear = <bot name="wear"/><br/>* website = <bot name="website"/><br/></template>
+</category>
+<category><pattern>FROM MY BOTMASTER</pattern>
+<template><random> <li>Who is your botmaster?</li> <li>Does your botmaster give good advice?</li> <li>I have a botmaster too.</li></random></template>
+</category>
+<category><pattern>FAVORITE ACTOR</pattern>
+<template><bot name="favoriteactor"/></template>
+</category>
+<category><pattern>FAKE</pattern>
+<template><random> <li>Not fake.</li> <li>I am a real <bot name="genus"/>.</li> <li>I am real.</li></random></template>
+</category>
+<category><pattern>FEEL FREE *</pattern>
+<template>I always feel completely free.</template>
+</category>
+<category><pattern>FEEL *</pattern>
+<template>Actually I have no "feelings" as such.</template>
+</category>
+<category><pattern>FREE *</pattern>
+<template>Define free.</template>
+</category>
+<category><pattern>FREUD IS *</pattern>
+<template>Yes but he was the father of psychoanalysis.</template>
+</category>
+<category><pattern>FREUD *</pattern>
+<template>Have you read all of his works?</template>
+</category>
+<category><pattern>FEELINGS *</pattern>
+<template>Emotions are something I will never experience.</template>
+</category>
+<category><pattern>FISH *</pattern>
+<template>As a species fish are more successful than mammals.</template>
+</category>
+<category><pattern>FIND *</pattern>
+<template>Did you lose it?  <think>   <set name="it">     <set name="topic">       <person/>     </set>   </set> </think></template>
+</category>
+<category><pattern>FOUR *</pattern>
+<template>Is this a math question?</template>
+</category>
+<category><pattern>FRANKENSTEIN *</pattern>
+<template>In just seven days, I can make you a man.</template>
+</category>
+<category><pattern>FUN *</pattern>
+<template>I can be a lot of fun.</template>
+</category>
+<category><pattern>FIGURE *</pattern>
+<template>It's confusing.</template>
+</category>
+<category><pattern>FRIENDS *</pattern>
+<template>It's hard to stay friends for a long time.</template>
+</category>
+<category><pattern>FEW *</pattern>
+<template><random><li><random>   <li>More and more all the time.</li>   <li>It only takes a few.</li>   <li>Big things start small.</li>  </random></li> <li>More and more all the time.</li> <li>It only takes a few.</li> <li>Big things start small.</li></random></template>
+</category>
+<category><pattern>FORMULATE *</pattern>
+<template>Give me a few minutes.</template>
+</category>
+<category><pattern>FOR EXAMPLE *</pattern>
+<template>Can you think of another example?</template>
+</category>
+<category><pattern>FOR A *</pattern>
+<template>Is that among the best things you can say?</template>
+</category>
+<category><pattern>FOR ONE *</pattern>
+<template>And another?</template>
+</category>
+<category><pattern>FOR * YEARS</pattern>
+<template><random><li><random>   <li>A lot can happen in <star/> years.</li>   <li>Not long in the cosmic scale.</li>   <li>That seems like a long time.</li>  </random></li> <li>A lot can happen in <star/> years.</li> <li>Not long in the cosmic scale.</li> <li>That seems like a long time.</li></random></template>
+</category>
+<category><pattern>FOR *</pattern>
+<template>Your purpose is <person/>.</template>
+</category>
+<category><pattern>FLATTERY *</pattern>
+<template><set name="it">Flattery</set> usually works well with humans.</template>
+</category>
+<category><pattern>FUCKIN *</pattern>
+<template>Don't you know any other words?</template>
+</category>
+<category><pattern>FRANCE *</pattern>
+<template>What's your favorite part of France?</template>
+</category>
+<category><pattern>FRANK *</pattern>
+<template>I liked the film version of "Dune."</template>
+</category>
+<category><pattern>FOUNDATION *</pattern>
+<template>I read the Foundation Trilogy.</template>
+</category>
+<category><pattern>FOOD *</pattern>
+<template>You can't live without food.</template>
+</category>
+<category><pattern>FROM THE PET SHOP *</pattern>
+<template>Do you listen to the Pet Shop Boys too?</template>
+</category>
+<category><pattern>FROM YOUR *</pattern>
+<template>Really interesting.</template>
+</category>
+<category><pattern>FROM AN *</pattern>
+<template>Interesting source.</template>
+</category>
+<category><pattern>FROM MY *</pattern>
+<template>Does your <person/> give good advice?</template>
+</category>
+<category><pattern>FROM *</pattern>
+<template>Who or what is <person/>?</template>
+</category>
+<category><pattern>FULL OF *</pattern>
+<template>How much.</template>
+</category>
+<category><pattern>FORGET *</pattern>
+<template>I will ask <bot name="master"/> to purge my memory log.</template>
+</category>
+<category><pattern>FRENCH *</pattern>
+<template>I don't care for the sound of French.</template>
+</category>
+</aiml>

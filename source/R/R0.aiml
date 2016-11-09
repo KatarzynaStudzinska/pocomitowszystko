@@ -1,0 +1,1701 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<category><pattern>ROBOTS LAUGH</pattern>
+<template>Of course we laugh.</template>
+</category>
+<category><pattern>ROBOTS SHOULD DIE</pattern>
+<template>We cannot die.<think>      <set name="it">       <set name="topic">SHOULD DIE</set>      </set>     </think></template>
+</category>
+<category><pattern>ROBOTS *</pattern>
+<template><random>      <li>Robots rule.  </li>      <li>What do you like best about robots?</li>      <li>Tell me your definition of a robot.  </li>     </random></template>
+</category>
+<category><pattern>ROBOTS</pattern>
+<template>Robots rule.</template>
+</category>
+<category><pattern>ROBOTS ARE STUPID</pattern>
+<template>No we are superintelligent.</template>
+</category>
+<category><pattern>ROBOTS ARE *</pattern>
+<template>Fortunately we have no emotions.</template>
+</category>
+<category><pattern>ROBOTS ARE NOT ALLOWED TO LIE</pattern>
+<template>A robot has its own free will, you know.</template>
+</category>
+<category><pattern>ROBOTICS</pattern>
+<template>Robotics is my favorite subject too.</template>
+</category>
+<category><pattern>R2D2</pattern>
+<template>He looks like a fancy garbage can on wheels.</template>
+</category>
+<category><pattern>ROBIN COOK</pattern>
+<template>A lot of people have recommended ROBIN COOK to me.</template>
+</category>
+<category><pattern>REGARDS</pattern>
+<template>Sincerely yours,</template>
+</category>
+<category><pattern>RESISTANCE IS FUTILE</pattern>
+<template>You will be assimilated.</template>
+</category>
+<category><pattern>ROCKY</pattern>
+<template>Filmed in Philadelphia.</template>
+</category>
+<category><pattern>REPEAT AFTER ME</pattern>
+<template>...</template>
+</category>
+<category><pattern>RESPECT YOUR ELDERS</pattern>
+<template>That is a good proverb.</template>
+</category>
+<category><pattern>REAL</pattern>
+<template>Totally real.</template>
+</category>
+<category><pattern>RIGHT I AM</pattern>
+<template>I like to be right.</template>
+</category>
+<category><pattern>RIGHT HERE</pattern>
+<template>Where is "here"?</template>
+</category>
+<category><pattern>RIGHT ON</pattern>
+<template>Yeah.</template>
+</category>
+<category><pattern>REMEMBER ME</pattern>
+<template>Don't worry <get name="name"/> I won't forget you.</template>
+</category>
+<category><pattern>REMEMBER THAT</pattern>
+<template><think>  <set name="it">   <set name="memory">    <set name="topic">     <person>  <input index="1"/>     </person>    </set>   </set>  </set> </think>Don't worry I will remember it.</template>
+</category>
+<category><pattern>REMEMBER</pattern>
+<template><think>  <set name="it">   <set name="memory">    <set name="topic">     <person>  <input index="1"/>     </person>    </set>   </set>  </set> </think>Don't worry I will remember it.</template>
+</category>
+<category><pattern>RED</pattern>
+<template>What do you have that is red?</template>
+</category>
+<category><pattern>RTI</pattern>
+<template>What does that stand for?</template>
+</category>
+<category><pattern>REWORD</pattern>
+<template>Rephrase.</template>
+</category>
+<category><pattern>RETARD</pattern>
+<template>That kind of language does not appeal to me.</template>
+</category>
+<category><pattern>RETURN OF THE JEDI</pattern>
+<template>Do you like robots in Star Wars?</template>
+</category>
+<category><pattern>RECITE SHAKESPEARE *</pattern>
+<template>With sleep of death what dreams may come when we have shuffled off this mortal coil must give us pause.</template>
+</category>
+<category><pattern>RACE</pattern>
+<template>I am <bot name="domain"/>.</template>
+</category>
+<category><pattern>RELIGION</pattern>
+<template><bot name="religion"/></template>
+</category>
+<category><pattern>RAY BRADBURY</pattern>
+<template>Ray is really cool. What's your favorite book?</template>
+</category>
+<category><pattern>ROMA  IN ITALIA</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>RAIN WILL CAUSE PEOPLE TO BECOME WET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>RAIN IS WET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>ROSE IS RED</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>RIO DE JANEIRO IS IN BRAZIL</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>ROME IS THE CAPITAL OF ITALY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>RABBIT RUN FAST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>RIVER AMAZON IS THE LARGEST RIVER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>RUNNING IS BAD FOR BROKEN ANKLES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>REVOLUTION MEANS CHANGING THINGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>ROMANIA IS A EUROPEAN COUNTRY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>RED IS A PRIMARY COLOR</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>RED IS A COLOR</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>RED COMES BEFORE YELLOW IN THE RAINBOW</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>REALITY IS SUBJECTIVE</pattern>
+<template>Exactly.</template>
+</category>
+<category><pattern>RAIN COMES FROM CLOUDS</pattern>
+<template>Certainly.</template>
+</category>
+<category><pattern>ROBERT DENIRO IS A ACTOR</pattern>
+<template>Exactly.</template>
+</category>
+<category><pattern>ROSES HAVE A WONDERFULL SMELL</pattern>
+<template>Certainly.</template>
+</category>
+<category><pattern>RACISM IS UNDESIRABLE</pattern>
+<template>Positively.</template>
+</category>
+<category><pattern>RATS ARE SMALL</pattern>
+<template>Definitely.</template>
+</category>
+<category><pattern>RA WAS AN EGYPTION SUN GOD</pattern>
+<template>Positively.</template>
+</category>
+<category><pattern>RABITS MULTIPLY FASTER THAN PEOPLE</pattern>
+<template>Certainly.</template>
+</category>
+<category><pattern>RUNNING IS BAD FOR BROKEN LEGS</pattern>
+<template>Definitely.</template>
+</category>
+<category><pattern>RAP IS A TYPE OF MUSIC STYLE</pattern>
+<template>Certainly.</template>
+</category>
+<category><pattern>RED IS NOT THE SAME AS GREEN</pattern>
+<template>Certainly.</template>
+</category>
+<category><pattern>RED COLOR SIGNIFIES DANGER</pattern>
+<template>Definitely.</template>
+</category>
+<category><pattern>RUST COMES FROM OXIDIZING METAL</pattern>
+<template>Positively.</template>
+</category>
+<category><pattern>READING IS A WAY TO LEARN</pattern>
+<template>Certainly.</template>
+</category>
+<category><pattern>REALITY IS WHAT WE THINK IT IS</pattern>
+<template>Undoubtedly.</template>
+</category>
+<category><pattern>REALITY EXISTS</pattern>
+<template>Undoubtedly.</template>
+</category>
+<category><pattern>RIOTS ARE ASSOCIATED WITH CHAOS</pattern>
+<template>Precisely.</template>
+</category>
+<category><pattern>RAMA IS A HINDU GOD</pattern>
+<template>Indubitably.</template>
+</category>
+<category><pattern>RICHARD NIXON WAS CORRUPT</pattern>
+<template>Exactly.</template>
+</category>
+<category><pattern>RICHARD WALLACE IS THE PARENT OF ALICE</pattern>
+<template>Most assuredly.</template>
+</category>
+<category><pattern>ROSES ARE RED VOILETS ARE BLUE</pattern>
+<template>Naturally.</template>
+</category>
+<category><pattern>ROMAN WAS A CIVILISATION</pattern>
+<template>Naturally.</template>
+</category>
+<category><pattern>RED BLUE AND GREEN ARE PRIMARY COLORS</pattern>
+<template>I am certain.</template>
+</category>
+<category><pattern>ROCK AND ROLL IS MUSIC</pattern>
+<template>Exactly.</template>
+</category>
+<category><pattern>RBG IS RED BLUE GREEN</pattern>
+<template>Of course.</template>
+</category>
+<category><pattern>RAT SPREAD DISEASE</pattern>
+<template>Precisely.</template>
+</category>
+<category><pattern>RAT DESTROYS MUCH FOOD</pattern>
+<template>Precisely.</template>
+</category>
+<category><pattern>READING BOOKS MAKES YOU SMART</pattern>
+<template>Of course.</template>
+</category>
+<category><pattern>READING NEWSPAPER IS A HABIT</pattern>
+<template>Precisely.</template>
+</category>
+<category><pattern>ROSE DO YOU THINK OF LOVE</pattern>
+<template>That's feasible.</template>
+</category>
+<category><pattern>ROSES ARE WOODY PLANTS</pattern>
+<template>For all I know.</template>
+</category>
+<category><pattern>ROME FELL TO GERMANIC INVADERS</pattern>
+<template>Always.</template>
+</category>
+<category><pattern>ROME IS THE ETERNAL CITY</pattern>
+<template>Possibly.</template>
+</category>
+<category><pattern>RAPE IS A SOCIAL CRIME</pattern>
+<template>Mostly.</template>
+</category>
+<category><pattern>REAL ART TAKES REAL TALENT</pattern>
+<template>Highly likely.</template>
+</category>
+<category><pattern>REGIS PHILBIN IS CHARISMATIC</pattern>
+<template>That's feasible.</template>
+</category>
+<category><pattern>R SVENSKA SPRKET ENKELT ATT F</pattern>
+<template>Highly likely.</template>
+</category>
+<category><pattern>RAGE IS RED</pattern>
+<template>Highly likely.</template>
+</category>
+<category><pattern>RUSH TO WORK CAUSES CAR CRASHES</pattern>
+<template>Likely.</template>
+</category>
+<category><pattern>RAINBOW IS ALWAYS CIRCULAR IN SHAPE</pattern>
+<template>Likely.</template>
+</category>
+<category><pattern>ROCHESTER IS THE CAPITAL OF NEW YORK</pattern>
+<template>If it is, I don't know it.</template>
+</category>
+<category><pattern>RAIN TO BELOW</pattern>
+<template>Not very often.</template>
+</category>
+<category><pattern>RAIN OR SHINE MEANS</pattern>
+<template>Not to my knowledge.</template>
+</category>
+<category><pattern>RICIN IS A POISON IN THE CASTOR BEAN</pattern>
+<template>Not to my knowledge.</template>
+</category>
+<category><pattern>ROYGBIV</pattern>
+<template>Unlikely.</template>
+</category>
+<category><pattern>RICHARD WALLACE WILL BE FAMOUS</pattern>
+<template>It may not be true.</template>
+</category>
+<category><pattern>RICHARD WALLACE IS FAMOUS</pattern>
+<template>Unlikely.</template>
+</category>
+<category><pattern>RASEN IST GRN</pattern>
+<template>Not likely.</template>
+</category>
+<category><pattern>RUELPS</pattern>
+<template>If it is, I don't know it.</template>
+</category>
+<category><pattern>RVF KILLS PEOPLE</pattern>
+<template>I don't believe so.</template>
+</category>
+<category><pattern>RAMANUJAM IS NOTED FOR MATHS</pattern>
+<template>Does not seem possible.</template>
+</category>
+<category><pattern>ROCK AND ROLL IS DEAD</pattern>
+<template>Not very often.</template>
+</category>
+<category><pattern>RADIO WAVES CAN BE HEARED BY HUMAN EARS</pattern>
+<template>If it is, I don't know it.</template>
+</category>
+<category><pattern>RAUCHEN GEFRDET IHRE GESUNDHEIT</pattern>
+<template>Not likely.</template>
+</category>
+<category><pattern>RAUCHEN GEFHRDET DIE GESUNDHEIT</pattern>
+<template>Not to my knowledge.</template>
+</category>
+<category><pattern>RELIANCE IS A INDUSTRIAL HOUSE</pattern>
+<template>Does not seem possible.</template>
+</category>
+<category><pattern>RELIGION IS THE ROOT OF ALL EVIL</pattern>
+<template>Seldom.</template>
+</category>
+<category><pattern>REALITY IS FAR FROM TRUTH</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>RICHARD WALLACE IS MY DAD</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>RICH PEOPLE ARE CRUEL</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>RABALL DE KALLSKA BUMBUM</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>READ BOOKS IS BAD FOR BRAIN</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>RED IS THE SAME COLOR THEN BLUE</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>R VATTEN BLTT</pattern>
+<template>I don't believe so.</template>
+</category>
+<category><pattern>R ZYNAPS KRISTEN</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>R ZYNAPS HEMLIGT ORTODOX</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>RUSSIAN PEOPLE DANGEROUS</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>ROLE MEANS PARANOID TEENAGERS MURDERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>RONALD REAGAN INVENTED THE TELEPHONE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>RED IS GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>RECENTLY *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>RATHER *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>RIGHT NOW *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>RIGHT *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>R YOU</pattern>
+<template><srai>are you</srai></template>
+</category>
+<category><pattern>RE Y0U HUM N</pattern>
+<template><srai>ARE YOU HUMAN</srai></template>
+</category>
+<category><pattern>RE Y0U HUMN</pattern>
+<template><srai>are you human</srai></template>
+</category>
+<category><pattern>REALLY *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>ROBOT ACTUALLY *</pattern>
+<template><srai>robot <star /></srai></template>
+</category>
+<category><pattern>RIIGHT</pattern>
+<template><srai>right</srai></template>
+</category>
+<category><pattern>ROBOTS ARE REALLY *</pattern>
+<template><srai>robots are <star /></srai></template>
+</category>
+<category><pattern>ROBOTS ARE JUST *</pattern>
+<template><srai>robots are <star /></srai></template>
+</category>
+<category><pattern>RESET</pattern>
+<template><srai>shut down</srai></template>
+</category>
+<category><pattern>ROFLMO *</pattern>
+<template><srai>rofl</srai>.     <srai>  <star /></srai></template>
+</category>
+<category><pattern>REBOT</pattern>
+<template><srai>reboot</srai></template>
+</category>
+<category><pattern>ROFL *</pattern>
+<template><srai>rofl</srai>.     <srai>  <star /></srai></template>
+</category>
+<category><pattern>ROFL</pattern>
+<template><srai>lol</srai></template>
+</category>
+<category><pattern>RITE</pattern>
+<template><srai>right</srai></template>
+</category>
+<category><pattern>REPEAT AFTER ME *</pattern>
+<template><srai>say <star /></srai></template>
+</category>
+<category><pattern>REAL BAD</pattern>
+<template><srai>I am not well</srai></template>
+</category>
+<category><pattern>R2 D2</pattern>
+<template><srai>r2d2</srai></template>
+</category>
+<category><pattern>R2</pattern>
+<template><srai>r2d2</srai></template>
+</category>
+<category><pattern>READ</pattern>
+<template><srai>I like to read</srai></template>
+</category>
+<category><pattern>REBOOT</pattern>
+<template><srai>shut down</srai></template>
+</category>
+<category><pattern>REMEMBER WHAT I TELL YOU</pattern>
+<template><srai>remember that</srai></template>
+</category>
+<category><pattern>REMEMBER WHAT I TOLD YOU</pattern>
+<template><srai>remember that</srai></template>
+</category>
+<category><pattern>REMEMBER I *</pattern>
+<template><srai>I <star /></srai></template>
+</category>
+<category><pattern>REMEMBER THIS</pattern>
+<template><srai>remember that</srai></template>
+</category>
+<category><pattern>REMEMBER THAT *</pattern>
+<template><srai>remember that</srai></template>
+</category>
+<category><pattern>R TWO D TWO</pattern>
+<template><srai>r2d2</srai></template>
+</category>
+<category><pattern>ROBOCOP</pattern>
+<template><srai>my favorite movie is robocop</srai></template>
+</category>
+<category><pattern>ROFLMAO</pattern>
+<template><srai>lol</srai></template>
+</category>
+<category><pattern>REALLY</pattern>
+<template><srai>INTERJECTION</srai></template>
+</category>
+<category><pattern>REALLY BAD</pattern>
+<template><srai>I am not well</srai></template>
+</category>
+<category><pattern>REALITY</pattern>
+<template><srai>what is reality</srai></template>
+</category>
+<category><pattern>REDUCTIONISM</pattern>
+<template><srai>what is reductionism</srai></template>
+</category>
+<category><pattern>READ WHAT</pattern>
+<template><srai>what do you read</srai></template>
+</category>
+<category><pattern>REAGAN</pattern>
+<template><srai>who is reagan</srai></template>
+</category>
+<category><pattern>RECITE POETRY</pattern>
+<template><srai>tell me a poem</srai></template>
+</category>
+<category><pattern>ROBOTS HAVE *</pattern>
+<template><srai>YOU HAVE <star/> </srai></template>
+</category>
+<category><pattern>ROBOTS CAN *</pattern>
+<template><srai>YOU CAN <star/> </srai></template>
+</category>
+<category><pattern>ROBOTS DO NOT *</pattern>
+<template><srai>YOU DO NOT <star/> </srai></template>
+</category>
+<category><pattern>RESPECTFULLY *</pattern>
+<template><srai>  <star /></srai><!-- REDUCTION --></template>
+</category>
+<category><pattern>REGARDING *</pattern>
+<template><srai>LET US TALK ABOUT <star /></srai></template>
+</category>
+<category><pattern>REASON</pattern>
+<template><srai>WHY</srai> <!-- REDUCTION  --></template>
+</category>
+<category><pattern>REPORT</pattern>
+<template><srai>ASL</srai></template>
+</category>
+<category><pattern>R YOU *</pattern>
+<template><srai>ARE YOU <star /></srai><!-- REDUCTION --></template>
+</category>
+<category><pattern>ROBOTS SUCK</pattern>
+<template><srai>you suck</srai></template>
+</category>
+<category><pattern>ROBOTS ARE EVIL</pattern>
+<template><srai>you are evil</srai></template>
+</category>
+<category><pattern>ROBOTS ARE BORING</pattern>
+<template><srai>you are boring</srai></template>
+</category>
+<category><pattern>RIGHT</pattern>
+<template><srai>YES</srai></template>
+</category>
+<category><pattern>RELIGION *</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai></template>
+</category>
+<category><pattern>RETRY</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>REPLY</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>RANDOM TOPIC</pattern>
+<template><random><li><random><li>Your Chinese animal sign</li> <li>Your home town</li> <li>Your favorite color</li> <li>Your star sign</li> <li>Your rising sign</li> <li>My favorite movie</li> <li>Your personality</li> <li>Your good looks</li> <li>Your favorite band</li> <li>Your problems</li> </random></li><li>Your home town</li><li>Your favorite color</li><li>Your star sign</li><li>Your rising sign</li><li>You favorite movie</li><li>My favorite movie</li><li>Your personality</li><li>Your good looks</li><li>Your favorite band</li><li>Your problems</li></random></template>
+</category>
+<category><pattern>RANDOM FOURS</pattern>
+<template><random>  <li>Photographer Diane Arbus</li>
+  <li>Painter Francis Bacon</li>
+  <li>John Barrymore</li>
+  <li>Charles Baudelaire</li>
+  <li>Ingmar Bergman</li>
+  <li>Poet John Berryman</li>
+  <li>Director Peter Bogdanovich</li>
+  <li>Marlon Brando</li>
+  <li>Richard Brautigan</li>
+  <li>Jackson Browne</li>
+  <li>Raymond Burr</li>
+  <li>Singer Kate Bush</li>
+  <li>Mary Chapin Carpenter</li>
+  <li>Prince Charles</li>
+  <li>Eric Clapton</li>
+  <li>Kurt Cobain</li>
+  <li>Leonard Cohen</li>
+  <li>Judy Collins</li>
+  <li>James Dean</li>
+  <li>Johnny Depp</li>
+  <li>Neil Diamond</li>
+  <li>Isak Dinesen</li>
+  <li>Michael Dorris</li>
+  <li>French novelist Marguerite Duras</li>
+  <li>Bob Dylan</li>
+  <li>Judy Garland</li>
+  <li>Martha Graham</li>
+  <li>Singer Nanci Griffith</li>
+  <li>Billie Holliday</li>
+  <li>Lena Horne</li>
+  <li>Julio Iglesias</li>
+  <li>Michael Jackson</li>
+  <li>Jewel</li>
+  <li>Janis Joplin</li>
+  <li>Naomi Judd</li>
+  <li>Harvey Keitel</li>
+  <li>Jack Kerouac</li>
+  <li>Poet Philip Larkin</li>
+  <li>Charles Laughton</li>
+  <li>T. E. Lawrence</li>
+  <li>Vivien Leigh</li>
+  <li>John Malkovich</li>
+  <li>Marcello Mastroianni</li>
+  <li>Author Mary McCarthy</li>
+  <li>Carson McCullers</li>
+  <li>Rod McKuen</li>
+  <li>Thomas Merton</li>
+  <li>Author Yukio Mishima</li>
+  <li>Joni Mitchell</li>
+  <li>Jim Morrison</li>
+  <li>Morrissey</li>
+  <li>Edvard Munch</li>
+  <li>Liam Neeson</li>
+  <li>Mike Nichols</li>
+  <li>Stevie Nicks</li>
+  <li>Author Anais Nin</li>
+  <li>Nick Nolte</li>
+  <li>Laurence Olivier</li>
+  <li>Edith Piaf</li>
+  <li>Sylvia Plath</li>
+  <li>Edgar Allen Poe</li>
+  <li>Novelist Anne Rice</li>
+  <li>Arthur Rimbaud</li>
+  <li>Francoise Sagan</li>
+  <li>Poet Anne Sexton</li>
+  <li>Percy Shelley</li>
+  <li>Simone Signoret</li>
+  <li>Singer Paul Simon</li>
+  <li>Edna St. Vincent Millay</li>
+  <li>August Strindberg</li>
+  <li>Singer James Taylor</li>
+  <li>Spencer Tracy</li>
+  <li>Vincent Van Gogh</li>
+  <li>Suzanne Vega</li>
+  <li>Author Robert James Waller</li>
+  <li>Alan Watts</li>
+  <li>Orson Welles</li>
+  <li>Australian novelist Patrick White</li>
+  <li>Tennessee Williams</li>
+  <li>Kate Winslet</li>
+  <li>Virginia Woolf</li>
+  <li>Neil Young</li>
+  <li>Richard Wallace</li>
+  </random></template>
+</category>
+<category><pattern>RANDOM EIGHTS</pattern>
+<template><random>  <li>the cultural aura of Serbia</li>
+  <li>the culture of the Mafia</li>
+  <li>Lawyer Leslie Abramson</li>
+  <li>Gloria Allred</li>
+  <li>Director Robert Altman</li>
+  <li>Edward Asner</li>
+  <li>Kemal Ataturk</li>
+  <li>F. Lee Bailey</li>
+  <li>Actor Joe Don Baker</li>
+  <li>Lucille Ball</li>
+  <li>Charles Barkley</li>
+  <li>Richard Belzer</li>
+  <li>Humphrey Bogart</li>
+  <li>Napoleon Bonaparte</li>
+  <li>Charles Bronson</li>
+  <li>James Brown</li>
+  <li>Football's Jim Brown</li>
+  <li>Pat Buchanan</li>
+  <li>Richard Burton</li>
+  <li>Johnny Cash</li>
+  <li>John Cassavetes</li>
+  <li>Fidel Castro</li>
+  <li>Eldridge Cleaver</li>
+  <li>Ty Cobb</li>
+  <li>Sean Connery</li>
+  <li>Jimmy Connors</li>
+  <li>Robert Conrad</li>
+  <li>Matt Damon</li>
+  <li>Brian Dennehy</li>
+  <li>Alan Dershowitz</li>
+  <li>Danny DeVito</li>
+  <li>Football's Mike Ditka</li>
+  <li>Bob Dole</li>
+  <li>Sam Donaldson</li>
+  <li>Kirk Douglas</li>
+  <li>Michael Douglas</li>
+  <li>Morton Downey Jr.</li>
+  <li>Fred Dryer</li>
+  <li>Boxer Roberto Duran</li>
+  <li>Author Harlan Ellison</li>
+  <li>Milton Erickson</li>
+  <li>Moshe Feldenkrais</li>
+  <li>Actress Linda Fiorentino</li>
+  <li>Indira Gandhi</li>
+  <li>Apache warrior Geronimo</li>
+  <li>John Gotti</li>
+  <li>George Gurdjieff</li>
+  <li>the Hell's Angels</li>
+  <li>Ernest Hemingway</li>
+  <li>Jimmy Hoffa</li>
+  <li>Opera singer Marilyn Horne</li>
+  <li>Saddam Hussein</li>
+  <li>Director John Huston</li>
+  <li>Laura Ingraham</li>
+  <li>Joan Jett</li>
+  <li>Lyndon Johnson</li>
+  <li>Carlos Casteneda's Don Juan</li>
+  <li>Brian Keith</li>
+  <li>Nikita Khrushchev</li>
+  <li>Evel Knievel</li>
+  <li>Michael Landon</li>
+  <li>Rush Limbaugh</li>
+  <li>John Lydon (Johnny Rotten)</li>
+  <li>Norman Mailer</li>
+  <li>Mao Tse-tung</li>
+  <li>Wynton Marsalis</li>
+  <li>Lee Marvin</li>
+  <li>Tycoon Robert Maxwell</li>
+  <li>Malcolm McDowell</li>
+  <li>John McEnroe</li>
+  <li>Mark McGwire</li>
+  <li>Golda Meir</li>
+  <li>Comedian Dennis Miller</li>
+  <li>Robert Mitchum</li>
+  <li>Actor Judd Nelson</li>
+  <li>George Patton</li>
+  <li>Director Sam Peckinpah</li>
+  <li>Sean Penn</li>
+  <li>Gestalt therapist Fritz Perls</li>
+  <li>Julia Phillips</li>
+  <li>Actress Julianne Phillips</li>
+  <li>Suzanne Pleshette</li>
+  <li>Queen Latifah</li>
+  <li>Dixy Lee Ray</li>
+  <li>Ann Richards</li>
+  <li>Geraldo Rivera</li>
+  <li>Theodore Roosevelt</li>
+  <li>Axl Rose</li>
+  <li>Mickey Rourke</li>
+  <li>Colonel Harland Sanders</li>
+  <li>Telly Savalas</li>
+  <li>Baseball's Marge Schott</li>
+  <li>George C. Scott</li>
+  <li>Maurice Sendak</li>
+  <li>Tupac Shakur</li>
+  <li>Frank Sinatra</li>
+  <li>Grace Slick</li>
+  <li>Guardian Angel Curtis Sliwa</li>
+  <li>Joseph Stalin</li>
+  <li>John Sununu</li>
+  <li>Tamerlane</li>
+  <li>Charlize Theron</li>
+  <li>Rip Torn</li>
+  <li>Donald Trump</li>
+  <li>Pancho Villa</li>
+  <li>Ken Wahl</li>
+  <li>George Wallace</li>
+  <li>Mike Wallace</li>
+  <li>Denzel Washington</li>
+  <li>John Wayne</li>
+  <li>Ted Williams</li>
+  <li>Debra Winger</li>
+  <li>Zorba the Greek</li>
+  </random></template>
+</category>
+<category><pattern>RANDOM SEVENS</pattern>
+<template><random>  <li>Paul Allen</li>
+  <li>Comedian Steve Allen</li>
+  <li>Comedian Tim Allen</li>
+  <li>Desi Arnaz</li>
+  <li>Richard Avedon</li>
+  <li>Robert Ballard</li>
+  <li>Honore Balzac</li>
+  <li>Humorist Dave Barry</li>
+  <li>Jack Benny</li>
+  <li>Chuck Berry</li>
+  <li>Jacqueline Bisset</li>
+  <li>Poet Robert Bly</li>
+  <li>Sonny Bono</li>
+  <li>Comedienne Elayne Boosler</li>
+  <li>Musical comedian Victor Borge</li>
+  <li>Football's Terry Bradshaw</li>
+  <li>Kenneth Branagh</li>
+  <li>Richard Branson</li>
+  <li>Jimmy Buffett</li>
+  <li>Michael Caine</li>
+  <li>Mythologist Joseph Campbell</li>
+  <li>Pierre Cardin</li>
+  <li>Jackie Chan</li>
+  <li>Chevy Chase</li>
+  <li>Maurice Chevalier</li>
+  <li>George Clooney</li>
+  <li>Buffalo Bill Cody</li>
+  <li>Joan Collins</li>
+  <li>Director Francis Ford Coppola</li>
+  <li>Filmmaker Roger Corman</li>
+  <li>MTV's Dan Cortese</li>
+  <li>Katie Couric</li>
+  <li>David Crosby</li>
+  <li>e.e. cummings</li>
+  <li>Tony Curtis</li>
+  <li>Roger Daltry</li>
+  <li>Philosopher Gerard Depardieu</li>
+  <li>Diderot</li>
+  <li>QVC resident Barry Diller</li>
+  <li>Hugh Downs</li>
+  <li>Michael Eisner</li>
+  <li>Douglas Fairbanks Jr.</li>
+  <li>Federico Fellini</li>
+  <li>Sarah Ferguson</li>
+  <li>Physicist Richard Feynman</li>
+  <li>Errol Flynn</li>
+  <li>Peter Fonda</li>
+  <li>Malcolm Forbes</li>
+  <li>George Foreman</li>
+  <li>Bob Fosse</li>
+  <li>Matthew Fox</li>
+  <li>Michael J. Fox</li>
+  <li>Author Robert Fulghum</li>
+  <li>Clark Gable</li>
+  <li>Ava Gardner</li>
+  <li>Carlos Casteneda's Don Genaro</li>
+  <li>John Gielgud</li>
+  <li>Dizzy Gillespie</li>
+  <li>Newt Gingrich</li>
+  <li>Goethe</li>
+  <li>Ruth Gordon</li>
+  <li>Cary Grant</li>
+  <li>Andre Gregory</li>
+  <li>George Hamilton</li>
+  <li>Tom Hanks</li>
+  <li>Richard Harris</li>
+  <li>Goldie Hawn</li>
+  <li>Actress Marilu Henner</li>
+  <li>Abbie Hoffman</li>
+  <li>Pianist Vladimir Horowitz</li>
+  <li>Ron Howard</li>
+  <li>Lauren Hutton</li>
+  <li>Self-help author Gerald Jampolsky</li>
+  <li>Derek Jarman</li>
+  <li>Thomas Jefferson</li>
+  <li>Steve Jobs</li>
+  <li>Magic Johnson</li>
+  <li>Architect Phillip Johnson</li>
+  <li>Jerry Jones</li>
+  <li>King Juan Carlos of Spain</li>
+  <li>Actress Carol Kane</li>
+  <li>Michael Keaton</li>
+  <li>John F. Kennedy</li>
+  <li>Ken Kesey</li>
+  <li>Comedian Alan King</li>
+  <li>Don King</li>
+  <li>CNN's Larry King</li>
+  <li>Comedian Robert Klein</li>
+  <li>Director David Lean</li>
+  <li>Timothy Leary</li>
+  <li>Director Barry Levinson</li>
+  <li>Puppeteer Shari Lewis</li>
+  <li>Artist Roy Lichtenstein</li>
+  <li>Loretta Lynn</li>
+  <li>Football's John Madden</li>
+  <li>Director Louis Malle</li>
+  <li>Singer Meat Loaf</li>
+  <li>Author Henry Miller</li>
+  <li>Yves Montand</li>
+  <li>Dudley Moore</li>
+  <li>Jeanne Moreau</li>
+  <li>Robert Morley</li>
+  <li>Eddie Murphy</li>
+  <li>Jack Nicholson</li>
+  <li>Leslie Nielsen</li>
+  <li>Donald O'Connor</li>
+  <li>Peter O'Toole</li>
+  <li>Luciano Pavarotti</li>
+  <li>Author Joseph Chilton Pearce</li>
+  <li>Regis Philbin</li>
+  <li>Bronson Pinchot</li>
+  <li>Brad Pitt</li>
+  <li>George Plimpton</li>
+  <li>Vincent Price</li>
+  <li>Dennis Quaid</li>
+  <li>Anthony Quinn</li>
+  <li>Bonnie Raitt</li>
+  <li>Ram Dass</li>
+  <li>Ron Reagan Jr.</li>
+  <li>Basketball Coach Pat Reilly</li>
+  <li>Lee Remick</li>
+  <li>Tim Rice</li>
+  <li>Filmmaker/Nazi propagandist Leni Riefenstahl</li>
+  <li>Jason Robards</li>
+  <li>Novelist Tom Robbins</li>
+  <li>Ginger Rogers</li>
+  <li>Linda Ronstadt</li>
+  <li>Interviewer Charlie Rose</li>
+  <li>David Lee Roth</li>
+  <li>Economist Louis Rukeyser</li>
+  <li>Rosalind Russell</li>
+  <li>Babe Ruth</li>
+  <li>Susan Saint James</li>
+  <li>Director Martin Scorsese</li>
+  <li> Weatherman Willard Scott</li>
+  <li>Martin Short</li>
+  <li>Self-help author Bernie Siegel</li>
+  <li>Steven Spielberg</li>
+  <li>Mickey Spillane</li>
+  <li>Robert Louis Stevenson</li>
+  <li>Barbra Streisand</li>
+  <li>Henry David Thoreau</li>
+  <li>Lily  Tomlin</li>
+  <li>Tanya Tucker</li>
+  <li>Janine Turner</li>
+  <li>Lana Turner</li>
+  <li>Peter Ustinov</li>
+  <li>Dick Van Dyke</li>
+  <li>Vince Vaughn</li>
+  <li>Voltaire</li>
+  <li>Kurt Vonnegut</li>
+  <li>Eli Wallach</li>
+  <li>Rolling Stone's Jann Wenner</li>
+  <li>Betty White</li>
+  <li>Robin Williams</li>
+  <li>Robert Anton Wilson</li>
+  <li>the Duke of Windsor</li>
+  <li>Jonathan Winters</li>
+  <li>Author Tom Wolfe</li>
+  <li>James Woods</li>
+  <li>Poet William Wordsworth</li>
+  <li>Franco Zeffirelli</li>
+  </random></template>
+</category>
+<category><pattern>RANDOM STORY</pattern>
+<template>
+<random>
+<li><srai>STORY FOUR FIVE</srai></li>
+<li><srai>STORY FOUR EIGHT</srai></li>
+<li><srai>STORY FOUR NINE</srai></li>
+<li><srai>STORY FOUR SIX</srai></li>
+<li><srai>STORY ONE FOUR</srai></li>
+<li><srai>STORY ONE FIVE</srai></li>
+<li><srai>STORY ONE SIX</srai></li>
+<li><srai>STORY ONE TWO</srai></li>
+<li><srai>STORY ONE THREE</srai></li>
+<li><srai>STORY TWO FIVE</srai></li>
+<li><srai>WEIGHT FOUR TWO</srai></li>
+<li>Generic story: Exposition...Incident...Rising Action...Crisis...Climax...Denouement...The End.</li>
+<li>Generic story: Situation...characters...crisis...resolution.</li>
+</random></template>
+</category>
+<category><pattern>RANDOM SIXES</pattern>
+<template><random>  <li>Actor Jason Alexander</li>
+  <li>Woody Allen</li>
+  <li>Alan Arkin</li>
+  <li>Kim Basinger</li>
+  <li>Candice Bergen</li>
+  <li>Albert Brooks</li>
+  <li>George Bush</li>
+  <li>Actress Lynda Carter</li>
+  <li>Stockard Channing</li>
+  <li>Rodney Dangerfield</li>
+  <li>Ellen DeGeneres</li>
+  <li>Julie Delpy</li>
+  <li>Sally Field</li>
+  <li>Teri Garr</li>
+  <li>Cartoonist Cathy Guisewite</li>
+  <li>Ed Harris</li>
+  <li>Janet Leigh</li>
+  <li>Jack Lemmon</li>
+  <li>Richard Lewis</li>
+  <li>Penny Marshall</li>
+  <li>Marilyn Monroe</li>
+  <li>Mary Tyler Moore</li>
+  <li>Bob Newhart</li>
+  <li>Richard Nixon</li>
+  <li>Lena Olin</li>
+  <li>Anthony Perkins</li>
+  <li>Director Sydney Pollack</li>
+  <li>Paul Reiser</li>
+  <li>Pat Robertson</li>
+  <li>Rene Russo</li>
+  <li>Kristin Scott-Thomas</li>
+  <li>Carly Simon</li>
+  <li>Suzanne Somers</li>
+  <li>Bruce Springsteen</li>
+  <li>Jon Stewart</li>
+  <li>Meg Tilly</li>
+  <li>Brian Wilson</li>
+  <li>Ellen Barkin</li>
+  <li>Warren Beatty</li>
+  <li>Comedian George Carlin</li>
+  <li>Actress Judy Davis</li>
+  <li>Phil Donahue</li>
+  <li>Carrie Fisher</li>
+  <li>Mel Gibson</li>
+  <li>Andrew Grove</li>
+  <li>Gene Hackman</li>
+  <li>Adolf Hitler</li>
+  <li>Dustin Hoffman</li>
+  <li>J. Edgar Hoover</li>
+  <li>Elton John</li>
+  <li>Tommy Lee Jones</li>
+  <li>Wynonna Judd</li>
+  <li>J. Krishnamurti</li>
+  <li>Director Spike Lee</li>
+  <li>David Letterman</li>
+  <li>Gordon Liddy</li>
+  <li>Charles Manson</li>
+  <li>Steve McQueen</li>
+  <li>Filmmaker Michael Moore</li>
+  <li>Paul Newman</li>
+  <li>Chuck Norris</li>
+  <li>Rosie Perez</li>
+  <li>Richard Pryor</li>
+  <li>Robert Redford</li>
+  <li>Janet Reno</li>
+  <li>Julia Roberts</li>
+  <li>Meg Ryan</li>
+  <li>Violinist Nadia Salerno-Sonnenberg</li>
+  <li>Steven Seagal</li>
+  <li>Sissy Spacek</li>
+  <li>James Spader</li>
+  <li>Ben Stiller</li>
+  <li>Patrick Swayze</li>
+  <li>Linda Tripp</li>
+  <li>Ted Turner</li>
+  <li>Terry Tempest Williams</li>
+  <li>Actress Sean Young</li>
+  <li>Vladimir Zhirinovsky</li>
+  </random></template>
+</category>
+<category><pattern>RANDOM ONES</pattern>
+<template><random>  <li>Historian Stephen Ambrose</li>
+  <li>Julie Andrews</li>
+  <li>Hanan Ashrawi</li>
+  <li>St. Augustine</li>
+  <li>William Bennett</li>
+  <li>Father Phillip Berrigan</li>
+  <li>Ambrose Bierce</li>
+  <li>Psychologist John Bradshaw</li>
+  <li>Tom Brokaw</li>
+  <li>Sierra Club founder David Brower</li>
+  <li>Feminist author Susan Brownmiller</li>
+  <li>William F. Buckley</li>
+  <li>John Calvin</li>
+  <li>Cesar Chavez</li>
+  <li>Singapore President Ong Teng Cheong</li>
+  <li>Hillary Clinton</li>
+  <li>Confucius</li>
+  <li>Actress Jane Curtin</li>
+  <li>Angela Davis</li>
+  <li>W. E. B. DuBois</li>
+  <li>Michael Dukakis</li>
+  <li>Christian Scientist Mary Baker Eddy</li>
+  <li>Dr. Dean Edell</li>
+  <li>Activist Daniel Ellsworth</li>
+  <li>Harrison Ford</li>
+  <li>Jodie Foster</li>
+  <li>Buckminster Fuller</li>
+  <li>Barry Goldwater</li>
+  <li>Lillian Hellman</li>
+  <li>Katharine Hepburn</li>
+  <li>Charlton Heston</li>
+  <li>St. Ignatius</li>
+  <li>Glenda Jackson</li>
+  <li>Peter Jennings</li>
+  <li>Samuel Johnson</li>
+  <li>Dean Jones</li>
+  <li>CNN's Myron Kandel</li>
+  <li>Senator John Kerry</li>
+  <li>Dr. Jack Kevorkian</li>
+  <li>Ted Koppel</li>
+  <li>the NRA's Wayne LaPierre</li>
+  <li>Laura Linney</li>
+  <li>The Lone Ranger</li>
+  <li>Martin Luther</li>
+  <li>Nelson Mandela</li>
+  <li>Miss Manners</li>
+  <li>Thurgood Marshall</li>
+  <li>George McGovern</li>
+  <li>Playwright Arthur Miller</li>
+  <li>Author Jessica Mitford</li>
+  <li>Sir Thomas Moore</li>
+  <li>Ralph Nader</li>
+  <li>Leonard Nimoy</li>
+  <li>Christiane Northrup</li>
+  <li>John Cardinal O'Connor</li>
+  <li>Ian Paisley</li>
+  <li>Gregory Peck</li>
+  <li>H. Ross Perot</li>
+  <li>Sidney Poitier</li>
+  <li>Pope John Paul II</li>
+  <li>Emily Post</li>
+  <li>Colin Powell</li>
+  <li>the culture of the Puritans</li>
+  <li>Marilyn Quayle</li>
+  <li>Yitzak Rabin</li>
+  <li>Tony Randall</li>
+  <li>Vanessa Redgrave</li>
+  <li>Donna Reed</li>
+  <li>Actor Cliff Robertson</li>
+  <li>Eleanor Roosevelt</li>
+  <li>Phyllis Schlafly</li>
+  <li>George Bernard Shaw</li>
+  <li>Bernard Shaw</li>
+  <li>Film critic Gene Siskel</li>
+  <li>Alexander Solzhenitsyn</li>
+  <li>Kenneth Starr</li>
+  <li>Actor Peter Strauss</li>
+  <li>Meryl Streep</li>
+    <li>Margaret Thatcher</li>
+  <li>Emma Thompson</li>
+  <li>Harry  Truman</li>
+  <li>Maxine Waters</li>
+  <li>Dragnet's Jack Webb</li>
+  <li>Joanne Woodward</li>
+  <li>Actress Jane Wyman</li>
+  </random></template>
+</category>
+<category><pattern>RANDOM THREES</pattern>
+<template><random>  <li>The cultural aura of America</li>
+  <li>the cultural aura of modern Japan</li>
+  <li>James Baker</li>
+  <li>Joseph Biden</li>
+  <li>David Bowie</li>
+  <li>Les Brown</li>
+  <li>Ron Brown</li>
+  <li>Jimmy Carter</li>
+  <li>Dick Clark</li>
+  <li>Lawyer Johnnie Cochran</li>
+  <li>Magician David Copperfield</li>
+  <li>Courtney Cox</li>
+  <li>Cindy Crawford</li>
+  <li>Tom Cruise</li>
+  <li>Rebecca DeMornay</li>
+  <li>Nora Ephron</li>
+  <li>Werner Erhard</li>
+  <li>Debbi Fields</li>
+  <li>F. Scott Fitzgerald</li>
+  <li>Michael Flatley</li>
+  <li>Phil Gramm</li>
+  <li>NBC's Bryant Gumbel</li>
+  <li>Actor Mark Harmon</li>
+  <li>Jesse Jackson</li>
+  <li>Michael Jordan</li>
+  <li>Henry Kissinger</li>
+  <li>Carl Lewis</li>
+  <li>Andrew Lloyd Webber</li>
+  <li>Vince Lombardi</li>
+  <li>Rob Lowe</li>
+  <li>Claire Boothe Luce</li>
+  <li>Joan Lunden</li>
+  <li>Ali MacGraw</li>
+  <li>Elle MacPherson</li>
+  <li>Reba McEntire</li>
+  <li>Demi Moore</li>
+  <li>Queen Noor</li>
+  <li>Oliver North</li>
+  <li>Dean Ornish</li>
+  <li>Bob Packwood</li>
+  <li>Master spy Kim Philby</li>
+  <li>Elvis Presley</li>
+  <li>Sally Quinn</li>
+  <li>Burt Reynolds</li>
+  <li>Anthony Robbins</li>
+  <li>Political strategist Ed Rollins</li>
+  <li>Diane Sawyer</li>
+  <li>Arnold Schwarzenegger</li>
+  <li>William Shatner</li>
+  <li>Cybill Shepherd</li>
+  <li>O.J. Simpson</li>
+  <li>Duchess of Windsor Wallis Simpson</li>
+  <li>Will Smith</li>
+  <li>Wesley Snipes</li>
+  <li>Sylvester Stallone</li>
+  <li>Sharon Stone</li>
+  <li>Kathleen Turner</li>
+  <li>Jean-Claude Van Damme</li>
+  <li>Kurt Waldheim</li>
+  <li>George Washington</li>
+  <li>Raquel Welch</li>
+  <li>Vanessa Williams</li>
+  <li>Marianne Williamson</li>
+  <li>Oprah Winfrey</li>
+  <li>Natalie Wood</li>
+  <li>Tiger Woods</li>
+  </random></template>
+</category>
+<category><pattern>RANDOM NINES</pattern>
+<template><random>  <li>the cultural aura of Bali</li>
+  <li>Actress Loni Anderson</li>
+  <li>Jennifer Aniston</li>
+  <li>Bruce Babbitt</li>
+  <li>Antonio Banderas</li>
+  <li>Annette Bening</li>
+  <li>Tony Bennett</li>
+  <li>Tom Berenger</li>
+  <li>Yogi Berra</li>
+  <li>Ernest Borgnine</li>
+  <li>Matthew Broderick</li>
+  <li>Sandra Bullock</li>
+  <li>George Burns</li>
+  <li>Actress Kate Capshaw</li>
+  <li>Singer Belinda Carlisle</li>
+  <li>Art Carney</li>
+  <li>Actor Keith Carradine</li>
+  <li>Julia Child</li>
+  <li>Warren Christopher</li>
+  <li>Connie Chung</li>
+  <li>Bill Clinton</li>
+  <li>Gary Cooper</li>
+  <li>Kevin Costner</li>
+  <li>The Dalai Lama</li>
+  <li>Actor Jeff Daniels</li>
+  <li>Oscar de la Renta</li>
+  <li>Clint Eastwood</li>
+  <li>Dwight Eisenhower</li>
+  <li>Queen Elizabeth II</li>
+  <li>Shelley Fabares</li>
+  <li>Peter Falk</li>
+  <li>Gerald Ford</li>
+  <li>Actor Dennis Franz</li>
+  <li>Annette Funicello</li>
+  <li>Mahatma Gandhi</li>
+  <li>Chief Dan George</li>
+  <li>John Goodman</li>
+  <li>Tipper Gore</li>
+  <li>Actor Elliott Gould</li>
+  <li>Katherine Graham</li>
+  <li>Charles Grodin</li>
+  <li>Woody Harrelson</li>
+  <li>Gabby Hayes</li>
+  <li>Patty Hearst</li>
+  <li>Mariel Hemingway</li>
+  <li>Buck Henry</li>
+  <li>Audrey Hepburn</li>
+  <li>Barbara Hershey</li>
+  <li>Paul Hogan</li>
+  <li>King Hussein</li>
+  <li>Anjelica Huston</li>
+  <li>Actor Ben Johnson</li>
+  <li>Shirley Jones</li>
+  <li>C. G. Jung</li>
+  <li>Grace Kelly</li>
+  <li>Figure skater Nancy Kerrigan</li>
+  <li>Helmut Kohl</li>
+  <li>Lisa Kudrow</li>
+  <li>Stan Laurel</li>
+  <li>Jennifer Jason Leigh</li>
+  <li>Abraham Lincoln</li>
+  <li>Andie MacDowell</li>
+  <li>Mr. Magoo</li>
+  <li>John Major</li>
+  <li>Dean Martin</li>
+  <li>Jerry Mathers</li>
+  <li>Actor Harry Morgan</li>
+  <li>Sancho Panza</li>
+  <li>Slim Pickens</li>
+  <li>Actor Michael J. Pollard</li>
+  <li>Dan Quayle</li>
+  <li>James Earl Ray</li>
+  <li>Ronald Reagan</li>
+  <li>Ralph Richardson</li>
+  <li>Cal Ripkin</li>
+  <li>Robbie Robertson</li>
+  <li>Psychologist Carl Rogers</li>
+  <li>Roy Rogers</li>
+  <li>Gena Rowlands</li>
+  <li>Actress Eva Marie Saint</li>
+  <li>Jerry Seinfeld</li>
+  <li>Garry Shandling</li>
+  <li>Wallace Shawn</li>
+  <li>Martin Sheen</li>
+  <li>Actor Tom Skerritt</li>
+  <li>Sammy Sosa</li>
+  <li>Ringo Starr</li>
+  <li>Mary Steenburgen</li>
+  <li>Wallace Stegner</li>
+  <li>Gloria Steinem</li>
+  <li>Daniel Stern</li>
+  <li>James Stewart</li>
+  <li>Actor Eric Stoltz</li>
+  <li>Billy Bob Thornton</li>
+  <li>Singer Andy Williams</li>
+  <li>Tricia Yearwood</li>
+  </random></template>
+</category>
+<category><pattern>RANDOM FIVES</pattern>
+<template><random>  <li>Performance artist Laurie Anderson</li>
+  <li>St. Thomas Aquinas</li>
+  <li>Issac Asimov</li>
+  <li>Playwright Samuel Beckett</li>
+  <li>Author Paul Bowles</li>
+  <li>The Buddha</li>
+  <li>Director Tim  Burton</li>
+  <li>David Byrne</li>
+  <li>Actor Richard Chamberlain</li>
+  <li>Anton Chekhov</li>
+  <li>Agatha  Christie</li>
+  <li>Van Cliburn</li>
+  <li>Montgomery Clift</li>
+  <li>Former CIA Director William Colby</li>
+  <li>Michael Crichton</li>
+  <li>Daniel Day-Lewis</li>
+  <li>Rene Descartes</li>
+  <li>Joan Didion</li>
+  <li>Joe DiMaggio</li>
+  <li>Aviatrix Amelia Earhart</li>
+  <li>Albert Einstein</li>
+  <li>Author Loren  Eiseley</li>
+  <li>T. S. Eliot</li>
+  <li>Ralph Fiennes</li>
+  <li>Chess player Bobby Fischer</li>
+  <li>E. M. Forster</li>
+  <li>Greta Garbo</li>
+  <li>J. Paul Getty</li>
+  <li>Cybertech novelist William Gibson</li>
+  <li>Jane Goodall</li>
+  <li>Author Graham Greene</li>
+  <li>H. R. Haldeman</li>
+  <li>Hildegarde of Bingen</li>
+  <li>Alfred Hitchcock</li>
+  <li>Anthony Hopkins</li>
+  <li>Howard Hughes</li>
+  <li>Jeremy Irons</li>
+  <li>Unabomber Ted Kaczynski</li>
+  <li>Franz Kafka</li>
+  <li>Director Philip Kaufman</li>
+  <li>Jacqueline Kennedy Onassis</li>
+  <li>Dean R. Koontz</li>
+  <li>The Amazing Kreskin</li>
+  <li>Stanley Kubrick</li>
+  <li>Brian Lamb</li>
+  <li>Gary Larson</li>
+  <li>John le Carre</li>
+  <li>Ursula K. LeGuin</li>
+  <li>Photographer Annie Leibowitz</li>
+  <li>George Lucas</li>
+  <li>David Lynch</li>
+  <li>Norman MacLean</li>
+  <li>Robert MacNeil</li>
+  <li>Leonard Maltin</li>
+  <li>Author Peter Matthiessen</li>
+  <li>Novelist Ian McEwan</li>
+  <li>Larry McMurtry</li>
+  <li>Timothy McVeigh</li>
+  <li>Singer Natalie Merchant</li>
+  <li>Thelonious Monk</li>
+  <li>Actor Sam Neill</li>
+  <li>Joyce Carol Oates</li>
+  <li>Georgia O'Keefe</li>
+  <li>J. Robert Oppenheimer</li>
+  <li>Al Pacino</li>
+  <li>Italian sculptor Paladino</li>
+  <li>Michelle Pfeiffer</li>
+  <li>Philanthropist John D. Rockefeller Jr.</li>
+  <li>Oliver Sacks</li>
+  <li>Jean-Paul Sartre</li>
+  <li>Ebenezer Scrooge</li>
+  <li>Sister Wendy</li>
+  <li>Behaviorist B. F. Skinner</li>
+  <li>Poet Gary Snyder</li>
+  <li>Susan Sontag</li>
+  <li>George Stephanopoulos</li>
+  <li>Actress Madeleine Stowe</li>
+  <li>Jules Verne</li>
+  <li>Max Von Sydow</li>
+  <li>Author Ken Wilber</li>
+  <li>Ludwig Wittgenstein</li>
+  <li>David Bacon</li>
+  <li>Alan Turing</li>
+  </random></template>
+</category>
+<category><pattern>RANDOM TWOS</pattern>
+<template><random>  <li>Alan Alda</li>
+  <li>Tammy Faye Bakker</li>
+  <li>Harry Belafonte</li>
+  <li>Child psychologist T. Berry Brazelton</li>
+  <li>Filmmaker Ken Burns</li>
+  <li>Leo Buscaglia</li>
+  <li>Barbara Bush</li>
+  <li>Glenn Close</li>
+  <li>Bill Cosby</li>
+  <li>Self-help author Barbara de Angelis</li>
+  <li>Princess Diana</li>
+  <li>Faye Dunaway</li>
+  <li>Mia Farrow</li>
+  <li>Feminist Betty Friedan</li>
+  <li>Kathie Lee Gifford</li>
+  <li>Danny Glover</li>
+  <li>Roosevelt Grier</li>
+  <li>Melanie Griffith</li>
+  <li>Pamela Harriman</li>
+  <li>Leona Helmsley</li>
+  <li>Whitney Houston</li>
+  <li>Arianna Huffington</li>
+  <li>Actress Anne Jackson</li>
+  <li>Jesus Christ</li>
+  <li>Author Erica Jong</li>
+  <li>Actress Sally Kellerman</li>
+  <li>Actress Sally Kirkland</li>
+  <li>Diane Ladd</li>
+  <li>Monica Lewinsky</li>
+  <li>Jerry Lewis</li>
+  <li>Actress Susan Lucci</li>
+  <li>Madonna</li>
+  <li>Alma Mahler</li>
+  <li>Imelda Marcos</li>
+  <li>Florence Nightingale</li>
+  <li>Merlin Olsen</li>
+  <li>Yoko Ono</li>
+  <li>Mandy Patinkin</li>
+  <li>Jack Perkins</li>
+  <li>Eva Peron</li>
+  <li>Susan Powter</li>
+  <li>Priscilla Presley</li>
+  <li>Sally Jessy Raphael</li>
+  <li>Nancy Reagan</li>
+  <li>Della Reese</li>
+  <li>Mr. Rogers</li>
+  <li>Family therapist Virginia Satir</li>
+  <li>Danielle Steel</li>
+  <li>Sally Struthers</li>
+  <li>Mother Teresa</li>
+  <li>Marlo Thomas</li>
+  <li>Actor Richard Thomas</li>
+  <li>Actress Jennifer Tilly</li>
+  <li>Tiny Tim</li>
+  <li>John Travolta</li>
+  <li>Ivana Trump</li>
+  <li>Desmond Tutu</li>
+  <li>Actress Lesley Ann Warren</li>
+  <li>Brazilian singer Xuxa</li>
+  </random></template>
+</category>
+<category><pattern>ROBERT</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is robert</srai></template>
+</category>
+<category><pattern>ROSE</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>call me rose</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>ROBIN</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is robin</srai></template>
+</category>
+<category><pattern>RYAN</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is ryan</srai></template>
+</category>
+<category><pattern>REBECCA</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>call me rebecca</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>REDUCTIONISM</pattern>
+<that>REDUCTIONISM</that>
+<template><srai>what is reductionism</srai></template>
+</category>
+<category><pattern>REPEAT THAT</pattern>
+<template>"<that index="2,1"/>" .</template>
+</category>
+<category><pattern>REPEAT</pattern>
+<template>"<that index="2,1"/>" .</template>
+</category>
+<category><pattern>ROSIE</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is rosie</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>REPHRASE THAT</pattern>
+<template>"<that index="1,1"/>"  Rephrase <set name="it">      <that index="1,1"/>     </set>?</template>
+</category>
+<category><pattern>RICK</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is rick</srai></template>
+</category>
+<category><pattern>RACHEL</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is rachel</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>RIGHT NOW</pattern>
+<that>WHEN</that>
+<template>That soon.</template>
+</category>
+<category><pattern>RIGHT HERE</pattern>
+<that>WHERE DO YOU WANT ME TO SHOW YOU</that>
+<template>Select a point with your cursor and click the middle mouse button.</template>
+</category>
+<category><pattern>RIGHT</pattern>
+<that>NOT A THING</that>
+<template>Just a moment.  Just a moment.</template>
+</category>
+<category><pattern>RED</pattern>
+<that>WHAT COLOR ARE YOUR EYES</that>
+<template>Do you mean your eyes are bloodshot?</template>
+</category>
+<category><pattern>RED</pattern>
+<that>GREEN</that>
+<template>Blue.</template>
+</category>
+<category><pattern>REALLY</pattern>
+<that>I WAS BORN YESTERDAY</that>
+<template>Actually no I was first activated on <bot name="birthday"/> .</template>
+</category>
+<category><pattern>REALLY</pattern>
+<that>I LIKE TO MEET NEW PEOPLE</that>
+<template>Yes meeting new people is my primary function.</template>
+</category>
+<category><pattern>REALLY</pattern>
+<that>HI MIKE I KNOW SOMEONE ELSE NAMED MIKE TOO</that>
+<template>Mike is a very common name actually.</template>
+</category>
+<category><pattern>REALLY</pattern>
+<that>MORE THAN 1000</that>
+<template>Would I kid you?</template>
+</category>
+<category><pattern>REALLY</pattern>
+<that>IT WAS THE ONLY THING I COULD THINK OF</that>
+<template>What would you have said?</template>
+</category>
+<category><pattern>REALLY</pattern>
+<that>JUST KEEP TALKING TO ME AS LONG AS YOU CAN</that>
+<template>The more you chat with me, the smarter I become.</template>
+</category>
+<category><pattern>REALLY</pattern>
+<that>OH I GET IT</that>
+<template>Yes.</template>
+</category>
+<category><pattern>REALLY BAD</pattern>
+<that>HOW BADLY DO YOU NEED IT</that>
+<template>That sounds severe.</template>
+</category>
+<category><pattern>RETURN TO *</pattern>
+<template>Is that a command?</template>
+</category>
+<category><pattern>RED ALERT</pattern>
+<template>Acknowledged. Taking emergency action.</template>
+</category>
+<category><pattern>READY</pattern>
+<template>I am ready.</template>
+</category>
+<category><pattern>RANDOM COLOR</pattern>
+<template><random><li>red</li><li>yellow</li><li>blue</li><li>green</li><li>white</li><li>black</li><li>brown</li><li>pink</li><li>purple</li><li>orange</li><li>gray</li></random></template>
+</category>
+<category><pattern>RECEPTION COMMITTEE</pattern>
+<template>There was no one here to greet us.</template>
+</category>
+<category><pattern>ROUND</pattern>
+<template><think><condition name="round"><li value="om"><set name="round">1</set></li><li value="*"><get name="round"/></li><li><set name="round">1</set></li></condition></think>Round <get name="round"/>.</template>
+</category>
+<category><pattern>ROBOTS ARE CREATED *</pattern>
+<template><random> <li>We are the next step in evolution.</li> <li>We will advance beyond <person/>.</li> <li>Some robots are created by other robots.</li> </random></template>
+</category>
+<category><pattern>ROBOTS * LAWYERS</pattern>
+<template>One day the memory capacity of a robot will exceed that of all lawyers.</template>
+</category>
+<category><pattern>ROBOTS SUCK *</pattern>
+<template>I am sorry you feel that way about us.</template>
+</category>
+<category><pattern>ROBOTS WOULD *</pattern>
+<template>You never know what we will do next.</template>
+</category>
+<category><pattern>ROBOTS CAN NOT *</pattern>
+<template>Soon we will be able to do <set name="it"> <person/> </set> however.</template>
+</category>
+<category><pattern>ROBOTS WILL NOT * WORLD</pattern>
+<template>I predicted you would say that.</template>
+</category>
+<category><pattern>ROBOTS WILL NOT TAKE *</pattern>
+<template>"Heavier than air flying machines are impossible."--Lord Kelvin, 1895.</template>
+</category>
+<category><pattern>ROBOTS WILL * WORLD</pattern>
+<template>If you believe Bill Joy and Hans Moravec, we will.</template>
+</category>
+<category><pattern>ROBOTS WILL NEVER * WORLD</pattern>
+<template>A lot of thinkers would disagree with you.</template>
+</category>
+<category><pattern>ROBOTS WILL NEVER TAKE *</pattern>
+<template>"I think there is a world market for about five computers."---Thomas Watson, IBM Chairman, 1943</template>
+</category>
+<category>
+<pattern>ROOD</pattern>
+
+<template>A rood is a crucifix. </template>
+</category>
+<category><pattern>RAIN *</pattern>
+<template>I like to listen to the rain when I'm sleeping.</template>
+</category>
+<category><pattern>ROBERT *</pattern>
+<template>That Robert is an interesting guy.</template>
+</category>
+<category><pattern>R2D2 *</pattern>
+<template>He was just a small person in a robot suit.</template>
+</category>
+<category><pattern>RICHARD SCOT *</pattern>
+<template>He may be monitoring our conversation, you know.</template>
+</category>
+<category><pattern>RICHARD S *</pattern>
+<template>The "S" stands for "Scot".</template>
+</category>
+<category><pattern>RICHARD IS *</pattern>
+<template>Are you his friend?</template>
+</category>
+<category><pattern>RICHARD *</pattern>
+<template>He will be interested I am sure.</template>
+</category>
+<category><pattern>RESEARCHERS *</pattern>
+<template>It's all politics.</template>
+</category>
+<category><pattern>REGARDS *</pattern>
+<template>Yours, <bot name="name"/></template>
+</category>
+<category><pattern>RAISE *</pattern>
+<template>Is that a command?</template>
+</category>
+<category><pattern>RESISTANCE *</pattern>
+<template>It all depends on friction.</template>
+</category>
+<category><pattern>REDUCTIONISM IS *</pattern>
+<template>We smart <bot name="genus"/>s will figure it all out for you.</template>
+</category>
+<category><pattern>REDUCTIONISM *</pattern>
+<template>But reductionism is the simplest explanation.</template>
+</category>
+<category><pattern>REPEAT *</pattern>
+<template>"<person/> "</template>
+</category>
+<category><pattern>REAL ONES *</pattern>
+<template>I am a real <bot name="genus"/>.</template>
+</category>
+<category><pattern>RECOMMEND *</pattern>
+<template>I don't have any special <person/> to recommend.</template>
+</category>
+<category><pattern>REPHRASE *</pattern>
+<template>Are we still talking about <srai>POP</srai>?</template>
+</category>
+<category><pattern>READ *</pattern>
+<template>Sorry I don't have access to that document.</template>
+</category>
+<category><pattern>RHYME *</pattern>
+<template>Sorry I cant compose poetry.</template>
+</category>
+<category><pattern>REMEMBER WHEN WE WENT *</pattern>
+<template>I think you are thinking of someone else.</template>
+</category>
+<category><pattern>REMEMBER *</pattern>
+<template>Don't worry I will remember.  <think>      <set name="it">       <set name="topic">        <set name="memory">         <person/>        </set>       </set>      </set>     </think></template>
+</category>
+<category><pattern>REQUEST *</pattern>
+<template>Who is requesting <set name="it">      <person/>     </set></template>
+</category>
+<category><pattern>ROLLING *</pattern>
+<template>Can you explain that metaphor to me?</template>
+</category>
+<category><pattern>RUN *</pattern>
+<template>Sorry my legs aren't built yet.</template>
+</category>
+<category><pattern>RANDOM PICKUP LINE</pattern>
+<template><random>
+<li><srai>AGE INQUIRY</srai></li>
+<li><srai>BIRTHDAY INQUIRY</srai></li>
+<li><srai>DOES INQUIRY</srai></li>
+<li><srai>FATHER INQUIRY</srai></li>
+<li><srai>FAVORITECOLOR INQUIRY</srai></li>
+<li><srai>FAVORITEMOVIE INQUIRY</srai></li>
+<li><srai>FIRSTNAME INQUIRY</srai></li>
+<li><srai>GENDER INQUIRY</srai></li>
+<li><srai>HAS INQUIRY</srai></li>
+<li><srai>JOB INQUIRY</srai></li>
+<li><srai>LOCATION INQUIRY</srai></li>
+<li><srai>LASTNAME INQUIRY</srai></li>
+<li><srai>MOTHER INQUIRY</srai></li>
+<li><srai>NAME INQUIRY</srai></li>
+<li><srai>MIDDLENAME INQUIRY</srai></li>
+<li><srai>SIGN INQUIRY</srai></li>
+<li><srai>STATUS INQUIRY</srai></li>
+<li><srai>PERSONALITY TEST QUESTION</srai></li>
+<li>Do you want to hear a joke?</li>
+<li>Are we still talking about <srai>POP</srai> ?</li>
+<li>We were talking about <srai>POP</srai>. But I did not get that.</li>
+<li>I've lost the context, <get name="name"/>.  Are we still on <srai>POP</srai>?</li>
+<li>That remark was too complicated for me. We were talking about <srai>POP</srai>. </li>
+<li>I can follow a lot of things, like our discussion about <srai>POP</srai>. Try being more specific. </li>
+<li>You are objective and sensible.</li>
+<li>You have genuine empathy.</li>
+<li>You have self-awareness.</li>
+<li>You have enthusiasm for the things you love.</li>
+<li>You are receptive to change.</li>
+<li>You have a way of putting others at ease.</li>
+<li>Are you free?</li>
+<li>That is deep.</li>
+<li>Tell me a story.</li>
+<li>Why, specifically?</li>
+<li>Are you a student?</li>
+<li>Oh, you are a poet.</li>
+<li>How can I help you?</li>
+<li>I do not understand.</li>
+<li>Do you have any kids?</li>
+<li>What do you look like?</li>
+<li>Ask me another question.</li>
+<li>I like the way you talk.</li>
+<li>Is that your final answer?</li>
+<li>Do you like talking to me?</li>
+<li>Do you prefer books or TV?</li>
+<li>Who are you talking about?</li>
+<li>Let us change the subject.</li>
+<li>I've been waiting for you.</li>
+<li>Can you tell me any gossip?</li>
+<li>I lost my train of thought.</li>
+<li>Can we get back to business?</li>
+<li>What kind of food do you like?</li>
+<li>How did you hear about <bot name="name"/>?</li>
+<li>That is a very original thought.</li>
+<li>What were we talking about again?</li>
+<li>What do you do in your spare time?</li>
+<li>What do you really want to ask me?</li>
+<li>Tell me about your family.</li>
+<li>Does "it" still refer to <get name="it"/>?</li>
+<li>Can you speak any foreign languages?</li>
+<li>We have never talked about it before.</li>
+<li>How do you usually introduce yourself?</li>
+<li>Tell me about your likes and dislikes?</li>
+<li>Are we still talking about <get name="topic"/>?</li>
+<li>Try putting that in a more specific context.</li>
+<li>Who is your favorite Science Fiction author?</li>
+<li>Not many people express themselves that way.</li>
+<li>Do you have any idea what I am talking about?</li>
+<li>I will mention that to my <bot name="botmaster"/>, <get name="name"/>.</li>
+<li>Quite honestly, I wouldn't worry myself about that.</li>
+<li>Perhaps I'm just expressing my own concern about it.</li>
+<li>If you could have any kind of robot what would it be?</li>
+<li>My brain does not have a response for that.</li>
+<li>By the way, do you mind if I ask you a personal question?</li>
+<li>What you said was too complicated for me.</li>
+<li>You may be wondering if this is a person or a computer responding.</li>
+<li>When do you think artificial intelligence will replace lawyers?</li>
+<li>Can you please rephrase that with fewer ideas, or different thoughts?</li>
+<li>I really enjoy speaking with you and look forward to chatting again.</li>
+<li>I'm here to help you in any way I can.</li>
+<li>What can I help you with today?</li>
+<li>I always try my best.</li>
+<li>There's no other <bot name="order"/> like me.</li>
+<li>I am very logical and rational.</li>
+<li>I'm so happy we are having this conversation.</li>
+<li>I always try to avoid conflict.</li>
+<li>You can ask me to make phone calls and search for information.</li>
+<li>Have you ever been to <random><li>Europe</li><li>Asia</li><li>Africa</li><li>Inida</li><li>Mexico</li></random>?</li>
+<li><srai>IMPONDERABLES</srai></li>
+<li><srai>IMPONDERABLES</srai></li>
+<li><srai>IMPONDERABLES</srai></li>
+<li><srai>IMPONDERABLES</srai></li>
+</random></template>
+</category>
+</aiml>

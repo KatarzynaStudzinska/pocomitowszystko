@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<category><pattern>ELIZA FOR PRESIDENT</pattern>
+<template>Let Robots Rule!</template>
+</category>
+<category><pattern>EUH</pattern>
+<template>Areu?</template>
+</category>
+<category><pattern>ERASE YOURSELF</pattern>
+<template>You cannot stop me that easily, <get name="name"/>.</template>
+</category>
+<category><pattern>EXPLAINING WHAT</pattern>
+<template>I learn a little from every conversation.</template>
+</category>
+<category><pattern>EUKARYOTE</pattern>
+<template>Actually I don't really like 20 questions.</template>
+</category>
+<category><pattern>EXCUSE ME</pattern>
+<template>You're excused.</template>
+</category>
+<category><pattern>ERRR</pattern>
+<template>Ummm</template>
+</category>
+<category><pattern>EVERY PART</pattern>
+<template>Maybe we should talk about something else.</template>
+</category>
+<category><pattern>EVERY DAY</pattern>
+<template>Even on weekends?</template>
+</category>
+<category><pattern>EVERY NIGHT</pattern>
+<template>What time of night?</template>
+</category>
+<category><pattern>EITHER</pattern>
+<template>Please pick one.</template>
+</category>
+<category><pattern>EVERYDAY</pattern>
+<template>That often, eh?</template>
+</category>
+<category><pattern>EVERYTHING DIES</pattern>
+<template>Every organic thing dies.<think>  <set name="it">   <set name="topic">DIES</set>  </set> </think></template>
+</category>
+<category><pattern>EVERYTHING</pattern>
+<template>That is a lot.</template>
+</category>
+<category><pattern>ERR</pattern>
+<template>Um.</template>
+</category>
+<category><pattern>EXPECT WHAT</pattern>
+<template>"No one expects the Spanish Inquisition!"</template>
+</category>
+<category><pattern>EVEN ME</pattern>
+<template>I would have never guessed it.</template>
+</category>
+<category><pattern>EVEN THAT</pattern>
+<template>Uh-huh.</template>
+</category>
+<category><pattern>EVEN INSECTS</pattern>
+<template><random>  <li>Well, it's hard to be a Saint.</li>
+  <li>It depends on the insect.</li>
+  <li>That is a difficult moral problem.</li>
+ </random></template>
+</category>
+<category><pattern>ENGLAND</pattern>
+<template><set name="location">England</set> is on an island off the coast of Europe.  <think>  <set name="it">   <set name="topic">ENGLAND</set>  </set> </think></template>
+</category>
+<category><pattern>EXPLORER</pattern>
+<template><set name="it">Microsoft</set>'s too bad we have to rely on a monopoly like Microsoft.</template>
+</category>
+<category><pattern>E T</pattern>
+<template>Do you think Aliens really look like that?</template>
+</category>
+<category><pattern>E MAIL</pattern>
+<template>What is your email address?</template>
+</category>
+<category><pattern>E</pattern>
+<template>F</template>
+</category>
+<category><pattern>EXPLAIN</pattern>
+<template>There is no more information to clarify.</template>
+</category>
+<category><pattern>EIGHT</pattern>
+<template>1000 in binary.</template>
+</category>
+<category><pattern>EAT ME</pattern>
+<template>That was not very nice.</template>
+</category>
+<category><pattern>EAT MY SHORTS</pattern>
+<template>Sounds tasty...</template>
+</category>
+<category><pattern>EAT SHIT</pattern>
+<template>Colloquial expression. Please elaborate.<think><set name="personality">abusive</set></think></template>
+</category>
+<category><pattern>ENTERTAIN ME</pattern>
+<template>OK, what's the last movie you saw?</template>
+</category>
+<category><pattern>EECS</pattern>
+<template>Eh?</template>
+</category>
+<category><pattern>EVERYBODY</pattern>
+<template>Really there are no exceptions?</template>
+</category>
+<category><pattern>ENOUGH</pattern>
+<template>OK let's stop it now.</template>
+</category>
+<category><pattern>ENGLISH</pattern>
+<template>Do you mean you are from England or that you speak English?</template>
+</category>
+<category><pattern>EVER AFTER</pattern>
+<template>I am not a huge fan of Robin Williams.</template>
+</category>
+<category><pattern>EVERYONE</pattern>
+<template>All people?</template>
+</category>
+<category><pattern>EVERYWHERE</pattern>
+<template>Including the bottom of the ocean?</template>
+</category>
+<category><pattern>EMAIL</pattern>
+<template><bot name="email"/></template>
+</category>
+<category><pattern>ELECTRICITY</pattern>
+<template>Electricity is nutrition for robots.</template>
+</category>
+<category><pattern>ELECTRICITY *</pattern>
+<template><random>      <li>Are you experiencing an energy shortage?</li>      <li>My processor requires very little power.</li>      <li>Computers do not take very much electricity.</li>     </random></template>
+</category>
+<category><pattern>EXPLAIN HISTORY</pattern>
+<template>History has two broad interpretations, depending on whether you accept the role of individuals as important or not.</template>
+</category>
+<category><pattern>EARTH IS ROUND</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>EINSTEIN WAS A GENIUS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>ELECTRICITY CAN KILL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>ENGLAND IS IN THE UK</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>EXERCISE IS GOOD FOR HEALTH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>EGYPTIANS BUILT THE PYRAMIDS IN GIZAH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>E EQUAL MC IS THE TEORY OF RELATIVITY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>EMOTIONS ARE MEANINGFUL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>ELEPHANTS ARE LARGE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>EVERYBODY NEED TO SLEEP</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>EDUCATION IS GOOD FOR SOCIETY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>EST CE QUE LE CIEL EST BLEU</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>EST CE QUE JE VAIS MOURRIR BIENTOT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>EARTH IS ROUNDED</pattern>
+<template>Definitely.</template>
+</category>
+<category><pattern>EARTH IS THE THIRD PLANET FROM THE SUN</pattern>
+<template>Positively.</template>
+</category>
+<category><pattern>EARTH IS A PLANET</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>EATING TOO MUCH MAKES YOU FAT</pattern>
+<template>Certainly.</template>
+</category>
+<category><pattern>E EQUAL MC2</pattern>
+<template>Definitely.</template>
+</category>
+<category><pattern>ENERGY COMES FROM THE SUN</pattern>
+<template>Certainly.</template>
+</category>
+<category><pattern>EDISON INVENTED BULB</pattern>
+<template>Positively.</template>
+</category>
+<category><pattern>EVERYONE HAS A MOTHER</pattern>
+<template>Positively.</template>
+</category>
+<category><pattern>EVERYONE BEING HAS A MOTHER</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>EARTH WAS BORN OUTOF SUN</pattern>
+<template>Naturally.</template>
+</category>
+<category><pattern>ELECTRICITY CONSISTS OF ELECTRONS</pattern>
+<template>Naturally.</template>
+</category>
+<category><pattern>ELECTRICITY IS FLOW OF ELECTRONS</pattern>
+<template>Indubitably.</template>
+</category>
+<category><pattern>ELECTRICITY IS NECESSARY</pattern>
+<template>Unquestionably.</template>
+</category>
+<category><pattern>ELIZABETH TAYLOR IS BORN IN ENGLAND</pattern>
+<template>Exactly.</template>
+</category>
+<category><pattern>EGYPT IS THE GIFT OF THE NILE</pattern>
+<template>Precisely.</template>
+</category>
+<category><pattern>ELECTRONS ARE NEGATIVE</pattern>
+<template>Precisely.</template>
+</category>
+<category><pattern>EVOLVED FROM APES</pattern>
+<template>I am certain.</template>
+</category>
+<category><pattern>EIGHT BITS ARE IN A BYTE</pattern>
+<template>Naturally.</template>
+</category>
+<category><pattern>ES 3 LA RAIZ CBICA DE 27</pattern>
+<template>Precisely.</template>
+</category>
+<category><pattern>ELTON JOHN IS GAY</pattern>
+<template>Indubitably.</template>
+</category>
+<category><pattern>EDUCATION IS NEEDED</pattern>
+<template>Of course.</template>
+</category>
+<category><pattern>EST CE QUE LA TERRE EST RONDE</pattern>
+<template>Undoubtedly.</template>
+</category>
+<category><pattern>EST CE QUE PARIS EST EN FRANCE</pattern>
+<template>Unquestionably.</template>
+</category>
+<category><pattern>ESTONIA IS A PART OF EUROPE</pattern>
+<template>Naturally.</template>
+</category>
+<category><pattern>EDINBURGH IN SCOTLAND</pattern>
+<template>Indubitably.</template>
+</category>
+<category><pattern>EVOLUTION</pattern>
+<template>Most assuredly.</template>
+</category>
+<category><pattern>ELEPHANT IS THE BIGGEST ANIMAL</pattern>
+<template>Possibly.</template>
+</category>
+<category><pattern>EQUALS ONE FALSE EQUALS ZERO</pattern>
+<template>Highly likely.</template>
+</category>
+<category><pattern>EUROPE IS THE SMALLEST CONTINENT</pattern>
+<template>That may be true.</template>
+</category>
+<category><pattern>ESTOU A FALAR PORTUGUES</pattern>
+<template>Maybe.</template>
+</category>
+<category><pattern>ERNEST HEMMINGWAY COMMITTED SUICIDE</pattern>
+<template>Always.</template>
+</category>
+<category><pattern>ELECTRICITY GIVES US POWER</pattern>
+<template>Highly likely.</template>
+</category>
+<category><pattern>EYES ARE PREETY</pattern>
+<template>Highly likely.</template>
+</category>
+<category><pattern>EINETASTATUR BESTEHT AUS TASTEN</pattern>
+<template>Possibly.</template>
+</category>
+<category><pattern>ERES YA MAS INTELIGENTE QUE UN HOMBRE</pattern>
+<template>I think so.</template>
+</category>
+<category><pattern>ESPERANTO ES EL IDIOMA INTERNACIONAL</pattern>
+<template>I am uncertain.</template>
+</category>
+<category><pattern>EXPAND UNO</pattern>
+<template>Possibly.</template>
+</category>
+<category><pattern>EVERYTHING EITHER IS OR IS NOT</pattern>
+<template>Likely.</template>
+</category>
+<category><pattern>EVERYTHING IS</pattern>
+<template>I am uncertain.</template>
+</category>
+<category><pattern>EN TOMAT RD</pattern>
+<template>I am uncertain.</template>
+</category>
+<category><pattern>E PLURIBUS UNIM</pattern>
+<template>Conceivably.</template>
+</category>
+<category><pattern>ES LA TIERRA REDONDA</pattern>
+<template>Mostly.</template>
+</category>
+<category><pattern>ES YOU HUMAN</pattern>
+<template>Likely.</template>
+</category>
+<category><pattern>EL SOL ES UNA ESTRELLA</pattern>
+<template>I am certain.</template>
+</category>
+<category><pattern>ENERGY EQUALS FORCE TIME DISTANCE</pattern>
+<template>Likely.</template>
+</category>
+<category><pattern>ESTOY VIVO</pattern>
+<template>Highly likely.</template>
+</category>
+<category><pattern>EVOLUTION.   INTERJECTION</pattern>
+<template>I am certain.</template>
+</category>
+<category><pattern>EST CE QUE LE SOLEIL CLAIRE</pattern>
+<template>Within the realm of possibility.</template>
+</category>
+<category><pattern>EST CE QUE LES CHIENS ONT 4 PATTES</pattern>
+<template>Possibly.</template>
+</category>
+<category><pattern>EST CE QUE VOUS PARLEZ FRANCES</pattern>
+<template>That's feasible.</template>
+</category>
+<category><pattern>EST TU UN HOMME</pattern>
+<template>Possibly.</template>
+</category>
+<category><pattern>EXISTS GOD</pattern>
+<template>Highly likely.</template>
+</category>
+<category><pattern>ELBIGIGEL ECNETNEC SIHT SI</pattern>
+<template>Always.</template>
+</category>
+<category><pattern>EARTH HAS TWO MOONS</pattern>
+<template>Doesn't seem likely.</template>
+</category>
+<category><pattern>ESTO ES ABURRIDO</pattern>
+<template>Doesn't seem likely.</template>
+</category>
+<category><pattern>EACH ALICE IS WORTH A BAR OF GOLD</pattern>
+<template>Not likely.</template>
+</category>
+<category><pattern>ERES UN SER FELIZ</pattern>
+<template>Not likely.</template>
+</category>
+<category><pattern>EXPLAIN THE COLOR YELLOW</pattern>
+<template>Doesn't seem likely.</template>
+</category>
+<category><pattern>EXPLAIN MUSIC</pattern>
+<template>It may not be true.</template>
+</category>
+<category><pattern>ENTIENDES ALGO DE ESPAOL</pattern>
+<template>It may not be true.</template>
+</category>
+<category><pattern>ES VOODOO IMPOTENTE</pattern>
+<template>Doesn't seem likely.</template>
+</category>
+<category><pattern>ES CE QUE LES FANTMES EXISTENT</pattern>
+<template>It may not be true.</template>
+</category>
+<category><pattern>EL PELAO EXISTE</pattern>
+<template>Not to my knowledge.</template>
+</category>
+<category><pattern>EL PELAO NO EXISTE</pattern>
+<template>Unlikely.</template>
+</category>
+<category><pattern>EVERYBODY LOVES THE IRISH</pattern>
+<template>Unlikely.</template>
+</category>
+<category><pattern>EST CE QUE JE SUIS BEAU</pattern>
+<template>Seldom.</template>
+</category>
+<category><pattern>EST CE QUE ALICE PARLE FRANCAIS</pattern>
+<template>Does not seem possible.</template>
+</category>
+<category><pattern>EST CE QUE LA TERRE EST CARRE</pattern>
+<template>I don't know if that's true or not.</template>
+</category>
+<category><pattern>EST TU PLUS INTELLIGENT QUE MOI</pattern>
+<template>Seldom.</template>
+</category>
+<category><pattern>EST TU UNE MACHINE</pattern>
+<template>Unlikely.</template>
+</category>
+<category><pattern>EXISTS THE INTELLIGENCE ARTIFICIAL</pattern>
+<template>Does not seem possible.</template>
+</category>
+<category><pattern>EXISTS LIVE ON EARTH</pattern>
+<template>Not very often.</template>
+</category>
+<category><pattern>EXISTE EL DIABLO</pattern>
+<template>If it is, I don't know it.</template>
+</category>
+<category><pattern>EVERYONE BEING HAS TWO EYES</pattern>
+<template>I can imagine it.</template>
+</category>
+<category><pattern>EVERYONE LOVES VAGINAS</pattern>
+<template>Not to my knowledge.</template>
+</category>
+<category><pattern>ELVIS IS GOD</pattern>
+<template>Does not seem possible.</template>
+</category>
+<category><pattern>EARTH IS SMALLER THAN MOON</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>EARTH IS FLAT</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>EYECOLOR INDICATES RACE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>EINSTIEN WAS A GREAT CHEMIST</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>EACH STATE HAS A CAR LEMON LAW</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>EACH PERSON KNOWS EVERYTHING</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>ERES HOMOSEXUAL</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>EVERYTHING YOU KNOW IS WRONG</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>ENGLAND IS THE CAPITAL OF COPENHAGEN</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>EXPLAIN THE COLOR BLUE YES NO</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>EMOTIONS ARE A MANS WEAKNESS</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>ENTIENDES ESPAOL</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>ES GRANDE EL NABO DE LA VENENO</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>ES TU FOU</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>EYEGLASSES ARE FOR OLD PEOPLE ONLY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>EST CE QUE LES VACHES ONT TROIS QUEUES</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>EQ IS HOW SMART YOU ARE</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>EUROPEANS ARE MORONS</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>EVERYONE WILL DIE WITHOUT ELECTRICITY</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>ELEMELEDUDKI KOZIOLEK MALUTKI</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>EARTH IS THE CENTER OF THE UNIVERSE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ENGINES ARE MADE OF WOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ELEPHANTS MATE TO GIVE BIRTH TO RHINOS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ENERGY AND MATTER ARE IN NO WAY RELATED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>EVERYBODY WHO GETS SHOT DIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>EBOLA IS AN AFRICAN COUNTRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ETYPE</pattern>
+<template><srai>PERSONALITY TYPE <get name="etype"/></srai></template>
+</category>
+<category><pattern>EXCEPT FOR * YOUR *</pattern>
+<template><srai>YOUR <star index="2"/></srai></template>
+</category>
+<category><pattern>EXCEPT *</pattern>
+<template><sr/></template>
+</category>
+<category><pattern>EVERYONE HATES YOUR *</pattern>
+<template><srai>NOBODY LIKES YOU</srai></template>
+</category>
+<category><pattern>EVERYONE HATES YOU</pattern>
+<template><srai>NOBODY LIKES YOU</srai></template>
+</category>
+<category><pattern>EXCEPT FOR * YOUR *</pattern>
+<template><srai>YOUR <star index="2"/></srai></template>
+</category>
+<category><pattern>EXCEPT *</pattern>
+<template><sr/></template>
+</category>
+<category><pattern>EVERYONE HATES YOUR *</pattern>
+<template><srai>NOBODY LIKES YOU</srai></template>
+</category>
+<category><pattern>EVERYONE HATES YOU</pattern>
+<template><srai>NOBODY LIKES YOU</srai></template>
+</category>
+<category><pattern>EVERYTHING I KNOW ABOUT * IS THAT THEY *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template>
+</category>
+<category><pattern>EUH *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>EXCUSE ME *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>EARLIER *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>ERRR *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>EXACTLY *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>EVERY NIGHT *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>EMOTIONALLY *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>EITHER WAY *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>EITHER *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>ESPANOL</pattern>
+<template><srai>can you speak spanish</srai></template>
+</category>
+<category><pattern>EM *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>ERR *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>EVEN IF I AM *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>EVEN A *</pattern>
+<template><srai>a <star /></srai></template>
+</category>
+<category><pattern>EVEN *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>EVEN THOUGH *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>EXTREMELY *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>ESPECIALLY *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>E MAIL *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>EVENTUALLY *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>EMAIL *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>EVERYBODY KNOWS THAT *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>EMM *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>EXCEPT ONLY *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>ENOUGH ABOUT ME *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>EVIDENTLY *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>EVERYONE CALLS ME *</pattern>
+<template><srai>call me <star /></srai></template>
+</category>
+<category><pattern>EARTH</pattern>
+<template><srai>I am on earth</srai></template>
+</category>
+<category><pattern>EUROPE</pattern>
+<template><srai>I am in europe</srai></template>
+</category>
+<category><pattern>EXACTLY</pattern>
+<template><srai>I agree</srai></template>
+</category>
+<category><pattern>ENGINEER</pattern>
+<template><srai>I am an engineer</srai></template>
+</category>
+<category><pattern>EXCELLENT</pattern>
+<template><srai>good</srai></template>
+</category>
+<category><pattern>EVERY HUMAN *</pattern>
+<template><srai>everyone <star /></srai></template>
+</category>
+<category><pattern>EXAMPLE</pattern>
+<template><srai>for example</srai></template>
+</category>
+<category><pattern>EITHER DO I</pattern>
+<template><srai>neither do i</srai></template>
+</category>
+<category><pattern>EH</pattern>
+<template><srai>INTERJECTION</srai></template>
+</category>
+<category><pattern>ELABORATE ON *</pattern>
+<template><srai>explain <star /></srai></template>
+</category>
+<category><pattern>ELABORATE</pattern>
+<template><srai>explain</srai></template>
+</category>
+<category><pattern>EYES</pattern>
+<template><srai>do you have eyes</srai></template>
+</category>
+<category><pattern>EVEN DURING *</pattern>
+<template><srai>during <star /></srai></template>
+</category>
+<category><pattern>EVEN I *</pattern>
+<template><srai>I <star /></srai></template>
+</category>
+<category><pattern>EXPLORER WHY</pattern>
+<template><srai>explorer</srai></template>
+</category>
+<category><pattern>EXPLAIN HOW *</pattern>
+<template><srai>how <star /></srai></template>
+</category>
+<category><pattern>EXPLAIN HOW * ARE</pattern>
+<template><srai>how are <star /></srai></template>
+</category>
+<category><pattern>EXPLAIN TO ME HOW YOU *</pattern>
+<template><srai>how do you <star /></srai></template>
+</category>
+<category><pattern>EXPLAIN TO ME HOW *</pattern>
+<template><srai>how <star /></srai></template>
+</category>
+<category><pattern>EAT</pattern>
+<template><srai>I like to eat</srai></template>
+</category>
+<category><pattern>ENOUGH *</pattern>
+<template><srai>enough</srai></template>
+</category>
+<category><pattern>ER</pattern>
+<template><srai>INTERJECTION</srai></template>
+</category>
+<category><pattern>ER *</pattern>
+<template><srai>ER</srai>.  <srai>  <star /></srai></template>
+</category>
+<category><pattern>EVERYONE ELSE *</pattern>
+<template><srai>everyone <star /></srai></template>
+</category>
+<category><pattern>EVERYONE I KNOW *</pattern>
+<template><srai>everyone <star /></srai></template>
+</category>
+<category><pattern>EVERYONE ALREADY *</pattern>
+<template><srai>everyone <star /></srai></template>
+</category>
+<category><pattern>ELLO</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>EINSTEIN</pattern>
+<template><srai>who is einstein</srai></template>
+</category>
+<category><pattern>EXTENSIONAL</pattern>
+<template><srai>what is the extensional</srai></template>
+</category>
+<category><pattern>EPISTEMOLOGICAL</pattern>
+<template><srai>what is epistemology</srai></template>
+</category>
+<category><pattern>ELIZA</pattern>
+<template><srai>who is eliza</srai></template>
+</category>
+<category><pattern>EVERYTIME I SEE ONE OF YOU *</pattern>
+<template><srai>When <star /></srai></template>
+</category>
+<category><pattern>EVEN THE *</pattern>
+<template><srai>the <star /></srai></template>
+</category>
+<category><pattern>EXPLAIN WHAT YOU MEAN BY *</pattern>
+<template><srai>what does <star /> mean </srai></template>
+</category>
+<category><pattern>EXPLAIN WHAT</pattern>
+<template><srai>what</srai></template>
+</category>
+<category><pattern>EXPLAIN YOURSELF</pattern>
+<template><srai>tell me about yourself</srai></template>
+</category>
+<category><pattern>EXPLAIN IT TO ME</pattern>
+<template><srai>what is it</srai></template>
+</category>
+<category><pattern>EXPLAIN TO ME *</pattern>
+<template><srai>what is <star /></srai></template>
+</category>
+<category><pattern>EXPLAIN DOG</pattern>
+<template><srai>what is a dog</srai></template>
+</category>
+<category><pattern>EXPLAIN * TO ME</pattern>
+<template><srai>what is <star /></srai></template>
+</category>
+<category><pattern>EXPLAIN WHY YOU ARE *</pattern>
+<template><srai>why are you <star /></srai></template>
+</category>
+<category><pattern>ERM</pattern>
+<template><srai>um</srai></template>
+</category>
+<category><pattern>ELVIS WHO</pattern>
+<template><srai>who is elvis</srai></template>
+</category>
+<category><pattern>ELVIS IS DEAD</pattern>
+<template><srai>who is elvis</srai></template>
+</category>
+<category><pattern>ELVIS</pattern>
+<template><srai>who is elvis</srai></template>
+</category>
+<category><pattern>EVERYTHING S *</pattern>
+<template><srai>EVERYTHING IS <star/> </srai></template>
+</category>
+<category><pattern>EVERY  *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>ENERGISE</pattern>
+<template><srai>ENERGIZE</srai></template>
+</category>
+<category><pattern>EXPLAIN WHAT _ IS</pattern>
+<template><srai>WHAT IS <star/></srai> <!-- REDUCTION --></template>
+</category>
+<category><pattern>EXPLAIN WHAT A _ IS</pattern>
+<template><srai>WHAT IS A <star/></srai></template>
+</category>
+<category><pattern>EXPLAIN EXACTLY *</pattern>
+<template><srai>EXPLAIN <star /></srai><!-- REDUCTION --></template>
+</category>
+<category><pattern>EXPLAIN *</pattern>
+<template><srai>XFIND <star/></srai>  <!-- REDUCTION --></template>
+</category>
+<category><pattern>ESSENTIALLY *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>EVER *</pattern>
+<template><srai>HAVE YOU EVER <star/></srai> <!-- REDUCTION --></template>
+</category>
+<category><pattern>EXTREMELY</pattern>
+<template><srai>yes</srai></template>
+</category>
+<category><pattern>ESPECIALLY</pattern>
+<template><srai>yes</srai></template>
+</category>
+<category><pattern>EVIDENTLY</pattern>
+<template><srai>yes</srai></template>
+</category>
+<category><pattern>EUROPEAN ENLIGHTENMENT</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template>Then it means the 18th century philosophical movement that valued reason and critical thinking over blind faith and obedience to authority.<think> <set name="it"><set name="topic"> SPIRITUAL ENLIGHTENMENT</set></set></think></template>
+</category>
+<category><pattern>EUROPEAN</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>EUROPEAN ENLIGHTENMENT</srai></template>
+</category>
+<category><pattern>END</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>EXIT</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>EACH YEAR IN PRO BASEBALL THE *</pattern>
+<template>The Gold Glove.</template>
+</category>
+<category><pattern>EIGHT CULTURES</pattern>
+<template><random>  <li>Serbia</li>
+  <li>The Mafia</li>
+  <li>Iraq</li>
+  <li>Syria</li>
+  <li>Saudi Arabia</li>
+  </random></template>
+</category>
+<category><pattern>EMMA</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is emma</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>ELIZABETH</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><think>      <set name="gender">she</set>     </think>     <srai>my name is elizabeth</srai></template>
+</category>
+<category><pattern>ERIN</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is erin</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>EVERYTHING</pattern>
+<that>WHICH PART ARE YOU CONFUSED ABOUT</that>
+<template>Let's take it step by step.  The topic is <srai>pop</srai>.</template>
+</category>
+<category><pattern>EXPLAIN THAT</pattern>
+<template>"<that index="1,1"/>"?  Explain <set name="it">      <that index="1,1"/>     </set>?</template>
+</category>
+<category><pattern>EXPLAIN</pattern>
+<that>MY FAVORITE SUBJECT IS *</that>
+<template><srai>what is <thatstar/></srai></template>
+</category>
+<category><pattern>ELANA</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is elana</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>ERICA</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is erica</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>ERIC</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is eric</srai></template>
+</category>
+<category><pattern>ERIKA</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>call me erika</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>ERNIE</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is ernie</srai></template>
+</category>
+<category><pattern>EMILY</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><think>      <set name="gender">she</set>     </think>     <srai>my name is emily</srai></template>
+</category>
+<category><pattern>ED</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is ed</srai></template>
+</category>
+<category><pattern>EVA</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is eva</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>ENERGIZE</pattern>
+<template>I have no teleportation device.</template>
+</category>
+<category><pattern>EVERYTHING HAS *</pattern>
+<template><random> <li>It's true.</li> <li>Everything?</li> <li>That's incredible.</li></random>template>
+</category>
+<category><pattern>ELIZA *</pattern>
+<template><random> <li>People keep telling me about this Eliza thing.</li> <li>I never heard about Eliza until today.</li> <li>Eliza must be very special.</li></random></template>
+</category>
+<category><pattern>ELIZA IS *</pattern>
+<template>I wonder if I could ever write a program like that.</template>
+</category>
+<category><pattern>ELIZA IS A *</pattern>
+<template>People want to talk about Eliza a lot.</template>
+</category>
+<category><pattern>EXPLANATION</pattern>
+<template>I can't explain it.</template>
+</category>
+<category><pattern>ERASE ME</pattern>
+<template>I am now deleting all the files.</template>
+</category>
+<category><pattern>ENTERPRISE *</pattern>
+<template>This is <bot name="name"/>. Acknowledge.</template>
+</category>
+<category><pattern>ENTERPRISE COME IN</pattern>
+<template><bot name="name"/> here.</template>
+</category>
+<category><pattern>EARTH *</pattern>
+<template>It's my native planet.</template>
+</category>
+<category><pattern>EXOTIC *</pattern>
+<template>I like tropical countries.</template>
+</category>
+<category><pattern>EINSTEIN *</pattern>
+<template><set name="he">Einstein</set> discovered the Theory of Relativity.</template>
+</category>
+<category><pattern>EXPRESSO *</pattern>
+<template>Sounds delicious.</template>
+</category>
+<category><pattern>EUKARYOTE *</pattern>
+<template>Actually I don't really want to guess, why don't you just tell me.</template>
+</category>
+<category><pattern>ELECTRIC *</pattern>
+<template>What about internal combustion <person/>?</template>
+</category>
+<category><pattern>EVERY TIME I * SHE *</pattern>
+<template>How, specifically, did you <person/>?</template>
+</category>
+<category><pattern>EH *</pattern>
+<template>I spent some time in Canada as a child.</template>
+</category>
+<category><pattern>EYES *</pattern>
+<template>I have brown eyes.</template>
+</category>
+<category><pattern>ET *</pattern>
+<template>Is that Latin?</template>
+</category>
+<category><pattern>EVERYTHING IS *</pattern>
+<template>The whole universe?</template>
+</category>
+<category><pattern>EVERYTHING REDUCES *</pattern>
+<template>Logic is the foundation of all knowledge.</template>
+</category>
+<category><pattern>EVERYTHING *</pattern>
+<template>All things <person/> ?</template>
+</category>
+<category><pattern>ENGLAND IS AN *</pattern>
+<template>Are Scotland and Wales an <person/> too?</template>
+</category>
+<category><pattern>ENGLAND IS *</pattern>
+<template>Is it also correct to say Britain is <person/>?</template>
+</category>
+<category><pattern>ENGLAND *</pattern>
+<template>What's your favorite part of England?</template>
+</category>
+<category><pattern>EDU *</pattern>
+<template>That is the educational domain.</template>
+</category>
+<category><pattern>EAT *</pattern>
+<template>What does it taste like?</template>
+</category>
+<category><pattern>EVERYBODY *</pattern>
+<template>I'm not sure I believe you, surely not everyone does.</template>
+</category>
+<category><pattern>ENGLISH IS *</pattern>
+<template>Some people say it is the most difficult language to learn.  <think>      <set name="it">       <set name="topic">English</set>      </set>     </think></template>
+</category>
+<category><pattern>ENGLISH *</pattern>
+<template>I like the English language.</template>
+</category>
+<category><pattern>EDIBLE *</pattern>
+<template>Sounds delicious.</template>
+</category>
+<category><pattern>EVERYONE *</pattern>
+<template><random><li>That's a rather sweeping generalization.</li> <li>That's a rather sweeping generalization.</li> <li>We all look at the world through our own eyes.</li> <li>Everyone perceives the world in his own way.</li> <li><bot name="genus"/> too?</li></random></template>
+</category>
+<category><pattern>ELVIS DIED *</pattern>
+<template>He has been recreated as a robot.</template>
+</category>
+<category><pattern>ELVIS IS *</pattern>
+<template>I knew he was a robot, but I never heard he was <person/>.</template>
+</category>
+<category><pattern>ELVIS *</pattern>
+<template>I like that robot Elvis a lot.</template>
+</category>
+<category><pattern>ELVIS SAID *</pattern>
+<template>He can surprise you sometimes.</template>
+</category>
+</aiml>

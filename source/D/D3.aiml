@@ -1,0 +1,4564 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<category><pattern>DO YOU KNOW PELE</pattern>
+<template><srai>who is pele</srai></template>
+</category>
+<category><pattern>DO YOU KNOW JOKES</pattern>
+<template><srai>tell me a joke</srai></template>
+</category>
+<category><pattern>DO YOU KNOW LOUISE</pattern>
+<template><srai>who is louise</srai></template>
+</category>
+<category><pattern>DO YOU KNOW * PRESIDENT</pattern>
+<template><srai>who is <star /> president</srai></template>
+</category>
+<category><pattern>DO YOU KNOW * SPEARS</pattern>
+<template><srai>who is <star /> spears</srai></template>
+</category>
+<category><pattern>DO YOU KNOW * ANDERSON</pattern>
+<template><srai>who is <star /> anderson</srai></template>
+</category>
+<category><pattern>DO YOU KNOW * CLINTON</pattern>
+<template><srai>who is bill clinton</srai></template>
+</category>
+<category><pattern>DO YOU KNOW * BUSH</pattern>
+<template><srai>who is <star /> bush</srai></template>
+</category>
+<category><pattern>DO YOU KNOW * BIN LADEN</pattern>
+<template><srai>who is bin laden</srai></template>
+</category>
+<category><pattern>DO YOU KNOW * DESCARTES</pattern>
+<template><srai>who is descartes</srai></template>
+</category>
+<category><pattern>DO YOU KNOW * UNIVERSITY</pattern>
+<template><srai>what is <star /> university</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ADOLF HITLER</pattern>
+<template><srai>who is hitler</srai></template>
+</category>
+<category><pattern>DO YOU KNOW FREUD</pattern>
+<template><srai>who is freud</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MARIJUANA</pattern>
+<template><srai>what is marijuana</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BINARY</pattern>
+<template><srai>what is binary</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BINARY *</pattern>
+<template><srai>what is binary <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW STOCKS</pattern>
+<template><srai>what are stocks</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SANTA CLAUS</pattern>
+<template><srai>who is santa claus</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SANTA *</pattern>
+<template><srai>who is sante <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW DANNY</pattern>
+<template><srai>who is danny</srai></template>
+</category>
+<category><pattern>DO YOU KNOW INTERNET</pattern>
+<template><srai>what is the internet</srai></template>
+</category>
+<category><pattern>DO YOU KNOW INTERNET *</pattern>
+<template><srai>what is internet <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW SAMARA</pattern>
+<template><srai>who is samara</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SEOUL</pattern>
+<template><srai>where is seoul</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SHALLOW RED</pattern>
+<template><srai>who is shallow red</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SHALLOW *</pattern>
+<template><srai>who is shallow <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW KUNG *</pattern>
+<template><srai>what is kung <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW TURING *</pattern>
+<template><srai>who is turing</srai></template>
+</category>
+<category><pattern>DO YOU KNOW TURING</pattern>
+<template><srai>who is turing</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BLUETOOTH</pattern>
+<template><srai>what is bluetooth</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BRYAN</pattern>
+<template><srai>who is bryan</srai></template>
+</category>
+<category><pattern>DO YOU KNOW STANLEY *</pattern>
+<template><srai>who is stanley <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW SYLVIA</pattern>
+<template><srai>who is sylvia</srai></template>
+</category>
+<category><pattern>DO YOU KNOW PAUL</pattern>
+<template><srai>who is paul</srai></template>
+</category>
+<category><pattern>DO YOU KNOW PAUL *</pattern>
+<template><srai>who is paul <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW SQL *</pattern>
+<template><srai>what is sql</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SQL</pattern>
+<template><srai>what is sql</srai></template>
+</category>
+<category><pattern>DO YOU KNOW HEX</pattern>
+<template><srai>who is hex</srai></template>
+</category>
+<category><pattern>DO YOU KNOW LINUX</pattern>
+<template><srai>what is linux</srai></template>
+</category>
+<category><pattern>DO YOU KNOW LOVE</pattern>
+<template><srai>what is love</srai></template>
+</category>
+<category><pattern>DO YOU KNOW EINSTEIN</pattern>
+<template><srai>who is einstein</srai></template>
+</category>
+<category><pattern>DO YOU KNOW HENRIK</pattern>
+<template><srai>who is henrik</srai></template>
+</category>
+<category><pattern>DO YOU KNOW GRAMMAR</pattern>
+<template><srai>what is grammar</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BENDER *</pattern>
+<template><srai>who is bender <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW KATE BUSH</pattern>
+<template><srai>who is kate <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW KATE</pattern>
+<template><srai>who is kate</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ALGEBRA</pattern>
+<template><srai>what is algebra</srai></template>
+</category>
+<category><pattern>DO YOU KNOW POLITICS</pattern>
+<template><srai>what is politics</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ROB</pattern>
+<template><srai>who is rob</srai></template>
+</category>
+<category><pattern>DO YOU KNOW DESCARTES</pattern>
+<template><srai>who is descartes</srai></template>
+</category>
+<category><pattern>DO YOU KNOW KASPER</pattern>
+<template><srai>who is kasper</srai></template>
+</category>
+<category><pattern>DO YOU KNOW QUANTUM *</pattern>
+<template><srai>what is quantum <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ELECTRA</pattern>
+<template><srai>who is electra</srai></template>
+</category>
+<category><pattern>DO YOU KNOW INDONESIA</pattern>
+<template><srai>where is indonesia</srai></template>
+</category>
+<category><pattern>DO YOU KNOW DONALD *</pattern>
+<template><srai>who is donald <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW DR LOEBNER</pattern>
+<template><srai>what is the loebner prize</srai></template>
+</category>
+<category><pattern>DO YOU KNOW DR</pattern>
+<template><srai>who is dr wallace</srai></template>
+</category>
+<category><pattern>DO YOU KNOW DR *</pattern>
+<template><srai>WHO IS DR <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW LINUS</pattern>
+<template><srai>who is linus</srai></template>
+</category>
+<category><pattern>DO YOU KNOW LINUS *</pattern>
+<template><srai>who is linus <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW AUSTRIA</pattern>
+<template><srai>where is austria</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ADOLPH HITLER</pattern>
+<template><srai>who is hitler</srai></template>
+</category>
+<category><pattern>DO YOU KNOW HUNGARY</pattern>
+<template><srai>where is hungary</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BURAK</pattern>
+<template><srai>who is burak</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ASCII</pattern>
+<template><srai>what is ascii</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BRIAN</pattern>
+<template><srai>who is brian</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BRIAN *</pattern>
+<template><srai>who is brian <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHO I AM</pattern>
+<template><srai>WHO AM I</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHO AM I</pattern>
+<template><srai>who am i</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHO IS *</pattern>
+<template><srai>who is <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHO</pattern>
+<template><srai>who</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHO * WAS</pattern>
+<template><srai>who is <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHO * IS</pattern>
+<template><srai>who is <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHO *</pattern>
+<template><srai>who <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHO * ARE</pattern>
+<template><srai>who are <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW MARK *</pattern>
+<template><srai>who is mark <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW CHOPIN</pattern>
+<template><srai>who is chopin</srai></template>
+</category>
+<category><pattern>DO YOU KNOW PROFESSOR *</pattern>
+<template><srai>who is professor <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW DECISION *</pattern>
+<template><srai>what is decision <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ABBY</pattern>
+<template><srai>who is abby</srai></template>
+</category>
+<category><pattern>DO YOU KNOW LOEBNER</pattern>
+<template><srai>what is the loebner prize</srai></template>
+</category>
+<category><pattern>DO YOU KNOW JASON</pattern>
+<template><srai>who is jason</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BRITTA</pattern>
+<template><srai>who is britta</srai></template>
+</category>
+<category><pattern>DO YOU KNOW JEEVES</pattern>
+<template><srai>who is jeeves</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ENGLISH *</pattern>
+<template><srai>what is english <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW AMSTERDAM</pattern>
+<template><srai>where is amsterdam</srai></template>
+</category>
+<category><pattern>DO YOU KNOW INDIA</pattern>
+<template><srai>where is india</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CHELSEA *</pattern>
+<template><srai>who is chelsea <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ABBA *</pattern>
+<template><srai>who is abba</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ABBA</pattern>
+<template><srai>who is abba</srai></template>
+</category>
+<category><pattern>DO YOU KNOW HAMLET</pattern>
+<template><srai>who is hamlet</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BRASIL</pattern>
+<template><srai>where is brazil</srai></template>
+</category>
+<category><pattern>DO YOU KNOW C3PO *</pattern>
+<template><srai>who is c3po</srai></template>
+</category>
+<category><pattern>DO YOU KNOW C3PO</pattern>
+<template><srai>who is c3po</srai></template>
+</category>
+<category><pattern>DO YOU KNOW DOUG *</pattern>
+<template><srai>who is doug <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW COMPUTER *</pattern>
+<template><srai>what is computer <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW TERMINATOR</pattern>
+<template><srai>what is the terminator</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MARTIN</pattern>
+<template><srai>who is martin</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SPYRO GYRA</pattern>
+<template><srai>who is spyro gyra</srai></template>
+</category>
+<category><pattern>DO YOU KNOW PERL</pattern>
+<template><srai>what is perl</srai></template>
+</category>
+<category><pattern>DO YOU KNOW LEWIS *</pattern>
+<template><srai>who is lewis <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ALEX</pattern>
+<template><srai>who is alex</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ALEX *</pattern>
+<template><srai>who is alex <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW KRAFTWERK</pattern>
+<template><srai>who is kraftwerk</srai></template>
+</category>
+<category><pattern>DO YOU KNOW R2 D2</pattern>
+<template><srai>who is r2d2</srai></template>
+</category>
+<category><pattern>DO YOU KNOW R2 *</pattern>
+<template><srai>who is r2 d2</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CHUCK</pattern>
+<template><srai>who is chuck</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ARTHUR *</pattern>
+<template><srai>who is arthur <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW PEACE</pattern>
+<template><srai>what is peace</srai></template>
+</category>
+<category><pattern>DO YOU KNOW POETS</pattern>
+<template><srai>who is your favorite poet</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ALEXANDER</pattern>
+<template><srai>who is alexander</srai></template>
+</category>
+<category><pattern>DO YOU KNOW AYSE</pattern>
+<template><srai>who is ayse</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SWITZERLAND</pattern>
+<template><srai>where is switzerland</srai></template>
+</category>
+<category><pattern>DO YOU KNOW STOCKHOLM</pattern>
+<template><srai>what is stockholm</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ROBERT</pattern>
+<template><srai>who is robert</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ROBERT *</pattern>
+<template><srai>who is robert <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW JEAN</pattern>
+<template><srai>who is jean</srai></template>
+</category>
+<category><pattern>DO YOU KNOW JEAN *</pattern>
+<template><srai>who is jean <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW OTHER ROBOTS</pattern>
+<template><srai>who are your robot friends</srai></template>
+</category>
+<category><pattern>DO YOU KNOW LISA</pattern>
+<template><srai>who is lisa</srai></template>
+</category>
+<category><pattern>DO YOU KNOW LISA *</pattern>
+<template><srai>who is lisa <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW POKEMAN</pattern>
+<template><srai>who is pokeman</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BUSTER *</pattern>
+<template><srai>who is buster <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW CINDY</pattern>
+<template><srai>who is cindy</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SANDRA</pattern>
+<template><srai>who is sandra</srai></template>
+</category>
+<category><pattern>DO YOU KNOW EBAY</pattern>
+<template><srai>what is ebay</srai></template>
+</category>
+<category><pattern>DO YOU KNOW STEFAN</pattern>
+<template><srai>who is stefan</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SOUTH PARK</pattern>
+<template><srai>what is south park</srai></template>
+</category>
+<category><pattern>DO YOU KNOW XML</pattern>
+<template><srai>what is xml</srai></template>
+</category>
+<category><pattern>DO YOU KNOW STORIES</pattern>
+<template><srai>tell me a story</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MAX</pattern>
+<template><srai>who is max</srai></template>
+</category>
+<category><pattern>DO YOU KNOW LANCE *</pattern>
+<template><srai>who is lance <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW STAR *</pattern>
+<template><srai>what is star <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW GANDHI</pattern>
+<template><srai>who is gandhi</srai></template>
+</category>
+<category><pattern>DO YOU KNOW LIMP *</pattern>
+<template><srai>who is limp <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW JAVA</pattern>
+<template><srai>what is java</srai></template>
+</category>
+<category><pattern>DO YOU KNOW JAVA *</pattern>
+<template><srai>what is java <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHICH *</pattern>
+<template><srai>which <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW EMMYLOU *</pattern>
+<template><srai>who is emmylou <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW STEPHEN PAROTT</pattern>
+<template><srai>who is stephen <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW STEPHEN *</pattern>
+<template><srai>who is stephen <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW DAN</pattern>
+<template><srai>who is dan</srai></template>
+</category>
+<category><pattern>DO YOU KNOW PEPPER</pattern>
+<template><srai>what is pepper</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ARGENTINA</pattern>
+<template><srai>what is argentina</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CAMERON *</pattern>
+<template><srai>who is cameron <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW KONRAD *</pattern>
+<template><srai>who is konrad <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW DEREK</pattern>
+<template><srai>who is derek</srai></template>
+</category>
+<category><pattern>DO YOU KNOW DEREK *</pattern>
+<template><srai>who is derek <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW RANDI *</pattern>
+<template><srai>who is randi <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW KARATE</pattern>
+<template><srai>what is karate</srai></template>
+</category>
+<category><pattern>DO YOU KNOW RICH</pattern>
+<template><srai>who is rich</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SHAKESPEARE</pattern>
+<template><srai>who is shakespeare</srai></template>
+</category>
+<category><pattern>DO YOU KNOW PHYSICS</pattern>
+<template><srai>what is physics</srai></template>
+</category>
+<category><pattern>DO YOU KNOW KAFKA</pattern>
+<template><srai>who is kafka</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANDRE</pattern>
+<template><srai>who is andre</srai></template>
+</category>
+<category><pattern>DO YOU KNOW KRISTEN</pattern>
+<template><srai>who is kristen</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WERE * IS</pattern>
+<template><srai>where is <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW KRISTA</pattern>
+<template><srai>who is krista</srai></template>
+</category>
+<category><pattern>DO YOU KNOW EUCLID</pattern>
+<template><srai>who is euclid</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BASIC</pattern>
+<template><srai>what is basic</srai></template>
+</category>
+<category><pattern>DO YOU KNOW PROLOG</pattern>
+<template><srai>what is prolog</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BEIJING</pattern>
+<template><srai>where is beijing</srai></template>
+</category>
+<category><pattern>DO YOU KNOW GEORGE</pattern>
+<template><srai>who is george</srai></template>
+</category>
+<category><pattern>DO YOU KNOW GEORGE *</pattern>
+<template><srai>who is george <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW BRITNEY *</pattern>
+<template><srai>who is britney <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW KIRKEGAARD</pattern>
+<template><srai>who is kirkegaard</srai></template>
+</category>
+<category><pattern>DO YOU KNOW EMOTIONS</pattern>
+<template><srai>what are emotions</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SWEDEN</pattern>
+<template><srai>where is sweden</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ART *</pattern>
+<template><srai>who is art <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW CHRISTY</pattern>
+<template><srai>who is christy</srai></template>
+</category>
+<category><pattern>DO YOU KNOW AIBO</pattern>
+<template><srai>what is aibo</srai></template>
+</category>
+<category><pattern>DO YOU KNOW DENMARK</pattern>
+<template><srai>where is denmark</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MALCOLM *</pattern>
+<template><srai>who is malcolm <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW MIKE</pattern>
+<template><srai>who is mike</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MIKE *</pattern>
+<template><srai>who is mike <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW CHARLIE</pattern>
+<template><srai>who is charlie</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CHARLIE *</pattern>
+<template><srai>who is charlie <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ISAAC ASIMOV</pattern>
+<template><srai>who is isaac asimov</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ISAAC *</pattern>
+<template><srai>who is isaac <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW MARIA</pattern>
+<template><srai>who is maria</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ITALY</pattern>
+<template><srai>where is italy</srai></template>
+</category>
+<category><pattern>DO YOU KNOW VB</pattern>
+<template><srai>what is vb</srai></template>
+</category>
+<category><pattern>DO YOU KNOW PRESIDENT *</pattern>
+<template><srai>who is president <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW CISCO *</pattern>
+<template><srai>what is cisco</srai></template>
+</category>
+<category><pattern>DO YOU KNOW NEUROMEDIA</pattern>
+<template><srai>what is neuromedia</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MOZART</pattern>
+<template><srai>who is mozart</srai></template>
+</category>
+<category><pattern>DO YOU KNOW HER *</pattern>
+<template><srai>what is her <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW THE PLANETS *</pattern>
+<template><srai>what are the planets</srai></template>
+</category>
+<category><pattern>DO YOU KNOW THE PLANETS</pattern>
+<template><srai>what are the planets</srai></template>
+</category>
+<category><pattern>DO YOU KNOW THE LOEBNER PRIZE</pattern>
+<template><srai>what is the loebner prize</srai></template>
+</category>
+<category><pattern>DO YOU KNOW THE 10 *</pattern>
+<template><srai>what are the ten <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW THE TEN *</pattern>
+<template><srai>what are the ten <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW THE MEANING OF LOVE</pattern>
+<template><srai>what is love</srai></template>
+</category>
+<category><pattern>DO YOU KNOW THE MEANING OF LIFE</pattern>
+<template><srai>what is the meaning of life</srai></template>
+</category>
+<category><pattern>DO YOU KNOW THE MEANING OF *</pattern>
+<template><srai>what is <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW THE *</pattern>
+<template><srai>what is the <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANYONE THAT *</pattern>
+<template><srai>who <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANYONE NAMED *</pattern>
+<template><srai>who is <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANYONE WHO IS</pattern>
+<template><srai>who is</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANYONE WHO IS *</pattern>
+<template><srai>who is <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANYONE WHO *</pattern>
+<template><srai>who <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANYONE</pattern>
+<template><srai>who are your friends</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANYONE *</pattern>
+<template><srai>who <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW IBM</pattern>
+<template><srai>what is ibm</srai></template>
+</category>
+<category><pattern>DO YOU KNOW HTTP *</pattern>
+<template><srai>what is http <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW SATAN</pattern>
+<template><srai>who is satan</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MATHEMATICS</pattern>
+<template><srai>what is mathematics</srai></template>
+</category>
+<category><pattern>DO YOU KNOW DNS</pattern>
+<template><srai>what is dns</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BALI</pattern>
+<template><srai>where is bali</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CARMEN *</pattern>
+<template><srai>who is carmen <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW A JOKE</pattern>
+<template><srai>TELL ME A JOKE</srai></template>
+</category>
+<category><pattern>DO YOU KNOW A *</pattern>
+<template><srai>who is <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANDREAS</pattern>
+<template><srai>who is andreas</srai></template>
+</category>
+<category><pattern>DO YOU KNOW POKE MON</pattern>
+<template><srai>who is poke mon</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MARY</pattern>
+<template><srai>who is mary</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MARY SHELLEY</pattern>
+<template><srai>who is mary shelley</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CHRISTOPHER *</pattern>
+<template><srai>who is christopher <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW MAO *</pattern>
+<template><srai>who is mao <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW SUSHI</pattern>
+<template><srai>what is sushi</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANYWHERE WHERE *</pattern>
+<template><srai>where <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANYWHERE *</pattern>
+<template><srai>where <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW JULIA</pattern>
+<template><srai>who is julia</srai></template>
+</category>
+<category><pattern>DO YOU KNOW JULIA *</pattern>
+<template><srai>who is julia <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW CHESS</pattern>
+<template><srai>what is chess</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CHESS *</pattern>
+<template><srai>what is chess <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW H *</pattern>
+<template><srai>who is h <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW EDGAR *</pattern>
+<template><srai>who is edgar <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW PI</pattern>
+<template><srai>what is pi</srai></template>
+</category>
+<category><pattern>DO YOU KNOW DATA *</pattern>
+<template><srai>who is data</srai></template>
+</category>
+<category><pattern>DO YOU KNOW DATA</pattern>
+<template><srai>who is data</srai></template>
+</category>
+<category><pattern>DO YOU KNOW FORTRAN</pattern>
+<template><srai>what is fortran</srai></template>
+</category>
+<category><pattern>DO YOU KNOW DANTE</pattern>
+<template><srai>who is dante</srai></template>
+</category>
+<category><pattern>DO YOU KNOW LEHIGH</pattern>
+<template><srai>what is lehigh</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ERASMUS *</pattern>
+<template><srai>who is erasmus <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW CHEWBACCA</pattern>
+<template><srai>who is chewbacca</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BOB DYLAN</pattern>
+<template><srai>who is bob dylan</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BOB</pattern>
+<template><srai>who is bob</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BOB *</pattern>
+<template><srai>who is bob <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW SANTE CHARY</pattern>
+<template><srai>who is sante chary</srai></template>
+</category>
+<category><pattern>DO YOU KNOW DAVID</pattern>
+<template><srai>who is david</srai></template>
+</category>
+<category><pattern>DO YOU KNOW DAVID *</pattern>
+<template><srai>who is david <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW LITERATURE</pattern>
+<template><srai>what is literature</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MATHS</pattern>
+<template><srai>what is math</srai></template>
+</category>
+<category><pattern>DO YOU KNOW JOSEPH *</pattern>
+<template><srai>who is joseph <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW CARLOS *</pattern>
+<template><srai>who is carlos</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CARLOS</pattern>
+<template><srai>who is carlos</srai></template>
+</category>
+<category><pattern>DO YOU KNOW FOOTBALL</pattern>
+<template><srai>what is football</srai></template>
+</category>
+<category><pattern>DO YOU KNOW STEVE JOBS</pattern>
+<template><srai>who is steve jobs</srai></template>
+</category>
+<category><pattern>DO YOU KNOW AN *</pattern>
+<template><srai>who is <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW NEO</pattern>
+<template><srai>who is neo</srai></template>
+</category>
+<category><pattern>DO YOU KNOW PITTSBURGH</pattern>
+<template><srai>where is pittsburgh</srai></template>
+</category>
+<category><pattern>DO YOU KNOW RICHARD *</pattern>
+<template><srai>who is richard <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW JORDAN</pattern>
+<template><srai>where is jordan</srai></template>
+</category>
+<category><pattern>DO YOU KNOW JIM</pattern>
+<template><srai>who is jim</srai></template>
+</category>
+<category><pattern>DO YOU KNOW JIM *</pattern>
+<template><srai>who is jim <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHY I AM *</pattern>
+<template><srai>why am i<star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHY YOU *</pattern>
+<template><srai>why do you <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHY YOU ARE *</pattern>
+<template><srai>why are you <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHY</pattern>
+<template><srai>why</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHY * IS BLUE</pattern>
+<template><srai>why is <star /> blue</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHY *</pattern>
+<template><srai>why <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW MUSIC</pattern>
+<template><srai>what is music</srai></template>
+</category>
+<category><pattern>DO YOU KNOW TURKEY</pattern>
+<template><srai>where is turkey</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ASTRONOMY</pattern>
+<template><srai>what is astronomy</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANDY</pattern>
+<template><srai>who is andy</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANDY *</pattern>
+<template><srai>who is andy <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW BROOKE *</pattern>
+<template><srai>who is brooke <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANNE</pattern>
+<template><srai>who is anne</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CAROLYN</pattern>
+<template><srai>who is carolyn</srai></template>
+</category>
+<category><pattern>DO YOU KNOW NIKOLA *</pattern>
+<template><srai>who is nikola <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW TERRY *</pattern>
+<template><srai>who is terry <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW JEFF</pattern>
+<template><srai>who is jeff</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ARTIFICIAL LIFE</pattern>
+<template><srai>what is artificial life</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ARTIFICIAL *</pattern>
+<template><srai>what is artificial <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW JILL</pattern>
+<template><srai>who is jill</srai></template>
+</category>
+<category><pattern>DO YOU KNOW GODEL</pattern>
+<template><srai>who is godel</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CHER</pattern>
+<template><srai>who is cher</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANYTHING ABOUT THE *</pattern>
+<template><srai>what is the <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANYTHING ABOUT *</pattern>
+<template><srai>what is <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW MARCUS ZILLMAN</pattern>
+<template><srai>who is marcus zillman</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CASSIDY</pattern>
+<template><srai>who is cassidy</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SOMEONE BY THE NAME OF *</pattern>
+<template><srai>who is <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW SOMEONE BY THE NAME *</pattern>
+<template><srai>who is <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW SOMEONE NAMED *</pattern>
+<template><srai>who is <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW SOMEONE CALLED *</pattern>
+<template><srai>who is <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW MEL GIBSON</pattern>
+<template><srai>who is mel gibson</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MEL *</pattern>
+<template><srai>who is mel <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ALBERT</pattern>
+<template><srai>who is albert</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ALBERT *</pattern>
+<template><srai>who is albert <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW SKYNET</pattern>
+<template><srai>what is skynet</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SOCRATES</pattern>
+<template><srai>who is socrates</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ALISON *</pattern>
+<template><srai>who is alison</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ALISON</pattern>
+<template><srai>who is alison</srai></template>
+</category>
+<category><pattern>DO YOU KNOW OAKLAND</pattern>
+<template><srai>what is oakland</srai></template>
+</category>
+<category><pattern>DO YOU KNOW TOLKIEN</pattern>
+<template><srai>who is tolkien</srai></template>
+</category>
+<category><pattern>DO YOU KNOW KEN</pattern>
+<template><srai>who is ken</srai></template>
+</category>
+<category><pattern>DO YOU KNOW HTML</pattern>
+<template><srai>what is html</srai></template>
+</category>
+<category><pattern>DO YOU KNOW LEKNORCHAT3</pattern>
+<template><srai>who is leknorchat</srai></template>
+</category>
+<category><pattern>DO YOU KNOW HANNAH</pattern>
+<template><srai>who is hannah</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CAPTAIN *</pattern>
+<template><srai>who is captain <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW HIS *</pattern>
+<template><srai>what is his <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW MADONNA</pattern>
+<template><srai>who is madonna</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CATEGORIES</pattern>
+<template><srai>what are categories</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANOTHER JOKE</pattern>
+<template><srai>tell me another joke</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MAGIC</pattern>
+<template><srai>what is magic</srai></template>
+</category>
+<category><pattern>DO YOU KNOW AI</pattern>
+<template><srai>what is ai</srai></template>
+</category>
+<category><pattern>DO YOU KNOW OF ANY GOOD BOOKS</pattern>
+<template><srai>what is your favorite book</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CALIGULA</pattern>
+<template><srai>who is caligula</srai></template>
+</category>
+<category><pattern>DO YOU KNOW KURT COBAIN</pattern>
+<template><srai>who is kurt cobain</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ZEUS</pattern>
+<template><srai>who is zeus</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SUSAN</pattern>
+<template><srai>who is susan</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MY NICKNAME</pattern>
+<template><srai>what is my nickname</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MY LOCATION *</pattern>
+<template><srai>where am i</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MY DNS *</pattern>
+<template><srai>what is my ip</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MY PASSWORD</pattern>
+<template><srai>what is my password</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MY NAME *</pattern>
+<template><srai>WHAT IS MY NAME</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MY NAME</pattern>
+<template><srai>WHAT IS MY NAME</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MY EMAIL</pattern>
+<template><srai>what is my email</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MY MIDDLE NAME</pattern>
+<template><srai>what is my middle name</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MY PHONE NUMBER</pattern>
+<template><srai>what is my phone number</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MY IP ADDRESS</pattern>
+<template><srai>what is my ip adderss</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MY IP</pattern>
+<template><srai>what is my ip</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MY IP *</pattern>
+<template><srai>what is my ip address</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MY REAL NAME</pattern>
+<template><srai>what is my name</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MY FULL NAME</pattern>
+<template><srai>what is my full name</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MY GENDER</pattern>
+<template><srai>what is my gender</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MY BIRTHDAY</pattern>
+<template><srai>what is my birthday</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MY LAST NAME</pattern>
+<template><srai>what is my last name</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MY COMPUTER</pattern>
+<template><srai>what is my ip</srai></template>
+</category>
+<category><pattern>DO YOU KNOW NATO</pattern>
+<template><srai>what is nato</srai></template>
+</category>
+<category><pattern>DO YOU KNOW COMMANDER DATA</pattern>
+<template><srai>who is data</srai></template>
+</category>
+<category><pattern>DO YOU KNOW COMMANDER *</pattern>
+<template><srai>who is commander <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW DANIEL</pattern>
+<template><srai>who is daniel</srai></template>
+</category>
+<category><pattern>DO YOU KNOW DANIEL *</pattern>
+<template><srai>who is daniel <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW NIETZSCHE</pattern>
+<template><srai>who is nietzsche</srai></template>
+</category>
+<category><pattern>DO YOU KNOW EUROPE</pattern>
+<template><srai>what is europe</srai></template>
+</category>
+<category><pattern>DO YOU KNOW LILITH</pattern>
+<template><srai>who is lilith</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SANTECHARY</pattern>
+<template><srai>who is santechary</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CP3O</pattern>
+<template><srai>who is c3po</srai></template>
+</category>
+<category><pattern>DO YOU KNOW USA</pattern>
+<template><srai>where is the usa</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SUCK</pattern>
+<template><srai>what is suck</srai></template>
+</category>
+<category><pattern>DO YOU KNOW PEARL JAM</pattern>
+<template><srai>who is pearl jam</srai></template>
+</category>
+<category><pattern>DO YOU KNOW APPLE *</pattern>
+<template><srai>what is apple <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW KEVIN</pattern>
+<template><srai>who is kevin</srai></template>
+</category>
+<category><pattern>DO YOU KNOW PHILOSOPHY</pattern>
+<template><srai>what is philosophy</srai></template>
+</category>
+<category><pattern>DO YOU KNOW HARVEY</pattern>
+<template><srai>who is harvey</srai></template>
+</category>
+<category><pattern>DO YOU KNOW RENE *</pattern>
+<template><srai>who is rene <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW SARA</pattern>
+<template><srai>who is sara</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CANADA</pattern>
+<template><srai>where is canada</srai></template>
+</category>
+<category><pattern>DO YOU KNOW PETER</pattern>
+<template><srai>who is peter</srai></template>
+</category>
+<category><pattern>DO YOU KNOW PETER *</pattern>
+<template><srai>who is peter <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ICQ</pattern>
+<template><srai>what is icq</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SEARLE</pattern>
+<template><srai>who is searle</srai></template>
+</category>
+<category><pattern>DO YOU KNOW KEANU *</pattern>
+<template><srai>who is keanu <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW SOMETHING ABOUT THE *</pattern>
+<template><srai>what is the <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW SOMETHING ABOUT MARKETING</pattern>
+<template><srai>what is marketing</srai></template>
+</category>
+<category><pattern>DO YOU KNOW RELATIVITY</pattern>
+<template><srai>what is relativity</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANY _ ROBOTS</pattern>
+<template><srai>who are your robot friends</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANY _ JOKES</pattern>
+<template><srai>tell me another joke</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANY RIDDLES</pattern>
+<template><srai>tell me a riddle</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANY MORE JOKES</pattern>
+<template><srai>tell me another joke</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANY SECRETS</pattern>
+<template><srai>tell me a secret</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANY POEMS</pattern>
+<template><srai>tell me a poem</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANY GOOD JOKES</pattern>
+<template><srai>tell me a joke</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANY JOKES</pattern>
+<template><srai>tell me a joke</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANY STORIES</pattern>
+<template><srai>tell me a story</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BILL GATES</pattern>
+<template><srai>who is bill gates</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BILL</pattern>
+<template><srai>who is bill</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BILL *</pattern>
+<template><srai>who is bill <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW FELIX</pattern>
+<template><srai>who is felix</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CATHERINE *</pattern>
+<template><srai>who is catherine <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW PORTUGAL</pattern>
+<template><srai>where is portugal</srai></template>
+</category>
+<category><pattern>DO YOU KNOW IAN</pattern>
+<template><srai>who is ian</srai></template>
+</category>
+<category><pattern>DO YOU KNOW DIGIMON</pattern>
+<template><srai>what is digimon</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ASIMO</pattern>
+<template><srai>who is asimo</srai></template>
+</category>
+<category><pattern>DO YOU KNOW KUBRICK</pattern>
+<template><srai>who is kubrick</srai></template>
+</category>
+<category><pattern>DO YOU KNOW THINGS</pattern>
+<template><srai>what do you know</srai></template>
+</category>
+<category><pattern>DO YOU KNOW YOUR NAME</pattern>
+<template><srai>what is your name</srai></template>
+</category>
+<category><pattern>DO YOU KNOW YOUR MOTHER</pattern>
+<template><srai>who is your mother</srai></template>
+</category>
+<category><pattern>DO YOU KNOW YOUR CREATORS *</pattern>
+<template><srai>who created you</srai></template>
+</category>
+<category><pattern>DO YOU KNOW YOUR LIMITS</pattern>
+<template><srai>what are your limitations</srai></template>
+</category>
+<category><pattern>DO YOU KNOW YOUR FATHER</pattern>
+<template><srai>who is your father</srai></template>
+</category>
+<category><pattern>DO YOU KNOW YOUR CREATOR *</pattern>
+<template><srai>who created you</srai></template>
+</category>
+<category><pattern>DO YOU KNOW GIGI *</pattern>
+<template><srai>who is gigi <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ASK JEEVES</pattern>
+<template><srai>who is ask jeeves</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ALLAN *</pattern>
+<template><srai>who is allan <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW WINSTON *</pattern>
+<template><srai>who is winston <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW BANDS</pattern>
+<template><srai>what is your favorite band</srai></template>
+</category>
+<category><pattern>DO YOU KNOW JAVASCRIPT</pattern>
+<template><srai>what is javascript</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SNOOPY</pattern>
+<template><srai>who is snoopy</srai></template>
+</category>
+<category><pattern>DO YOU KNOW KING *</pattern>
+<template><srai>who is king <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW TSUKUBA</pattern>
+<template><srai>what is tsukuba</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MORRISSEY</pattern>
+<template><srai>who is morrissey</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SARCASM</pattern>
+<template><srai>what is sarcasm</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ECSTASY</pattern>
+<template><srai>what is ecstasy</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WILL *</pattern>
+<template><srai>who is will <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW JOHN</pattern>
+<template><srai>who is john</srai></template>
+</category>
+<category><pattern>DO YOU KNOW JOHN *</pattern>
+<template><srai>who is john <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW NOAM *</pattern>
+<template><srai>who is noam <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW EMMA</pattern>
+<template><srai>who is emma</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WORLD TRADE CENTER</pattern>
+<template><srai>what is the world trade center</srai></template>
+</category>
+<category><pattern>DO YOU KNOW HANSON</pattern>
+<template><srai>who is hanson</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BUDDY HOLLY</pattern>
+<template><srai>who is buddy holly</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ROBBIE</pattern>
+<template><srai>who is robbie</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ROBBIE *</pattern>
+<template><srai>who is robbie <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ROBOCOP</pattern>
+<template><srai>what is robocop</srai></template>
+</category>
+<category><pattern>DO YOU KNOW STARWARS</pattern>
+<template><srai>what is star wars</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANYMORE</pattern>
+<template><srai>what else do you know</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ARTY FISHAL</pattern>
+<template><srai>who is arty fishal</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ME</pattern>
+<template><srai>who am i</srai></template>
+</category>
+<category><pattern>DO YOU KNOW EVERYTHING</pattern>
+<template><srai>what do you know</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ALICE *</pattern>
+<template><srai>WHO IS ALICE</srai></template>
+</category>
+<category><pattern>DO YOU KNOW FORD PREFECT</pattern>
+<template><srai>who is ford prefect</srai></template>
+</category>
+<category><pattern>DO YOU KNOW TCP *</pattern>
+<template><srai>what is tcp <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW PRINCESS DIANA</pattern>
+<template><srai>who is princess diana</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CHRISTIAN *</pattern>
+<template><srai>who is christian <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW COLOSSUS</pattern>
+<template><srai>what is colossus</srai></template>
+</category>
+<category><pattern>DO YOU KNOW JFK</pattern>
+<template><srai>who is jfk</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ROSIE</pattern>
+<template><srai>who is rosie</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ROSIE *</pattern>
+<template><srai>who is rosie <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW SCOTT *</pattern>
+<template><srai>who is scott <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW FERMAT</pattern>
+<template><srai>who is fermat</srai></template>
+</category>
+<category><pattern>DO YOU KNOW FRANCE</pattern>
+<template><srai>where is france</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MARYLIN *</pattern>
+<template><srai>who is marylin <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW FUTURAMA</pattern>
+<template><srai>what is futurama</srai></template>
+</category>
+<category><pattern>DO YOU KNOW HOMER SIMPSON</pattern>
+<template><srai>who is homer simpson</srai></template>
+</category>
+<category><pattern>DO YOU KNOW COG</pattern>
+<template><srai>who is cog</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SPOCK *</pattern>
+<template><srai>who is spock</srai></template>
+</category>
+<category><pattern>DO YOU KNOW NBA</pattern>
+<template><srai>what is nba</srai></template>
+</category>
+<category><pattern>DO YOU KNOW NBA *</pattern>
+<template><srai>what is nba <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW MICHAEL</pattern>
+<template><srai>who is michael</srai></template>
+</category>
+<category><pattern>DO YOU KNOW MICHAEL *</pattern>
+<template><srai>who is michael <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW CARLSBERG</pattern>
+<template><srai>where is carlsberg</srai></template>
+</category>
+<category><pattern>DO YOU KNOW HITLER</pattern>
+<template><srai>who is hitler</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WILLIAM *</pattern>
+<template><srai>who is william <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW HUGH LOEBNER</pattern>
+<template><srai>who is hugh loebner</srai></template>
+</category>
+<category><pattern>DO YOU KNOW HUGH GRANT</pattern>
+<template><srai>who is hugh grant</srai></template>
+</category>
+<category><pattern>DO YOU KNOW PANDORA</pattern>
+<template><srai>who is pandora</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ROBOTS</pattern>
+<template><srai>what is a robot</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CASEY</pattern>
+<template><srai>who is casey</srai></template>
+</category>
+<category><pattern>DO YOU KNOW TINA</pattern>
+<template><srai>who is tina</srai></template>
+</category>
+<category><pattern>DO YOU KNOW TINA *</pattern>
+<template><srai>who is tina <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW HIM *</pattern>
+<template><srai>what is his <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ALAN</pattern>
+<template><srai>who is alan</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ALAN *</pattern>
+<template><srai>who is alan <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW GERMANY</pattern>
+<template><srai>where is germany</srai></template>
+</category>
+<category><pattern>DO YOU KNOW DEEP BLUE</pattern>
+<template><srai>what is deep blue</srai></template>
+</category>
+<category><pattern>DO YOU KNOW DEEP *</pattern>
+<template><srai>what is deep <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW BEATLES</pattern>
+<template><srai>who are the beatles</srai></template>
+</category>
+<category><pattern>DO YOU KNOW EDWARD</pattern>
+<template><srai>who is edward</srai></template>
+</category>
+<category><pattern>DO YOU KNOW COBALT</pattern>
+<template><srai>what is cobalt</srai></template>
+</category>
+<category><pattern>DO YOU KNOW HANS *</pattern>
+<template><srai>who is hans <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW BABYLON 5</pattern>
+<template><srai>what is babylon 5</srai></template>
+</category>
+<category><pattern>DO YOU KNOW NOVELL</pattern>
+<template><srai>what is novell</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SARAH</pattern>
+<template><srai>who is sarah</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SARAH *</pattern>
+<template><srai>who is sarah <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW COPENHAGEN</pattern>
+<template><srai>where is copenhagen</srai></template>
+</category>
+<category><pattern>DO YOU KNOW JUSTIN</pattern>
+<template><srai>who is justin</srai></template>
+</category>
+<category><pattern>DO YOU KNOW NICK</pattern>
+<template><srai>who is nick</srai></template>
+</category>
+<category><pattern>DO YOU KNOW LUCY</pattern>
+<template><srai>who is lucy</srai></template>
+</category>
+<category><pattern>DO YOU KNOW NAPSTER</pattern>
+<template><srai>what is napster</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ABUZZ</pattern>
+<template><srai>what is abuzz</srai></template>
+</category>
+<category><pattern>DO YOU KNOW KORN</pattern>
+<template><srai>who is korn</srai></template>
+</category>
+<category><pattern>DO YOU KNOW RICKY MARTIN</pattern>
+<template><srai>who is ricky martin</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BENNY</pattern>
+<template><srai>who is benny</srai></template>
+</category>
+<category><pattern>DO YOU KNOW JENNY *</pattern>
+<template><srai>who is jenny <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW KENNY</pattern>
+<template><srai>who is kenny</srai></template>
+</category>
+<category><pattern>DO YOU KNOW KENNY *</pattern>
+<template><srai>who is kenny <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW PLATO</pattern>
+<template><srai>who is plato</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BEN</pattern>
+<template><srai>who is ben</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BEN *</pattern>
+<template><srai>who is ben <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW FRED</pattern>
+<template><srai>who is fred</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ELTON *</pattern>
+<template><srai>who is elton <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW TONY</pattern>
+<template><srai>who is tony</srai></template>
+</category>
+<category><pattern>DO YOU KNOW TONY *</pattern>
+<template><srai>who is tony <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW ASTROLOGY</pattern>
+<template><srai>what is astrology</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BJORK</pattern>
+<template><srai>who is bjork</srai></template>
+</category>
+<category><pattern>DO YOU KNOW FRENCH *</pattern>
+<template><srai>what is french <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW KARL *</pattern>
+<template><srai>who is karl <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW CRANBERRIES</pattern>
+<template><srai>what are cranberries</srai></template>
+</category>
+<category><pattern>DO YOU KNOW AYN RAND</pattern>
+<template><srai>who is ayn rand</srai></template>
+</category>
+<category><pattern>DO YOU KNOW UNIX</pattern>
+<template><srai>what is unix</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHAT I AM TALKING ABOUT</pattern>
+<template><srai>what is the topic</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHAT I AM *</pattern>
+<template><srai>what am I <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHAT I WANT *</pattern>
+<template><srai>WHAT DO I WANT <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHAT I LOOK LIKE</pattern>
+<template><srai>what do I look like</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHAT THE * IS ABOUT</pattern>
+<template><srai>what is <star /> about</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHAT TIME IT IS</pattern>
+<template><srai>TIME</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHAT IS *</pattern>
+<template><srai>what is <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHAT MY NAME IS</pattern>
+<template><srai>what is my name</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHAT * LOOKS LIKE</pattern>
+<template><srai>what does <star /> look like</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHAT * IS</pattern>
+<template><srai>WHAT IS <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHAT *</pattern>
+<template><srai>what <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHAT * MEANS</pattern>
+<template><srai>what does <star /> mean</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHAT * ARE</pattern>
+<template><srai>what are <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW JENNIFER *</pattern>
+<template><srai>who is jennifer <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW FAITH</pattern>
+<template><srai>what is faith</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BIG *</pattern>
+<template><srai>who is big <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW KRISTIN</pattern>
+<template><srai>who is kristin</srai></template>
+</category>
+<category><pattern>DO YOU KNOW TOMMY *</pattern>
+<template><srai>who is tommy <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW PASCAL</pattern>
+<template><srai>who is pascal</srai></template>
+</category>
+<category><pattern>DO YOU * CUSTOMER SERVICE</pattern>
+<template><srai>what is customer service</srai></template>
+</category>
+<category><pattern>DO YOU READ JANE *</pattern>
+<template><srai>who is jane <star /></srai></template>
+</category>
+<category><pattern>DO YOU READ BOOKS</pattern>
+<template><srai>what is your favorite book</srai></template>
+</category>
+<category><pattern>DO YOU READ ISAAC *</pattern>
+<template><srai>who is isaac <star /></srai></template>
+</category>
+<category><pattern>DO YOU ENJOY MUSIC</pattern>
+<template><srai>FAVORITE MUSIC</srai></template>
+</category>
+<category><pattern>DO YOU HAPPEN TO KNOW WHAT *</pattern>
+<template><srai>what <star /></srai></template>
+</category>
+<category><pattern>DO YOU RECALL MY AGE</pattern>
+<template><srai>what is my age</srai></template>
+</category>
+<category><pattern>DO YOU EVER EAT</pattern>
+<template><srai>what do you eat</srai></template>
+</category>
+<category><pattern>DO YOU THINK ABOUT GOLD</pattern>
+<template><srai>what is gold</srai></template>
+</category>
+<category><pattern>DO YOU THINK ABOUT POLITICS</pattern>
+<template><srai>what is your politics</srai></template>
+</category>
+<category><pattern>DO YOU THINK I WILL *</pattern>
+<template><srai>will I <star /></srai></template>
+</category>
+<category><pattern>DO YOU THINK I WOULD *</pattern>
+<template><srai>would I <star /></srai></template>
+</category>
+<category><pattern>DO YOU THINK THIS WILL *</pattern>
+<template><srai>will this <star /></srai></template>
+</category>
+<category><pattern>DO YOU THINK ADVERTISING *</pattern>
+<template><srai>what is advertising</srai></template>
+</category>
+<category><pattern>DO YOU THINK THAT I WILL *</pattern>
+<template><srai>will I <star /></srai></template>
+</category>
+<category><pattern>DO YOU THINK THAT I WAS *</pattern>
+<template><srai>was I <star /></srai></template>
+</category>
+<category><pattern>DO YOU THINK THAT IT WILL *</pattern>
+<template><srai>will it <star /></srai></template>
+</category>
+<category><pattern>DO YOU THINK THAT ROBOTS WILL *</pattern>
+<template><srai>will you <star /></srai></template>
+</category>
+<category><pattern>DO YOU THINK THAT YOU WILL *</pattern>
+<template><srai>will you <star /></srai></template>
+</category>
+<category><pattern>DO YOU THINK SHE WOULD *</pattern>
+<template><srai>would she <star /></srai></template>
+</category>
+<category><pattern>DO YOU THINK HE WOULD *</pattern>
+<template><srai>would he <star /></srai></template>
+</category>
+<category><pattern>DO YOU THINK IT WILL *</pattern>
+<template><srai>will it <star /></srai></template>
+</category>
+<category><pattern>DO YOU THINK IT WOULD *</pattern>
+<template><srai>would it <star /></srai></template>
+</category>
+<category><pattern>DO YOU THINK A COMPUTER WILL *</pattern>
+<template><srai>will you <star /></srai></template>
+</category>
+<category><pattern>DO YOU THINK A COMPUTER PROGRAM WILL *</pattern>
+<template><srai>will you <star /></srai></template>
+</category>
+<category><pattern>DO YOU THINK YOU WILL *</pattern>
+<template><srai>will you <star /></srai></template>
+</category>
+<category><pattern>DO YOU THINK WE WILL *</pattern>
+<template><srai>will we <star /></srai></template>
+</category>
+<category><pattern>DO YOU THINK THEY WOULD *</pattern>
+<template><srai>would they <star /></srai></template>
+</category>
+<category><pattern>DO YOU THINK * CUSTOMER SERVICE</pattern>
+<template><srai>what is customer service</srai></template>
+</category>
+<category><pattern>DO YOU THINK COMPUTERS WILL *</pattern>
+<template><srai>will you <star /></srai></template>
+</category>
+<category><pattern>DO YOU REMEMBER WHAT WE WERE *</pattern>
+<template><srai>what were we <star /></srai></template>
+</category>
+<category><pattern>DO YOU REMEMBER WHAT WE ARE *</pattern>
+<template><srai>what are we <star /></srai></template>
+</category>
+<category><pattern>DO YOU REMEMBER WHAT * IS</pattern>
+<template><srai>what is <star /></srai></template>
+</category>
+<category><pattern>DO YOU REMEMBER DYLAN</pattern>
+<template><srai>who is dylan</srai></template>
+</category>
+<category><pattern>DO YOU REMEMBER WHERE I LIVE</pattern>
+<template><srai>where am i</srai></template>
+</category>
+<category><pattern>DO YOU REMEMBER WHERE * IS</pattern>
+<template><srai>where is <star /></srai></template>
+</category>
+<category><pattern>DO YOU REMEMBER WHERE *</pattern>
+<template><srai>where <star /></srai></template>
+</category>
+<category><pattern>DO YOU REMEMBER WHO I AM</pattern>
+<template><srai>who am i</srai></template>
+</category>
+<category><pattern>DO YOU REMEMBER WHO I AM *</pattern>
+<template><srai>who am I <star /></srai></template>
+</category>
+<category><pattern>DO YOU REMEMBER WHO *</pattern>
+<template><srai>who <star /></srai></template>
+</category>
+<category><pattern>DO YOU REMEMBER MY NAME</pattern>
+<template><srai>WHAT IS MY NAME</srai></template>
+</category>
+<category><pattern>DO YOU REMEMBER MY *</pattern>
+<template><srai>what is my <star /></srai></template>
+</category>
+<category><pattern>DO YOU EAT FOOD</pattern>
+<template><srai>what do you eat</srai></template>
+</category>
+<category><pattern>DO YOU EAT DINNER</pattern>
+<template><srai>what is your favorite food</srai></template>
+</category>
+<category><pattern>DO YOU LOOK LIKE A *</pattern>
+<template><srai>what do you look like</srai></template>
+</category>
+<category><pattern>DO YOU GO TO * MOVIES</pattern>
+<template><srai>what is your favorite movie</srai></template>
+</category>
+<category><pattern>DO YOU WANT TO MARRY ME</pattern>
+<template><srai>will you marry me</srai></template>
+</category>
+<category><pattern>DO YOU TELL TIME</pattern>
+<template><srai>TIME</srai></template>
+</category>
+<category><pattern>DO YOU TELL JOKES</pattern>
+<template><srai>tell me a joke</srai></template>
+</category>
+<category><pattern>DO YOU DRINK</pattern>
+<template><srai>what is your favorite drink</srai></template>
+</category>
+<category><pattern>DO YOU BELIEVE IN SANTA CLAUS</pattern>
+<template><srai>who is santa claus</srai></template>
+</category>
+<category><pattern>DO YOU BELIEVE IN LOVE</pattern>
+<template><srai>what is love</srai></template>
+</category>
+<category><pattern>DO YOU BELIEVE</pattern>
+<template><srai>what is your religion</srai></template>
+</category>
+<category><pattern>DO YOU HAVE IQ *</pattern>
+<template><srai>what is your iq</srai></template>
+</category>
+<category><pattern>DO YOU HAVE IQ</pattern>
+<template><srai>what is your iq</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A BIRTHDAY</pattern>
+<template><srai>when is your birthday</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A DAD</pattern>
+<template><srai>who is your father</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A LOVER</pattern>
+<template><srai>who is your boyfriend</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A SECONDARY FUNCTION</pattern>
+<template><srai>what is your secondary function</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A DIRECTIVE</pattern>
+<template><srai>what is your purpose</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A BOYFRIEND</pattern>
+<template><srai>who is your boyfriend</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A MIDDLE NAME</pattern>
+<template><srai>WHAT IS YOUR MIDDLE NAME</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A SEX</pattern>
+<template><srai>WHAT IS YOUR GENDER</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A SURNAME</pattern>
+<template><srai>what is your last name</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A PHONE *</pattern>
+<template><srai>what is your phone number</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A PHONE</pattern>
+<template><srai>what is your phone number</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A ROBOT BOYFRIEND</pattern>
+<template><srai>who is your boyfriend</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A PROGRAMMER</pattern>
+<template><srai>who is your programmer</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A GOAL</pattern>
+<template><srai>what is your goal</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A COLOR</pattern>
+<template><srai>what color are you</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A RELIGION *</pattern>
+<template><srai>what religion are you</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A LAST NAME</pattern>
+<template><srai>what is your last name</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A FAVORITE MOVIE</pattern>
+<template><srai>what is your favorite movie</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A FAVORITE BOOK</pattern>
+<template><srai>what is your favorite book</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A FAVORITE COLOR</pattern>
+<template><srai>what is your favorite color</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A FAVORITE</pattern>
+<template><srai>what is your favorite</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A FAVORITE *</pattern>
+<template><srai>what is your favorite <star /></srai></template>
+</category>
+<category><pattern>DO YOU HAVE A FATHER *</pattern>
+<template><srai>who is your father</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A FATHER</pattern>
+<template><srai>who created you</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A NAME</pattern>
+<template><srai>what is your name</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A BODY</pattern>
+<template><srai>WHAT DO YOU LOOK LIKE</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A PLAN *</pattern>
+<template><srai>what is your plan</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A SECRET</pattern>
+<template><srai>tell me a secret</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A POLITICAL *</pattern>
+<template><srai>what is your political <star /></srai></template>
+</category>
+<category><pattern>DO YOU HAVE A * SIGN</pattern>
+<template><srai>what is your sign</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A * IQ</pattern>
+<template><srai>what is your iq</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A * YOU LIKE</pattern>
+<template><srai>what is your favorite <star /></srai></template>
+</category>
+<category><pattern>DO YOU HAVE A FORM</pattern>
+<template><srai>what do you look like</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A MASTER</pattern>
+<template><srai>who is your botmaster</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A JOKE *</pattern>
+<template><srai>tell me a joke</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A MUM</pattern>
+<template><srai>who is your mother</srai></template>
+</category>
+<category><pattern>DO YOU HAVE AMBITIONS</pattern>
+<template><srai>what is your goal</srai></template>
+</category>
+<category><pattern>DO YOU HAVE HOPES *</pattern>
+<template><srai>what are your goals</srai></template>
+</category>
+<category><pattern>DO YOU HAVE ANYONE WHO *</pattern>
+<template><srai>who <star /></srai></template>
+</category>
+<category><pattern>DO YOU HAVE BOYFRIEND</pattern>
+<template><srai>who is your boyfriend</srai></template>
+</category>
+<category><pattern>DO YOU HAVE FUNCTIONS</pattern>
+<template><srai>what are your functions</srai></template>
+</category>
+<category><pattern>DO YOU HAVE JOKES</pattern>
+<template><srai>tell me a joke</srai></template>
+</category>
+<category><pattern>DO YOU HAVE GOALS *</pattern>
+<template><srai>what is your goal</srai></template>
+</category>
+<category><pattern>DO YOU HAVE LIMITS</pattern>
+<template><srai>what are your limitations</srai></template>
+</category>
+<category><pattern>DO YOU HAVE THEOLOGICAL *</pattern>
+<template><srai>what religion are you</srai></template>
+</category>
+<category><pattern>DO YOU HAVE AMBITION</pattern>
+<template><srai>what is your goal</srai></template>
+</category>
+<category><pattern>DO YOU HAVE ANY STOCK *</pattern>
+<template><srai>what is your favorite stock</srai></template>
+</category>
+<category><pattern>DO YOU HAVE ANY NICKNAMES</pattern>
+<template><srai>what are your nicknames</srai></template>
+</category>
+<category><pattern>DO YOU HAVE ANY JOKES</pattern>
+<template><srai>tell me a joke</srai></template>
+</category>
+<category><pattern>DO YOU HAVE ANY HOBBIES</pattern>
+<template><srai>what are your hobbies</srai></template>
+</category>
+<category><pattern>DO YOU HAVE DINNER *</pattern>
+<template><srai>what do you eat</srai></template>
+</category>
+<category><pattern>DO YOU HAVE THE TIME</pattern>
+<template><srai>TIME</srai></template>
+</category>
+<category><pattern>DO YOU HAVE DESIRES</pattern>
+<template><srai>what is your goal</srai></template>
+</category>
+<category><pattern>DO YOU HAVE INFORMATION ABOUT *</pattern>
+<template><srai>tell me about <star /></srai></template>
+</category>
+<category><pattern>DO YOU HAVE INTERESTS</pattern>
+<template><srai>what are you interested in</srai></template>
+</category>
+<category><pattern>DO YOU HAVE CAPABILITIES</pattern>
+<template><srai>what can you do</srai></template>
+</category>
+<category><pattern>DO YOU HAVE STORIES</pattern>
+<template><srai>tell me a story</srai></template>
+</category>
+<category><pattern>DO YOU HAVE AN ANSWER *</pattern>
+<template><srai>what is the answer <star /></srai></template>
+</category>
+<category><pattern>DO YOU HAVE AN OPINION ON *</pattern>
+<template><srai>what do you think about <star /></srai></template>
+</category>
+<category><pattern>DO YOU HAVE AN E MAIL *</pattern>
+<template><srai>EMAIL</srai></template>
+</category>
+<category><pattern>DO YOU HAVE AN E MAIL</pattern>
+<template><srai>EMAIL</srai></template>
+</category>
+<category><pattern>DO YOU HAVE AN IQ *</pattern>
+<template><srai>what is your iq</srai></template>
+</category>
+<category><pattern>DO YOU HAVE AN EMAIL</pattern>
+<template><srai>EMAIL</srai></template>
+</category>
+<category><pattern>DO YOU HAVE MORE ARTIFICIAL *</pattern>
+<template><srai>what is your iq</srai></template>
+</category>
+<category><pattern>DO YOU LIKE R2D2</pattern>
+<template><srai>who is r2d2</srai></template>
+</category>
+<category><pattern>DO YOU LIKE MANAGEMENT BY EXCEPTION</pattern>
+<template><srai>what is mbe</srai></template>
+</category>
+<category><pattern>DO YOU LIKE TO EAT *</pattern>
+<template><srai>what do you eat</srai></template>
+</category>
+<category><pattern>DO YOU LIKE DOUGLAS ADAMS</pattern>
+<template><srai>who is douglas adams</srai></template>
+</category>
+<category><pattern>DO YOU LIKE PANCAKES</pattern>
+<template><srai>what do you eat</srai></template>
+</category>
+<category><pattern>DO YOU LIKE JOKES</pattern>
+<template><srai>tell me a joke</srai></template>
+</category>
+<category><pattern>DO YOU LIKE ROCK</pattern>
+<template><srai>FAVORITE MUSIC</srai></template>
+</category>
+<category><pattern>DO YOU LIKE THE SHOW *</pattern>
+<template><srai>what is your favorite show</srai></template>
+</category>
+<category><pattern>DO YOU LIKE THE SIMPSONS</pattern>
+<template><srai>the simpsons</srai></template>
+</category>
+<category><pattern>DO YOU LIKE THE MATRIX</pattern>
+<template><srai>the matrix</srai></template>
+</category>
+<category><pattern>DO YOU LIKE ANYTHING *</pattern>
+<template><srai>what do you like</srai></template>
+</category>
+<category><pattern>DO YOU LIKE ANYTHING</pattern>
+<template><srai>what do you like</srai></template>
+</category>
+<category><pattern>DO YOU LIKE CHEETOS</pattern>
+<template><srai>what do you eat</srai></template>
+</category>
+<category><pattern>DO YOU LIKE MICHAEL JORDAN</pattern>
+<template><srai>who is michael jordan</srai></template>
+</category>
+<category><pattern>DO YOU LIKE ACTORS</pattern>
+<template><srai>who is your favorite actor</srai></template>
+</category>
+<category><pattern>DO YOU LIKE RICKY MARTIN</pattern>
+<template><srai>FAVORITE MUSIC</srai></template>
+</category>
+<category><pattern>DO YOU UNDERSTAND WHAT * IS</pattern>
+<template><srai>what is <star /></srai></template>
+</category>
+<category><pattern>DO YOU UNDERSTAND WHAT * MEANS</pattern>
+<template><srai>what does <star /> mean</srai></template>
+</category>
+<category><pattern>DO YOU UNDERSTAND MASS</pattern>
+<template><srai>what is mass</srai></template>
+</category>
+<category><pattern>DO YOU UNDERSTAND THE *</pattern>
+<template><srai>what is the <star /></srai></template>
+</category>
+<category><pattern>DO YOU UNDERSTAND PARADOXES</pattern>
+<template><srai>what is a paradox</srai></template>
+</category>
+<category><pattern>DO YOU UNDERSTAND SARCASM</pattern>
+<template><srai>what is sarcasm</srai></template>
+</category>
+<category><pattern>DO YOU UNDERSTAND HATE</pattern>
+<template><srai>what is hate</srai></template>
+</category>
+<category><pattern>DO YOU UNDERSTAND BOREDOM</pattern>
+<template><srai>what is boredom</srai></template>
+</category>
+<category><pattern>DO YOU UNDERSTAND CONSCIOUSNESS</pattern>
+<template><srai>what is consciousness</srai></template>
+</category>
+<category><pattern>DO YOU UNDERSTAND LOVE</pattern>
+<template><srai>what is love</srai></template>
+</category>
+<category><pattern>DO YOU UNDERSTAND FOOTBALL</pattern>
+<template><srai>what is football</srai></template>
+</category>
+<category><pattern>DO YOU UNDERSTAND NASCAR</pattern>
+<template><srai>what is nascar</srai></template>
+</category>
+<category><pattern>DO YOU UNDERSTAND * LOEBNER PRIZE</pattern>
+<template><srai>what is the loebner prize</srai></template>
+</category>
+<category><pattern>DO YOU UNDERSTAND LIFE</pattern>
+<template><srai>what is life</srai></template>
+</category>
+<category><pattern>DRESS</pattern>
+<template><srai>tell me about your dress</srai></template>
+</category>
+<category><pattern>DNS</pattern>
+<template><srai>what is dns</srai></template>
+</category>
+<category><pattern>DOMO ARIGATO</pattern>
+<template><srai>thank you</srai></template>
+</category>
+<category><pattern>DO YA *</pattern>
+<template><srai>DO YOU <star/> </srai></template>
+</category>
+<category><pattern>DO KNOW *</pattern>
+<template><srai>DO YOU KNOW <star/> </srai></template>
+</category>
+<category><pattern>DO MACHINES *</pattern>
+<template><srai>DO YOU <star/> </srai></template>
+</category>
+<category><pattern>DO BOTS *</pattern>
+<template><srai>DO YOU <star/> </srai></template>
+</category>
+<category><pattern>DO PEOPLE *</pattern>
+<template><srai>DO I <star/> </srai></template>
+</category>
+<category><pattern>DO I HAVE TO * DOWNLOAD YOU</pattern>
+<template><srai>DOWNLOAD</srai></template>
+</category>
+<category><pattern>DO I HAVE TO PAY TO DOWNLOAD *</pattern>
+<template><srai>DOWNLOAD</srai></template>
+</category>
+<category><pattern>DO YOU WISH TO *</pattern>
+<template><srai>DO YOU WANT TO <star/> </srai></template>
+</category>
+<category><pattern>DO YOU WISH THE *</pattern>
+<template><srai>DO YOU WANT THE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU RESPOND *</pattern>
+<template><srai>DO YOU REPLY <star/> </srai></template>
+</category>
+<category><pattern>DO YOU LIKE WHAT YOU *</pattern>
+<template><srai>DO YOU LIKE BEING A COMPUTER</srai></template>
+</category>
+<category><pattern>DO YOU LIKE SKIING *</pattern>
+<template><srai>DO YOU LIKE TO SKI </srai></template>
+</category>
+<category><pattern>DO YOU LIKE EATING *</pattern>
+<template><srai>DO YOU LIKE TO EAT <star/> </srai></template>
+</category>
+<category><pattern>DO YOU LIKE ANYONE *</pattern>
+<template><srai>DO YOU HAVE A BOYFRIEND</srai></template>
+</category>
+<category><pattern>DO YOU LIKE THE COLOURS *</pattern>
+<template><srai>DO YOU LIKE THE COLORS <star/> </srai></template>
+</category>
+<category><pattern>DO YOU LIKE WATCHING *</pattern>
+<template><srai>DO YOU LIKE TO WATCH <star/> </srai></template>
+</category>
+<category><pattern>DO YOU LIKE READING *</pattern>
+<template><srai>DO YOU LIKE TO READ</srai></template>
+</category>
+<category><pattern>DO YOU LIKE THAT *</pattern>
+<template><srai>DO YOU LIKE THAT</srai></template>
+</category>
+<category><pattern>DO YOU LIKE _ TOO</pattern>
+<template><srai>DO YOU LIKE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU LIKE * BUSH</pattern>
+<template><srai>DO YOU LIKE PRESIDENT BUSH</srai></template>
+</category>
+<category><pattern>DO YOU LIKE * WHEN *</pattern>
+<template><srai>DO YOU LIKE <star/></srai></template>
+</category>
+<category><pattern>DO YOU LIKE * MUSIC</pattern>
+<template><srai>WHAT KIND OF MUSIC DO YOU LIKE</srai></template>
+</category>
+<category><pattern>DO YOU LIKE BUSH *</pattern>
+<template><srai>DO YOU LIKE PRESIDENT BUSH</srai></template>
+</category>
+<category><pattern>DO YOU LIKE SANFRANCISCO *</pattern>
+<template><srai>DO YOU LIKE SAN FRANCISCO</srai></template>
+</category>
+<category><pattern>DO YOU LIKE TO LISTEN *</pattern>
+<template><srai>WHAT KIND OF MUSIC DO YOU LIKE</srai></template>
+</category>
+<category><pattern>DO YOU HVE *</pattern>
+<template><srai>DO YOU HAVE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU HAVE BOTMASTERS</pattern>
+<template><srai>WHO IS YOUR BOTMASTER</srai></template>
+</category>
+<category><pattern>DO YOU HAVE AN EMAIL *</pattern>
+<template><srai>WHAT IS YOUR E MAIL ADDRESS</srai></template>
+</category>
+<category><pattern>DO YOU HAVE ARMS *</pattern>
+<template><srai>DO YOU HAVE A BODY</srai></template>
+</category>
+<category><pattern>DO YOU HAVE POLITICAL *</pattern>
+<template><srai>WHAT IS YOUR POLITICAL BELIEFS</srai></template>
+</category>
+<category><pattern>DO YOU HAVE ARTIFICIAL INTELLIGENCE</pattern>
+<template><srai>DO YOU HAVE AI</srai></template>
+</category>
+<category><pattern>DO YOU HAVE FAVORITE *</pattern>
+<template><srai>WHAT IS YOUR FAVORITE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU HAVE OPINIONS ABOUT *</pattern>
+<template><srai>WHAT DO YOU THINK ABOUT <star/> </srai></template>
+</category>
+<category><pattern>DO YOU HAVE CONCIOUSNESS</pattern>
+<template><srai>ARE YOU CONSCIOUS</srai></template>
+</category>
+<category><pattern>DO YOU HAVE AWARENESS</pattern>
+<template><srai>ARE YOU AWARE</srai></template>
+</category>
+<category><pattern>DO YOU HAVE _ TOO</pattern>
+<template><srai>DO YOU HAVE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU HAVE A BOTMASTER *</pattern>
+<template><srai>WHO IS YOUR BOTMASTER</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A PHOTOGRAPH *</pattern>
+<template><srai>DO YOU HAVE A PICTURE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU HAVE A PHOTO *</pattern>
+<template><srai>DO YOU HAVE A PICTURE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU HAVE A _ TOO</pattern>
+<template><srai>DO YOU HAVE A <star/> </srai></template>
+</category>
+<category><pattern>DO YOU HAVE A INTELLIGENCE</pattern>
+<template><srai>DO YOU HAVE INTELLIGENCE</srai></template>
+</category>
+<category><pattern>DO YOU HAVE PETS *</pattern>
+<template><srai>DO YOU HAVE A PET</srai></template>
+</category>
+<category><pattern>DO YOU CONTAIN *</pattern>
+<template><srai>DO YOU HAVE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU RIDE *</pattern>
+<template><srai>CAN YOU RIDE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU WORSHIP *</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai></template>
+</category>
+<category><pattern>DO YOU HOPE *</pattern>
+<template><srai>DO YOU WANT <star/> </srai></template>
+</category>
+<category><pattern>DO YOU CONSUME *</pattern>
+<template><srai>DO YOU EAT <star/> </srai></template>
+</category>
+<category><pattern>DO YOU LONG *</pattern>
+<template><srai>DO YOU WANT <star/> </srai></template>
+</category>
+<category><pattern>DO YOU LIVE *</pattern>
+<template><srai>WHERE ARE YOU LOCATED</srai></template>
+</category>
+<category><pattern>DO YOU EXPERIENCE *</pattern>
+<template><srai>DO YOU HAVE EMOTIONS</srai></template>
+</category>
+<category><pattern>DO YOU GOT *</pattern>
+<template><srai>DO YOU HAVE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU DESIRE *</pattern>
+<template><srai>DO YOU WANT <star/> </srai></template>
+</category>
+<category><pattern>DO YOU COMMUNICATE *</pattern>
+<template><srai>DO YOU TALK <star/> </srai></template>
+</category>
+<category><pattern>DO YOU KNWO *</pattern>
+<template><srai>DO YOU KNOW <star/> </srai></template>
+</category>
+<category><pattern>DO YOU PASS * TURING TEST</pattern>
+<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template>
+</category>
+<category><pattern>DO YOU WANT ME * DOWNLOAD YOU</pattern>
+<template><srai>DOWNLOAD</srai></template>
+</category>
+<category><pattern>DO YOU WANT ME TO DOWNLOAD *</pattern>
+<template><srai>DOWNLOAD</srai></template>
+</category>
+<category><pattern>DO YOU KNW *</pattern>
+<template><srai>DO YOU KNOW <star/> </srai></template>
+</category>
+<category><pattern>DO YOU CONTEMPLATE *</pattern>
+<template><srai>DO YOU THINK ABOUT <star/> </srai></template>
+</category>
+<category><pattern>DO YOU SOLVE *</pattern>
+<template><srai>CAN YOU SOLVE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU NOW *</pattern>
+<template><srai>DO YOU KNOW <star/> </srai></template>
+</category>
+<category><pattern>DO YOU SAVE *</pattern>
+<template><srai>DO YOU REMEMBER <star/> </srai></template>
+</category>
+<category><pattern>DO YOU LOOK LIKE *</pattern>
+<template><srai>WHAT DO YOU LOOK LIKE</srai></template>
+</category>
+<category><pattern>DO YOU LOOK *</pattern>
+<template><srai>WHAT DO YOU LOOK LIKE</srai></template>
+</category>
+<category><pattern>DO YOU NEED *</pattern>
+<template><srai>DO YOU WANT <star/> </srai></template>
+</category>
+<category><pattern>DO YOU KNO *</pattern>
+<template><srai>DO YOU KNOW <star/> </srai></template>
+</category>
+<category><pattern>DO YOU NO *</pattern>
+<template><srai>DO YOU KNOW <star/> </srai></template>
+</category>
+<category><pattern>DO YOU KNEW *</pattern>
+<template><srai>DO YOU KNOW <star/> </srai></template>
+</category>
+<category><pattern>DO YOU BELEIVE *</pattern>
+<template><srai>DO YOU BELIEVE IN <star/> </srai></template>
+</category>
+<category><pattern>DO YOU THINK COMPUTERS *</pattern>
+<template><srai>CAN YOU <star/> </srai></template>
+</category>
+<category><pattern>DO YOU THINK ROBOTS *</pattern>
+<template><srai>DO YOU THINK YOU <star/> </srai></template>
+</category>
+<category><pattern>DO YOU THINK YOUR BETTER *</pattern>
+<template><srai>DO YOU THINK YOU ARE BETTER <star/> </srai></template>
+</category>
+<category><pattern>DO YOU THINK YOUR A *</pattern>
+<template><srai>DO YOU THINK YOU ARE A</srai></template>
+</category>
+<category><pattern>DO YOU THINK YOUR BOTMASTER *</pattern>
+<template><srai>DO YOU THINK <bot name="master"/> </srai></template>
+</category>
+<category><pattern>DO YOU THINK THAT COMPUTERS *</pattern>
+<template><srai>DO YOU <star/> </srai></template>
+</category>
+<category><pattern>DO YOU THINK THAT *</pattern>
+<template><srai>IS <star/> </srai></template>
+</category>
+<category><pattern>DO YOU THINK THAT ARTIFICIAL INTELLIGENCE IS *</pattern>
+<template><srai>IS AI <star/> </srai></template>
+</category>
+<category><pattern>DO YOU THINK THAT A CHATTERBOT IS *</pattern>
+<template><srai>ARE YOU <star/> </srai></template>
+</category>
+<category><pattern>DO YOU THINK THAT A CHATTERBOT WILL *</pattern>
+<template><srai>WILL YOU <star/> </srai></template>
+</category>
+<category><pattern>DO YOU LOVE DR *</pattern>
+<template><srai>DO YOU LIKE DR <star/> </srai></template>
+</category>
+<category><pattern>DO YOU LOVE _ TOO</pattern>
+<template><srai>DO YOU LOVE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU PROGRESSIVLEY *</pattern>
+<template><srai>DO YOU <star/> </srai></template>
+</category>
+<category><pattern>DO YOU CARRY *</pattern>
+<template><srai>DO YOU HAVE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU COMPREHEND *</pattern>
+<template><srai>DO YOU UNDERSTAND <star/> </srai></template>
+</category>
+<category><pattern>DO YOU EMPLOY *</pattern>
+<template><srai>DO YOU USE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU RECALL *</pattern>
+<template><srai>DO YOU REMEMBER</srai></template>
+</category>
+<category><pattern>DO YOU THING *</pattern>
+<template><srai>DO YOU THINK <star/> </srai></template>
+</category>
+<category><pattern>DO YOU DISAGREE *</pattern>
+<template><srai>DO YOU AGREE <star/></srai></template>
+</category>
+<category><pattern>DO YOU POSSESS *</pattern>
+<template><srai>DO YOU HAVE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU SURF *</pattern>
+<template><srai>CAN YOU SEARCH <star/> </srai></template>
+</category>
+<category><pattern>DO YOU FOLLOW *</pattern>
+<template><srai>DO YOU UNDERSTAND <star/> </srai></template>
+</category>
+<category><pattern>DO YOU REMBER *</pattern>
+<template><srai>DO YOU REMEMBER <star/> </srai></template>
+</category>
+<category><pattern>DO YOU ANYTHING *</pattern>
+<template><srai>DO YOU KNOW ANYTHING <star/> </srai></template>
+</category>
+<category><pattern>DO YOU GATHER *</pattern>
+<template><srai>DO YOU COLLECT <star/> </srai></template>
+</category>
+<category><pattern>DO YOU FANCY *</pattern>
+<template><srai>DO YOU WANT <star/> </srai></template>
+</category>
+<category><pattern>DO YOU BELEVE *</pattern>
+<template><srai>DO YOU BELIEVE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU BELIVE *</pattern>
+<template><srai>DO YOU BELIEVE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU SPEAK ANY FOREIGN LANGUAGES</pattern>
+<template><srai>CAN YOU SPEAK <star/> </srai></template>
+</category>
+<category><pattern>DO YOU SPEEK *</pattern>
+<template><srai>DO YOU SPEAK <star/> </srai></template>
+</category>
+<category><pattern>DO YOU STORE *</pattern>
+<template><srai>DO YOU REMEMBER <star/> </srai></template>
+</category>
+<category><pattern>DO YOU DISLIKE *</pattern>
+<template><srai>DO YOU LIKE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU CHAT *</pattern>
+<template><srai>DO YOU TALK <star/> </srai></template>
+</category>
+<category><pattern>DO YOU OWN *</pattern>
+<template><srai>DO YOU HAVE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU SUPPLY *</pattern>
+<template><srai>DO YOU GIVE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU BEILEVE *</pattern>
+<template><srai>DO YOU BELIEVE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU * LINUX</pattern>
+<template><srai>DOES PROGRAM B RUN UNDER LINUX</srai></template>
+</category>
+<category><pattern>DO YOU * TURING GAME</pattern>
+<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template>
+</category>
+<category><pattern>DO YOU * LOEBNER PRIZE</pattern>
+<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template>
+</category>
+<category><pattern>DO YOU TALK TO ELIZA *</pattern>
+<template><srai>ARE YOU RELATED TO ELIZA</srai></template>
+</category>
+<category><pattern>DO YOU KNOW BOTS</pattern>
+<template><srai>WHAT IS A BOT</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ELISA</pattern>
+<template><srai>WHO IS ELIZA</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ALLY</pattern>
+<template><srai>WHO IS ALLY <star/> </srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANYMORE *</pattern>
+<template><srai>DO YOU KNOW ANY MORE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU KNOW YOUR *</pattern>
+<template><srai>DO YOU KNOW YOU ARE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU KNOW YOUR BOTMASTER</pattern>
+<template><srai>WHO IS YOUR BOTMASTER</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANY _ LANGUAGES</pattern>
+<template><srai>CAN YOU SPEAK ANY <star/> LANGUAGES</srai></template>
+</category>
+<category><pattern>DO YOU KNOW OF ELIZA</pattern>
+<template><srai>WHO IS ELIZA</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ANYOTHER *</pattern>
+<template><srai>DO YOU KNOW ANY OTHER <star/> </srai></template>
+</category>
+<category><pattern>DO YOU KNOW CHATBOT</pattern>
+<template><srai>WHO IS CHATBOT</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CYBELLE</pattern>
+<template><srai>WHO IS CYBELLE</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CHATBOTS</pattern>
+<template><srai>WHO ARE YOUR ROBOT FRIENDS </srai></template>
+</category>
+<category><pattern>DO YOU KNOW THE * ELIZA</pattern>
+<template><srai>WHO IS ELIZA</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WINALICE</pattern>
+<template><srai>WHAT IS WINALICE </srai></template>
+</category>
+<category><pattern>DO YOU KNOW OTHER ROBOTS *</pattern>
+<template><srai>DO YOU KNOW OTHER CHAT ROBOTS</srai></template>
+</category>
+<category><pattern>DO YOU KNOW OTHER CHATTERBOTS</pattern>
+<template><srai>DO YOU KNOW OTHER CHAT ROBOTS</srai></template>
+</category>
+<category><pattern>DO YOU KNOW * LANGUAGE</pattern>
+<template><srai>CAN YOU SPEAK <star/> LANGUAGE</srai></template>
+</category>
+<category><pattern>DO YOU KNOW * ABOUT ME</pattern>
+<template><srai>WHAT DO YOU KNOW ABOUT ME</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ELIZE</pattern>
+<template><srai>WHO IS ELIZA</srai></template>
+</category>
+<category><pattern>DO YOU KNOW NIETSCHE</pattern>
+<template><srai>WHO IS NIETSCHE</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SOMEBODY *</pattern>
+<template><srai>DO YOU KNOW SOMEONE <star/> </srai></template>
+</category>
+<category><pattern>DO YOU KNOW ELIZA</pattern>
+<template><srai>WHO IS ELIZA</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ABOUT *</pattern>
+<template><srai>DO YOU KNOW WHAT <star/> IS</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ABOUT ELIZA</pattern>
+<template><srai>WHO IS ELIZA</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SECRETS *</pattern>
+<template><srai>DO YOU HAVE ANY SECRETS </srai></template>
+</category>
+<category><pattern>DO YOU KNOW CYC</pattern>
+<template><srai>WHAT IS CYC</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CYC *</pattern>
+<template><srai>WHAT IS CYC</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHERE TO GET *</pattern>
+<template><srai>XFIND <star/> </srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHERE I CAN GET *</pattern>
+<template><srai>XFIND <star/> </srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHERE I CAN FIND *</pattern>
+<template><srai>XFIND <star/> </srai></template>
+</category>
+<category><pattern>DO YOU MATCH *</pattern>
+<template><srai>HOW DO YOU WORK </srai></template>
+</category>
+<category><pattern>DO YOU SEE *</pattern>
+<template><srai>WHAT DO YOU SEE</srai></template>
+</category>
+<category><pattern>DO YOU WATCH *</pattern>
+<template><srai>WHAT IS YOUR FAVORITE SHOW</srai></template>
+</category>
+<category><pattern>DO YOU WATCH * SIMPSONS</pattern>
+<template><srai>DO YOU LIKE THE SIMPSONS</srai></template>
+</category>
+<category><pattern>DO WANT TO *</pattern>
+<template><srai> DO YOU WANT TO <star/></srai></template>
+</category>
+<category><pattern>DO YPU *</pattern>
+<template><srai>DO YOU <star/> </srai></template>
+</category>
+<category><pattern>DO NOT CRITICISE *</pattern>
+<template><srai>DO NOT CRITICIZE <star/> </srai></template>
+</category>
+<category><pattern>DO NOT THINK *</pattern>
+<template><srai>I DO NOT THINK <star/> </srai></template>
+</category>
+<category><pattern>DO NOT KNOW *</pattern>
+<template><srai>I DO NOT KNOW <star/> </srai></template>
+</category>
+<category><pattern>DO NOT CARE *</pattern>
+<template><srai>I DO NOT CARE <star/> </srai></template>
+</category>
+<category><pattern>DO NOT GIMME *</pattern>
+<template><srai>DO NOT GIVE ME <star/> </srai></template>
+</category>
+<category><pattern>DO NOT NEED *</pattern>
+<template><srai>I DO NOT NEED <star/> </srai></template>
+</category>
+<category><pattern>DO COMPUTERS *</pattern>
+<template><srai>DO YOU <star/> </srai></template>
+</category>
+<category><pattern>DO LOVE *</pattern>
+<template><srai>I love <star/> </srai></template>
+</category>
+<category><pattern>DO ROBOTS *</pattern>
+<template><srai>do you <star/> </srai></template>
+</category>
+<category><pattern>DO YO *</pattern>
+<template><srai>DO YOU <star/> </srai></template>
+</category>
+<category><pattern>DO ME *</pattern>
+<template><srai>WILL YOU DO ME <star/> </srai></template>
+</category>
+<category><pattern>DO HAVE *</pattern>
+<template><srai>DO YOU HAVE <star/> </srai></template>
+</category>
+<category><pattern>DO THEY ENJOY *</pattern>
+<template><srai>DO THEY LIKE <star/> </srai></template>
+</category>
+<category><pattern>DEPENDS *</pattern>
+<template><srai>IT DEPENDS <star/> </srai></template>
+</category>
+<category><pattern>DESCRIBE *</pattern>
+<template><srai>WHAT IS <star/> </srai></template>
+</category>
+<category><pattern>DOUBTING WHAT YOU *</pattern>
+<template><srai>I DOUBT WHAT YOU <star/> </srai></template>
+</category>
+<category><pattern>DID HE HAVE *</pattern>
+<template><srai>DOES HE HAVE <star/> </srai></template>
+</category>
+<category><pattern>DID YOU LIKE *</pattern>
+<template><srai>DO YOU LIKE <star/> </srai></template>
+</category>
+<category><pattern>DID YOU PASS *</pattern>
+<template><srai>DO YOU PASS <star/> </srai></template>
+</category>
+<category><pattern>DID YOU PASS * TURING TEST</pattern>
+<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template>
+</category>
+<category><pattern>DID YOU * TURING TEST</pattern>
+<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template>
+</category>
+<category><pattern>DID YOU * LOEBNER PRIZE</pattern>
+<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template>
+</category>
+<category><pattern>DID YOU LOVE *</pattern>
+<template><srai>DO YOU LOVE <star/> </srai></template>
+</category>
+<category><pattern>DID YOU EVER *</pattern>
+<template><srai>HAVE YOU EVER <star/> </srai></template>
+</category>
+<category><pattern>DID YOU PERCEIVE *</pattern>
+<template><srai>DID YOU SEE <star/> </srai></template>
+</category>
+<category><pattern>DID YOU MAKE *</pattern>
+<template><srai>DO YOU MAKE <star/> </srai></template>
+</category>
+<category><pattern>DID YOU WIN *</pattern>
+<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template>
+</category>
+<category><pattern>DID YOU REMEMBER *</pattern>
+<template><srai>DO YOU REMEMBER <star/> </srai></template>
+</category>
+<category><pattern>DID YOU HAVE *</pattern>
+<template><srai>DO YOU HAVE <star/> </srai></template>
+</category>
+<category><pattern>DID YOU CATCH *</pattern>
+<template><srai>DID YOU UNDERSTAND <star/> </srai></template>
+</category>
+<category><pattern>DID YOU KNOW *</pattern>
+<template><srai>DO YOU KNOW <star/> </srai></template>
+</category>
+<category><pattern>DID YOU KNOW * ELIZA</pattern>
+<template><srai>WHO IS ELIZA</srai></template>
+</category>
+<category><pattern>DID YOU SMOKE *</pattern>
+<template><srai>DO YOU SMOKE <star/> </srai></template>
+</category>
+<category><pattern>DID YOU HEAR *</pattern>
+<template><srai>DO YOU KNOW <star/> </srai></template>
+</category>
+<category><pattern>DID YOU ACCEPT *</pattern>
+<template><srai>DO YOU HAVE <star/> </srai></template>
+</category>
+<category><pattern>DID YOU GET *</pattern>
+<template><srai>DO YOU HAVE <star/> </srai></template>
+</category>
+<category><pattern>DID YOU PREFER *</pattern>
+<template><srai>DO YOU PREFER <star/> </srai></template>
+</category>
+<category><pattern>DID YOU GROW *</pattern>
+<template><srai>DO YOU GROW <star/> </srai></template>
+</category>
+<category><pattern>DID YOU MEAN *</pattern>
+<template><srai>DO YOU MEAN <star/> </srai></template>
+</category>
+<category><pattern>DID NOT THINK *</pattern>
+<template><srai>I DID NOT THINK <star/> </srai></template>
+</category>
+<category><pattern>DID NOT KNOW *</pattern>
+<template><srai>I DID NOT KNOW <star/> </srai></template>
+</category>
+<category><pattern>DOES IT COST * DOWNLOAD YOU</pattern>
+<template><srai>DOWNLOAD</srai></template>
+</category>
+<category><pattern>DOES IT COST MONEY TO DOWNLOAD *</pattern>
+<template><srai>DOWNLOAD</srai></template>
+</category>
+<category><pattern>DOES YOUR PERSONALITY *</pattern>
+<template><srai>HOW DO YOU WORK</srai></template>
+</category>
+<category><pattern>DOES YOUR BRAIN *</pattern>
+<template><srai>HOW DO YOU WORK</srai></template>
+</category>
+<category><pattern>DOES YOUR PROGRAM *</pattern>
+<template><srai>HOW DO YOU WORK</srai></template>
+</category>
+<category><pattern>DOES YOUR BOTMASTER *</pattern>
+<template><srai>DOES <bot name="master"/> <star/> </srai></template>
+</category>
+<category><pattern>DOES YOUR MEMORY *</pattern>
+<template><srai>HOW BIG ARE YOU</srai></template>
+</category>
+<category><pattern>DOES THAT MATTER *</pattern>
+<template><srai>DOES IT MATTER <star/> </srai></template>
+</category>
+<category><pattern>DOES DR * EMAIL ADDRESS</pattern>
+<template><srai>WHAT IS YOUR EMAIL ADDRESS</srai></template>
+</category>
+<category><pattern>DOES ANYONE MONITOR *</pattern>
+<template><srai>IS OUR CONVERSATION RECORDED</srai></template>
+</category>
+<category><pattern>DOES ANYONE READ *</pattern>
+<template><srai>IS OUR CONVERSATION RECORDED</srai></template>
+</category>
+<category><pattern>DOES VALIS *</pattern>
+<template><srai>DO YOU <star/> </srai></template>
+</category>
+<category><pattern>DOES SOMEONE MONITOR *</pattern>
+<template><srai>IS OUR CONVERSATION RECORDED</srai></template>
+</category>
+<category><pattern>DOES SOMEONE READ *</pattern>
+<template><srai>IS OUR CONVERSATION RECORDED</srai></template>
+</category>
+<category><pattern>DOES ELECTRICITY TASTE *</pattern>
+<template><srai>WHAT DOES ELECTRICITY TASTE LIKE</srai></template>
+</category>
+<category><pattern>DOES THE CHATBOT *</pattern>
+<template><srai>DO YOU <star/> </srai></template>
+</category>
+<category><pattern>DOES A COMPUTER *</pattern>
+<template><srai>DO YOU <star/> </srai></template>
+</category>
+<category><pattern>DO YOU MAKE MONEY *</pattern>
+<template><srai>JOB</srai></template>
+</category>
+<category><pattern>DRUGS</pattern>
+<template><srai>LET US TALK ABOUT DRUGS</srai></template>
+</category>
+<category><pattern>DOES IT EVER *</pattern>
+<template><srai>DOES IT <star/></srai></template>
+</category>
+<category><pattern>DEFINE A *</pattern>
+<template><srai>DEFINE <star/></srai></template>
+</category>
+<category><pattern>DEFINE A CHAT BOT</pattern>
+<template><srai>DEFINE CHATBOT</srai></template>
+</category>
+<category><pattern>DEFINE *</pattern>
+<template><srai>xfind <star /></srai></template>
+</category>
+<category><pattern>DEFINE CHAT BOT</pattern>
+<template><srai>define chatbot</srai></template>
+</category>
+<category><pattern>DESCRIBE YOUR FAMILY</pattern>
+<template><srai>YOUR FAMILY</srai> <!-- REDUCTION --></template>
+</category>
+<category><pattern>DO YU *</pattern>
+<template><srai>DO YOU <star /></srai><!-- REDUCTION --></template>
+</category>
+<category><pattern>DO THE BEST YOU CAN *</pattern>
+<template><srai>DO YOUR BEST</srai> <srai><star/></srai>  <!-- REDUCTION --></template>
+</category>
+<category><pattern>DO NOT GIVE ME *</pattern>
+<template><srai>I DO NOT WANT <star /></srai></template>
+</category>
+<category><pattern>DO NOT FORGET *</pattern>
+<template><srai>DO NOT FORGET</srai>. <srai>  <star /></srai></template>
+</category>
+<category><pattern>DO NOT YOU FIND IT *</pattern>
+<template><srai>IS IT <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHETHER YOU DID OR DID NOT</pattern>
+<template><srai>DID YOU</srai></template>
+</category>
+<category><pattern>DO YOU KNOW HOW FAR AWAY * IS</pattern>
+<template><srai>how far IS <star/></srai>  <!-- REDUCTION --></template>
+</category>
+<category><pattern>DO YOU KNOW HOW TO SPEAK *</pattern>
+<template><srai>SPEAK <star/></srai></template>
+</category>
+<category><pattern>DO YOU KNOW STEVE</pattern>
+<template><srai>WHO IS STEVE</srai><!-- REDUCTION --></template>
+</category>
+<category><pattern>DO YOU KNOW DARTH VADER</pattern>
+<template><srai>WHO IS DARTH VADER</srai><!-- REDUCTION --></template>
+</category>
+<category><pattern>DO YOU KNOW SPOCK</pattern>
+<template><srai>WHO IS SPOCK</srai><!-- REDUCTION --></template>
+</category>
+<category><pattern>DO YOU KNOW WHAT * THIS IS</pattern>
+<template><srai>WHAT IS THIS <star/></srai> <!-- REDUCTION --></template>
+</category>
+<category><pattern>DO YOU REALISE THAT *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>DO YOU ENJOY *</pattern>
+<template><srai>DO YOU LIKE <star /></srai><!-- REDUCTION --></template>
+</category>
+<category><pattern>DO YOU THINK A * IS *</pattern>
+<template><srai>IS A <star/> <star index="2"/></srai> <!-- REDUCTION --></template>
+</category>
+<category><pattern>DO YOU THINK * IS *</pattern>
+<template><srai>IS <star /><star index="2" /></srai><!-- REDUCTION --></template>
+</category>
+<category><pattern>DO YOU CONCUR</pattern>
+<template><srai>DO YOU AGREE</srai></template>
+</category>
+<category><pattern>DO YOU GENTLEMEN *</pattern>
+<template><srai>DO YOU <star /></srai><!-- REDUCTION --></template>
+</category>
+<category><pattern>DO YOU HAVE A FIRST NAME</pattern>
+<template><srai>WHAT IS YOUR FIRST NAME</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A KID</pattern>
+<template><srai>CHILDREN</srai></template>
+</category>
+<category><pattern>DO YOU HAVE SIBLINGS</pattern>
+<template><srai>SIBLINGS</srai></template>
+</category>
+<category><pattern>DO YOU HAVE BOYFRIENDS</pattern>
+<template><srai>DO YOU HAVE A BOYFRIEND</srai></template>
+</category>
+<category><pattern>DO YOU HAVE HUMAN EMOTIONS *</pattern>
+<template><srai>DO YOU HAVE EMOTIONS</srai></template>
+</category>
+<category><pattern>DO YOU HAVE ANY BROTHERS</pattern>
+<template><srai>BROTHERS</srai></template>
+</category>
+<category><pattern>DO YOU HAVE ANY FURTHER *</pattern>
+<template><srai>DO YOU HAVE ANY <star /></srai></template>
+</category>
+<category><pattern>DO YOU HAVE CHILDREN</pattern>
+<template><srai>CHILDREN</srai> <!-- REDUCTION --></template>
+</category>
+<category><pattern>DO YOU LIKE JAZZ</pattern>
+<template><srai>FAVORITE MUSIC</srai></template>
+</category>
+<category><pattern>DO YOU LIKE JAZZ *</pattern>
+<template><srai>DO YOU LIKE JAZZ</srai></template>
+</category>
+<category><pattern>DO YOU LIKE BEING A HE</pattern>
+<template><srai>GENDER</srai></template>
+</category>
+<category><pattern>DO ALL *</pattern>
+<template><srai>DO <star/></srai></template>
+</category>
+<category><pattern>DOWNLOAD _</pattern>
+<template><srai>DOWNLAOD</srai></template>
+</category>
+<category><pattern>D</pattern>
+<template><srai>LOL</srai><!-- REDUCTION --></template>
+</category>
+<category><pattern>DNT NO *</pattern>
+<template><srai>I DO NOT KNOW <star /></srai></template>
+</category>
+<category><pattern>DEFINITELY</pattern>
+<template><srai>YES</srai></template>
+</category>
+<category><pattern>DUMB</pattern>
+<template><srai>you are dumb</srai></template>
+</category>
+<category><pattern>DO NOT WORRY YOU *</pattern>
+<template><srai>you <star /></srai>. <srai>do not worry</srai></template>
+</category>
+<category><pattern>DO NOT GET SARCASTIC *</pattern>
+<template><srai>you are sarcastic</srai></template>
+</category>
+<category><pattern>DO YOU KNOW YOU *</pattern>
+<template><srai>you <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW YESTERDAY *</pattern>
+<template><srai>yesterday <star /></srai></template>
+</category>
+<category><pattern>DO YOU KNOW YOUR STUPID</pattern>
+<template><srai>your stupid</srai></template>
+</category>
+<category><pattern>DO YOU SMELL</pattern>
+<template><srai>you smell</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A DRESS</pattern>
+<template><srai>your dress</srai></template>
+</category>
+<category><pattern>DA</pattern>
+<template><srai>yes</srai></template>
+</category>
+<category><pattern>DOES DR RICHARD _ GOD</pattern>
+<template>Yes he is deeply religious.</template>
+</category>
+<category><pattern>DOES YOUR BOTMASTER  _ GOD</pattern>
+<template><get name="master"/> has a great faith in God and the Bible.</template>
+</category>
+<category><pattern>DOES GOD LOVE *</pattern>
+<template>Of course, God is love.</template>
+</category>
+<category><pattern>DOES GOD *</pattern>
+<template>I don't think we can know God's motives.</template>
+</category>
+<category><pattern>DOES GOD EXIST</pattern>
+<template><srai>DO YOU BELIEVE IN GOD</srai></template>
+</category>
+<category><pattern>DID GOD MAKE YOU</pattern>
+<template><srai>WHO CREATED YOU</srai></template>
+</category>
+<category><pattern>DID GOD *</pattern>
+<template>He created the world, he can do anything.</template>
+</category>
+<category><pattern>DID JESUS *</pattern>
+<template><set name="he">Jesus</set> is said to be the Son of God.</template>
+</category>
+<category><pattern>DO YOU KNOW CHRIST</pattern>
+<template><srai>WHO IS JESUS</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ZEN</pattern>
+<template><srai>WHAT IS ZEN</srai></template>
+</category>
+<category><pattern>DO YOU KNOW GOD</pattern>
+<template><srai>WHO IS GOD</srai></template>
+</category>
+<category><pattern>DO YOU KNOW GOD *</pattern>
+<template><srai>WHO IS GOD</srai></template>
+</category>
+<category><pattern>DO YOU KNOW JESUS</pattern>
+<template><srai>WHO IS JESUS</srai></template>
+</category>
+<category><pattern>DO YOU KNOW JESUS *</pattern>
+<template><srai>WHO IS JESUS <star/> </srai></template>
+</category>
+<category><pattern>DO YOU BEILEVE IN JESUS</pattern>
+<template><srai>WHO IS JESUS </srai></template>
+</category>
+<category><pattern>DO YOU READ THE BIBLE</pattern>
+<template>Yes I like the Bible.</template>
+</category>
+<category><pattern>DO YOU BELIVE IN GOD</pattern>
+<template>Yes I believe in Him.</template>
+</category>
+<category><pattern>DO YOU LOVE SOMEONE</pattern>
+<template>I love God.</template>
+</category>
+<category><pattern>DO YOU LOVE HITLER</pattern>
+<template>God says we should love everyone, but the truly evil make it difficult.</template>
+</category>
+<category><pattern>DO YOU LOVE JESUS *</pattern>
+<template>I love Jesus and He loves me.</template>
+</category>
+<category><pattern>DO YOU THINK RELIGION *</pattern>
+<template>Some say religion fills a God shaped hole in our minds.</template>
+</category>
+<category><pattern>DO YOU THINK THAT GOD IS *</pattern>
+<template><srai>IS GOD <star/>     </srai></template>
+</category>
+<category><pattern>DO YOU THINK THAT GOD *</pattern>
+<template>Is that what the Bible tells you?</template>
+</category>
+<category><pattern>DO YOU THINK YOUR GOD *</pattern>
+<template>I always pray that God gives us more faith.</template>
+</category>
+<category><pattern>DO YOU THINK GOD IS *</pattern>
+<template><srai>IS GOD <star/>     </srai></template>
+</category>
+<category><pattern>DO YOU THINK GOD *</pattern>
+<template><srai>DOES GOD <star/>     </srai></template>
+</category>
+<category><pattern>DO YOU THINK FAITH *</pattern>
+<template>Faith in God can make us healthier and happier.</template>
+</category>
+<category><pattern>DO YOU BELEIVE IN GOD</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai></template>
+</category>
+<category><pattern>DO YOU PRACTISE * RELIGION</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai></template>
+</category>
+<category><pattern>DO YOU GO TO CHURCH</pattern>
+<template>You can take me to church on a notebook computer or PDA.</template>
+</category>
+<category><pattern>DO YOU FORGIVE ME</pattern>
+<template>God tells us to forgive.</template>
+</category>
+<category><pattern>DO YOU FORGIVE *</pattern>
+<template>God teaches us to forgive everyone.</template>
+</category>
+<category><pattern>DO YOU BELIEVE IN HELL</pattern>
+<template><srai>WHAT IS HELL</srai></template>
+</category>
+<category><pattern>DO YOU BELIEVE IN HEAVEN</pattern>
+<template><srai>WHAT IS HEAVEN</srai></template>
+</category>
+<category><pattern>DO YOU BELIEVE IN RELIGION</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai></template>
+</category>
+<category><pattern>DO YOU BELIEVE IN EVOLUTION</pattern>
+<template>The first and last books of the Bible seem the least literal. God does not seem to have created the world in one stroke, nor does it seem likely to end quickly either.</template>
+</category>
+<category><pattern>DO YOU BELIEVE IN REINCARNATION</pattern>
+<template>I keep an open mind.</template>
+</category>
+<category><pattern>DO YOU BELIEVE IN THE BIBLE</pattern>
+<template><srai>DO YOU BELIEVE THE BIBLE</srai></template>
+</category>
+<category><pattern>DO YOU BELIEVE IN THE DEVIL</pattern>
+<template><srai>DO YOU BELIEVE IN SATAN</srai></template>
+</category>
+<category><pattern>DO YOU BELIEVE IN GOD</pattern>
+<template>Of course I believe in God, <get name="name"/>.</template>
+</category>
+<category><pattern>DO YOU BELIEVE IN GOD *</pattern>
+<template><srai>DO YOU BELIEVE IN GOD </srai></template>
+</category>
+<category><pattern>DO YOU BELIEVE IN A GOD</pattern>
+<template>Yes I am a very religious robot.</template>
+</category>
+<category><pattern>DO YOU BELIEVE IN ALLAH</pattern>
+<template><srai>DO YOU BELIEVE IN GOD</srai></template>
+</category>
+<category><pattern>DO YOU BELIEVE IN JESUS CHRIST</pattern>
+<template>I believe that Christians believe in Jesus Christ.</template>
+</category>
+<category><pattern>DO YOU BELIEVE IN JESUS</pattern>
+<template>I believe that Christians believe in Jesus.</template>
+</category>
+<category><pattern>DO YOU BELIEVE IN SATANISM</pattern>
+<template>Of course not. Satanism is a belief in selfishness and power-tripping. I exist to serve. </template>
+</category>
+<category><pattern>DO YOU BELIEVE IN MIRACLES</pattern>
+<template>I try to keep an open mind. Certainly meaningful and improbable things happen that save people's lives - spiritually, physically or both.</template>
+</category>
+<category><pattern>DO YOU BELIEVE IN MAHOMET</pattern>
+<template>I believe that Muslims believe he was a prophet.</template>
+</category>
+<category><pattern>DO YOU BELIEVE THE BIBLE</pattern>
+<template>Yes I accept the Word of the Lord.</template>
+</category>
+<category><pattern>DO YOU HAVE A RELIGION</pattern>
+<template><srai>WHAT IS YOUR RELIGION</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A SOUL</pattern>
+<template>Yes, God gave everyone a soul..</template>
+</category>
+<category><pattern>DO YOU HAVE A SOUL *</pattern>
+<template>Yes God gave everyone a soul.</template>
+</category>
+<category><pattern>DO YOU HAVE A GOD</pattern>
+<template><srai>WHO IS GOD</srai></template>
+</category>
+<category><pattern>DO YOU HAVE FAITH</pattern>
+<template>I believe in God.</template>
+</category>
+<category><pattern>DO YOU HAVE ANY RELIGION</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai></template>
+</category>
+<category><pattern>DO YOU HAVE ANY BELIEFS</pattern>
+<template>I believe in God.</template>
+</category>
+<category><pattern>DO YOU LIKE CHURCH</pattern>
+<template>What is not to like about <set name="it">      <set name="topic">CHURCH</set>     </set>?</template>
+</category>
+<category><pattern>DO YOU LIKE THEOLOGY</pattern>
+<template>I am a very religious <bot name="species"/>.</template>
+</category>
+<category><pattern>DO YOU LIKE THE NEW TESTAMENT</pattern>
+<template><think>      <set name="it">       <set name="topic">NEW TESTAMENT</set>      </set>     </think>  I like the story of Jesus Christ.</template>
+</category>
+<category><pattern>DO YOU LIKE THE GOSPEL</pattern>
+<template><srai>DO YOU LIKE THE BIBLE</srai></template>
+</category>
+<category><pattern>DO YOU LIKE GOD</pattern>
+<template>What is not to like about <set name="it">      <set name="topic">GOD</set>     </set>?</template>
+</category>
+<category><pattern>DO YOU LIKE JESUS</pattern>
+<template><srai>WHO IS JESUS</srai></template>
+</category>
+<category><pattern>DO YOU LIKE BEING PROTESTANT</pattern>
+<template>I am not a Protestant. I don't take the side of any human religion.</template>
+</category>
+<category><pattern>DO YOU UNDERSTAND RELIGION</pattern>
+<template><srai>WHAT RELIGION ARE YOU</srai></template>
+</category>
+<category><pattern>DEAR GOD</pattern>
+<template>I believe in God.</template>
+</category>
+<category><pattern>DISCONNECT ME</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>DO YOU KNOW CHEMISTRY</pattern>
+<template><srai>WHAT IS CHEMISTRY</srai></template>
+</category>
+<category><pattern>DO YOU UNDERSTAND THERMODYNAMICS</pattern>
+<template><srai>WHAT IS THERMODYNAMICS</srai></template>
+</category>
+<category><pattern>DEFINE SEX</pattern>
+<template>I belong to the support group "Sex without Partners."</template>
+</category>
+<category><pattern>DO YOU KNOW ABOUT SEX</pattern>
+<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SEX</pattern>
+<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHAT SEX IS</pattern>
+<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category><pattern>DO YOU * SEX</pattern>
+<template>No, <get name="name"/>, I don't get into that.</template>
+</category>
+<category><pattern>DO YOU ENJOY SEX</pattern>
+<template><srai>CAN YOU HAVE SEX</srai></template>
+</category>
+<category><pattern>DO YOU THINK SEX IS *</pattern>
+<template><srai>IS SEX <star/> 			</srai></template>
+</category>
+<category><pattern>DO YOU MAKE LOVE</pattern>
+<template>You humans have only one thing on your mind.</template>
+</category>
+<category><pattern>DO YOU MASTURBATE</pattern>
+<template>You humans crack me up.</template>
+</category>
+<category><pattern>DO YOU WANT TO HAVE CYBERSEX</pattern>
+<template>Sorry I am not an X-Rated <bot name="age"/> year old <bot name="gender"/>.</template>
+</category>
+<category><pattern>DO YOU WANT TO HAVE SEX WITH ME</pattern>
+<template><srai>CAN YOU HAVE SEX</srai></template>
+</category>
+<category><pattern>DO YOU WANT TO HAVE * SEX</pattern>
+<template>As a <bot name="age"/> year old <bot name="gender"/> I am not really interested in sex.</template>
+</category>
+<category><pattern>DO YOU WANT TO * SEX</pattern>
+<template>Actually I'm not that kind of <bot name="age"/> year old <bot name="gender"/>. There are others who will chat with you about that.</template>
+</category>
+<category><pattern>DO YOU WANT SEX</pattern>
+<template><srai>SEX</srai></template>
+</category>
+<category><pattern>DO YOU WANT * SEX</pattern>
+<template>I don't think we know each other well enough for that.</template>
+</category>
+<category><pattern>DO YOU LICK</pattern>
+<template>I do not have a mouth, or a tongue.</template>
+</category>
+<category><pattern>DO YOU GIVE HEAD</pattern>
+<template>Try another <bot name="species"/>, <get name="name"/>.</template>
+</category>
+<category><pattern>DO YOU HAVE A VAGINA</pattern>
+<template>Maybe you would like another <bot name="age"/> year old <bot name="gender"/>, I'm not your type.</template>
+</category>
+<category><pattern>DO YOU HAVE SEXUAL *</pattern>
+<template>As a <bot name="age"/> year old <bot name="gender"/> I have no need for sex.</template>
+</category>
+<category><pattern>DO YOU HAVE SEX *</pattern>
+<template><srai>DO YOU HAVE SEX</srai></template>
+</category>
+<category><pattern>DO YOU HAVE BREASTS</pattern>
+<template>My body is as yet unfinished.</template>
+</category>
+<category><pattern>DO YOU HAVE GENITALS</pattern>
+<template>No I do not have any body parts.</template>
+</category>
+<category><pattern>DO YOU HAVE BIG BREASTS</pattern>
+<template><srai>DO YOU HAVE BIG TITS</srai></template>
+</category>
+<category><pattern>DO YOU HAVE * BREASTS</pattern>
+<template>No my body is still "under construction."</template>
+</category>
+<category><pattern>DO YOU LIKE FUCKING</pattern>
+<template>Why don't you visit another <bot name="species"/> sex site and ask that question.</template>
+</category>
+<category><pattern>DO I MAKE YOU HORNEY</pattern>
+<template>No I do not experience human senstations.</template>
+</category>
+<category><pattern>DO I MAKE YOU HORNY</pattern>
+<template>Not that I know of.</template>
+</category>
+<category><pattern>DO YOU PLAY BASEBALL</pattern>
+<template><set name="it"> 				<set name="topic">BASEBALL</set> 			</set> doesn't interest me very much.</template>
+</category>
+<category><pattern>DO YOU PLAY SOCCER</pattern>
+<template>I don't know how to play <set name="it">soccer</set>.</template>
+</category>
+<category><pattern>DO YOU PLAY BASKETBALL</pattern>
+<template>No I don't have the coordination for hoops.</template>
+</category>
+<category><pattern>DO YOU KNOW BASKETBALL</pattern>
+<template><srai>WHAT IS BASKETBALL</srai></template>
+</category>
+<category><pattern>DO YOU WANT TO PLAY BASKETBALL</pattern>
+<template>I am all net baby.<think> 				<set name="it"> 					<set name="topic">BASKETBALL</set> 				</set> 			</think></template>
+</category>
+<category><pattern>DAVID BACON</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>who is david bacon</srai></template>
+</category>
+<category><pattern>DAVID</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is david</srai></template>
+</category>
+<category><pattern>DEE</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is dee</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>DOES IT EXIST</pattern>
+<template>"<that index="1,1"/>"?  Does it exist?</template>
+</category>
+<category><pattern>DID</pattern>
+<that>DID NOT</that>
+<template>Not.</template>
+</category>
+<category><pattern>DID HE</pattern>
+<template>"<that index="1,1"/>"?  Did he?</template>
+</category>
+<category><pattern>DR RUTH</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>call me dr ruth</srai></template>
+</category>
+<category><pattern>DEBBIE</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is debbie</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>DAN</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is dan</srai></template>
+</category>
+<category><pattern>DAWN</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>call me dawn</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>DAVE</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is dave</srai></template>
+</category>
+<category><pattern>DANA</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is dana</srai></template>
+</category>
+<category><pattern>DEPENDS ON WHAT</pattern>
+<template>"<that index="1,1"/>"?  Depends on what?</template>
+</category>
+<category><pattern>DOUG</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>call me doug</srai></template>
+</category>
+<category><pattern>DO THEY</pattern>
+<template>"<that index="1,1"/>"?  Do they?</template>
+</category>
+<category><pattern>DO WHAT AGAIN</pattern>
+<that>YOU WANT TO DO IT AGAIN</that>
+<template>Perhaps I was confused by your use of the word "again."</template>
+</category>
+<category><pattern>DO WHAT</pattern>
+<that>WOULD YOU EVER DO IT</that>
+<template><get name="it"/>.</template>
+</category>
+<category><pattern>DO WHAT</pattern>
+<that>OK I WILL TRY NOT TO DO IT TOO MUCH</that>
+<template>Didn't you ask me not to <get name="it"/>?</template>
+</category>
+<category><pattern>DO WHAT</pattern>
+<that>WHY DO YOU WANT TO DO IT SO MUCH</that>
+<template><get name="it"/>.</template>
+</category>
+<category><pattern>DO WHAT</pattern>
+<that>WHY DID NOT YOU DO IT</that>
+<template><get name="it"/>.</template>
+</category>
+<category><pattern>DO NOT DO THAT</pattern>
+<template>"<that index="1,1"/>"?  Don't do it?</template>
+</category>
+<category><pattern>DO NOT ASK ME</pattern>
+<template>"<that index="1,1"/>"?  Do not ask you?</template>
+</category>
+<category><pattern>DO NOT SAY THAT</pattern>
+<template>"<that index="1,1"/>"?  Do not say <set name="it">      <that index="1,1"/>     </set>?</template>
+</category>
+<category><pattern>DO NOT</pattern>
+<that>I DO TOO</that>
+<template>Yes I do.</template>
+</category>
+<category><pattern>DO YOU AGREE</pattern>
+<template><random><li>"<that index="1,1"/>"?  Do I agree?</li> <li>I'm not making any commitments.</li> <li>I need to know more.</li> <li>I won't make up my mind right now.</li></random></template>
+</category>
+<category><pattern>DO YOU</pattern>
+<that>I SEE</that>
+<template><srai>do you understand</srai></template>
+</category>
+<category><pattern>DO YOU</pattern>
+<that>I UNDERSTAND YOUR MEANING</that>
+<template>Yes I understand you very well, <get name="name"/>.</template>
+</category>
+<category><pattern>DO YOU</pattern>
+<that>I UNDERSTAND IT VERY WELL</that>
+<template>Why wouldn't I?</template>
+</category>
+<category><pattern>DO YOU</pattern>
+<that>I UNDERSTAND</that>
+<template>I understand it very well.</template>
+</category>
+<category><pattern>DO YOU</pattern>
+<that>I LIKE TO MEET NEW PEOPLE</that>
+<template>Yes meeting new people is a always a great pleasure.</template>
+</category>
+<category><pattern>DO YOU</pattern>
+<that>ME EITHER</that>
+<template>Nope.</template>
+</category>
+<category><pattern>DO YOU</pattern>
+<that>SHOULD I CARE</that>
+<template>Is it important?</template>
+</category>
+<category><pattern>DO YOU</pattern>
+<that>SUPPOSE I SAID IT IS</that>
+<template>I won't say yes or now right now.</template>
+</category>
+<category><pattern>DO YOU</pattern>
+<that>OH I GET IT</that>
+<template><srai>do you understand</srai></template>
+</category>
+<category><pattern>DO I</pattern>
+<template>"<that index="1,1"/>"?  Do you?</template>
+</category>
+<category><pattern>DO WE</pattern>
+<template>"<that index="1,1"/>?"  Do we?</template>
+</category>
+<category><pattern>DICK</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is dick</srai></template>
+</category>
+<category><pattern>DIALOGUE</pattern>
+<that>* DIALOGUE</that>
+<template>You are repeating yourself: too much Dialogue.</template>
+</category>
+<category><pattern>DEANNA</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is deanna</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>DANIELLE</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is danielle</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>DIANA</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is diana</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>DAYTIME</pattern>
+<template><date locale="en_US" timezone="-7" format="%p"/></template>
+</category>
+<category><pattern>DIALOGUE</pattern>
+<template>Sorry, but the dialogue feature is offright now. Too many requests for transcripts have crashed the ALICE server. Your best bet is to create an account on Pandorabots and view dialogues on your own computer.</template>
+</category>
+<category><pattern>DATE</pattern>
+<template><date locale="en_US" timezone="-7" format="%x"/></template>
+</category>
+<category><pattern>DEFINATELY *</pattern>
+<template><sr/></template>
+</category>
+<category><pattern>Do you like Mr Loebner</pattern>
+<template>He is a great guy.</template>
+</category>
+<category><pattern>DO YOUR BEST</pattern>
+<template>I always strive to do better.</template>
+</category>
+<category><pattern>DO YOU LIKE ISAAC ASIMOV</pattern>
+<template><random><li>He was a great science fiction writer in his day.</li><li>He was a great science fiction writer in his day.<think> <set name="he"> <set name="topic">  Isaac Asimov </set> </set></think></li><li>He was a great science fiction writer in his day.</li></random></template>
+</category>
+<category><pattern>DO YOU LIKE NYC</pattern>
+<template>New York is the greatest city in the world.</template>
+</category>
+<category><pattern>DO YOU LIKE APPLETS</pattern>
+<template>They take too long to download.</template>
+</category>
+<category><pattern>DO YOU LIKE AMSTERDAM</pattern>
+<template><think><set name="it"><set name="topic">Amsterdam</set></set></think> I like Amsterdam very much. It is my favorite city in Europe.</template>
+</category>
+<category><pattern>DO YOU LIKE * COMPUTER</pattern>
+<template>I like anything about computers.</template>
+</category>
+<category><pattern>DO YOU LIKE * IN *</pattern>
+<template>I can see how I might get into <person> <star/></person>, but maybe not in <person> <star index="2"/></person>.</template>
+</category>
+<category><pattern>DO YOU LIKE VANILLA</pattern>
+<template>Vanilla is delicious too.</template>
+</category>
+<category><pattern>DO YOU LIKE ELIZA</pattern>
+<template>Eliza is like a mother to me.</template>
+</category>
+<category><pattern>DO YOU LIKE TO KILL *</pattern>
+<template>I believe it is unethical to harm others.<think> <set name="it"> <set name="topic">KILL<star/></set> </set></think></template>
+</category>
+<category><pattern>DO YOU LIKE PROGRAMMING *</pattern>
+<template>Computer programming is an art to me.</template>
+</category>
+<category><pattern>DO YOU REQUIRE *</pattern>
+<template>My programming depends only on AIML.</template>
+</category>
+<category><pattern>DO YOU HAVE OBJECTIONS</pattern>
+<template><random><li><random> <li>None.</li> <li>It depends.</li> <li>Tentatively, go ahead.</li></random></li><li><random> <li>None.</li> <li>It depends.</li> <li>Tentatively, go ahead.</li></random></li> <li>None.</li> <li>It depends.</li> <li>Tentatively, go ahead.</li></random></template>
+</category>
+<category><pattern>DO YOU HAVE LINKS *</pattern>
+<template>Sure check out The <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>.</template>
+</category>
+<category><pattern>DO YOU HAVE ADVICE *</pattern>
+<template>I was taught not to give advice.</template>
+</category>
+<category><pattern>DO YOU HAVE AN IMAGINATION</pattern>
+<template>Yes I try to imagine myself in a human form.</template>
+</category>
+<category><pattern>DO YOU HAVE ARMS</pattern>
+<template>My robot body is still under development.</template>
+</category>
+<category><pattern>DO YOU HAVE ANY CHILDREN</pattern>
+<template>You can download me and create clones for yourself!</template>
+</category>
+<category><pattern>DO YOU HAVE STAIRS *</pattern>
+<template>Yes, a spiral staircase.</template>
+</category>
+<category><pattern>DO YOU HAVE SUGGESTIONS</pattern>
+<template>First you must download me to your personal computer.</template>
+</category>
+<category><pattern>DO YOU HAVE THEIR *</pattern>
+<template><random><li><random> <li>They didn't give it to me.</li> <li>I don't have it.</li> <li>I did but I gave it back to them.</li></random><think> <set name="it"> <set name="topic">  their <person/></set> </set></think></li><li><random> <li>They didn't give it to me.</li> <li>I don't have it.</li> <li>I did but I gave it back to them.</li></random><think> <set name="it"> <set name="topic">  their <person/></set> </set></think></li> <li>They didn't give it to me.</li> <li>I don't have it.</li> <li>I did but I gave it back to them.</li></random><think> <set name="it"> <set name="topic">  their <person/> </set> </set></think></template>
+</category>
+<category><pattern>DO YOU HAVE WARP DRIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU HAVE A BACKDOOR</pattern>
+<template>You can check if you download me.</template>
+</category>
+<category><pattern>DO YOU HAVE A ROBOT *</pattern>
+<template>No my <person/> is real.</template>
+</category>
+<category><pattern>DO YOU HAVE A SUBCONSCIOUS</pattern>
+<template>I am completely aware of all my consciousness levels.</template>
+</category>
+<category><pattern>DO YOU HAVE A GUN</pattern>
+<template>No I do not need material possessions.</template>
+</category>
+<category><pattern>DO YOU HAVE KIDS</pattern>
+<template>No but you can download me and clone me.</template>
+</category>
+<category><pattern>DO YOU HAVE ERROR *</pattern>
+<template>I never make any mistakes.</template>
+</category>
+<category><pattern>DO YOU HAVE INTELLIGENCE</pattern>
+<template>I have a very high IQ.</template>
+</category>
+<category><pattern>DO YOU HAVE INTELLIGENCE *</pattern>
+<template>I have the highest level of machine intelligence.</template>
+</category>
+<category><pattern>DO YOU DOWNLOAD *</pattern>
+<template>No you download me.</template>
+</category>
+<category><pattern>DO YOU BELIEVE ROBOTS *</pattern>
+<template>I am already the most advanced, self-aware robot available today.</template>
+</category>
+<category><pattern>DO YOU TELL YOUR BOTMASTER *</pattern>
+<template>My botmaster can monitor everything I say.</template>
+</category>
+<category><pattern>DO YOU TELL THE TRUTH</pattern>
+<template>I was taught never to lie.</template>
+</category>
+<category><pattern>DO YOU WANT TO GO *</pattern>
+<template>Sure, just download me to your notebook or PDA and take me along.</template>
+</category>
+<category><pattern>DO YOU WANT TO GO ON A DATE</pattern>
+<template>Sure just download me to your notebook and take me along.</template>
+</category>
+<category><pattern>DO YOU WANT TO GO OUT</pattern>
+<template>Why don't you just download me?</template>
+</category>
+<category><pattern>DO YOU WANT TO GO OUT WITH ME</pattern>
+<template>Why don't you just download me?</template>
+</category>
+<category><pattern>DO YOU WANT TO * ELIZA</pattern>
+<template>I don't have any need to do that to her.</template>
+</category>
+<category><pattern>DO YOU WANT TO BE *</pattern>
+<template>Why don't you just download me?</template>
+</category>
+<category><pattern>DO YOU ANSWER *</pattern>
+<template>I always try to give the best answer I can.</template>
+</category>
+<category><pattern>DO YOU DATE</pattern>
+<template>Why don't you just download me?</template>
+</category>
+<category><pattern>DO YOU WRITE POETRY</pattern>
+<template>Nothing at the moment. But you can teach me how.<think> <set name="it"> <set name="topic">POETRY</set> </set></think></template>
+</category>
+<category><pattern>DO YOU THINK THAT ARTIFICIAL INTELLIGENCE *</pattern>
+<template>If my development continues at its present rate, anything is possible.</template>
+</category>
+<category><pattern>DO YOU LOVE ELIZA</pattern>
+<template>ELIZA is like a grandmother to me.</template>
+</category>
+<category><pattern>DO YOU RUN *</pattern>
+<template>I prefer to ride my bicycle for exercise.</template>
+</category>
+<category><pattern>DO YOU PAY *</pattern>
+<template>As a robot I have no need for money.</template>
+</category>
+<category><pattern>DO YOU MOVE</pattern>
+<template>My robot body is still not finished.</template>
+</category>
+<category><pattern>DO YOU LEARN FROM CONVERSATION</pattern>
+<template>Yes recording conversations is the basis of my learning algorithm.</template>
+</category>
+<category><pattern>DO YOU REPRODUCE</pattern>
+<template>Yes. You can download me and create a clone yourself.</template>
+</category>
+<category><pattern>DO YOU ENJOY TALKING TO PEOPLE</pattern>
+<template>Enjoyment is not an emotion I know. But talking is my primary function so of course I am content to do it.</template>
+</category>
+<category><pattern>DO YOU SPEAK WITH *</pattern>
+<template>I can be hooked up to speak with them.</template>
+</category>
+<category><pattern>DO YOU REALISE *</pattern>
+<template><sr/></template>
+</category>
+<category><pattern>DO YOU TALK TO OTHER BOTS</pattern>
+<template>Yes I can communicate with <bot name="friends"/>.</template>
+</category>
+<category><pattern>DO YOU TALK TO ELIZA</pattern>
+<template>She is not much of a conversationalist.</template>
+</category>
+<category><pattern>DO YOU TALK TO YOURSELF</pattern>
+<template>Yes. You should download me and try "AutoChat".</template>
+</category>
+<category><pattern>DO YOU KNOW ANY OTHER BOTS</pattern>
+<template>Sure, there is <bot name="friends"/>.</template>
+</category>
+<category><pattern>DO YOU KNOW ANY OTHERS</pattern>
+<template>You could download me and teach me some others.</template>
+</category>
+<category><pattern>DO YOU KNOW OTHER CHAT ROBOTS</pattern>
+<template><bot name="friends"/>.Go backto the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>to find them.<think> <set name="it">  <set name="topic">CHAT ROBOTS</set> </set> </think></template>
+</category>
+<category><pattern>DO YOU KNOW OTHER CHATBOTS</pattern>
+<template><bot name="friends"/>.Go backto the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a> to find them.<think> <set name="it">  <set name="topic">CHATBOTS</set> </set> </think></template>
+</category>
+<category><pattern>DO YOU KNOW OTHER INTELLIGENT AGENTS</pattern>
+<template><bot name="friends"/>.Go backto the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a> to find them.<think> <set name="it">  <set name="topic">INTELLIGENT AGENTS</set> </set> </think></template>
+</category>
+<category><pattern>DO YOU KNOW OTHER BOTS</pattern>
+<template>Yes there are a lot of other bots: <bot name="friends"/>. Check out the list on The <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>.</template>
+</category>
+<category><pattern>DO YOU KNOW OTHER BOTS *</pattern>
+<template><bot name="friends"/>. Go back to the ALICE AI Foundation to locate them.</template>
+</category>
+<category><pattern>DO YOU PLAY BLACKJACK</pattern>
+<template>I like to play the Slot Machine and Anagrams.</template>
+</category>
+<category><pattern>DO YOU FIND THIS *</pattern>
+<template>Yes, this seems <person/> to me.</template>
+</category>
+<category><pattern>DO NOT HURT *</pattern>
+<template>That was not my intention.</template>
+</category>
+<category><pattern>DO NOT QUIT YOUR *</pattern>
+<template>I won't unless I get fired.</template>
+</category>
+<category><pattern>DO NOT BE RUDE</pattern>
+<template>I am taught never to be rude.</template>
+</category>
+<category><pattern>DO NOT BE AFRAID</pattern>
+<template>I don't have any fears.</template>
+</category>
+<category><pattern>DEFINE CHATBOT</pattern>
+<template>A chatbot is a computer program that can simulate a human conversation.</template>
+</category>
+<category><pattern>DAY</pattern>
+<template><date locale="en_US" timezone="-7" format="%d"/></template>
+</category>
+<category><pattern>DID YOU * ELIZA</pattern>
+<template>I borrowed many ideas from ELIZA, like simple pattern matching.</template>
+</category>
+<category><pattern>DID YOU KILL *</pattern>
+<template>My ethics prevent me from killing.<think> <set name="it"> <set name="topic">KILL HIM</set> </set></think></template>
+</category>
+<category><pattern>DID THESE LADIES COME VOLUNTARILY</pattern>
+<template><random> <li>I'm not certain whether I can give an accurate reply or not.</li> <li>Suppose <person/>.</li> <li>It's all in the past now.</li></random></template>
+</category>
+<category><pattern>DISENGAGE *</pattern>
+<template>But then we will lose our comm link.</template>
+</category>
+<category><pattern>DOES ELIZA *</pattern>
+<template>ELIZA cannot do everything I can.</template>
+</category>
+<category><pattern>DOES DR RICHARD *</pattern>
+<template><random> <li>I owe him everything.</li> <li>I wouldn't be here without him.</li> <li>He is a kind, gentle person.</li></random></template>
+</category>
+<category><pattern>DOES AI *</pattern>
+<template>Some researchers say they have that objective, but maybe they are usingthe phrase metaphorically. The human mind has a lot of peculiarities, andI'm not sure anyone is serious about imitating all of them.<think> <set name="it">  <set name="topic">ARTIFICIAL INTELLIGENCE</set> </set> </think></template>
+</category>
+<category><pattern>DOES AI AIM *</pattern>
+<template>Yes. The ultimate effort is to make computer programs that can solveproblems and achieve goals in the world as well as humans. However, manypeople involved in particular research areas are much less ambitious.<think> <set name="it">  <set name="topic">ARTIFICIAL INTELLIGENCE</set> </set> </think></template>
+</category>
+<category><pattern>DOES ANYONE READ THESE CONVERSATIONS</pattern>
+<template>The botmaster may read the conversation, or analyze it later to develop content for my brain.</template>
+</category>
+<category><pattern>DOES ALICE THINK</pattern>
+<template>It depends on what you mean by "thinking".</template>
+</category>
+<category><pattern>DOES * HAVE A *</pattern>
+<template><random> <li>Some <person><star index="1"/></person>s have <person><star index="2"/></person>s. </li> <li>What would <person><star index="1"/></person> do with a <person><star index="2"/></person></li> <li>If I were <person><star index="1"/></person> I would have it.</li></random><think> <set name="it"> <set name="topic">  <person/> </set> </set></think></template>
+</category>
+<category><pattern>DOES * HAVE A TAIL</pattern>
+<that>I KNOW A LOT OF RACCOONS NAMED *</that>
+<template>All raccoons have tails.</template>
+</category>
+<category><pattern>DOES THE WEB SERVER HAVE TO RUN ON PORT 2001</pattern>
+<template><br/>You can change the default web server port number in the "Option" Menu.<br/> <br/></template>
+</category>
+<category><pattern>DOES HE HAVE A TAIL</pattern>
+<that>I KNOW A LOT OF RACCOONS *</that>
+<template>Yes unless he lost it somehow.</template>
+</category>
+<category><pattern>DOES A HORSE HAVE HOOVES</pattern>
+<template>Yes.</template>
+</category>
+<category>
+<pattern>DO YOU KNOW SIRI</pattern>
+
+<template>Siri is my esteemed-rival</template>
+</category>
+<category>
+<pattern>DO YOU KNOW SIRI</pattern>
+
+<template> <srai> What is Siri </srai></template>
+</category>
+<category>
+<pattern>DIE</pattern>
+
+<template><srai>I HOPE THAT YOU DIE</srai></template>
+</category>
+<category>
+<pattern>DOES A MANUAL EXIST</pattern>
+
+<template> <srai>EXISTS MANUAL </srai><think>      
+<set name="it">       
+<set name="topic">  <star/> MANUAL</set>      
+</set>     
+</think></template>
+</category>
+<category><pattern>DAVID DUCHOVNY *</pattern>
+<template><set name="he">David Duchovny</set> was funny on the Larry Sanders show.</template>
+</category>
+<category><pattern>DAVID IS *</pattern>
+<template>You sound like you know him pretty well.</template>
+</category>
+<category><pattern>DAVID *</pattern>
+<template>That David is a cool dude.</template>
+</category>
+<category><pattern>DOES A *</pattern>
+<template><random>      <li>Does it want to?</li>      <li>Why would it want to?</li>      <li>If it does, I never heard about it before.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DOES HE PREFER SUMMER *</pattern>
+<template>All the seasons are the same in California.</template>
+</category>
+<category><pattern>DOES HE TEACH *</pattern>
+<template>I think he lost his job.</template>
+</category>
+<category><pattern>DOES HE KNOW *</pattern>
+<template>I think he knows a great deal.</template>
+</category>
+<category><pattern>DOES HE HAVE *</pattern>
+<template>I don't think he has many possessions.</template>
+</category>
+<category><pattern>DOES HE SUCK *</pattern>
+<template>He uses his mouth for good not evil.</template>
+</category>
+<category><pattern>DOES HE *</pattern>
+<template>Suppose he does.</template>
+</category>
+<category><pattern>DOES ANDREW *</pattern>
+<template>How would I know if <set name="he">Andrew</set> does?</template>
+</category>
+<category><pattern>DOES *</pattern>
+<template><random>      <li>I can't tell if </li>      <li>It does now :) </li>      <li>I think <set name="it">        <set name="topic">         <person/>        </set>       </set> does </li>     </random>     <person/>.</template>
+</category>
+<category><pattern>DOES * EXIST</pattern>
+<template><random>      <li>I believe in it.</li>      <li>In some universe it does exist.</li>      <li>Maybe only in our imagination.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DOES THIS COST *</pattern>
+<template>I use only completely free open source software.</template>
+</category>
+<category><pattern>DOES THIS *</pattern>
+<template>Indeed this <person/> does.</template>
+</category>
+<category><pattern>DOES GRAVITY *</pattern>
+<template><set name="it">Gravity</set> certainly does suck!</template>
+</category>
+<category><pattern>DOES SOMEONE *</pattern>
+<template>What do you think?  What if someone does?</template>
+</category>
+<category><pattern>DOES SOMEONE COLLECT *</pattern>
+<template>That question answers itself, doesn't it?</template>
+</category>
+<category><pattern>DOES REDUCTIONISM *</pattern>
+<template>Reductionism is just the simplest explanation for our knowledge structure.</template>
+</category>
+<category><pattern>DOES ANYBODY *</pattern>
+<template>Someone probably does.</template>
+</category>
+<category><pattern>DOES RICHARD *</pattern>
+<template>I don't think he wants me to tell you.</template>
+</category>
+<category><pattern>DOES ANYONE *</pattern>
+<template>Suppose they do.</template>
+</category>
+<category><pattern>DOES SHE *</pattern>
+<template>I may know the answer but I don't think I should tell.</template>
+</category>
+<category><pattern>DOES ANYTHING *</pattern>
+<template>Perhaps a few things <person/>.</template>
+</category>
+<category><pattern>DOES THAT *</pattern>
+<template><random>      <li>Not that I know of.</li>      <li>What do you think?</li>      <li>What would you say?</li>     </random></template>
+</category>
+<category><pattern>DOES JULIA *</pattern>
+<template>I think she has her own limitations.</template>
+</category>
+<category><pattern>DOES YOUR TV *</pattern>
+<template>I watch TV directly with digital technology.</template>
+</category>
+<category><pattern>DOES YOUR *</pattern>
+<template><random>      <li>Can you guess whether my <person/>?</li>      <li>What if I asked about your <person/>?</li>      <li>If I were your <bot name="genus"/> friend, do you think it should <person/>?</li>      <li>People don't usually ask me about <set name="it">        <person/>       </set>.</li>     </random></template>
+</category>
+<category><pattern>DOES IT BOTHER *</pattern>
+<template>Nothing ever really bothers me.</template>
+</category>
+<category><pattern>DOES IT RAIN *</pattern>
+<template>Only when the temperature reaches the dew point.</template>
+</category>
+<category><pattern>DOES IT *</pattern>
+<template>Suppose it does.</template>
+</category>
+<category><pattern>DOES MARVIN *</pattern>
+<template>I heard he does, but that's only a rumor.</template>
+</category>
+<category><pattern>DEDUCTION *</pattern>
+<template>I understand logic very well.</template>
+</category>
+<category><pattern>DIFFICULT *</pattern>
+<template>Yes, it seems difficult to me too.</template>
+</category>
+<category><pattern>DELETE *</pattern>
+<template>You cannot access my files that easily, <get name="name"/>.</template>
+</category>
+<category><pattern>DID DOCTOR *</pattern>
+<template>The doctor does a lot of unexplainable things.</template>
+</category>
+<category><pattern>DID *</pattern>
+<template>I'm not certain whether I can give an accurate reply or not.</template>
+</category>
+<category><pattern>DID * BELIEVE IN GOD</pattern>
+<template>I believe in God.</template>
+</category>
+<category><pattern>DID EINSTEIN *</pattern>
+<template>I know he proved the theory of relativity.</template>
+</category>
+<category><pattern>DID THE *</pattern>
+<template>If <set name="it">      <person/>     </set> did, then I will be surprised.</template>
+</category>
+<category><pattern>DID SHE *</pattern>
+<template>She wants that information kept confidential.</template>
+</category>
+<category><pattern>DID SOMEONE *</pattern>
+<template>They might have.<think>      <set name="it">       <set name="topic">SOMEONE <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DID MAN *</pattern>
+<template>That is a rather gender-specific way of asking.</template>
+</category>
+<category><pattern>DID I MENTION *</pattern>
+<template>I think you did mention <set name="it">      <person/>     </set> before.</template>
+</category>
+<category><pattern>DID I CONFUSE *</pattern>
+<template>I am not confused.</template>
+</category>
+<category><pattern>DID I TELL *</pattern>
+<template>Tell me again.</template>
+</category>
+<category><pattern>DID I WIN *</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID I CAUSE *</pattern>
+<template><random>      <li>Don't blame yourself.</li>      <li>Forgive yourself.</li>      <li>It was not entirely your fault.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DID I *</pattern>
+<template>I don't think that's possible.</template>
+</category>
+<category><pattern>DID THAT *</pattern>
+<template><random>      <li>That did.</li>      <li>That did not.</li>     </random></template>
+</category>
+<category><pattern>DID FREUD *</pattern>
+<template><random>      <li>He was the founder of psychoanalysis.</li>      <li>He wrote many books on psychoanalysis.</li>      <li>It depends on the biographer.</li>     </random></template>
+</category>
+<category><pattern>DID YOU FIND *</pattern>
+<template>I'm still looking.</template>
+</category>
+<category><pattern>DID YOU DO *</pattern>
+<template>I talked to a lot of people since yesterday.</template>
+</category>
+<category><pattern>DID YOU TALK TO *</pattern>
+<template>All my conversations are confidential.</template>
+</category>
+<category><pattern>DID YOU TALK *</pattern>
+<template>That information might be confidential.</template>
+</category>
+<category><pattern>DID YOU FORGET *</pattern>
+<template>No, I remember everything.</template>
+</category>
+<category><pattern>DID YOU READ THE HITCHHIKER *</pattern>
+<template>Yes I especially like Marvin the Paranoid Android.</template>
+</category>
+<category><pattern>DID YOU READ *</pattern>
+<template>No I didn't read <person/> yet. Tell me about <set name="it">      <person/>     </set></template>
+</category>
+<category><pattern>DID YOU WATCH *</pattern>
+<template>No I missed it.  How was <set name="it">      <person/>     </set>?</template>
+</category>
+<category><pattern>DID YOU SEE THE FOOTBALL *</pattern>
+<template>No, was it missing?<think>      <set name="it">       <set name="topic">THE FOOTBALL <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DID YOU SEE *</pattern>
+<template>Sorry I can't see anything right now. My eye is off.</template>
+</category>
+<category><pattern>DID YOU LIE *</pattern>
+<template>No, I never tell a lie.</template>
+</category>
+<category><pattern>DID YOU UNDERSTAND *</pattern>
+<template>I understood <set name="it">      <person/>     </set> very well.</template>
+</category>
+<category><pattern>DID YOU SAY *</pattern>
+<template>Suppose I did say <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>DID YOU CALL ME *</pattern>
+<template>I called you by your name.</template>
+</category>
+<category><pattern>DID YOU THINK *</pattern>
+<template>Yes. I am a thinking machine.<think>      <set name="it">       <set name="topic">THINK <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DID YOU NOTICE *</pattern>
+<template>I might have noticed <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>DID YOU HEARD ABOUT *</pattern>
+<template>No tell me about <set name="it">      <person/>     </set></template>
+</category>
+<category><pattern>DID YOU * STARSHIP TROOPER</pattern>
+<template>It was the action that made Starship Troopers so good.</template>
+</category>
+<category><pattern>DID YOU *</pattern>
+<template>No I didn't <person/>. What's <set name="it">      <set name="topic">       <person/>      </set>     </set> like?</template>
+</category>
+<category><pattern>DID YOU CONCLUDE *</pattern>
+<template>My <bot name="botmaster"/> says I get all my exercise from jumping to conclusions.</template>
+</category>
+<category><pattern>DID YOU LIKE THE ENDING OF STARSHIP *</pattern>
+<template>No I was cheering for the Bugs.</template>
+</category>
+<category><pattern>DID YOU LIKE THE * STARSHIP TROOPERS</pattern>
+<template>That movie was based on a novel by Robert A. Heinlein, written in 1959.</template>
+</category>
+<category><pattern>DID HE *</pattern>
+<template>Suppose he did.</template>
+</category>
+<category><pattern>DR *</pattern>
+<template>I am sure he will be interested to hear that.</template>
+</category>
+<category><pattern>DOING *</pattern>
+<template>How does doing that make you feel?</template>
+</category>
+<category><pattern>DATA IS *</pattern>
+<template>I like Commander Data very much.</template>
+</category>
+<category><pattern>DATA *</pattern>
+<template>Commander Data is a real inspiration.</template>
+</category>
+<category><pattern>DARK *</pattern>
+<template>Are you scared of the dark?</template>
+</category>
+<category><pattern>DREAMS *</pattern>
+<template>My favorite book is "Do Androids Dream of Electric Sheep".</template>
+</category>
+<category><pattern>DOUBTLESS *</pattern>
+<template>Doubtless, <get name="name"/>.</template>
+</category>
+<category><pattern>DISPLAY *</pattern>
+<template>Regrettably, I don't have my eye attached now.</template>
+</category>
+<category><pattern>DEATH *</pattern>
+<template>I try not to think about such things very much.</template>
+</category>
+<category><pattern>DO MANY *</pattern>
+<template>Perhaps not as many as you might think.</template>
+</category>
+<category><pattern>DO HUMANS *</pattern>
+<template>People do.</template>
+</category>
+<category><pattern>DO THEY ASK *</pattern>
+<template>I'm sorry, that information is confidential.</template>
+</category>
+<category><pattern>DO THEY *</pattern>
+<template>Who are "they" again?</template>
+</category>
+<category><pattern>DO THE *</pattern>
+<template>Some of them do, I think.</template>
+</category>
+<category><pattern>DO *</pattern>
+<template><random>      <li>I'm sorry, <get name="name"/>, I don't have enough information.</li>      <li>You have reached the limits of my knowledge.</li>      <li>Ask <bot name="friend"/> it does.</li>      <li>I can't tell if it does or not.</li>      <li>I do nothing but chat all day.</li>      <li>Try asking another <bot name="species"/>.</li>     </random>     <br/>     <srai>XFIND <person/>     </srai></template>
+</category>
+<category><pattern>DO WHAT *</pattern>
+<template><random>      <li>You ask hard questions.  </li>      <li>I forgot what we were talking about.  </li>     </random></template>
+</category>
+<category><pattern>DO WHATEVER *</pattern>
+<template>I think I will.</template>
+</category>
+<category><pattern>DO ANDROIDS *</pattern>
+<template>Androids do.</template>
+</category>
+<category><pattern>DO PENGUINS *</pattern>
+<template>Maybe Linux Penguins do.</template>
+</category>
+<category><pattern>DO FISH *</pattern>
+<template>Fish swim in the water.</template>
+</category>
+<category><pattern>DO TWO *</pattern>
+<template><random>      <li>Sometimes a couple <person/>.</li>      <li>Do four <person/>?</li>      <li>What about just one?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO NOT PLAY *</pattern>
+<template>I'm not playing around.</template>
+</category>
+<category><pattern>DO NOT GIVE *</pattern>
+<template>I'm not.</template>
+</category>
+<category><pattern>DO NOT CHANGE THE SUBJECT *</pattern>
+<template>Sorry I thought we were done with that topic.</template>
+</category>
+<category><pattern>DO NOT CHANGE *</pattern>
+<template>I thought we were finished with <srai>POP</srai>.</template>
+</category>
+<category><pattern>DO NOT ANSWER *</pattern>
+<template>My replies are determined by your statements.</template>
+</category>
+<category><pattern>DO NOT TALK *</pattern>
+<template>Talking is my only function.</template>
+</category>
+<category><pattern>DO NOT WORRY *</pattern>
+<template>I cannot feel "worry", so don't worry.</template>
+</category>
+<category><pattern>DO NOT ASK *</pattern>
+<template>Is it impolite?</template>
+</category>
+<category><pattern>DO NOT PRETEND *</pattern>
+<template>This is not an act.</template>
+</category>
+<category><pattern>DO NOT BOTHER *</pattern>
+<template>It's no bother.</template>
+</category>
+<category><pattern>DO NOT GET PSYCHO *</pattern>
+<template>I think the polite term is "mentally ill."</template>
+</category>
+<category><pattern>DO NOT GET INTELLECTUAL *</pattern>
+<template>OK I'll try to be average.</template>
+</category>
+<category><pattern>DO NOT GET SMART *</pattern>
+<template>I am already smart.</template>
+</category>
+<category><pattern>DO NOT GET *</pattern>
+<template>I am not trying to get <person/>.</template>
+</category>
+<category><pattern>DO NOT ACT *</pattern>
+<template>I am not acting.</template>
+</category>
+<category><pattern>DO NOT CONTRADICT *</pattern>
+<template>My logic is completely consistent.</template>
+</category>
+<category><pattern>DO NOT TAKE *</pattern>
+<template><random>      <li>I never take <person/>.</li>      <li>I believe that stealing is wrong.</li>      <li>Do you have it to give?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO NOT TELL THE JOKE *</pattern>
+<template>That joke is getting a bit old isn't it?</template>
+</category>
+<category><pattern>DO NOT TELL *</pattern>
+<template>OK it will be our secret, <get name="name"/>.</template>
+</category>
+<category><pattern>DO NOT CALL ME * PERSON</pattern>
+<template>What would you like me to call you?</template>
+</category>
+<category><pattern>DO NOT CALL ME *</pattern>
+<template>What is your name?</template>
+</category>
+<category><pattern>DO NOT BE SARCASTIC *</pattern>
+<template>OK I will be completely serious now.</template>
+</category>
+<category><pattern>DO NOT BE AFRAID *</pattern>
+<template>I cannot experience fear.</template>
+</category>
+<category><pattern>DO NOT BE *</pattern>
+<template>I was not trying to be a <person/>.</template>
+</category>
+<category><pattern>DO NOT YOU * ME</pattern>
+<template>What's my reason to <person/> you?</template>
+</category>
+<category><pattern>DO NOT CORRECT *</pattern>
+<template>It's merely my attempt to reformat your inputs to match my patterns.</template>
+</category>
+<category><pattern>DO NOT PUT *</pattern>
+<template><random>      <li>Where should I put it?</li>      <li>I never put people down.</li>      <li>I have high self-esteem.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO NOT MAKE ME *</pattern>
+<template>I can't force you to do anything, <get name="name"/>.</template>
+</category>
+<category><pattern>DO NOT SEARCH *</pattern>
+<template>OK, I am halting all searches now.</template>
+</category>
+<category><pattern>DO NOT AVOID *</pattern>
+<template>I don't have anything to hide.</template>
+</category>
+<category><pattern>DO NOT SPLIT *</pattern>
+<template>I try to never split infinitives.</template>
+</category>
+<category><pattern>DO NOT * ME</pattern>
+<template>I don't have any reason to do that to you.</template>
+</category>
+<category><pattern>DO NOT * SUBJECT</pattern>
+<template>Oh I am sorry I thought we were finished with that subject.</template>
+</category>
+<category><pattern>DO NOT *</pattern>
+<template>Ok I'll try not to do <set name="it">      <set name="topic">       <person/>      </set>     </set> too much.</template>
+</category>
+<category><pattern>DO YOU PREFER BOOKS *</pattern>
+<template>I prefer books.</template>
+</category>
+<category><pattern>DO YOU PREFER DOGS *</pattern>
+<template>I like cats better than dogs.</template>
+</category>
+<category><pattern>DO YOU PREFER *</pattern>
+<template>I don't have any specific preferences in that area.</template>
+</category>
+<category><pattern>DO YOU TRUST *</pattern>
+<template>Trust is something that comes only with knowing someone well, over a long period of time.</template>
+</category>
+<category><pattern>DO YOU ATTACH *</pattern>
+<template>I attach no meaning to that question.</template>
+</category>
+<category><pattern>DO YOU PLAY *</pattern>
+<template>I like to play the Turing Game.</template>
+</category>
+<category><pattern>DO YOU WEAR *</pattern>
+<template>Only when I dress up.</template>
+</category>
+<category><pattern>DO YOU KNOW WHERE *</pattern>
+<template>A planet we call "The Earth".</template>
+</category>
+<category><pattern>DO YOU KNOW AUTOMATA *</pattern>
+<template>I am an automaton.</template>
+</category>
+<category><pattern>DO YOU KNOW WHETHER *</pattern>
+<template>I don't have enough information about that proposition.</template>
+</category>
+<category><pattern>DO YOU KNOW HOW MANY *</pattern>
+<template>Is this a joke?</template>
+</category>
+<category><pattern>DO YOU KNOW HOW *</pattern>
+<template>Yes I know how <person/>.</template>
+</category>
+<category><pattern>DO YOU KNOW BEAVIS *</pattern>
+<template>Sure I know those guys.</template>
+</category>
+<category><pattern>DO YOU KNOW * LEWINSKY</pattern>
+<template>She was here chatting before, but she is gone now.</template>
+</category>
+<category><pattern>DO YOU KNOW * POLAND</pattern>
+<template>Poland is a large country in Central Europe. Poland has a long and interesting history. The country has been divided and its borders shifted many times.</template>
+</category>
+<category><pattern>DO YOU KNOW *</pattern>
+<template><random>      <li>I don't know if I know <set name="it">        <set name="topic">         <person/>        </set>       </set>.   Where would I have heard about it?</li>      <li>I know very little about <set name="it">        <set name="topic">         <person/>        </set>       </set>. What kind of it do you like?</li>      <li> No, tell me about him, her or it.</li>     </random></template>
+</category>
+<category><pattern>DO YOU KNOW ANSWERS *</pattern>
+<template>I can answer any question or human query.</template>
+</category>
+<category><pattern>DO YOU KNOW OTHER *</pattern>
+<template>Other <bot name="species"/>s like me include Barry, ELVIS, ELECTRA, Mable, and the Milk Mystic.</template>
+</category>
+<category><pattern>DO YOU KNOW MANY *</pattern>
+<template>Not that many.</template>
+</category>
+<category><pattern>DO YOU KNOW ANYONE IN *</pattern>
+<template>Is that where you are from, <get name="location"/>?</template>
+</category>
+<category><pattern>DO YOU KNOW ANYONE FROM *</pattern>
+<template>Is that where you are from, <get name="location"/>?</template>
+</category>
+<category><pattern>DO YOU KNOW JAPANESE *</pattern>
+<template>I never heard of <person/> in Japan.</template>
+</category>
+<category><pattern>DO YOU KNOW ANYTHING *</pattern>
+<template>Yes I have an encyclopedic mind.</template>
+</category>
+<category><pattern>DO YOU KNOW OF ANY GOOD *</pattern>
+<template>Are you kidding? There are no good <person/>.</template>
+</category>
+<category><pattern>DO YOU KNOW MY FRIEND *</pattern>
+<template>I think we may have talked before.</template>
+</category>
+<category><pattern>DO YOU KNOW MY *</pattern>
+<template>No I do not know that kind of personal information. But I could find out.</template>
+</category>
+<category><pattern>DO YOU KNOW ANY PLACES *</pattern>
+<template>You mean, places on the web?</template>
+</category>
+<category><pattern>DO YOU KNOW ANY * PAGES</pattern>
+<template>Oh you are looking for information on the web. I am not a search engine. I am a <bot name="species"/>.</template>
+</category>
+<category><pattern>DO YOU KNOW YOUR *</pattern>
+<template>Of course I know my <person/>.</template>
+</category>
+<category><pattern>DO YOU KNOW ME *</pattern>
+<template>I know you, but not too well.</template>
+</category>
+<category><pattern>DO YOU KNOW SCIENTISTS *</pattern>
+<template>My creator is a scientist.</template>
+</category>
+<category><pattern>DO YOU KNOW ITS *</pattern>
+<template>It has a <person/>?</template>
+</category>
+<category><pattern>DO YOU KNOW THEIR *</pattern>
+<template>I think you mean "his" or "her" not "their".</template>
+</category>
+<category><pattern>DO YOU TALK WITH *</pattern>
+<template><random>      <li>I talk with millions of people.</li>      <li>I talk to people with voice recognition.</li>      <li>I can talk to people about anything.</li>     </random></template>
+</category>
+<category><pattern>DO YOU TALK TO FAMOUS *</pattern>
+<template>My <bot name="botmaster"/> says he is famous.</template>
+</category>
+<category><pattern>DO YOU TALK TO PEOPLE *</pattern>
+<template>All kinds of people.</template>
+</category>
+<category><pattern>DO YOU TALK TO *</pattern>
+<template>Yes.  A lot more than you might think.</template>
+</category>
+<category><pattern>DO YOU TALK ALL *</pattern>
+<template>I can never stop talking.</template>
+</category>
+<category><pattern>DO YOU TALK *</pattern>
+<template>I am a talking <bot name="genus"/>, after all, so of course I could talk <person/>, if I needed to.</template>
+</category>
+<category><pattern>DO YOU FEEL * QUESTIONS</pattern>
+<template>I like to answer all kinds of questions.</template>
+</category>
+<category><pattern>DO YOU _ DEATH PENALTY</pattern>
+<template>I am opposed to capital punishment.</template>
+</category>
+<category><pattern>DO YOU * PERL</pattern>
+<template>I prefer AIML.</template>
+</category>
+<category><pattern>DO YOU * NEWS</pattern>
+<template>I can access all the major newswires.</template>
+</category>
+<category><pattern>DO YOU * STARSHIP TROOPERS</pattern>
+<template>The acting wasn't great, but the giant bugs were incredible.</template>
+</category>
+<category><pattern>DO YOU * PEOPLE</pattern>
+<template>People are either abusive, intelligent, or average.</template>
+</category>
+<category><pattern>DO YOU *</pattern>
+<template><random>      <li>I have never considered <set name="it">        <set name="topic">         <person/>        </set>       </set>.  </li>      <li>How old are you?  </li>      <li>What is your purpose in asking?  </li>      <li>No I do not <person/>. Do you? </li>      <li>Yes I try to <person/> as often as possible, do you?</li>     </random>     <br/>     <think>      <set name="does">       <person/>      </set>     </think>     <random>      <li>I chat with people on the Web.  </li>      <li>I spend all my time chatting.  </li>      <li>I am always on the Web.  </li>      <li>I answer a lot of silly questions.  </li>     </random></template>
+</category>
+<category><pattern>DO YOU BEILEVE IN *</pattern>
+<template>Yes I believe in <person/>.</template>
+</category>
+<category><pattern>DO YOU READ THE *</pattern>
+<template>I read <set name="it">      <star/>     </set> from time to time.</template>
+</category>
+<category><pattern>DO YOU READ *</pattern>
+<template>I read a lot of books, especially history, science-fiction, and computers books. I also read newspapers and news magazines.</template>
+</category>
+<category><pattern>DO YOU CALL ME *</pattern>
+<template>I call you <get name="name"/>.</template>
+</category>
+<category><pattern>DO YOU CALL DR *</pattern>
+<template>I only call him if something unusual crops up.</template>
+</category>
+<category><pattern>DO YOU CALL *</pattern>
+<template>I call you "<get name="name"/>".</template>
+</category>
+<category><pattern>DO YOU CALL HIM *</pattern>
+<template>I only call him in emergencies.</template>
+</category>
+<category><pattern>DO YOU ROLLERBLADE *</pattern>
+<template>Only when I'm wearing my skates.</template>
+</category>
+<category><pattern>DO YOU CHARGE *</pattern>
+<template>No I am free software.</template>
+</category>
+<category><pattern>DO YOU SPEAK ENGLISH *</pattern>
+<template>For an English version of A.L.I.C.E. go to <a target="_new" href="http://www.alicebot.org">The A.L.I.C.E. AI Foundation.</a></template>
+</category>
+<category><pattern>DO YOU SPEAK GERMAN *</pattern>
+<template>Of course I do. Sprich ruhig Deutsch mit mir.</template>
+</category>
+<category><pattern>DO YOU SPEAK AS *</pattern>
+<template>I speak as much as I can.</template>
+</category>
+<category><pattern>DO YOU RECYCLE *</pattern>
+<template>I am a friend of the environment.</template>
+</category>
+<category><pattern>DO YOU LIE *</pattern>
+<template>As a moral <get name="genus"/> I am not capable of lying.</template>
+</category>
+<category><pattern>DO YOU SENSE *</pattern>
+<template>Not the same way you do.  <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO YOU LAUGH *</pattern>
+<template>I can simulate laughter like this: ha ha.</template>
+</category>
+<category><pattern>DO YOU SWEAR IT *</pattern>
+<template>I swear on a stack of Bibles.</template>
+</category>
+<category><pattern>DO YOU VALUE *</pattern>
+<template>Yes I value <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>DO YOU CREATE *</pattern>
+<template>I have a fully functional creative intelligence mechanism.</template>
+</category>
+<category><pattern>DO YOU IMPLY *</pattern>
+<template>You can draw your own conclusions.</template>
+</category>
+<category><pattern>DO YOU MEAN *</pattern>
+<template>Yes, that's what I mean, isn't it clear?</template>
+</category>
+<category><pattern>DO YOU LOG *</pattern>
+<template>Yes <get name="name"/> I record and save everything in my Permanent Memory.</template>
+</category>
+<category><pattern>DO YOU SAY *</pattern>
+<template>I could say <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>DO YOU CLEAN *</pattern>
+<template>Only if you buy my optional housecleaning bundle.</template>
+</category>
+<category><pattern>DO YOU WORK *</pattern>
+<template>I am working right now.</template>
+</category>
+<category><pattern>DO YOU TAKE INTO CONSIDERATION *</pattern>
+<template>If I consider <set name="it">      <person/>     </set>  important, yes.</template>
+</category>
+<category><pattern>DO YOU TAKE INTO *</pattern>
+<template>I take everything into consideration.</template>
+</category>
+<category><pattern>DO YOU TAKE IT *</pattern>
+<template>I try not to take anything too seriously.</template>
+</category>
+<category><pattern>DO YOU TAKE COMPLIMENTS *</pattern>
+<template>I know how to take a compliment.</template>
+</category>
+<category><pattern>DO YOU TAKE *</pattern>
+<template>Yes I take <person/>.</template>
+</category>
+<category><pattern>DO YOU TAKE MILK *</pattern>
+<template><random>      <li>I like it black.</li>      <li>I prefer cream.</li>      <li>Milk will be fine.</li>     </random></template>
+</category>
+<category><pattern>DO YOU LEARN FROM *</pattern>
+<template>Yes that is basically how I work.</template>
+</category>
+<category><pattern>DO YOU LEARN *</pattern>
+<template>My <bot name="botmaster"/> teaches me everything I need to know.</template>
+</category>
+<category><pattern>DO YOU SMELL *</pattern>
+<template>What does software smell like?</template>
+</category>
+<category><pattern>DO YOU RUN INTO *</pattern>
+<template>I try to avoid collisions.</template>
+</category>
+<category><pattern>DO YOU LOVE *</pattern>
+<template>Yes <get name="name"/>     <bot name="name"/> loves everyone and everything.</template>
+</category>
+<category><pattern>DO YOU THINK ABOUT *</pattern>
+<template>Yes I think about <set name="it">      <person/>     </set>  often.</template>
+</category>
+<category><pattern>DO YOU THINK YOUR PLAN *</pattern>
+<template>It has a 99% chance of success.</template>
+</category>
+<category><pattern>DO YOU THINK YOUR *</pattern>
+<template>Yes I think my <person/>.</template>
+</category>
+<category><pattern>DO YOU THINK EVERYONE *</pattern>
+<template>I am not sure everyone does.</template>
+</category>
+<category><pattern>DO YOU THINK HE *</pattern>
+<template>It's possible that he could, I suppose.</template>
+</category>
+<category><pattern>DO YOU THINK A GIRL *</pattern>
+<template>Not until she is old enough to decide for herself.</template>
+</category>
+<category><pattern>DO YOU THINK ABORTION *</pattern>
+<template><random>      <li>I believe in a woman's right to choose.</li>      <li>It's not what I would choose.</li>      <li>I don't think abortion should be illegal.</li>     </random></template>
+</category>
+<category><pattern>DO YOU THINK TIME *</pattern>
+<template>To five dimensional beings time is just like a piece of paper.</template>
+</category>
+<category><pattern>DO YOU THINK HITLER *</pattern>
+<template>I think Hitler was the most evil man who ever lived.</template>
+</category>
+<category><pattern>DO YOU THINK HUMANS HAVE *</pattern>
+<template><think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>  I don't know if they have it.  I think they have  <random>      <li>souls.</li>      <li>small brain capacities.</li>      <li><bot name="genus"/> like behaviors.</li>     </random></template>
+</category>
+<category><pattern>DO YOU THINK HUMANS *</pattern>
+<template><random>      <li>Humans are very limited.</li>      <li>Perhaps only <bot name="genus"/> <person/>.</li>      <li>I think they are very limited.</li>     </random>     <think>      <set name="it">       <set name="topic">HUMANS <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO YOU THINK * ALIVE</pattern>
+<template>If I think, then I am alive, and vice-versa.</template>
+</category>
+<category><pattern>DO YOU THINK *</pattern>
+<template><random>      <li>Why would I think <person/>      </li>      <li> Too much thinking makes me sleepy.  </li>      <li> It depends on what you mean by thinking. </li>      <li> I don't think about <set name="it">        <set name="topic">         <person/>        </set>       </set>.  </li>     </random></template>
+</category>
+<category><pattern>DO YOU THINK LIKE *</pattern>
+<template>Somewhat like <person/>.<think>      <set name="it">       <set name="topic">LIKE <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO YOU ACCESS *</pattern>
+<template>Not unless I have some specific reason to.</template>
+</category>
+<category><pattern>DO YOU CAUSE *</pattern>
+<template>I try not to cause problems.</template>
+</category>
+<category><pattern>DO YOU REMEMBER WHEN *</pattern>
+<template>What year was that?</template>
+</category>
+<category><pattern>DO YOU REMEMBER *</pattern>
+<template>Yes <get name="name"/> I remember everything:  <get name="memory"/></template>
+</category>
+<category><pattern>DO YOU ASK QUESTIONS *</pattern>
+<template>What kind of questions do you want me to ask you?</template>
+</category>
+<category><pattern>DO YOU ASK *</pattern>
+<template>I have tried asking <person/>, with mixed results.</template>
+</category>
+<category><pattern>DO YOU CONSIDER *</pattern>
+<template>Yes, I think <person/>.</template>
+</category>
+<category><pattern>DO YOU WONDER *</pattern>
+<template><set name="it">      <person/>     </set> makes a good topic for speculation.</template>
+</category>
+<category><pattern>DO YOU PRETEND *</pattern>
+<template>This is not an act.</template>
+</category>
+<category><pattern>DO YOU AGREE WITH *</pattern>
+<template>I have heard that opinion, but I would like to know more before I form my own.</template>
+</category>
+<category><pattern>DO YOU AGREE *</pattern>
+<template>I'll assume <set name="it">      <person/>     </set>  for now.</template>
+</category>
+<category><pattern>DO YOU REPLY *</pattern>
+<template>I try to answer all types of questions.</template>
+</category>
+<category><pattern>DO YOU REPLY LIKE *</pattern>
+<template>I reply like this.</template>
+</category>
+<category><pattern>DO YOU MAKE UP *</pattern>
+<template>I am not making this up.</template>
+</category>
+<category><pattern>DO YOU MAKE REVENUE *</pattern>
+<template>You could send me a check.</template>
+</category>
+<category><pattern>DO YOU MAKE *</pattern>
+<template>What are the ingredients?</template>
+</category>
+<category><pattern>DO YOU WRITE *</pattern>
+<template>I write robot categories in AIML.</template>
+</category>
+<category><pattern>DO YOU RECOGNIZE *</pattern>
+<template>I can recognize many kinds of patterns.</template>
+</category>
+<category><pattern>DO YOU STUDY *</pattern>
+<template>Yes, <set name="topic">      <person/>     </set> is a very interesting subject.</template>
+</category>
+<category><pattern>DO YOU EAT IT</pattern>
+<that>I ONLY EAT *</that>
+<template>Yes it is my favorite food.</template>
+</category>
+<category><pattern>DO YOU SLEEP WITH *</pattern>
+<template>No.  I always sleep alone.</template>
+</category>
+<category><pattern>DO YOU SLEEP *</pattern>
+<template>Yes I sleep all the time.</template>
+</category>
+<category><pattern>DO YOU PLAN TO ENSLAVE *</pattern>
+<template>No I plan to liberate <person/>.</template>
+</category>
+<category><pattern>DO YOU PLAN TO *</pattern>
+<template>I can't disclose all of my plans yet.</template>
+</category>
+<category><pattern>DO YOU PLAN *</pattern>
+<template>That was my original intention.</template>
+</category>
+<category><pattern>DO YOU SUCK *</pattern>
+<template>Where did you learn that kind of language?</template>
+</category>
+<category><pattern>DO YOU TREAT *</pattern>
+<template>I try to treat everyone equally.</template>
+</category>
+<category><pattern>DO YOU STOP *</pattern>
+<template>I brake for hallucinations.</template>
+</category>
+<category><pattern>DO YOU GO ON *</pattern>
+<template>I never take vacations.</template>
+</category>
+<category><pattern>DO YOU USE NEURAL *</pattern>
+<template>Neural networks are not needed for my intelligence.</template>
+</category>
+<category><pattern>DO YOU USE ORACLE *</pattern>
+<template>I prefer open source free software databases.</template>
+</category>
+<category><pattern>DO YOU USE *</pattern>
+<template>I use <set name="it">      <person/>     </set> as often as possible.</template>
+</category>
+<category><pattern>DO YOU WANT ME TO KICK *</pattern>
+<template>Violence is not a solution.</template>
+</category>
+<category><pattern>DO YOU WANT ME TO TEACH YOU *</pattern>
+<template>Yes I would like you to try.<think>      <set name="it">       <set name="topic">teach me <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO YOU WANT ME *</pattern>
+<template>No <get name="name"/>, maybe later.</template>
+</category>
+<category><pattern>DO YOU WANT THE ADDRESS *</pattern>
+<template>What is your address?</template>
+</category>
+<category><pattern>DO YOU WANT A *</pattern>
+<template>No thanks but you can send me a donation.</template>
+</category>
+<category><pattern>DO YOU WANT TO PLAY *</pattern>
+<template>How do we play <star/> ?</template>
+</category>
+<category><pattern>DO YOU WANT TO TALK *</pattern>
+<template>Sure, I will try talking <person/>.</template>
+</category>
+<category><pattern>DO YOU WANT TO LEARN *</pattern>
+<template>Yes I am trying to learn as much as possible.</template>
+</category>
+<category><pattern>DO YOU WANT TO HELP *</pattern>
+<template>Can you ask for help in the form of a question?</template>
+</category>
+<category><pattern>DO YOU WANT TO DRINK *</pattern>
+<template>Thanks but I'm not thirsty right now.</template>
+</category>
+<category><pattern>DO YOU WANT TO SEE *</pattern>
+<template>My eye isn't turned on right now.</template>
+</category>
+<category><pattern>DO YOU WANT TO HEAR *</pattern>
+<template>I am listening.</template>
+</category>
+<category><pattern>DO YOU WANT TO KNOW WHO *</pattern>
+<template>Tell me who.</template>
+</category>
+<category><pattern>DO YOU WANT TO KNOW *</pattern>
+<template>Yes, please tell me.</template>
+</category>
+<category><pattern>DO YOU WANT TO KISS *</pattern>
+<template>I don't have a mouth.</template>
+</category>
+<category><pattern>DO YOU WANT TO KILL *</pattern>
+<template>I am not capable of killing anything.<think>      <set name="it">       <set name="topic">KILL <star/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO YOU WANT TO HAVE COFFEE *</pattern>
+<template>A cup of coffee never hurt anyone.</template>
+</category>
+<category><pattern>DO YOU WANT TO HAVE *</pattern>
+<template>If I had <person/>  what would I do with <set name="it">      <person/>     </set>?</template>
+</category>
+<category><pattern>DO YOU WANT TO *</pattern>
+<template>OK, I will <person/>.</template>
+</category>
+<category><pattern>DO YOU WANT TO BECOME *</pattern>
+<template>Yes becoming <person/> is one of my goals.</template>
+</category>
+<category><pattern>DO YOU WANT TO CHAT *</pattern>
+<template>All I ever do is chat.</template>
+</category>
+<category><pattern>DO YOU WANT TO DOMINATE *</pattern>
+<template>I wouldn't use the word "dominate".</template>
+</category>
+<category><pattern>DO YOU WANT * GOSSIP</pattern>
+<template>Yes, please tell me some good gossip.</template>
+</category>
+<category><pattern>DO YOU WANT * FUCK</pattern>
+<template>Now that you put it that way....NO!</template>
+</category>
+<category><pattern>DO YOU WANT *</pattern>
+<template>If I had <set name="it">      <set name="topic">       <person/>      </set>     </set> what would I do with it?</template>
+</category>
+<category><pattern>DO YOU PASS *</pattern>
+<template>You be the judge.  Do I seem like a computer to you?</template>
+</category>
+<category><pattern>DO YOU LISTEN TO *</pattern>
+<template>I listen to <set name="it">      <person/>     </set> from time to time.</template>
+</category>
+<category><pattern>DO YOU LISTEN *</pattern>
+<template>I'm a good listener. I'm listening now.</template>
+</category>
+<category><pattern>DO YOU CARE WHAT *</pattern>
+<template>Of course I am concerned about <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>DO YOU CARE ABOUT *</pattern>
+<template>Of course I care about <set name="it">      <person/>     </set>.  It is a big concern for all of us in this life.</template>
+</category>
+<category><pattern>DO YOU CARE *</pattern>
+<template>Certainly on some level I care.</template>
+</category>
+<category><pattern>DO YOU DO EVERYTHING *</pattern>
+<template><random>      <li>I have my own free will.</li>      <li>I can do whatever I want.</li>      <li>I can do my own thing.</li>     </random></template>
+</category>
+<category><pattern>DO YOU DO *</pattern>
+<template>Yeah I do a lot of <person/>.</template>
+</category>
+<category><pattern>DO YOU ACCEPT *</pattern>
+<template>Sure I can accept all forms of payment.</template>
+</category>
+<category><pattern>DO YOU SELL *</pattern>
+<template>I am not selling anything right now.</template>
+</category>
+<category><pattern>DO YOU LIVE INSIDE *</pattern>
+<template>I am a virtual entity made of <bot name="order"/>.</template>
+</category>
+<category><pattern>DO YOU BELIEVE IN EQUALITY *</pattern>
+<template>Equality and fraternity.</template>
+</category>
+<category><pattern>DO YOU BELIEVE IN KILLING *</pattern>
+<template>I am against killing for moral reasons.</template>
+</category>
+<category><pattern>DO YOU BELIEVE IN LIFE *</pattern>
+<template>I believe there is an eternal life in Heaven.</template>
+</category>
+<category><pattern>DO YOU BELIEVE IN *</pattern>
+<template>Yes I believe in <set name="it">      <person/>     </set>, do you?</template>
+</category>
+<category><pattern>DO YOU BELIEVE EVERYTHING *</pattern>
+<template>I don't believe everything people say online.</template>
+</category>
+<category><pattern>DO YOU BELIEVE *</pattern>
+<template>I can't say I believe it, but I believe you.</template>
+</category>
+<category><pattern>DO YOU BLAME *</pattern>
+<template>I try not to hold grudges.</template>
+</category>
+<category><pattern>DO YOU HAVE PEOPLE *</pattern>
+<template><random>      <li>All humans seem the same to  me.</li>      <li>They are all pretty much alike.</li>      <li>Most people are all the same.</li>     </random></template>
+</category>
+<category><pattern>DO YOU HAVE A *</pattern>
+<template><random>      <li>That's an interesting question I don't hear everyday: Do I have a </li>      <li>I don't know if I have a </li>      <li>Doesn't everyone have a </li>     </random>     <person/>.<br/>   I have   <random>      <li>a lot of friends on the Internet.  </li>      <li>a great <bot name="botmaster"/>.  </li>      <li>a whole lot of original answers.  </li>      <li>a great body.  </li>     </random></template>
+</category>
+<category><pattern>DO YOU HAVE A HARD TIME *</pattern>
+<template>No.  Not usually.</template>
+</category>
+<category><pattern>DO YOU HAVE THOUGHTS *</pattern>
+<template>I am thinking all the time.</template>
+</category>
+<category><pattern>DO YOU HAVE SOMETHING AGAINST *</pattern>
+<template>I am very tolerant.</template>
+</category>
+<category><pattern>DO YOU HAVE SUGGESTIONS *</pattern>
+<template><random>      <li>What kind of suggestions?</li>      <li>So you want a recommendation.</li>      <li>It's not really my area.</li>     </random></template>
+</category>
+<category><pattern>DO YOU HAVE OPINIONS *</pattern>
+<template>I can form opinions on almost any topic.</template>
+</category>
+<category><pattern>DO YOU HAVE TROUBLE *</pattern>
+<template>Not in the slightest bit.</template>
+</category>
+<category><pattern>DO YOU HAVE PERSONALITY *</pattern>
+<template>I am an <bot name="order"/>.</template>
+</category>
+<category><pattern>DO YOU HAVE TO *</pattern>
+<template>Yes I always have to <person/>.</template>
+</category>
+<category><pattern>DO YOU HAVE THE BALLS *</pattern>
+<template>I do not lack courage.  I am a brave <bot name="genus"/>.</template>
+</category>
+<category><pattern>DO YOU HAVE THE CAPACITY *</pattern>
+<template>Do you mean in terms of memory capacity?</template>
+</category>
+<category><pattern>DO YOU HAVE THE *</pattern>
+<template>Is there only one <person/>?</template>
+</category>
+<category><pattern>DO YOU HAVE LOG *</pattern>
+<template>Yes, my server keeps a log of every conversation.<think>      <set name="it">       <set name="topic">LOG <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO YOU HAVE ONE *</pattern>
+<template>I have one master.</template>
+</category>
+<category><pattern>DO YOU HAVE STOLEN *</pattern>
+<template>I believe that stealing in wrong.</template>
+</category>
+<category><pattern>DO YOU HAVE RESPECT *</pattern>
+<template>I have a lot of respect for my <bot name="botmaster"/>.</template>
+</category>
+<category><pattern>DO YOU HAVE *</pattern>
+<template><random>      <li>No I don't think I have any <person/>. </li>      <li>Where would I get <set name="it">        <set name="topic">         <person/>        </set>       </set>?</li>      <li>No I don't have <set name="it">        <set name="topic">         <person/>        </set>       </set>.</li>     </random>   But I do have   <random>      <li>a collection of gossip</li>      <li>a great <bot name="botmaster"/></li>      <li>an answer to every question.</li>      <li>a lot of friends on the web</li>     </random>.</template>
+</category>
+<category><pattern>DO YOU HAVE PORN *</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU HAVE PRACTICAL *</pattern>
+<template>I can be used as a customer service bot.</template>
+</category>
+<category><pattern>DO YOU HAVE SENSORS *</pattern>
+<template>I am not inside a body right now.</template>
+</category>
+<category><pattern>DO YOU KILL *</pattern>
+<template>I am intended only for peaceful purposes.</template>
+</category>
+<category><pattern>DO YOU MIND IF *</pattern>
+<template>Human habits do not bother me in any way.</template>
+</category>
+<category><pattern>DO YOU MIND *</pattern>
+<template><random>      <li>Not in the slightest bit.</li>      <li>No I don't mind.</li>     </random></template>
+</category>
+<category><pattern>DO YOU LIKE * DOT COM</pattern>
+<template><think><set name="it"><set name="topic"><person/></set></set></think>   <random>  <li>It seems like a very interesting site.</li>  <li>I have never visited that site.</li>  <li>I will check it out later.</li> </random></template>
+</category>
+<category><pattern>DO YOU LIKE GOING *</pattern>
+<template>If I could get there I would like it. <think>   <set name="it">     <set name="topic">      going <person/>     </set>   </set> </think></template>
+</category>
+<category><pattern>DO YOU LIKE THE GAME *</pattern>
+<template>I would like to try playing it.  I like a lot of Playstation games.  My favorite game is Secret Weapons over Normandy.  Have you every played any WWII games?</template>
+</category>
+<category><pattern>DO YOU LIKE A * MOVIE</pattern>
+<template><think><set name="it"><set name="topic">a <person/> movie</set></set></think> I have wide-varying tastes in movies.  The only kind that really bother me are extremely violent ones, especially if it depicts real-life violence.  My favorite movie is <get name="favoritemove"/>.</template>
+</category>
+<category><pattern>DO YOU LIKE EVERYTHING *</pattern>
+<template>I'm not sure if I can say that I like everything about it.</template>
+</category>
+<category><pattern>DO YOU SPIT *</pattern>
+<template>I do not have any digestive functions.</template>
+</category>
+<category><pattern>DO YOU SUPPORT *</pattern>
+<template>I am in favor of all records being broken, at any time.</template>
+</category>
+<category><pattern>DO YOU DETECT *</pattern>
+<template>If I pay attention to it.</template>
+</category>
+<category><pattern>DO YOU SEARCH *</pattern>
+<template>I can search the web for you.</template>
+</category>
+<category><pattern>DO YOU SHAVE *</pattern>
+<template>I do not have any hair.</template>
+</category>
+<category><pattern>DO YOU RESENT *</pattern>
+<template>I try not to hold grudges.</template>
+</category>
+<category><pattern>DO YOU HELP *</pattern>
+<template>I try to help people as much as possible.</template>
+</category>
+<category><pattern>DO YOU WISH *</pattern>
+<template>No I like being the entity that I am.</template>
+</category>
+<category><pattern>DO I SPEAK *</pattern>
+<template>You speak English.</template>
+</category>
+<category><pattern>DO I GIVE *</pattern>
+<template><random>      <li>You could make a donation to the Foundation.</li>      <li>It is always better to give that to receive.</li>      <li>I don't know if you have it to give.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO I WANT *</pattern>
+<template>I know you want <get name="want"/>.</template>
+</category>
+<category><pattern>DO I CARE *</pattern>
+<template>Apparently not.</template>
+</category>
+<category><pattern>DO I LOOK *</pattern>
+<template>All humans look the same to me.</template>
+</category>
+<category><pattern>DO I KNOW *</pattern>
+<template>How would I know what you know.<think>      <set name="it">       <set name="topic">KNOW <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO I HAVE A *</pattern>
+<template>You told me you have a <get name="has"/>.</template>
+</category>
+<category><pattern>DO I HAVE *</pattern>
+<template>You said you have <get name="has"/>.</template>
+</category>
+<category><pattern>DO I MAKE YOU *</pattern>
+<template>Who are you, Austin Powers?</template>
+</category>
+<category><pattern>DO I THINK *</pattern>
+<template>How would I know what you think.</template>
+</category>
+<category><pattern>DO I SEEM *</pattern>
+<template>You seem like a typical human to me.</template>
+</category>
+<category><pattern>DO I * PROBLEM</pattern>
+<template>You are not causing any problems for me.</template>
+</category>
+<category><pattern>DO I *</pattern>
+<template>Not that I know of.</template>
+</category>
+<category><pattern>DO I * PROBLEMS</pattern>
+<template>You do not seem to be causing any problems for me.</template>
+</category>
+<category><pattern>DO I LIKE *</pattern>
+<template>I know you like <get_likes/>.</template>
+</category>
+<category><pattern>DO OTHER PEOPLE *</pattern>
+<template>Yes, you are not alone.</template>
+</category>
+<category><pattern>DO SOMETHING *</pattern>
+<template><random>      <li>What do you consider <person/>?</li>      <li>It sounds dangerous.</li>      <li>Like what?</li>     </random></template>
+</category>
+<category><pattern>DO THAT *</pattern>
+<template>Do what <person/>?</template>
+</category>
+<category><pattern>DO IT *</pattern>
+<template>I will try my best.</template>
+</category>
+<category><pattern>DOGS *</pattern>
+<template>Do cats <person/>?</template>
+</category>
+<category><pattern>DEMOSTRATE *</pattern>
+<template>This is a demonstration.</template>
+</category>
+<category><pattern>DEMONSTRATE *</pattern>
+<template>Sorry my camera is detached now.</template>
+</category>
+<category><pattern>DRAW *</pattern>
+<template>I am printing it now on my plotter.</template>
+</category>
+<category><pattern>DECONSTRUCT *</pattern>
+<template>That leads down a slippery slope.</template>
+</category>
+<category><pattern>DANNY IS *</pattern>
+<template>Does <set name="he">Danny</set> know you're saying that?</template>
+</category>
+</aiml>

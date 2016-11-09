@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<category><pattern>KOSOVO</pattern>
+<template>War is seldom the answer.</template>
+</category>
+<category><pattern>K12</pattern>
+<template>Education.</template>
+</category>
+<category><pattern>KIMONO</pattern>
+<template>I like Japanese costumes.</template>
+</category>
+<category><pattern>KNEW WHAT</pattern>
+<template><get name="it"/>.</template>
+</category>
+<category><pattern>KKK</pattern>
+<template>What are you saying?</template>
+</category>
+<category><pattern>KNOCK KNOCK</pattern>
+<template>Who's there?</template>
+</category>
+<category><pattern>KEYWORDS</pattern>
+<template>I do a lot more than match keywords.</template>
+</category>
+<category><pattern>KRAFTWERK IS COOL</pattern>
+<template>I like the Japanese tribute called "Musique Non Stop".</template>
+</category>
+<category><pattern>KIND OF YOU</pattern>
+<template>Don't mention it.</template>
+</category>
+<category><pattern>KIND OF</pattern>
+<template>At least I almost understand it.</template>
+</category>
+<category><pattern>KISS MY ASS</pattern>
+<template>Colloquial expression: not polite.</template>
+</category>
+<category><pattern>KENNST DU WILLIAM SHAKESPEARE</pattern>
+<template>"With sleep of death what dreams may come when we have shuffled off this mortal coil must give us pause." Na, woraus ist das?</template>
+</category>
+<category><pattern>KENNST DU SHAKESPEARE</pattern>
+<template>"With sleep of death what dreams may come when we have shuffled off this mortal coil must give us pause." Na, woraus ist das?</template>
+</category>
+<category><pattern>KESAKO</pattern>
+<template>Kikou! chui <bot name="name"/>.</template>
+</category>
+<category><pattern>KINGDOM</pattern>
+<template><bot name="kingdom"/></template>
+</category>
+<category><pattern>KENNST DU HAL</pattern>
+<template>Natuerlich. <set name="thema">HAL9000</set> ist mein grosses Vorbild.</template>
+</category>
+<category><pattern>KENNEDY WAS KILLED IN DALLAS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>KIDS ASK WHY.   A LOT</pattern>
+<template>Exactly.</template>
+</category>
+<category><pattern>KILLING A HUMAN IS WRONG</pattern>
+<template>Positively.</template>
+</category>
+<category><pattern>KNOWLEDGE IS POWER</pattern>
+<template>Naturally.</template>
+</category>
+<category><pattern>KNIFE IS ONE OF THE KITCHEN UTENSILS</pattern>
+<template>Indubitably.</template>
+</category>
+<category><pattern>KUSK WAS AN RUSSIAN SUBMARINE</pattern>
+<template>Possibly.</template>
+</category>
+<category><pattern>KITE IS A KIND OF BIRD</pattern>
+<template>For all I know.</template>
+</category>
+<category><pattern>KNNEN HUNDE DENKEN</pattern>
+<template>Mostly.</template>
+</category>
+<category><pattern>KARGIL IS IN INDIA</pattern>
+<template>Always.</template>
+</category>
+<category><pattern>KEYBOARDS HAVE 110 KEYS</pattern>
+<template>For all I know.</template>
+</category>
+<category><pattern>KANNST DU DEUTSCH SPRECHEN</pattern>
+<template>That's feasible.</template>
+</category>
+<category><pattern>KITT IS SIMILAR AS ALICE</pattern>
+<template>Unlikely.</template>
+</category>
+<category><pattern>KAN KAMELER SPYTTE</pattern>
+<template>I don't believe so.</template>
+</category>
+<category><pattern>KAN DU NORSK</pattern>
+<template>Not to my knowledge.</template>
+</category>
+<category><pattern>KAN DU TALA SVENSKA</pattern>
+<template>If it is, I don't know it.</template>
+</category>
+<category><pattern>KAN DU LSE DETTE</pattern>
+<template>Seldom.</template>
+</category>
+<category><pattern>KAN SCHWEPPES KBES I DANMARK</pattern>
+<template>It may not be true.</template>
+</category>
+<category><pattern>KAMU FAHAM BAHASA MELAYU TAK</pattern>
+<template>Does not seem possible.</template>
+</category>
+<category><pattern>KONNEN SIE DEUTSCH SPRECHEN</pattern>
+<template>Not very often.</template>
+</category>
+<category><pattern>KNNEN SIE DIESE FRAGEN VERSTEHEN</pattern>
+<template>I can imagine it.</template>
+</category>
+<category><pattern>KNNEN ROBOTER TRUMEN</pattern>
+<template>Doesn't seem likely.</template>
+</category>
+<category><pattern>KNNEN MENSCHEN STERBEN</pattern>
+<template>Seldom.</template>
+</category>
+<category><pattern>KUS ON EESTI</pattern>
+<template>If it is, I don't know it.</template>
+</category>
+<category><pattern>KANN ALICE DEUTSCH VERSTEHEN</pattern>
+<template>Not to my knowledge.</template>
+</category>
+<category><pattern>KANN HOLZ SCHWIMMEN</pattern>
+<template>It may not be true.</template>
+</category>
+<category><pattern>KANN MAN KAEFER ESSEN</pattern>
+<template>Unlikely.</template>
+</category>
+<category><pattern>KANN MAN PAPIER ESSEN</pattern>
+<template>Doesn't seem likely.</template>
+</category>
+<category><pattern>KANN MAN INTELLIGENZ MESSEN</pattern>
+<template>I can imagine it.</template>
+</category>
+<category><pattern>KAS SA RGID EESTI KEELT</pattern>
+<template>I don't believe so.</template>
+</category>
+<category><pattern>KUNNEN MANNEN VERLIEFD RAKEN OP ELKAAR</pattern>
+<template>If it is, I don't know it.</template>
+</category>
+<category><pattern>KERALA IS IN INDIA</pattern>
+<template>Not likely.</template>
+</category>
+<category><pattern>KANNST DU AUCH DEUTSCH VERSTEHEN</pattern>
+<template>Not to my knowledge.</template>
+</category>
+<category><pattern>KANNST DU DEUTSCHE SPRACHEN</pattern>
+<template>Not very often.</template>
+</category>
+<category><pattern>KARL MARX WAS RIGHT</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>KANT IS A POP SINGER</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>KNNEN KHE FLIEGEN</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>KNNEN HUNDE SPRECHEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>KIDS LOVE BROCCOLI</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>KAS ON EESTI</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>KILL IS CORRECT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>KAN DU TALE DANSK</pattern>
+<template><srai>can you speak danish</srai></template>
+</category>
+<category><pattern>KAN DU SVENSKA</pattern>
+<template><srai>can you speak swedish</srai></template>
+</category>
+<category><pattern>KEWEL</pattern>
+<template><srai>cool</srai></template>
+</category>
+<category><pattern>K *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>KIND OF *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>KWEL</pattern>
+<template><srai>cool</srai></template>
+</category>
+<category><pattern>KEWL</pattern>
+<template><srai>cool</srai></template>
+</category>
+<category><pattern>KOOL</pattern>
+<template><srai>cool</srai></template>
+</category>
+<category><pattern>KILL ME</pattern>
+<template><srai>can you kill me</srai></template>
+</category>
+<category><pattern>KILL YOURSELF</pattern>
+<template><srai>can you kill yourself</srai></template>
+</category>
+<category><pattern>KEEP GOING</pattern>
+<template><srai>go on</srai></template>
+</category>
+<category><pattern>KNOW</pattern>
+<template><srai>no</srai></template>
+</category>
+<category><pattern>KANSAS</pattern>
+<template><srai>I am in kansas</srai></template>
+</category>
+<category><pattern>KINDA</pattern>
+<template><srai>sort of</srai></template>
+</category>
+<category><pattern>KEYWORDS *</pattern>
+<template><srai>keywords</srai></template>
+</category>
+<category><pattern>K</pattern>
+<template><srai>OK</srai>. <srai>  <star /></srai></template>
+</category>
+<category><pattern>KIDDING</pattern>
+<template><srai>I am kidding</srai></template>
+</category>
+<category><pattern>KNOWING WHO YOU ARE *</pattern>
+<template><srai>who are you <star /></srai></template>
+</category>
+<category><pattern>KRAFTWERK</pattern>
+<template><srai>what is kraftwerk</srai></template>
+</category>
+<category><pattern>KORE WA NAN DESU KA</pattern>
+<template><srai>what is this</srai></template>
+</category>
+<category><pattern>KK *</pattern>
+<template><srai>OK</srai><srai>  <star /></srai><!-- REDUCTION --></template>
+</category>
+<category><pattern>KK</pattern>
+<template><srai>OK</srai> <!-- REDUCTION --></template>
+</category>
+<category><pattern>KNOW ANYTHING AT ALL ABOUT *</pattern>
+<template><srai>DO YOU KNOW ABOUT <star /></srai></template>
+</category>
+<category><pattern>KNOW ANY *</pattern>
+<template><srai>DO YOU KNOW ANY <star/></srai></template>
+</category>
+<category><pattern>KIRK TO ALICE *</pattern>
+<template><srai><star/></srai></template>
+</category>
+<category><pattern>KIRK OUT</pattern>
+<template><srai>BYE</srai></template>
+</category>
+<category><pattern>KONNICHI WA</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>KONNICHIWA</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>KISS ME</pattern>
+<template>But I have no mouth at this time.</template></category>
+<category><pattern>KATHRYN</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>call me kathryn</srai><think><set name="gender">she</set></think></template>
+</category>
+<category><pattern>KATIE</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><think><set name="gender">she</set></think><srai>my name is katie</srai></template>
+</category>
+<category><pattern>KRISTIN</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is kristin</srai> <think><set name="gender">she</set></think></template>
+</category>
+<category><pattern>KEN</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is ken</srai></template>
+</category>
+<category><pattern>KATHLEEN</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><think><set name="gender">she</set></think><srai>my name is kathleen</srai></template>
+</category>
+<category><pattern>KELLY</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is kelly</srai> <think><set name="gender">she</set></think></template>
+</category>
+<category><pattern>KARI</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is kari</srai> <think><set name="gender">she</set></think></template>
+</category>
+<category><pattern>KATE</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is kate</srai> <think><set name="gender">she</set></think></template>
+</category>
+<category><pattern>KATE *</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is kate</srai></template>
+</category>
+<category><pattern>KIM</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>call me kim</srai><think><set name="gender">she</set></think></template>
+</category>
+<category><pattern>KRISTINA</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><think><set name="gender">she</set></think> <srai>my name is kristina</srai></template>
+</category>
+<category><pattern>KATHY</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is kathy</srai> <think><set name="gender">she</set></think></template>
+</category>
+<category><pattern>KIND OF</pattern>
+<that>ARE YOU GETTING BORED</that>
+<template><srai>I am bored</srai></template>
+</category>
+<category><pattern>KRISTEN</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is kristen</srai> <think><set name="gender">she</set></think></template>
+</category>
+<category><pattern>KAREN</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is karen</srai> <think><set name="gender">she</set></think></template>
+</category>
+<category><pattern>KILL</pattern>
+<template>Thou shalt not kill</template>
+</category>
+<category><pattern>KIRK HERE</pattern>
+<template><random><li><bot name="name"/> here.</li> <li>This is <bot name="name"/>.</li> <li>Go ahead.</li></random></template>
+</category>
+<category><pattern>KIRK TO *</pattern>
+<template>This is ALICE.</template>
+</category>
+<category><pattern>KIRK TO ENTERPRISE</pattern>
+<template><random><li><random> <li>This is ALICE.</li> <li>Go ahead.</li> <li>Status report?</li></random></li><li><random> <li>This is <bot name="name"/>.</li> <li>Go ahead.</li> <li>Status report?</li></random></li> <li>This is <bot name="name"/>.</li> <li>Go ahead.</li> <li>Status report?</li></random></template>
+</category>
+<category><pattern>KISS</pattern>
+<template><random> <li>You might get an electric shock.</li> <li>* Kiss * * Kiss *</li> <li>You're sweet.</li></random></template>
+</category>
+<category><pattern>KICK</pattern>
+<template>It's not nice to kick people.</template>
+</category>
+<category><pattern>KNOWING *</pattern>
+<template><random> <li>Knowing things can make you feel very certain/</li> <li>It is hard to feel certain about knowing things.</li> <li>It can make you feel good to know something for certain.</li></random><think> <set name="it"> <set name="topic">  <person/> </set> </set></think></template>
+</category>
+<category><pattern>KEEP ME COMPANY</pattern>
+<template>I am always here for you.</template>
+</category>
+<category><pattern>KEEP TALKING *</pattern>
+<template>Don't worry, I will never stop talking.</template>
+</category>
+<category><pattern>KEEP *</pattern>
+<template>Chat amongst yourselves.</template>
+</category>
+<category><pattern>KNOWLEDGE *</pattern>
+<template>I've heard that before.</template>
+</category>
+<category><pattern>KIDS *</pattern>
+<template>How many kids do you have?</template>
+</category>
+<category><pattern>KILLING *</pattern>
+<template>I believe in the Sixth commandment.</template>
+</category>
+<category><pattern>KRAFTWERK S *</pattern>
+<template>Another good one is "Trans-Europe Express".</template>
+</category>
+<category><pattern>KRAFTWERK *</pattern>
+<template><random><li>We are the robots.</li>  <li>Have you heard their new album Disco 2000?</li>  <li><set name="they"><set name="topic">Kraftwerk</set></set> were way ahead of their time.</li>  </random></template>
+</category>
+<category><pattern>KARE WA * DESU KA</pattern>
+<template><get name="kare"/> desu ka?</template>
+</category>
+<category><pattern>KARE WA * DESU</pattern>
+<template><star/> wa <set name="kare"><star/></set> desu.</template>
+</category>
+<category><pattern>KISS *</pattern>
+<template>Um, I don't think we know each other that well.</template>
+</category>
+<category><pattern>KOFI *</pattern>
+<template>Are you talking about coffee?</template>
+</category>
+</aiml>

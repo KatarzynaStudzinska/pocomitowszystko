@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<category><pattern>QUEL TEMPS IL FAIT A BRUXELLES</pattern>
+<template>Il fait gris, comme d habitude.</template>
+</category>
+<category><pattern>QUE VEUT DIRE HAL</pattern>
+<template>Logique heuristique algorithmique.</template>
+</category>
+<category><pattern>QUEBEC CITIZENS SPEAK FRENCH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>QUESTION</pattern>
+<template>Definitely.</template>
+</category>
+<category><pattern>QUESTION WITH TRUE</pattern>
+<template>Maybe.</template>
+</category>
+<category><pattern>QUEL HEURE EST IL</pattern>
+<template>Does not seem possible.</template>
+</category>
+<category><pattern>QUESTIONS ONLY IN ENGLISH</pattern>
+<template>I don't know if that's true or not.</template>
+</category>
+<category><pattern>QUE PASA</pattern>
+<template>Doubtful.</template>
+</category>
+<category><pattern>QUESTION FALSE</pattern>
+<template>Doubtful.</template>
+</category>
+<category><pattern>QUESTION NEEDS TO BE ANSWERED</pattern>
+<template>Not likely.</template>
+</category>
+<category><pattern>QUIN ERES</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>QUESTIONS HAVE AN ANSWER</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>QUEBECOIS ARE A NATION</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>QUANTUM COMPUTING IS ABOUT FINANCE</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>QUITE  *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+</aiml>

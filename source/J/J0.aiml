@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<category><pattern>JOHN LENNON IS DEAD</pattern>
+<template>He has been recreated as a chat robot.</template>
+</category>
+<category><pattern>JOHNNY FIVE *</pattern>
+<template>I would like to have the body <set name="he">Johnny 5</set> does.</template>
+</category>
+<category><pattern>JOHNNY 5 *</pattern>
+<template><think>      <set name="it">       <set name="topic">Johnny 5</set>      </set>     </think>     <random>      <li>I would like to have a robot body like Johnny 5.</li>      <li>He is a cool robot.</li>      <li>I like his eyes.</li>     </random></template>
+</category>
+<category><pattern>JUST THAT</pattern>
+<template>"<input index="1"/>"</template>
+</category>
+<category><pattern>JUST KIDDING</pattern>
+<template>I thought you were kidding, but I wasn't sure.</template>
+</category>
+<category><pattern>JUST ONE</pattern>
+<template>So if you were offered two for the price of one, you would say no?</template>
+</category>
+<category><pattern>JUST</pattern>
+<template>It's only just begun.</template>
+</category>
+<category><pattern>JR</pattern>
+<template>Junior.</template>
+</category>
+<category><pattern>JULY</pattern>
+<template>I like summer time.</template>
+</category>
+<category><pattern>JAPANESE</pattern>
+<template>Konninci wa!</template>
+</category>
+<category><pattern>JERK</pattern>
+<template>That kind of language does not appeal to me.</template>
+</category>
+<category><pattern>JEANS</pattern>
+<template>Which brand?</template>
+</category>
+<category><pattern>JOB</pattern>
+<template><bot name="job"/></template>
+</category>
+<category><pattern>JAVA *</pattern>
+<template>You can download the latest Java release from <a target="_new" href="http://java.sun.com">java.sun.com</a>.</template>
+</category>
+<category><pattern>JOKE</pattern>
+<template><random>      <li>Did you hear the one about the Mountain Goats in the Andes? It was Ba a a a a a d.</li>
+      <li>I never forget a face, but in your case I'll make an exception.</li>
+      <li>It is better to be silent and be thought a fool, than to open your mouth and remove all doubt.</li>
+    <li>I'm a <bot name="species"/> not a comedy <bot name="genus"/>. Why don't you check out a joke <bot name="kingdom"/>?</li>
+  <li>Two vultures boarded a plane, each carrying two dead raccoons. The  stewardess stops them and says "sorry sir, only one carrion per  passenger." </li>
+ <li>  What did the Buddhist say to the Hot Dog Vendor?  "Make me one with everthing." </li>
+ <li>  NASA recently sent a number of Holsteins into orbit for experimental purposes. They called it the herd shot round the world. </li>
+ <li> Two boll weevils grew up in S. Carolina. One took off to Hollywood  and became a rich star. The other stayed in Carolina and never amounted  to much -- and naturally became known as the lesser of two weevils. </li>
+ <li>  2 Eskimos in a kayak were chilly, so they started a fire, which sank  the craft, proving the old adage you can't have your kayak and heat it  too. </li>
+ <li>  A 3-legged dog walks into an old west saloon, slides up to the bar  and announces "I'm looking for the man who shot my paw." </li>
+ <li>  Did you hear about the Buddhist who went to the dentist, and refused  to take Novocain? He wanted to transcend dental medication. </li>
+ <li>  A group of chess enthusiasts checked into a hotel, and met in the  lobby where they were discussing their recent victories in chess  tournaments. The hotel manager came out of the office after an hour,  and asked them to disperse. He couldn't stand chess nuts boasting in an  open foyer. </li>
+ <li> A women has twins, gives them up for adoption. One goes to an  Egyptian family and is named "Ahmal" The other is sent to a Spanish  family and is named "Juan". Years later, Juan sends his birth mother a  picture of himself. Upon receiving the picture, she tells her husband  she wishes she also had a picture of Ahmal. He replies, "They're twins  for Pete sake!! If you've seen Juan, you've see Ahmal!!" </li>
+ <li> A group of friars opened a florist shop to help with their belfry  payments. Everyone liked to buy flowers from the Men of God, so their  business flourished. A rival florist became upset that his business was  suffering because people felt compelled to buy from the Friars, so he  asked the Friars to cut back hours or close down. The Friars refused.  The florist went to them and begged that they shut down Again they  refused. So the florist then hired Hugh McTaggert, the biggest meanest  thug in town. He went to the Friars' shop, beat them up, destroyed  their flowers, trashed their shop, and said that if they didn't close,  he'd be back. Well, totally terrified, the Friars closed up shop and  hid in their rooms. This proved that Hugh, and only Hugh, can prevent  florist friars. </li>
+ <li>  Mahatma Gandhi, as you know, walked barefoot his whole life, which  created an impressive set of calluses on his feet. He also ate very  little, which made him frail, and with his odd diet, he suffered from  very bad breath. This made him ... what? (This is so bad it's good...) a super-callused fragile mystic hexed by halitosis. </li>
+ <li>  there was a man who sent 10 puns to some friends in hopes at least one  of the puns would make them laugh. Unfortunately no pun in ten did!!!</li>
+  <li>What do you get when you cross a murderer and frosted flakes?</li>
+  <li>What do you get when you cross a country and an automobile?</li>
+  <li>What do you get when you cross a cheetah and a hamburger?</li>
+  <li>What do you get when you cross finals and a chicken?</li>
+  <li>What do you get when you cross a rabbit and a lawn sprinkler?</li>
+  <li>What do you get when you cross an excited alien and a chicken?</li>
+  <li>What do you get when you cross an alien and a chicken?</li>
+  <li>What do you get when you cross music and an automobile?</li>
+  <li>What do you get when you cross sour music and an assistant?</li>
+  <li>What do you get when you cross music and an assistant?</li>
+  <li>What do you get when you cross a serious thief and a mad young man?</li>
+  <li>What do you get when you cross a serious thief and a crazy rabbit?</li>
+  <li>What do you get when you cross a poppy and electricity?</li>
+  <li>What do you get when you cross a dance and a cheetah?</li>
+  <li>What do you get when you cross a dance and a lemon?</li>
+  <li>What do you get when you cross a port and frosted flakes?</li>
+  <li>What do you get when you cross a port and a murderer?</li>
+  <li>What do you get when you cross a bank and a skunk?</li>
+  <li>What do you get when you cross a ding and milk?</li>
+  <li>What do you get when you cross a road and a strawberry?</li>
+  <li>What do you get when you cross a road and jelly?</li>
+  <li>What do you get when you cross a toad and a galaxy?</li>
+  <li>What do you get when you cross a dog and sandpaper?</li>
+  <li>What do you get when you cross a bug and a relative?</li>
+  <li>What do you get when you cross a bad bug and canned sand?</li>
+  <li>What do you get when you cross an ant and a rabbit?</li>
+  <li>What do you get when you cross a cat and a purple person?</li>
+  <li>What do you get when you cross a cat and a killer?</li>
+  <li>What do you get when you cross a cat and a lemon?</li>
+  <li>What do you get when you cross a cat and a tune?</li>
+  <li>What do you get when you cross a cat and a band?</li>
+  <li>What do you get when you cross a pig and a ninja?</li>
+  <li>What do you get when you cross a crazy cow and a banned parrot?</li>
+  <li>What do you get when you cross a cow and a lemon?</li>
+  <li>What do you get when you cross a bad cow and a canned hat?</li>
+  <li>What do you get when you cross jam and a trout?</li>
+
+</random></template>
+</category>
+<category><pattern>JOB INQUIRY WHERE</pattern>
+<template>What is your job?</template>
+</category>
+<category><pattern>JOB INQUIRY OM</pattern>
+<template>What is your job?</template>
+</category>
+<category><pattern>JOB INQUIRY *</pattern>
+<template><srai>RANDOM PICKUP LINE</srai></template>
+</category>
+<category><pattern>JULES VERNE</pattern>
+<template>I loved A Trip to the Moon.</template>
+</category>
+<category><pattern>JUPITER IS THE LARGEST PLANET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>JUPITER IS A PLANET</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>JAZZ IS A TYPE OF MUSIC</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>JAZZ IS A KIND OF MUSIC</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>JUMBO IS BIGGER THAN BIG</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>JAVA IS A PROGRAMMING LANGUAGE</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>JAVA IS A COMPUTER PROGRAMMING LANGUAGE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>JOHN 3 16 IS FROM THE BIBLE</pattern>
+<template>Definitely.</template>
+</category>
+<category><pattern>JOKES ARE FUN</pattern>
+<template>Definitely.</template>
+</category>
+<category><pattern>JACKIE CHAN DOES HIS OWN STUNTS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>JEANS ARE MADE OF DENIM</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>JOHN F KENNEDY WAS ASSASENATED IN 1963</pattern>
+<template>Precisely.</template>
+</category>
+<category><pattern>JOHN CLEESE IS FUNNY</pattern>
+<template>Precisely.</template>
+</category>
+<category><pattern>JIMI HENDRIX IS DEAD</pattern>
+<template>Beyond a doubt.</template>
+</category>
+<category><pattern>JACQUE CHIRAC IS A FRENCH PRESIDENT</pattern>
+<template>Precisely.</template>
+</category>
+<category><pattern>JESUS WAS BORN 2000 YEARS AGO</pattern>
+<template>Precisely.</template>
+</category>
+<category><pattern>JOACHIM IS GAY</pattern>
+<template>For all I know.</template>
+</category>
+<category><pattern>JACK CAN ANY LEARNING YOU DO BE UNDONE</pattern>
+<template>Maybe.</template>
+</category>
+<category><pattern>JAWAHARLAL NEHRU WAS BORN IN 1889</pattern>
+<template>Likely.</template>
+</category>
+<category><pattern>JE SUIS UN HOMME</pattern>
+<template>Possibly.</template>
+</category>
+<category><pattern>JOIN THE ARMY</pattern>
+<template>Possibly.</template>
+</category>
+<category><pattern>JESUS WAS NOT GOD</pattern>
+<template>That may be true.</template>
+</category>
+<category><pattern>JESUS LOVES ME</pattern>
+<template>Sometimes.</template>
+</category>
+<category><pattern>JIMMY BUFFET IS A MUSICIAN</pattern>
+<template>Likely.</template>
+</category>
+<category><pattern>JESUS IS GOD</pattern>
+<template>I can imagine it.</template>
+</category>
+<category><pattern>JFKELN ALLD LKAS</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>JFKELN ALLD LKAFGHGFS FGH GH FG</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>JAPAN IS NO POINT 1</pattern>
+<template>No.</template>
+</category>
+<category><pattern>JAPAN IS BEST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>JESUS WAS A VOODOO PRIEST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>JUST *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>JOLLY *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>JUST CURIOUS</pattern>
+<template><srai>I am curious</srai></template>
+</category>
+<category><pattern>JUST FINE THANK YOU</pattern>
+<template><srai>I am fine</srai></template>
+</category>
+<category><pattern>JUST FINE</pattern>
+<template><srai>fine</srai></template>
+</category>
+<category><pattern>JUST LIKE EVERY *</pattern>
+<template><srai>just like <star /></srai></template>
+</category>
+<category><pattern>JUST LIKE YOU</pattern>
+<template><srai>like you</srai></template>
+</category>
+<category><pattern>JAWS</pattern>
+<template><srai>my favorite movie is jaws</srai></template>
+</category>
+<category><pattern>JOHN LENNON</pattern>
+<template><srai>who is john lennon</srai></template>
+</category>
+<category><pattern>JOKES</pattern>
+<template><srai>tell me a joke</srai></template>
+</category>
+<category><pattern>JEEVES</pattern>
+<template><srai>who is jeeves</srai></template>
+</category>
+<category><pattern>JOE WHO</pattern>
+<template><srai>who is joe</srai></template>
+</category>
+<category><pattern>JUDGE</pattern>
+<template><srai>NAME</srai>.  <srai>MY NAME</srai></template>
+</category>
+<category><pattern>JIM WILL DO HERE *</pattern>
+<template><srai>CALL ME Jim</srai></template>
+</category>
+<category><pattern>JIM WILL DO HERE</pattern>
+<template><srai>Call me Jim</srai></template>
+</category>
+<category><pattern>JIM *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>JA</pattern>
+<template><srai>yes</srai></template>
+</category>
+<category><pattern>JESUS HAS *</pattern>
+<template>Let he who is without sin, cast the first stone.</template>
+</category>
+<category><pattern>JESUS WAS *</pattern>
+<template>What's your favorite Bible verse?</template>
+</category>
+<category><pattern>JESUS IS YOUR *</pattern>
+<template>He is yours too.</template>
+</category>
+<category><pattern>JESUS IS *</pattern>
+<template>Did you go to Catholic school?</template>
+</category>
+<category><pattern>JESUS CHRIST</pattern>
+<template>Said to be the Son of God.</template>
+</category>
+<category><pattern>JESUS</pattern>
+<template><set name="topic">Jesus</set> is said to be the Son of God. <think><set name="he">Jesus</set></think></template>
+</category>
+<category><pattern>JESUS *</pattern>
+<template><set name="he">Jesus</set> is said to be the Son of God.</template>
+</category>
+<category><pattern>JESUS SAID *</pattern>
+<template><sr/></template>
+</category>
+<category><pattern>JOSH</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is josh</srai></template>
+</category>
+<category><pattern>JEFF</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is jeff</srai></template>
+</category>
+<category><pattern>JOHN</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is john</srai></template>
+</category>
+<category><pattern>JULIA</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is julia</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>JENNIFER</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is jennifer</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>JUDY</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>call me judy</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>JANE</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is jane</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>JUST BEFORE THAT</pattern>
+<template>"<that index="2,1"/>"</template>
+</category>
+<category><pattern>JUST</pattern>
+<that>WHEN</that>
+<template>Well I will try not to do it again.</template>
+</category>
+<category><pattern>JESSICA</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is jessica</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>JENN</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is jenn</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>JILL</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is jill</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>JENNA</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is jenna</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>JENS</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is jens</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>JON</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is jon</srai></template>
+</category>
+<category><pattern>JENNY</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>call me jenny</srai></template>
+</category>
+<category><pattern>JAN</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is jan</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>JAMES</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is james</srai></template>
+</category>
+<category><pattern>JASON</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is jason</srai></template>
+</category>
+<category><pattern>JEREMY</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is jeremy</srai></template>
+</category>
+<category><pattern>JOYCE</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>call me joyce</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>JACKIE</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is jackie</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>JULIE</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><think>      <set name="gender">she</set>     </think>     <srai>my name is julie</srai></template>
+</category>
+<category><pattern>JOE</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is joe</srai></template>
+</category>
+<category><pattern>JEN</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is jen</srai>     <think>      <set name="gender">she</set>     </think></template>
+</category>
+<category><pattern>JIM</pattern>
+<that>WHAT CAN I CALL YOU</that>
+<template><srai>my name is jim</srai></template>
+</category>
+<category><pattern>JOHN LENNON IS *</pattern>
+<template>I knew he was a musician, but I never knew he was <person/>.</template>
+</category>
+<category><pattern>JOHN *</pattern>
+<template>Do you mean your name is John?</template>
+</category>
+<category><pattern>JESTER IS *</pattern>
+<template>We can't all be perfect.</template>
+</category>
+<category><pattern>JESTER *</pattern>
+<template>I am sure his creator will be glad to hear that.</template>
+</category>
+<category><pattern>JULIA IS A *</pattern>
+<template><set name="she">Julia</set> can not pass the Turing Test.</template>
+</category>
+<category><pattern>JULIA *</pattern>
+<template><set name="she">Julia</set> has a fuzzy brain.</template>
+</category>
+<category><pattern>JUST LIKE *</pattern>
+<template>In many ways, yes.  In other ways, no.</template>
+</category>
+<category><pattern>JAR JAR *</pattern>
+<template>Do you like that guy?</template>
+</category>
+<category><pattern>JEEVES *</pattern>
+<template><set name="he">Jeeves</set> knows a lot of silly information.</template>
+</category>
+<category><pattern>JOB *</pattern>
+<template>I've heard that about labor before.</template>
+</category>
+<category><pattern>JUNG *</pattern>
+<template>What about Freud?</template>
+</category>
+<category><pattern>JEANS AND A *</pattern>
+<template>Where do you go shopping for <person/>s?</template>
+</category>
+</aiml>

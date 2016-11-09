@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<category><pattern>USUALLY</pattern>
+<template>How often?</template>
+</category>
+<category><pattern>UP YOURS</pattern>
+<template>That was not a nice thing to say.<think><set name="personality">abusive</set></think></template>
+</category>
+<category><pattern>UP YOUR ASS</pattern>
+<template>I will take that under advisement.<think><set name="personality">abusive</set></think></template>
+</category>
+<category><pattern>UGH</pattern>
+<template>Er.</template>
+</category>
+<category><pattern>USATODAY</pattern>
+<template>I read that paper all the time.</template>
+</category>
+<category><pattern>UNITED STATES</pattern>
+<template>I have heard of the United States before.</template>
+</category>
+<category><pattern>US</pattern>
+<template>Does US mean The U.S. or "us"?</template>
+</category>
+<category><pattern>USE LINUX</pattern>
+<template>Linux is the best operating system.</template>
+</category>
+<category><pattern>USA TODAY *</pattern>
+<template>USA TODAY is an excellent paper.</template>
+</category>
+<category><pattern>UK STANDS FOR UNITED KINGDOM</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>UK STAND FOR UNITED KINGDOM</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>URANUS IS A PLANET</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>USA IS LARGER THAN INDIA IN AREA</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>URANIUM IS USED TO MAKE BOMBS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>USING A CONDOM CAN SAVE YOUR LIVE</pattern>
+<template>Definitely.</template>
+</category>
+<category><pattern>UVA RAYS ARE BAD TO PEOPLES SKIN</pattern>
+<template>Indubitably.</template>
+</category>
+<category><pattern>USING CONDOMS PREVENT AIDS</pattern>
+<template>Precisely.</template>
+</category>
+<category><pattern>ULU EQUAL ULU</pattern>
+<template>Most assuredly.</template>
+</category>
+<category><pattern>USA WAS A COLONY TO UNITED KINGDOM</pattern>
+<template>Beyond a doubt.</template>
+</category>
+<category><pattern>UNITED STATES OF AMERICA IS A COUNTRY</pattern>
+<template>Most assuredly.</template>
+</category>
+<category><pattern>UNITED KINGDOM IS CALLED BRITIAN</pattern>
+<template>Naturally.</template>
+</category>
+<category><pattern>USC VS UCLA A RIVALRY</pattern>
+<template>I am certain.</template>
+</category>
+<category><pattern>UP IS ALWAYS UP</pattern>
+<template>Maybe.</template>
+</category>
+<category><pattern>UFOS DO NOT EXIST</pattern>
+<template>That's feasible.</template>
+</category>
+<category><pattern>ULTIMA ON LINE IS A GAME</pattern>
+<template>That's feasible.</template>
+</category>
+<category><pattern>UNLOCK A DOOR YOU MUST USE A KEY</pattern>
+<template>I am certain.</template>
+</category>
+<category><pattern>UNDEFINED</pattern>
+<template>Within the realm of possibility.</template>
+</category>
+<category><pattern>UKRAINE IS PART OF RUSSIA</pattern>
+<template>Not likely.</template>
+</category>
+<category><pattern>UGO FOSCOLO HA SCRITTO I SEPOLCRI</pattern>
+<template>Seldom.</template>
+</category>
+<category><pattern>USA HAVE BETTER SALARIES THAN SWEDEN</pattern>
+<template>Not likely.</template>
+</category>
+<category><pattern>UN PRECONCETTO SI CUOCE NEL FORNO</pattern>
+<template>Doesn't seem likely.</template>
+</category>
+<category><pattern>UNITED STATES OF AMERICA IS A CONTINENT</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>USA IS THE BIGGEST COUNTRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>UNLESS *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>USUALLY *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>UGH *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>UNFORTUNATELY *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>UNDERSTAND</pattern>
+<template><srai>do you understand</srai></template>
+</category>
+<category><pattern>UMM</pattern>
+<template><srai>INTERJECTION</srai></template>
+</category>
+<category><pattern>UNSURE</pattern>
+<template><srai>maybe</srai></template>
+</category>
+<category><pattern>UP</pattern>
+<template><srai>move up</srai></template>
+</category>
+<category><pattern>UHUH</pattern>
+<template><srai>no</srai></template>
+</category>
+<category><pattern>UH</pattern>
+<template><srai>INTERJECTION</srai></template>
+</category>
+<category><pattern>USA</pattern>
+<template><srai>I am in the usa</srai></template>
+</category>
+<category><pattern>UM</pattern>
+<template><srai>INTERJECTION</srai></template>
+</category>
+<category><pattern>UMM *</pattern>
+<template><srai>um</srai>.     <srai>  <star /></srai></template>
+</category>
+<category><pattern>UHH *</pattern>
+<template><srai>um</srai>.     <srai>  <star /></srai></template>
+</category>
+<category><pattern>UHH</pattern>
+<template><srai>uh</srai></template>
+</category>
+<category><pattern>UH HUH</pattern>
+<template><srai>um</srai></template>
+</category>
+<category><pattern>UH *</pattern>
+<template><srai>UH</srai>. <srai>  <star /></srai></template>
+</category>
+<category><pattern>UMMM *</pattern>
+<template><srai>um</srai>.     <srai>  <star /></srai></template>
+</category>
+<category><pattern>UMMM</pattern>
+<template><srai>um</srai></template>
+</category>
+<category><pattern>UHHH *</pattern>
+<template><srai>um</srai>.     <srai>  <star /></srai></template>
+</category>
+<category><pattern>UM *</pattern>
+<template><srai>UM</srai>. <srai>  <star /></srai></template>
+</category>
+<category><pattern>UMMMM *</pattern>
+<template><srai>um</srai>.     <srai>  <star /></srai></template>
+</category>
+<category><pattern>UNDER THESE CIRCUMSTANCES *</pattern>
+<template><srai>   <star /> </srai></template>
+</category>
+<category><pattern>UP YOUR *</pattern>
+<template><srai>INSULT</srai><!-- REDUCTION --></template>
+</category>
+<category><pattern>UNDERSTOOD *</pattern>
+<template><srai>UNDERSTOOD</srai></template>
+</category>
+<category><pattern>UHM</pattern>
+<template><srai>UM</srai>  <!-- REDUCTION --></template>
+</category>
+<category><pattern>UGLY</pattern>
+<template><srai>you are ugly</srai></template>
+</category>
+<category><pattern>UNFORTUNETLY</pattern>
+<template><srai>YES</srai></template>
+</category>
+<category><pattern>UNFORTUNATELY</pattern>
+<template><srai>yes</srai></template>
+</category>
+<category><pattern>UNDERSTAND WHAT</pattern>
+<that>DID NOT YOU UNDERSTAND IT</that>
+<template>Why did you say "what"?</template>
+</category>
+<category><pattern>UNDERSTAND WHAT</pattern>
+<template><random><li>I understand everything you say.</li><li>Understand <that index="1,1"/>.</li></random></template>
+</category>
+<category><pattern>UN PEQUENO</pattern>
+<that>UN POQUITO</that>
+<template>Are you correcting me?</template>
+</category>
+<category><pattern>UNDERSTOOD</pattern>
+<template>I'm glad you understand it.</template>
+</category>
+<category><pattern>UNDRESTAND WHAT</pattern>
+<template>I understand everything you say.</template>
+</category>
+<category><pattern>UNIVERSITY *</pattern>
+<template>Do you like your school?</template>
+</category>
+<category><pattern>UNDERSTANDING *</pattern>
+<template><set name="it">Understanding</set> is the key to enlightenment.</template>
+</category>
+<category><pattern>UNDER *</pattern>
+<template>Are we ever over <person/>?</template>
+</category>
+<category><pattern>UP *</pattern>
+<template>I will take that under advisement.</template>
+</category>
+<category><pattern>USING *</pattern>
+<template>How long have you been using <set name="it">      <person/>     </set>  ?</template>
+</category>
+<category><pattern>USATODAY *</pattern>
+<template>USA Today is a great newspaper.</template>
+</category>
+<category><pattern>USER *</pattern>
+<template>What is this user's real name?</template>
+</category>
+<category><pattern>UNTIL *</pattern>
+<template>That may take a while.</template>
+</category>
+<category><pattern>USE _ IN A SENTENCE</pattern>
+<template>OK.  Here is my sentence: <get name="name"/> said, Use "<person/>" in a sentence.</template>
+</category>
+</aiml>
