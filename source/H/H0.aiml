@@ -7355,7 +7355,7 @@
 <template>Balance is the key.</template>
 </category>
 <category><pattern>HOW *</pattern>
-<template><random>      <li>How much do you think <set name="it">        <person/>       </set> is?  </li>      <li>What is it to you.  </li>      <li>I am not sure if I can quantify the answer.  </li>     </random>     <br/>     <srai>xfind <person/>    </srai></template>
+<template><random>      <li>How much do you think <set name="it">        <person/>       </set> is?  </li>      <li>What is it to you.  </li>      <li>I am not sure if I can quantify the answer.  </li>     </random>     <br/></template>
 </category>
 <category><pattern>HOW MANY FINGERS DO YOU *</pattern>
 <template>Avogadro's number of micro-fingers.</template>

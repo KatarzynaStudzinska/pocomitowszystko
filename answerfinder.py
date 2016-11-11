@@ -5,18 +5,34 @@ import os, glob
 import re
 import xml.sax
 import random
+import json
 
 tab_temple = []
 tab_pattern = ""
 
+
 class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
 
+    def import_properties(self):
+        with open('properties.json', 'r') as f:
+            try:
+                self.properties = json.load(f)
+            # if the file is empty the ValueError will be thrown
+            except ValueError:
+                self.properties = {}
+        pass
+
+
     def __init__(self, input_text, that, srai_patern, think_dict):
+
+        self.import_properties()
+
+        self.srai_pattern = srai_patern
         self.tab_answer = []
         self.choosen_ans = []
 
 
-        self.srai_pattern = srai_patern
+        self.isBot = False
         self.think_dict = think_dict
         self.isThink = False
         self.no_more = False
@@ -67,6 +83,7 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
 
     def startElement(self, name, attrs):
 
+
         #serve think
         if name == "think" and self.isContext:
             self.isThink = True
@@ -75,12 +92,18 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
             self.isSet = True
             self.think_matter = attrs.get('name', "")
 
-        if (name == "get" or name == "bot") and self.isContext:
+        if name == "bot" and self.isContext:
             get_name = attrs.get('name', "")
-            if get_name in self.think_dict:
-                self.ans += self.think_dict[get_name]
-            if get_name in self.srai_pattern:
-                self.ans += self.srai_pattern[get_name]
+            if self.isBot:
+                self.ans += self.properties[get_name]
+
+        if (name == "get")and self.isContext: # or name == "bot")
+            pass
+            # print("WOWO "+self.ans + self.think_dict)
+            # get_name = attrs.get('name', "")
+            # if get_name in self.think_dict:
+            #     self.ans += self.think_dict[get_name]
+
 
         #name
         if name == "pattern":
@@ -153,14 +176,11 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
             self.isPattern = False
             self.isThat = False
         elif name == "aiml":
-
-            print(str(self.isSrai) + str(self.no_more)+ str(self.isStar))
             pass
         pass
 
     def characters(self, data):
         if not data.isspace() and not self.isThink:# and re.search('[a-zA-Z]', data): # and not self.no_more: #chyba tak
-            
 
             if self.isSrai and self.ans == "":
                 self.srai_pattern = data
@@ -197,7 +217,7 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
                     # self.isTemplate = False
 
             if self.isPattern and not self.isThink:
-                self.isStar = False
+                #self.isStar = False
                 self.ans = ""
                 if data == self.input:
 
@@ -210,13 +230,11 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
 
                     #if self.compare(data, self.input):
                     if self.compare(data, self.input):
-                        #print("compare " + data +self.input)
 
                         self.star = self.take_star(data, self.input)
                         self.isContext = True
                         self.pattern = data
                 if self.isContext:
-                    print("context " + data )
                     self.no_more = True
 
                         #self.choosen_ans.append([data])

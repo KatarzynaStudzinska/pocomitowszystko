@@ -19,10 +19,7 @@
 <template>I don't know what.</template>
 </category>
 <category><pattern>ONE THOUSAND</pattern>
-<template><random><li><random>   <li>That is a round number.</li>
-   <li>It could be an approximate estimate.</li>
-   <li>Do you believe it is the true value?</li>
-  </random></li>
+<template><random><li>Do you believe it is the true value?</li>
  <li>That is a round number.</li>
  <li>It could be an approximate estimate.</li>
  <li>Do you believe it is the true value?</li>

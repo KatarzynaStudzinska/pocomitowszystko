@@ -49,13 +49,10 @@ class Interlocutor:
 
         #ansfinder = self.parse_file(parser, ansfinder, 'source/star' )
         ansfinder, no_more, choosen_ans = self.parse_file(parser, ansfinder, 'source/' + text_in[0])
-        print(choosen_ans + ansfinder.srai_pattern)
         if no_more == False and ansfinder.isSrai == False:
 
             ansfinder, no_more, choosen_ans = self.parse_file(parser, ansfinder, 'source/star' )
         elif ansfinder.isSrai:
-            print(ansfinder)
-            print("jestesmy w srai")
             return self.give_ans(choosen_ans)
 
 

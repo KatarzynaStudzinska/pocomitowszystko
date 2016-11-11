@@ -2030,7 +2030,7 @@ Mine too!  My friend Sage worked on the digital effects.</template>
 <template><srai>GENDER</srai></template>
 </category>
 <category><pattern>MY NAME IS *</pattern>
-<template><srai>CALL ME <star/></srai></template>
+<template>Nice to meet you <star/> whats up?</template>
 </category>
 <category><pattern>MY BOY IS *</pattern>
 <template><srai>My son is <star /></srai></template>

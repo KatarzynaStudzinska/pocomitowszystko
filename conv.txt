@@ -1,0 +1,17 @@
+ROZMOWA
+P: MY name is KK
+C:Nice to meet you KK whats up?
+P: Hi
+C:Good morning my sun and stars
+P: FREEBSD IS A COMPUTER OPERATING SYSTEM
+C:I am certain.
+P: ARE YOU AMERICAN
+C:My nationality is .  What country are you from?
+P: more than ONE THOUSAND
+C:That seems like quite a lot.
+P: ONE THOUSAND
+C:Do you believe it is the true value?
+P: MY MOTHER DIED
+C:I am terribly sorry to hear about your loss, .
+P: APPLES IS NOT star
+C:What is STAR ? I was using STAR  as a metaphor.
