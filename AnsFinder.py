@@ -6,7 +6,8 @@ if __name__ == '__main__':
     intrlocu = interlocutor.Interlocutor()
     conversation = True
     yoursinput = "I live you"#"What do you think about democration"
-    list = ["MY name is KK", "Hi", "FREEBSD IS A COMPUTER OPERATING SYSTEM", "ARE YOU AMERICAN", "more than ONE THOUSAND", "ONE THOUSAND", "MY MOTHER DIED", "APPLES IS NOT star", "stop"]
+    #list = ["ANYONE FROM CANADA", "ALL THINGS are broken", "MY name is KK", "Hi", "FREEBSD IS A COMPUTER OPERATING SYSTEM", "ARE YOU AMERICAN", "more than ONE THOUSAND", "ONE THOUSAND", "MY MOTHER DIED", "APPLES IS NOT star", "stop"]
+    list = ["ppswpdfeko", "stop"]
     licznik = 0
     ile = 1
 

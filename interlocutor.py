@@ -33,8 +33,8 @@ class Interlocutor:
     def parse_file(self, parser, ansfinder, path):
         possible_answer = []
         for filename in glob.glob(os.path.join(path, '*.aiml')):
-            print(filename + " start")
             parser.parse(open(filename))
+            print(filename)
             if ansfinder.no_more == True:#False: #len(ansfinder.choosen_ans) > 0:
                 break
         choosen = self.similarity_to_input(ansfinder.choosen_ans, ansfinder.input)
@@ -44,7 +44,7 @@ class Interlocutor:
     def give_ans(self, text_in):
         parser = xml.sax.make_parser()
         text_in = ((''.join([c for c in text_in if c not in (',', '.', '?', '!')]))).upper()
-        ansfinder = answerfinder.AnsFinder(text_in, self.that, self.srai_pattern, self.think_dict)
+        ansfinder = answerfinder.AnsFinder(text_in, self.that)
         parser.setContentHandler(ansfinder)
 
         #ansfinder = self.parse_file(parser, ansfinder, 'source/star' )
@@ -54,13 +54,6 @@ class Interlocutor:
             ansfinder, no_more, choosen_ans = self.parse_file(parser, ansfinder, 'source/star' )
         elif ansfinder.isSrai:
             return self.give_ans(choosen_ans)
-
-
-
-        # ansfinder = self.parse_file(parser, ansfinder, 'source/' + text_in[0])
-        # print(self.similarity_to_input(ansfinder.choosen_ans, ansfinder.input))
-        # if ansfinder.ans == "":
-        #     ansfinder = self.parse_file(parser, ansfinder, 'source/star')
 
 
         self.that = ansfinder.ans.upper()

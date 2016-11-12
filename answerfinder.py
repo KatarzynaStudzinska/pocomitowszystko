@@ -13,27 +13,34 @@ tab_pattern = ""
 
 class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
 
-    def import_properties(self):
-        with open('properties.json', 'r') as f:
+    def save_dict(self, name, dictionary):
+        with open(name, 'w') as f:
+            json.dump(dictionary, f)
+
+    def import_dict(self, name):
+        with open(name, 'r') as f:
             try:
-                self.properties = json.load(f)
+                dictionary = json.load(f)
             # if the file is empty the ValueError will be thrown
             except ValueError:
-                self.properties = {}
+                dictionary = {}
+        return dictionary
         pass
 
 
-    def __init__(self, input_text, that, srai_patern, think_dict):
+    def __init__(self, input_text, that):
 
-        self.import_properties()
+        self.properties = self.import_dict("properties.json")
+        self.think_dict = self.import_dict("think.json")
 
-        self.srai_pattern = srai_patern
+
+        #self.srai_pattern = srai_patern
         self.tab_answer = []
         self.choosen_ans = []
 
 
         self.isBot = False
-        self.think_dict = think_dict
+
         self.isThink = False
         self.no_more = False
         self.that = that
@@ -94,15 +101,19 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
 
         if name == "bot" and self.isContext:
             get_name = attrs.get('name', "")
-            if self.isBot:
+            if self.isRandom:
+                self.random_table[-1] += self.properties[get_name]
+            else:
                 self.ans += self.properties[get_name]
 
+
         if (name == "get")and self.isContext: # or name == "bot")
-            pass
-            # print("WOWO "+self.ans + self.think_dict)
-            # get_name = attrs.get('name', "")
-            # if get_name in self.think_dict:
-            #     self.ans += self.think_dict[get_name]
+            get_name = attrs.get('name', "")
+            if get_name in self.think_dict:
+                if self.isRandom:
+                    self.random_table[-1] += self.think_dict[get_name]
+                else:
+                    self.ans += self.think_dict[get_name]
 
 
         #name
@@ -124,6 +135,15 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
             self.isThat = True
 
     def endElement(self, name):
+
+        if (name =="star" or name =="person") and self.isContext:
+            if self.isRandom:
+                self.random_table[-1] += self.star
+            else:
+                self.ans += self.star
+
+
+
 
         if name == "think":
             if self.isContext:
@@ -147,35 +167,39 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
         if name == "that":
             self.isThat = False
 
-        if name == "category" and self.isStar == False:
-            if self.ans != "":
-                self.no_more = True
-                self.choosen_ans.append([self.pattern])
-                self.choosen_ans[-1].append(self.ans)
-                self.pattern = ""
-                self.ans = ""
+        if name == "category":
+            if self.isStar == False:
+                if self.ans != "":
+                    self.no_more = True
+                    self.choosen_ans.append([self.pattern])
+                    self.choosen_ans[-1].append(self.ans)
+                    self.pattern = ""
+                    self.ans = ""
 
-            #self.ans = ""
-            self.isContext = False
-            self.isTemplate = False
-            self.isThatscorrect = False
+                #self.ans = ""
+                self.isContext = False
+                self.isTemplate = False
+                self.isThatscorrect = False
+                self.isThat = False
+                self.random_table = []
+
+            self.isSet = False
 
 
-            self.isThat = False
-            self.random_table = []
 
         # elif name == "template":
         #     self.isTemplate = False
 
 
         elif name == "set":
-            self.isSet = False
+            pass
 
 
         elif name == "pattern":
             self.isPattern = False
             self.isThat = False
         elif name == "aiml":
+            self.save_dict("think.json", self.think_dict)
             pass
         pass
 
@@ -187,12 +211,11 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
                 # self.ans = data
 
             if self.isSet:
+                if self.isStar:
+                   self.think_dict[self.think_matter] = self.star
                 self.ans += data #wydaje mi sie ze tak trzeba :<
-                self.think_dict.update({self.think_matter: data})
 
-            if self.isStar:
-                self.ans = self.ans + self.star
-                self.isStar = False
+
 
             if self.isThat:
 
@@ -202,7 +225,8 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
 
 
             if self.isRandom:
-                self.random_table.append(data)
+                if data != ".":
+                    self.random_table.append(data)
 
             if self.isTemplate and not self.isRandom:
 
