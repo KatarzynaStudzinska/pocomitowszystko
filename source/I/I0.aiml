@@ -5524,7 +5524,7 @@
 <li>It's good to meet someone who is</li>  
 <li>Do you mind if I tell other people you are </li>  
 </random> 
-<person/>.  
+<person/>.
 <think><set name="it"><set name="is"><set name="topic"><person/></set></set></set></think>
 </template>
 </category>

@@ -93,9 +93,11 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
 
         #serve think
         if name == "think" and self.isContext:
+            print("think fu")
             self.isThink = True
 
         if name == "set" and self.isContext:
+
             self.isSet = True
             self.think_matter = attrs.get('name', "")
 
@@ -128,7 +130,8 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
         if name == "star" and self.isContext: #or name == "person"
             self.isStar = True
         if name == "person" and self.isContext: #or name == "person"
-            self.isStar = True
+            if not self.isThink:
+                self.isStar = True
         # if name == "person" and self.isContext: #or name == "person"
         #     self.isStar = True
         if name == "that" and self.isContext:
@@ -136,11 +139,12 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
 
     def endElement(self, name):
 
-        if (name =="star" or name =="person") and self.isContext:
+
+        if (name =="star" or name =="person") and self.isContext and not self.isThink:
             if self.isRandom:
-                self.random_table[-1] += self.star
+                self.random_table[-1] += " " +self.star
             else:
-                self.ans += self.star
+                self.ans += " " + self.star
 
 
 
@@ -206,6 +210,30 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
     def characters(self, data):
         if not data.isspace() and not self.isThink:# and re.search('[a-zA-Z]', data): # and not self.no_more: #chyba tak
 
+
+            if self.isPattern and not self.isThink:
+                #self.isStar = False
+                self.ans = ""
+                if data == self.input:
+
+                    self.isContext = True
+                    self.pattern = data
+                    #self.choosen_ans.append([data])
+
+                # KATARZYNA dodaj tutaj jak jest to samo z gwiazdka
+                elif data.__contains__("*"):# and self.input.__contains__(''.join([c for c in data if c not in ('_', '*')])):
+
+                    #if self.compare(data, self.input):
+                    if self.compare(data, self.input):
+
+                        self.star = self.take_star(data, self.input)
+                        self.isContext = True
+                        self.pattern = data
+                if self.isContext:
+                    self.no_more = True
+
+
+
             if self.isSrai and self.ans == "":
                 self.srai_pattern = data
                 # self.ans = data
@@ -213,7 +241,10 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
             if self.isSet:
                 if self.isStar:
                    self.think_dict[self.think_matter] = self.star
-                self.ans += data #wydaje mi sie ze tak trzeba :<
+                if not self.ans.__contains__(data):
+                    print(str(not self.ans.__contains__(data)))
+                    print(self.ans, data)
+                    self.ans += data #wydaje mi sie ze tak trzeba :<
 
 
 
@@ -240,26 +271,6 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
                     self.ans += data
                     # self.isTemplate = False
 
-            if self.isPattern and not self.isThink:
-                #self.isStar = False
-                self.ans = ""
-                if data == self.input:
-
-                    self.isContext = True
-                    self.pattern = data
-                    #self.choosen_ans.append([data])
-
-                # KATARZYNA dodaj tutaj jak jest to samo z gwiazdka
-                elif data.__contains__("*"):# and self.input.__contains__(''.join([c for c in data if c not in ('_', '*')])):
-
-                    #if self.compare(data, self.input):
-                    if self.compare(data, self.input):
-
-                        self.star = self.take_star(data, self.input)
-                        self.isContext = True
-                        self.pattern = data
-                if self.isContext:
-                    self.no_more = True
 
                         #self.choosen_ans.append([data])
 

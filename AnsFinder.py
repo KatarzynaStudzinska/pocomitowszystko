@@ -6,18 +6,17 @@ if __name__ == '__main__':
     intrlocu = interlocutor.Interlocutor()
     conversation = True
     yoursinput = "I live you"#"What do you think about democration"
-    #list = ["ANYONE FROM CANADA", "ALL THINGS are broken", "MY name is KK", "Hi", "FREEBSD IS A COMPUTER OPERATING SYSTEM", "ARE YOU AMERICAN", "more than ONE THOUSAND", "ONE THOUSAND", "MY MOTHER DIED", "APPLES IS NOT star", "stop"]
-    list = ["ppswpdfeko", "stop"]
+    list = ["I am very handsome person", "I am a bit shy person" ,"stop"]
     licznik = 0
     ile = 1
 
     while(conversation):
 
-        yoursinput = list[licznik] # raw_input("You:  ") #"APPLES IS NOT star"#
+        yoursinput = list[licznik] #raw_input("You:  ")
         licznik += 1
         print("<<<<< " + yoursinput)
 
-        if yoursinput.__contains__("stop"):# or licznik > ile:
+        if yoursinput == "stop":# or licznik > ile:
             conversation = False
             break
         try:
