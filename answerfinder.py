@@ -93,20 +93,22 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
 
         #serve think
         if name == "think" and self.isContext:
-            print("think fu")
             self.isThink = True
 
         if name == "set" and self.isContext:
-
-            self.isSet = True
-            self.think_matter = attrs.get('name', "")
+            if self.isSet:
+                self.isSet = False
+            else:
+                self.isSet = True
+                self.think_matter = attrs.get('name', "")
 
         if name == "bot" and self.isContext:
             get_name = attrs.get('name', "")
-            if self.isRandom:
-                self.random_table[-1] += self.properties[get_name]
-            else:
-                self.ans += self.properties[get_name]
+            if get_name in self.properties:
+                if self.isRandom:
+                    self.random_table[-1] += self.properties[get_name]
+                else:
+                    self.ans += self.properties[get_name]
 
 
         if (name == "get")and self.isContext: # or name == "bot")
@@ -155,10 +157,13 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
 
         if name == "template":
             self.isTemplate = False
-            self.isContext = False
-            self.choosen_ans.append([self.pattern])
-            self.choosen_ans[-1].append(self.ans)
 
+            if self.isContext:
+                self.choosen_ans.append([self.pattern])
+                self.choosen_ans[-1].append(self.ans)
+                self.choosen_ans[-1].append(self.isSrai)
+            self.isContext = False
+            self.isSrai = False
 
                 # self.no_more = True
         if name == "random" and self.isContext:
@@ -210,8 +215,8 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
     def characters(self, data):
         if not data.isspace() and not self.isThink:# and re.search('[a-zA-Z]', data): # and not self.no_more: #chyba tak
 
-
             if self.isPattern and not self.isThink:
+
                 #self.isStar = False
                 self.ans = ""
                 if data == self.input:
@@ -242,8 +247,6 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
                 if self.isStar:
                    self.think_dict[self.think_matter] = self.star
                 if not self.ans.__contains__(data):
-                    print(str(not self.ans.__contains__(data)))
-                    print(self.ans, data)
                     self.ans += data #wydaje mi sie ze tak trzeba :<
 
 
@@ -275,9 +278,23 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
                         #self.choosen_ans.append([data])
 
     def compare(self, star, text):
+        # jezeli mamy jakis syf w funckji
         if text == "":
             return False
-        if len(star) > len(text):
+
+        # jezeli mamy dwa stary
+        if star.count("*") > 1:
+            star_set = star.split(" ")
+
+            for word in star_set:
+
+                if not text.__contains__(word) and word != "*":
+                    return False
+            return True
+
+
+        #jezeli mamy inna liczbe starow
+        elif len(star) > len(text):
             return False
         t = 0
         s = 0
@@ -290,9 +307,11 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
                 if len(star) == s + 1:
                     return True
                 else:
-                    literka = star[s+2]
+
                     while t < len(text):
-                        if text[t] == star[s+2] and text[t+ 1] == star[s+3] and text[-1] == star[-1]:
+
+                        #if text[t] == star[s+2] and text[t + 1] == star[s+3] and text[-1] == star[-1]:
+                        if text[t] == star[s+2] and text[-2] == star[-2] and text[-1] == star[-1]:
                             return True
                         t += 1
                     return False
@@ -300,6 +319,32 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
             s += 1
 
         return True
+        # if text == "":
+        #     return False
+        # if len(star) > len(text):
+        #     return False
+        # t = 0
+        # s = 0
+        # podobne = True
+        # while podobne or s < len(star) - 1:
+        #     if star[s] != "*" and star[s] != text[t]: #jezeli ktory po prostu sie nie zgadza
+        #         return False
+        #
+        #     if star[s] == "*":
+        #         if len(star) == s + 1:
+        #             return True
+        #         else:
+        #             literka = star[s+2]
+        #             while t < len(text):
+        #                 #if text[t] == star[s+2] and text[t+ 1] == star[s+3] and text[-1] == star[-1]:
+        #                 if text[t] == star[s+2] and text[-2] == star[-2] and text[-1] == star[-1]:
+        #                     return True
+        #                 t += 1
+        #             return False
+        #     t += 1
+        #     s += 1
+        #
+        # return True
 
 
 

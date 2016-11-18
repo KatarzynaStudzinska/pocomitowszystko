@@ -6,23 +6,24 @@ import random
 
 class Interlocutor:
     def __init__(self):
-        self.think_dict = {}
+
         self.that = ""
-        self.srai_pattern = {"name":"Nao", "religion":"Roman Catholic", "master":"Thomas Aquinas", "botmaster":"botmaster",
-                             "species": "nao robot"}
+
 
     def similarity_to_input(self, tab, input):
+        if len(tab) == 0:
+            return "", False
         tab_len = []
         for ans in tab:
             if len(input) == len(ans[0]):
-                return ans[1]
+                return ans[1], ans[2]
             else:
                 tab_len.append(abs(len(ans[0]) - len(input)))
 
         if tab_len == []:
             return ""
         index = tab_len.index(min(tab_len))
-        return tab[index][1]
+        return tab[index][1], tab[index][2]
 
     def print_tab(self, tab):
         for line in tab:
@@ -32,14 +33,29 @@ class Interlocutor:
 
     def parse_file(self, parser, ansfinder, path):
         possible_answer = []
+        file_list = glob.glob(os.path.join(path, '*.aiml'))
+        print(file_list)
+        sorted(file_list)
+        print(file_list)
         for filename in glob.glob(os.path.join(path, '*.aiml')):
-            parser.parse(open(filename))
             print(filename)
+            parser.parse(open(filename))
+
             if ansfinder.no_more == True:#False: #len(ansfinder.choosen_ans) > 0:
                 break
-        choosen = self.similarity_to_input(ansfinder.choosen_ans, ansfinder.input)
-        return [ansfinder, ansfinder.no_more, choosen]
+        #self.print_tab(ansfinder.choosen_ans)
+        choosen, srai_choosen = self.similarity_to_input(ansfinder.choosen_ans, ansfinder.input)
+        return [ansfinder, ansfinder.no_more, choosen, srai_choosen]
 
+    def find_first_letter(self, text_in):
+        if text_in[0].isalnum():
+            first_letter = text_in[0]
+        else:
+            if text_in[1].isalnum():
+                first_letter = text_in[1]
+            else:
+                first_letter = "star"
+        return first_letter
 
     def give_ans(self, text_in):
         parser = xml.sax.make_parser()
@@ -47,12 +63,12 @@ class Interlocutor:
         ansfinder = answerfinder.AnsFinder(text_in, self.that)
         parser.setContentHandler(ansfinder)
 
-        #ansfinder = self.parse_file(parser, ansfinder, 'source/star' )
-        ansfinder, no_more, choosen_ans = self.parse_file(parser, ansfinder, 'source/' + text_in[0])
-        if no_more == False and ansfinder.isSrai == False:
+        first_letter = self.find_first_letter(text_in)
 
-            ansfinder, no_more, choosen_ans = self.parse_file(parser, ansfinder, 'source/star' )
-        elif ansfinder.isSrai:
+        ansfinder, no_more, choosen_ans, srai_choosen = self.parse_file(parser, ansfinder, 'source/' + first_letter)
+        if no_more == False and srai_choosen == False:
+            ansfinder, no_more, choosen_ans, srai_choosen = self.parse_file(parser, ansfinder, 'source/star' )
+        elif srai_choosen:
             return self.give_ans(choosen_ans)
 
 

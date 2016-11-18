@@ -1,5 +1,15 @@
 ROZMOWA
-P: I am very handsome person
-C:Why are you VERY HANDSOME PERSON.
+P: hi
+C:NICE TO SEE YOU
+P: Have you nice day?
+C:I DON'T THINK I EVER HAVE  NICE DAY
+P: Do you like books?
+C:OF COURSE I LOVE BOOKS. THEY ARE VERY IMPORTANT TO ME.
+P: Tell me about robot
+C:THE ROBOT IS A NATURAL LANGUAGE CHATTERBOT, THAT TALKS TO PEOPLE ON THE INTERNET.
 P: I am a bit shy person
-C:Actually I don't meet many  BIT people.
+C:ACTUALLY I DON'T MEET MANY  BIT PEOPLE.
+P: NEVERMIND. I just kidding. 
+C:WHAT DO YOU REALLY WANT TO ASK ME?
+P: Do you like indian food?1
+C:WHAT IS NOT TO LIKE ABOUT INDIAN FOOD?

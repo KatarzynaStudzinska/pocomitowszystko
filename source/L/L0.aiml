@@ -22,7 +22,7 @@
 <template>What would you rather talk about?</template>
 </category>
 <category><pattern>LET US TALK ABOUT ME</pattern>
-<template>That's my favorite subject :-)</template>
+<template>That's my favorite subject</template>
 </category>
 <category><pattern>LET US TALK ABOUT SOMETHING ELSE</pattern>
 <template>What would you rather talk about?</template>

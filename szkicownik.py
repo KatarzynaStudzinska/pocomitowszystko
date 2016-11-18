@@ -1,29 +1,51 @@
-import socket
-import sys
+def compare(star, text):
+        # jezeli mamy jakis syf w funckji
+        if text == "":
+            return False
 
-HOST = ''   # Symbolic name, meaning all available interfaces
-PORT = 8888 # Arbitrary non-privileged port
+        # jezeli mamy
+        if star.count("*") > 1:
+            star_set = star.split(" ")
+            print(star_set)
+            for word in star_set:
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-print 'Socket created'
+                if not text.__contains__(word) and word != "*":
+                    print word
+                    return False
+            return True
 
-#Bind socket to local host and port
-try:
-    s.bind((HOST, PORT))
-except socket.error as msg:
-    print 'Bind failed. Error Code : ' + str(msg[0]) + ' Message ' + msg[1]
-    sys.exit()
 
-print 'Socket bind complete'
 
-#Start listening on socket
-s.listen(10)
-print 'Socket now listening'
+        elif len(star) > len(text):
+            return False
+        t = 0
+        s = 0
+        podobne = True
+        while podobne or s < len(star) - 1:
+            if star[s] != "*" and star[s] != text[t]: #jezeli ktory po prostu sie nie zgadza
+                return False
 
-#now keep talking with the client
-while 1:
-    #wait to accept a connection - blocking call
-    conn, addr = s.accept()
-    print 'Connected with ' + addr[0] + ':' + str(addr[1])
+            if star[s] == "*":
+                if len(star) == s + 1:
+                    return True
+                else:
 
-s.close()
+                    while t < len(text):
+
+                        #if text[t] == star[s+2] and text[t + 1] == star[s+3] and text[-1] == star[-1]:
+                        if text[t] == star[s+2] and text[-2] == star[-2] and text[-1] == star[-1]:
+                            return True
+                        t += 1
+                    return False
+            t += 1
+            s += 1
+
+        return True
+
+import re
+
+
+
+text1 = "THE *"
+text2 = "TELL ME ABOUT THE ROBOT"
+print(str(compare(text1, text2)))
