@@ -1,5 +1,8 @@
 def compare(star, text):
         # jezeli mamy jakis syf w funckji
+        if star == text:
+            return True
+
         if text == "":
             return False
 
@@ -46,6 +49,6 @@ import re
 
 
 
-text1 = "THE *"
-text2 = "TELL ME ABOUT THE ROBOT"
+text1 = "WHAT IS YOUR FAVORITE *"
+text2 = "WHAT IS YOUR FAVORITE BOOK"
 print(str(compare(text1, text2)))

@@ -59,6 +59,8 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
         self.think_matter = ""
         self.isSet = False
         self.isGet = False
+        self.isLi = False
+        self.li = ""
         self.ans = ""
         self.srai_pattern = ""
         self.random_table = []
@@ -90,6 +92,8 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
 
     def startElement(self, name, attrs):
 
+        if name == "li":
+            self.isLi = True
 
         #serve think
         if name == "think" and self.isContext:
@@ -141,6 +145,9 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
 
     def endElement(self, name):
 
+        if name == "li":
+            self.isLi = False
+            #self.random_table.append(self.li)
 
         if (name =="star" or name =="person") and self.isContext and not self.isThink:
             if self.isRandom:
@@ -213,6 +220,7 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
         pass
 
     def characters(self, data):
+
         if not data.isspace() and not self.isThink:# and re.search('[a-zA-Z]', data): # and not self.no_more: #chyba tak
 
             if self.isPattern and not self.isThink:
@@ -220,7 +228,6 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
                 #self.isStar = False
                 self.ans = ""
                 if data == self.input:
-
                     self.isContext = True
                     self.pattern = data
                     #self.choosen_ans.append([data])
@@ -229,12 +236,14 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
                 elif data.__contains__("*"):# and self.input.__contains__(''.join([c for c in data if c not in ('_', '*')])):
 
                     #if self.compare(data, self.input):
+
                     if self.compare(data, self.input):
 
                         self.star = self.take_star(data, self.input)
                         self.isContext = True
                         self.pattern = data
                 if self.isContext:
+
                     self.no_more = True
 
 
@@ -263,7 +272,6 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
                     self.random_table.append(data)
 
             if self.isTemplate and not self.isRandom:
-
                 if self.isThink:
                     pass
                 elif self.isThat:
@@ -279,6 +287,7 @@ class AnsFinder(xml.sax.handler.ContentHandler, xml.sax.handler.ErrorHandler):
 
     def compare(self, star, text):
         # jezeli mamy jakis syf w funckji
+
         if text == "":
             return False
 

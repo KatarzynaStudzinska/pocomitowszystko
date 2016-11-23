@@ -6,15 +6,15 @@ if __name__ == '__main__':
     intrlocu = interlocutor.Interlocutor()
     conversation = True
     yoursinput = "I live you"#"What do you think about democration"
-    list = ["hi","Have you nice day?", "Do you like books?", "what is your favourite color", "TELL ME ABOUT THE ROBOT",  "I am a bit shy person",  "NEVERMIND. I just kidding. ","DO YOU LIKE INDIAN FOOD", "stop"]
+    list = ["have you nice day", "stop"]
     licznik = 0
     ile = 1
 
     while(conversation):
 
-        yoursinput = list[licznik] #raw_input("You:  ")
+        yoursinput = list[licznik]#raw_input("<<<<<<  ")
         licznik += 1
-        print("<<<<< " + yoursinput)
+        #print("<<<<< " + yoursinput)
 
         if yoursinput == "stop":# or licznik > ile:
             conversation = False

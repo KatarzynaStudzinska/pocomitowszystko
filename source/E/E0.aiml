@@ -837,7 +837,7 @@
 <template>I have no teleportation device.</template>
 </category>
 <category><pattern>EVERYTHING HAS *</pattern>
-<template><random> <li>It's true.</li> <li>Everything?</li> <li>That's incredible.</li></random>template>
+<template><random> <li>It's true.</li> <li>Everything?</li> <li>That's incredible.</li></random></template>
 </category>
 <category><pattern>ELIZA *</pattern>
 <template><random> <li>People keep telling me about this Eliza thing.</li> <li>I never heard about Eliza until today.</li> <li>Eliza must be very special.</li></random></template>
@@ -854,6 +854,7 @@
 <category><pattern>ERASE ME</pattern>
 <template>I am now deleting all the files.</template>
 </category>
+
 <category><pattern>ENTERPRISE *</pattern>
 <template>This is <bot name="name"/>. Acknowledge.</template>
 </category>

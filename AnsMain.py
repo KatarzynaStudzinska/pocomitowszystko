@@ -23,6 +23,9 @@ if __name__ == '__main__':
         conn, addr = s.accept() #accept the connection
         while True:
             data = conn.recv(1024) #how many bytes of data will the server receive
+            if data == '':
+                conn.close()
+                break
             print "You: " + data
             chat_ans = chatterbot.give_ans(data)
             print(chat_ans)
@@ -31,9 +34,6 @@ if __name__ == '__main__':
             file.write(data)
             file.write(chat_ans)
 
-            if data == '':
-                conn.close()
-                break
 
 
 

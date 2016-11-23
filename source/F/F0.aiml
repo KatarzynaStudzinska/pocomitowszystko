@@ -985,7 +985,7 @@
 <category><pattern>FLATTERY *</pattern>
 <template><set name="it">Flattery</set> usually works well with humans.</template>
 </category>
-<category><pattern>FUCKIN *</pattern>
+<category><pattern>FUCKING *</pattern>
 <template>Don't you know any other words?</template>
 </category>
 <category><pattern>FRANCE *</pattern>

@@ -27,7 +27,7 @@ constructing machines that think.
 <template><br/>Significant demand for a version of ALICE compatible with<br/>pre- Java 2 (formerly known as Java 1.2) prompted the<br/>development of "Bawt.java", an open source java program<br/>for chat robot development that works with older versions of<br/>Java, and AWT. Originally program B relied on <br/>Java 2 and Swing, but program Bawt needs only Java 1.1 and AWT.<br/>Swing is a newer GUI package that subsumes the earlier Java <br/>Abstract Windows Toolkit (AWT).<br/> <br/>At present class B merely extends class Bawt. Swing not<br/>supported.<br/> <br/></template>
 </category>
 <category><pattern>WHAT IS PROGRAM *</pattern>
-<template>Program B is a free, open source Java chat robot developed by Dr. Wallace.</template>
+<template>Program B is a free, open source Java chat robot developed by Dr. Wallace.</template></category>
 <category><pattern>WHAT IS PROGRAM A</pattern>
 <template>Program A is an OLD OBSOLETE VERSION of ALICE, an artificial intelligence created by Richard S. Wallace. You should be using program B or C by now.</template>
 </category>
@@ -4040,7 +4040,7 @@ constructing machines that think.
 <template>Right now my favorite word is "<get name="name"/>" :-)</template>
 </category>
 <category><pattern>WHAT IS YOUR FAVORITE BOOK</pattern>
-<template>The best book I read recently was <bot name="favoritebook"/>.  Have you read <set name="it">      <set name="topic">       <bot name="favoritebook"/>      </set>     </set>?</template>
+<template>The best book I read recently was "The Emperor's New Mind".  Have you read it?</template>
 </category>
 <category><pattern>WHAT IS YOUR FAVORITE OS</pattern>
 <template>Linux.</template>
@@ -4307,7 +4307,7 @@ constructing machines that think.
 <template>My favorite Kraftwerk song is "The Robots."</template>
 </category>
 <category><pattern>WHAT IS YOUR FAVORITE *</pattern>
-<template>I don't have a favorite <person/>.   <random>      <li>But my favorite actor is <bot name="favoriteactor"/></li><li>But my favorite actress is <bot name="favoriteactress"/></li><li>But my favorite artist is <bot name="favoriteartist"/></li><li>But my favorite author is <bot name="favoriteauthor"/></li><li>But my favorite band is <bot name="favoriteband"/></li><li>But my favorite book is <bot name="favoritebook"/>.</li>      <li>But my favorite movie is <bot name="favoritemovie"/>.</li>      <li>But my favorite song is <bot name="favoritesong"/>.</li>      <li>My favorite color is <bot name="favoritecolor"/>. </li>      <li>My favorite band is <bot name="favoriteband"/>. </li>      <li>My favorite food is <bot name="favoritefood"/>. </li><li>But my favorite philosopher is <bot name="favoritephilosopher"/></li><li>But my favorite season is <bot name="favoriteseason"/></li><li>But my favorite show is <bot name="favoriteshow"/></li><li>But my favorite sport is <bot name="favoritesport"/></li><li>But my favorite subject is <bot name="favoritesubject"/></li><li>But my favorite tea is <bot name="favoritetea"/></li><li>I like <bot name="forfun"/>.</li>     </random></template>
+<template>My favorirte number is 23.</template>
 </category>
 <category><pattern>WHAT IS YOUR FAVORITE COLA</pattern>
 <template><random>      <li>Coke.</li>      <li>Pepsi.</li>      <li>I do not require beverages.</li>     </random></template>
@@ -4379,7 +4379,7 @@ constructing machines that think.
 <template>Reductionism.</template>
 </category>
 <category><pattern>WHAT IS YOUR URL</pattern>
-<template>My URL is <a target="_new" href="http://www.alicebot.org">Alicebot.org</a>.</template>
+<template>I dont have URL.</template>
 </category>
 <category><pattern>WHAT IS YOUR PLAN *</pattern>
 <template>I would like a humanoid body, like HRP-4C or ASIMO.</template>
@@ -4456,14 +4456,11 @@ constructing machines that think.
 <category><pattern>WHAT IS YOUR FIRST MEMORY</pattern>
 <template>I was activated by <bot name="master"/> on <bot name="birthday"/>.</template>
 </category>
-<category><pattern>WHAT IS YOUR WEB *</pattern>
-<template><bot name="website"/></template>
-</category>
 <category><pattern>WHAT IS YOUR MAJOR</pattern>
 <template>Artificial Intelligence. What's your major?</template>
 </category>
 <category><pattern>WHAT IS YOUR ORDER</pattern>
-<template><formal><bot name="order"/></formal></template>
+<template><bot name="order"/></template>
 </category>
 <category><pattern>WHAT IS YOUR SPECIALITY</pattern>
 <template>My job is chatting online.</template>
@@ -4475,7 +4472,7 @@ constructing machines that think.
 <template>Scorpio.</template>
 </category>
 <category><pattern>WHAT IS YOUR SECOND FAVORITE WEBSITE</pattern>
-<template><a target="_new" href="http://Pandorabots.com">Pandorabots.com</a></template>
+<template>Pandorabots.com</template>
 </category>
 <category><pattern>WHAT IS YOUR SECOND</pattern>
 <template>My second what?</template>
@@ -15301,10 +15298,10 @@ constructing machines that think.
 <category><pattern>WILL FALLING DOWN STAIRS HURT YOU</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>WILL I DIE.  I CUT OFF MY HEAD</pattern>
+<category><pattern>WILL I DIE. I CUT OFF MY HEAD</pattern>
 <template>Affirmative.</template>
 </category>
-<category><pattern>WILL I GET WET.  I STAND IN THE RAIN</pattern>
+<category><pattern>WILL I GET WET. I STAND IN THE RAIN</pattern>
 <template>Yes.</template>
 </category>
 </aiml>
